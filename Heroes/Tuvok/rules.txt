@@ -4,18 +4,18 @@ MIND MELD
 Unique Status Effect | Stack limit: 1
 
 Spend this token during your Main Phase or an opponent's Offensive Roll Phase.
-During your Main Phase, choose an opponent. They must reveal their hand to you.
-During an opponent's Offensive Roll Phase, spend this before they roll. You can control their first reroll attempt or force them to skip it. 
-This token may not be removed or transferred by any means.
+During your Main Phase: choose an opponent. They must reveal their hand to you.
+During an opponent's Offensive Roll Phase: spend this before their first reroll. You can control their first reroll attempt or force them to skip it. 
+(This token may not be removed or transferred by any means.)
 
 LOGIC
 Positive Status Effect | Stack limit: 5
 
 You may activate only one of these effects per turn.
-- Spend x: During any Roll Phase add x{normal_damage_1.png} (attack modifier) or prevent x{damage_prevention_1.png}.
-- Spend 2: During Upkeep Phase look at the top card of your deck. Put it back on top or bottom.
-- Spend 3: During Upkeep Phase gain {cp_1.png} or draw {carddraw_1.png}.
-- Spend 4: During Main Phase gain {protect_token.png} or inflict {targeted_token.png)
+Spend x: During any Roll Phase add x{normal_damage_1.png} (attack modifier) or prevent x{damage_prevention_1.png}.
+Spend 2: During Upkeep Phase look at the top card of your deck. Put it back on top or bottom.
+Spend 3: During Upkeep Phase gain {cp_1.png} or draw {carddraw_1.png}.
+Spend 4: During Main Phase gain {protect_token.png} or inflict {targeted_token.png}
 
 TARGETED
 Negative Status Effect | Stack limit: 1
@@ -117,16 +117,16 @@ Force an opponent to reveal to you two cards from their hand at random. Or, if s
 
 NERVE PINCH II
 Cost: {cp_2.png} | Upgrade Card
-- {phaser_die.png}{phaser_die.png}{phaser_die.png}: Deal {normal_damage_7.png}
-- {phaser_die.png}{phaser_die.png}{phaser_die.png}{phaser_die.png}: Deal {normal_damage_8.png}
-- {phaser_die.png}{phaser_die.png}{phaser_die.png}{phaser_die.png}{phaser_die.png}: Deal {normal_damage_9.png}
+{phaser_die.png}{phaser_die.png}{phaser_die.png}: Deal {normal_damage_7.png}
+{phaser_die.png}{phaser_die.png}{phaser_die.png}{phaser_die.png}: Deal {normal_damage_8.png}
+{phaser_die.png}{phaser_die.png}{phaser_die.png}{phaser_die.png}{phaser_die.png}: Deal {normal_damage_9.png}
 
 NERVE PINCH III
 Cost: {cp_4.png} | Upgrade Card
-- {phaser_die.png}{phaser_die.png}{phaser_die.png}: Deal {normal_damage_8.png}
-- {phaser_die.png}{phaser_die.png}{phaser_die.png}{phaser_die.png}: Deal {normal_damage_9.png}
-- {phaser_die.png}{phaser_die.png}{phaser_die.png}{phaser_die.png}{phaser_die.png}: Deal {normal_damage_10.png}
-- On 4 of a kind, make this attack undefendable.
+{phaser_die.png}{phaser_die.png}{phaser_die.png}: Deal {normal_damage_8.png}
+{phaser_die.png}{phaser_die.png}{phaser_die.png}{phaser_die.png}: Deal {normal_damage_9.png}
+{phaser_die.png}{phaser_die.png}{phaser_die.png}{phaser_die.png}{phaser_die.png}: Deal {normal_damage_10.png}
+On 4 of a kind, make this attack undefendable.
 
 KOLINAR II
 Cost: {cp_2.png} | Upgrade Card
@@ -145,14 +145,14 @@ Inflict {targeted_token.png} and gain 3 {logic_token.png}
 RETURN FIRE II
 Cost: {cp_3.png} | Upgrade Card
 Roll 4 {roll_die.png}:
-- For each {phaser_die.png}, deal {normal_damage_2.png} back
-- On {salute_die.png}, deal {normal_damage_2.png} back
-- On {idic_die.png}{idic_die.png}, gain {protect_token.png}
+For each {phaser_die.png}, deal {normal_damage_2.png} back
+On {salute_die.png}, deal {normal_damage_2.png} back
+On {idic_die.png}{idic_die.png}, gain {protect_token.png}
 
 RETURN FIRE III
 Cost: {cp_5.png} | Upgrade Card
 Roll 5 {roll_die.png}:
-- For each {phaser_die.png}, deal {normal_damage_2.png} back
-- For each {salute_die.png}, deal {normal_damage_2.png} back
-- On {idic_die.png}{idic_die.png}, gain {protect_token.png}
+For each {phaser_die.png}, deal {normal_damage_2.png} back
+For each {salute_die.png}, deal {normal_damage_2.png} back
+On {idic_die.png}{idic_die.png}, gain {protect_token.png}
 

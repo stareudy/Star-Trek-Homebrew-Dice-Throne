@@ -6,6 +6,7 @@
 - Treat the directory containing this file as the project root. Check exact target paths before listing, moving, renaming, or deleting files.
 - Make only changes needed for the user's request. Check for destination conflicts before moving or renaming, and verify file operations afterward.
 - For inventory or comparison requests, state the scope and method briefly; do not change files unless asked.
+- When the user asks to push a commit but has not specified a commit message, ask them what message to use before creating or pushing the commit. Do not create or push a commit without a message that notes what changed.
 - When the user says a to-do item is finished, remove that item from the relevant `todo.md`. If it seems finished but the user has not said so, ask them before removing it.
 - Keep progress updates concise, and report completed changes with the affected paths.
 - When making raster image pixels fully transparent, set their RGB channels to zero at the same time as setting alpha to zero, unless the user explicitly asks to preserve the hidden RGB data.

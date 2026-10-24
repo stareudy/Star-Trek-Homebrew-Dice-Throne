@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="675" height="1050" viewBox="0 0 675 1050">
+  <title>Get That Outta Here! — editable SVG card</title>
+  <desc>Editable vector card layout. Artwork and inline symbols are linked raster assets; title and rules are editable SVG text.</desc>
+  <defs id="rules-layout-defaults">
+    <style type="text/css">
+      .rules-text { font-family: "Avenir Next Condensed"; font-size: 45.833333px; font-weight: 400; fill: #F7F7F7; }
+      .die-face-icon { width: 50px; height: 50px; }
+      .inline-die-icon { width: auto; height: 50px; }
+      .inline-damage-icon, .inline-token-icon { width: auto; height: 55px; }
+    </style>
+  <clipPath id="get_that_outta_here-clip" clipPathUnits="userSpaceOnUse"><rect x="31" y="159" width="613" height="476" /></clipPath></defs>
+  <g id="rules-content-guide" aria-label="Default sizing for future editable rules content" data-rules-font="Avenir Next Condensed" data-rules-font-size="45.833333px" data-inline-die-icon-height="50" data-inline-damage-token-icon-height="55" data-rule-row-baseline-step="70" data-rules-text-alignment="center" data-activation-die-sizing="match-source-power-per-face" data-activation-die-row-spacing="match-source-power" data-inline-die-face-height="50" />
+
+  <g id="outer-black-card" aria-label="Black outer card silhouette">
+    <rect x="0" y="0" width="675" height="1050" rx="54" fill="#000000" />
+  </g>
+  <g id="dark-panels" aria-label="Dark content panels">
+    <path id="upper-panel" d="M31 159 H644 V635 H31 Z" fill="#101219" />
+    <path id="lower-panel" d="M31 643 H644 V970 C644 998 622 1020 594 1020 H81 C53 1020 31 998 31 970 Z" fill="#101219" />
+  </g>
+  <g id="linked-card-art" aria-label="Linked original card artwork"><image x="31" y="159" width="613" height="476" preserveAspectRatio="xMidYMid slice" clip-path="url(#get_that_outta_here-clip)" href="../../art/cardartsource/get_that_outta_here.png" /></g><g id="accent-elements" aria-label="Change this group color to recolor the template" fill="#8799C8" stroke="#8799C8">
+    <path id="header" d="M24 76 C24 46.2 48.2 22 78 22 H597 C626.8 22 651 46.2 651 76 V158 H24 Z" stroke="none" />
+    <rect id="panel-divider" x="24" y="635" width="627" height="8" stroke="none" />
+    <path id="inner-frame" data-text-equivalent="expanded 6px red perimeter stroke" d="M27.000 161.000 L648.000 161.000 L645.000 158.000 L645.000 970.000 C645.000 998.196 622.488 1021.000 595.000 1021.000 L80.000 1021.000 C52.512 1021.000 30.000 998.196 30.000 970.000 L30.000 158.000 L27.000 161.000 Z M27.000 155.000 C25.343 155.000 24.000 156.343 24.000 158.000 L24.000 970.000 C24.000 1001.492 49.181 1027.000 80.000 1027.000 L595.000 1027.000 C625.819 1027.000 651.000 1001.492 651.000 970.000 L651.000 158.000 C651.000 156.343 649.657 155.000 648.000 155.000 L27.000 155.000 Z " fill="#8799C8" stroke="none" />
+  </g>
+  <g id="instant-action-cp-tag" aria-label="Editable Main Phase Action CP tag" transform="translate(24 169)">
+    <defs>
+      <linearGradient id="cp-badge-fill" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#FFFFFF" />
+        <stop offset="1" stop-color="#D9D9D9" />
+      </linearGradient>
+      <linearGradient id="cp-red-fill" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#A9B9E2" />
+        <stop offset="0.12" stop-color="#8799C8" />
+        <stop offset="0.78" stop-color="#556A9D" />
+        <stop offset="1" stop-color="#93A6D8" />
+      </linearGradient>
+      <linearGradient id="cp-red-edge" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#CBD7F3" stop-opacity="0.9" />
+        <stop offset="0.14" stop-color="#7285B6" stop-opacity="0.72" />
+        <stop offset="0.6" stop-color="#43557F" stop-opacity="0.2" />
+        <stop offset="1" stop-color="#A5B6E3" stop-opacity="0.75" />
+      </linearGradient>
+      <linearGradient id="cp-label-fill" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#292929" />
+        <stop offset="0.12" stop-color="#121212" />
+        <stop offset="0.78" stop-color="#070707" />
+        <stop offset="1" stop-color="#202020" />
+      </linearGradient>
+      <linearGradient id="cp-label-edge" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#777777" stop-opacity="0.9" />
+        <stop offset="0.14" stop-color="#3A3A3A" stop-opacity="0.72" />
+        <stop offset="0.6" stop-color="#101010" stop-opacity="0.2" />
+        <stop offset="1" stop-color="#454545" stop-opacity="0.75" />
+      </linearGradient>
+      <filter id="cp-panel-shadow" x="-12" y="-8" width="84" height="450" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+        <feGaussianBlur in="SourceAlpha" stdDeviation="1.6" result="blur" />
+        <feOffset dy="1.2" result="offset" />
+        <feFlood flood-color="#000000" flood-opacity="0.74" result="shade" />
+        <feComposite in="shade" in2="offset" operator="in" result="shadow" />
+        <feMerge><feMergeNode in="shadow" /><feMergeNode in="SourceGraphic" /></feMerge>
+      </filter>
+      <filter id="cp-badge-shadow" x="0" y="5" width="60" height="115" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+        <feGaussianBlur in="SourceAlpha" stdDeviation="1.2" result="blur" />
+        <feOffset dy="1" result="offset" />
+        <feFlood flood-color="#460008" flood-opacity="0.68" result="shade" />
+        <feComposite in="shade" in2="offset" operator="in" result="shadow" />
+        <feMerge><feMergeNode in="shadow" /><feMergeNode in="SourceGraphic" /></feMerge>
+      </filter>
+    </defs>
+    <g id="cp-tag-red-panel" filter="url(#cp-panel-shadow)">
+      <path d="M0.5 0.5 H51.5 C55.4 0.5 58.5 3.6 58.5 7.5 V174.5 C58.5 178.4 55.4 181.5 51.5 181.5 H0.5 Z" fill="url(#cp-red-fill)" stroke="url(#cp-red-edge)" stroke-width="1.2" />
+      <path id="cp-badge-face" d="M13 11 H46 C50.418 11 54 14.582 54 19 V105 C54 109.418 50.418 113 46 113 H13 C8.582 113 5 109.418 5 105 V19 C5 14.582 8.582 11 13 11 Z" fill="url(#cp-badge-fill)" stroke="#B8B8B8" stroke-width="1.5" filter="url(#cp-badge-shadow)" />
+      <path id="cp-red-left-sheen" d="M2 13 V170" fill="none" stroke="#FFFFFF" stroke-opacity="0.24" stroke-width="1.2" stroke-linecap="round" />
+      
+      <path id="cp-star" d="M29.5 24 L35 38 L52 38 L38 48 L43.5 64 L29.5 55 L15.5 64 L21 48 L7 38 L24 38 Z" fill="#8799C8" />
+      <text id="editable-cp-number" x="17.2" y="94" text-anchor="middle" font-family="Arial, sans-serif" font-size="25px" font-weight="700" fill="#080808" data-text="1">1</text><path id="cp-units-outline" data-text="CP" data-font="Arial Bold" d="M37.023 89.526 L39.405 90.281 Q38.857 92.273 37.583 93.240 Q36.309 94.208 34.350 94.208 Q31.926 94.208 30.366 92.552 Q28.805 90.896 28.805 88.023 Q28.805 84.985 30.374 83.304 Q31.943 81.624 34.500 81.624 Q36.732 81.624 38.127 82.943 Q38.957 83.724 39.372 85.185 L36.940 85.766 Q36.724 84.819 36.039 84.271 Q35.354 83.724 34.375 83.724 Q33.022 83.724 32.179 84.695 Q31.337 85.666 31.337 87.841 Q31.337 90.148 32.167 91.128 Q32.997 92.107 34.325 92.107 Q35.305 92.107 36.010 91.485 Q36.716 90.862 37.023 89.526 Z M41.514 94.000 L41.514 81.831 L45.457 81.831 Q47.698 81.831 48.378 82.014 Q49.424 82.288 50.130 83.205 Q50.835 84.122 50.835 85.575 Q50.835 86.695 50.429 87.459 Q50.022 88.223 49.395 88.658 Q48.769 89.094 48.121 89.235 Q47.241 89.410 45.573 89.410 L43.971 89.410 L43.971 94.000 Z M43.971 83.890 L43.971 87.343 L45.315 87.343 Q46.768 87.343 47.258 87.152 Q47.748 86.961 48.026 86.554 Q48.304 86.147 48.304 85.608 Q48.304 84.944 47.914 84.512 Q47.523 84.081 46.926 83.973 Q46.486 83.890 45.158 83.890 Z " fill="#080808" />
+      <g id="main-phase-clock-icon" aria-label="Main Phase M-clock icon" fill="#FFFFFF"><path d="M20 123 H39 V127 H20 Z" /><circle cx="29.5" cy="152" r="20" fill="none" stroke="#FFFFFF" stroke-width="2.4" /><path d="M29.5 129 L26.2 134.5 H32.8 Z M29.5 175 L26.2 169.5 H32.8 Z M6.5 152 L12 148.7 V155.3 Z M52.5 152 L47 148.7 V155.3 Z" /><path d="M17 164 V139 H23 L29.5 150 L36 139 H42 V164 H36 V150 L29.5 159 L23 150 V164 Z" /></g><text id="editable-cp-number" x="17.2" y="94" text-anchor="middle" font-family="Arial, sans-serif" font-size="25px" font-weight="700" fill="#080808" data-text="1">1</text></g>
+    <g id="instant-action-label" filter="url(#cp-panel-shadow)" aria-label="Main Phase Action CP tag label">
+      <path d="M0.5 182.5 H42.5 V375 C42.5 379.14 39.14 382.5 35 382.5 H0.5 Z" fill="url(#cp-label-fill)" stroke="url(#cp-label-edge)" stroke-width="1.2" stroke-linejoin="round" />
+      <g id="main-phase-action-label" data-text="Main Phase Action" data-font="Arial Narrow Bold" fill="#FFFFFF" transform="rotate(-90 21.5 282.5)"><text id="main-phase-action-label-text" x="21.5" y="291" text-anchor="middle" font-family="Arial Narrow" font-size="24px" font-weight="700" fill="#FFFFFF">Main Phase Action</text></g>
+    </g>
+    <path id="cp-tag-outer-outline" d="M0 0.5 H51.5 C55.4 0.5 58.5 3.6 58.5 7.5 V174.5 C58.5 178.4 55.4 181.5 51.5 181.5 H43 V375 C43 379.4 39.9 382.5 35.5 382.5 H0 Z" fill="none" stroke="#3A3A3A" stroke-width="1.2" stroke-linejoin="round" pointer-events="none" />
+  </g>
+  <g id="card-title" aria-label="Get That Outta Here!" transform="translate(17.69 -4) scale(0.9476 1)"><text id="card-title-text" data-text="GET THAT OUTTA HERE!" data-font="Helvetica Compressed" x="337.5" y="121" text-anchor="middle" font-family="Helvetica Compressed" font-size="62px" font-weight="400" fill="#101219">GET THAT OUTTA HERE!</text></g>
+<g id="editable-rules" aria-label="Editable rules text and linked inline icons" font-family="Avenir Next Condensed, sans-serif" font-size="36px" fill="#F7F7F7" text-anchor="middle"><text x="160.5" y="809.0" text-anchor="start" font-family="Avenir Next Condensed, sans-serif" font-size="36px" font-weight="400" fill="#F7F7F7" stroke="#000000" stroke-width="1.2" paint-order="stroke fill" stroke-linejoin="round"><tspan x="160.5" y="809.0">Remove </tspan><tspan x="265.5" y="809.0">a </tspan><tspan x="293.0" y="809.0">status </tspan><tspan x="398.0" y="809.0">effect </tspan><tspan x="503.0" y="809.0">token </tspan></text><text x="213.0" y="853.0" text-anchor="start" font-family="Avenir Next Condensed, sans-serif" font-size="36px" font-weight="400" fill="#F7F7F7" stroke="#000000" stroke-width="1.2" paint-order="stroke fill" stroke-linejoin="round"><tspan x="213.0" y="853.0">from </tspan><tspan x="287.0" y="853.0">a </tspan><tspan x="314.5" y="853.0">chosen </tspan><tspan x="419.5" y="853.0">player. </tspan></text></g></svg>

@@ -48,7 +48,8 @@ Gain {phaser_die.png}x{logic_token.png} and deal {normal_damage_6.png}
 
 TACTICAL PRECISION
 {idic_die.png}{idic_die.png}{idic_die.png}{idic_die.png}
-Gain 2 {logic_token.png}, inflict {targeted_token.png}, and deal {undefendable_damage_8.png}
+Gain 2 {logic_token.png}, inflict {targeted_token.png},
+then deal {undefendable_damage_8.png}
 
 COMBAT DRILL
 {phaser_die.png}{phaser_die.png}{phaser_die.png}{salute_die.png}{salute_die.png}
@@ -136,7 +137,8 @@ TACTICAL PRECISION II
 Cost: {cp_3.png} | Upgrade Card
 Top panel: TACTICAL PRECISION II
 {idic_die.png}{idic_die.png}{idic_die.png}{idic_die.png}
-Gain 2 {logic_token.png}, inflict {targeted_token.png}, and deal {undefendable_damage_9.png}
+Gain 2 {logic_token.png}, inflict {targeted_token.png},
+then deal {undefendable_damage_9.png}
 
 Bottom panel — Targeting Lock: 
 {idic_die.png}{idic_die.png}{idic_die.png}

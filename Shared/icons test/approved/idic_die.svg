@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-12.6 -12.6 369.2 369.2" width="369.2" height="369.2" role="img" aria-label="Tuvok IDIC die-face vector draft">
+  <title>Tuvok IDIC die-face vector draft</title>
+  <defs>
+    <clipPath id="die-clip"><rect x="-12.6" y="-12.6" width="369.2" height="369.2" rx="37.3" /></clipPath>
+  </defs>
+  <g clip-path="url(#die-clip)">
+    <!-- Red frame is outside the original 344 x 344 icon. -->
+    <rect x="-12.6" y="-12.6" width="369.2" height="369.2" rx="37.3" fill="#FF0000" />
+    <rect width="344" height="344" rx="24.7" fill="#B3263A" />
+
+    <!-- Flat IDIC symbol, rebuilt from simple vector geometry. -->
+    <circle cx="168.5" cy="162.5" r="100.5" fill="#DDAE2F" stroke="#55595D" stroke-width="2" />
+    <circle cx="140" cy="137" r="45.5" fill="#B3263A" stroke="#55595D" stroke-width="2" />
+
+    <path d="M151 143 L188 282 L238 241 Z" fill="#D8D8D8" stroke="#55595D" stroke-width="2" stroke-linejoin="round" />
+    <path d="M151 143 L282 202 L238 241 Z" fill="#D8D8D8" stroke="#55595D" stroke-width="2" stroke-linejoin="round" />
+    <circle cx="138" cy="134" r="22" fill="#D8D8D8" stroke="#55595D" stroke-width="2" />
+  </g>
+</svg>

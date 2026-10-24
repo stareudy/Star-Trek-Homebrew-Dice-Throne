@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="675" height="1050" viewBox="0 0 675 1050">
+  <title>TACTICAL RECALIBRATION — Tuvok action card draft</title>
+  <desc>Approved Tactical Recalibration card art is linked from the card art source folder. Rules are editable vector text and linked icons.</desc>
+  <defs id="rules-layout-defaults">
+    <style type="text/css">
+      .rules-text { font-family: "Avenir Next Condensed"; font-size: 45.833333px; font-weight: 400; fill: #F7F7F7; }
+      .die-face-icon { width: 50px; height: 50px; }
+      .inline-die-icon { width: auto; height: 50px; }
+      .inline-damage-icon, .inline-token-icon { width: auto; height: 55px; }
+    </style>
+  </defs>
+  <g id="rules-content-guide" aria-label="Default sizing for future editable rules content" data-rules-font="Avenir Next Condensed" data-rules-font-size="36px" data-inline-die-icon-height="50" data-inline-damage-token-icon-height="55" data-rule-row-baseline-step="70" data-rules-text-alignment="center" data-activation-die-sizing="match-source-power-per-face" data-activation-die-row-spacing="match-source-power" data-inline-die-face-height="50" data-inline-icon-height="36" />
+
+  <g id="outer-black-card" aria-label="Black outer card silhouette">
+    <rect x="0" y="0" width="675" height="1050" rx="54" fill="#000000" />
+  </g>
+  <g id="dark-panels" aria-label="Dark content panels">
+    <path id="upper-panel" d="M31 159 H644 V635 H31 Z" fill="#101219" />
+    <path id="lower-panel" d="M31 643 H644 V970 C644 998 622 1020 594 1020 H81 C53 1020 31 998 31 970 Z" fill="#101219" />
+  </g>
+  <g id="card-art" aria-label="Approved Tactical Recalibration illustration">
+    <image id="card-art-image" x="31" y="159" width="613" height="476" preserveAspectRatio="xMidYMid slice" href="../../art/cardart_source/tactical_recalibration.png" />
+  </g>
+  <g id="accent-elements" aria-label="Change this group color to recolor the template" fill="#EB943A" stroke="#EB943A">
+    <path id="header" d="M24 76 C24 46.2 48.2 22 78 22 H597 C626.8 22 651 46.2 651 76 V158 H24 Z" stroke="none" />
+    <rect id="panel-divider" x="24" y="635" width="627" height="8" stroke="none" />
+    <path id="inner-frame" data-text-equivalent="expanded 6px red perimeter stroke" d="M27.000 161.000 L648.000 161.000 L645.000 158.000 L645.000 970.000 C645.000 998.196 622.488 1021.000 595.000 1021.000 L80.000 1021.000 C52.512 1021.000 30.000 998.196 30.000 970.000 L30.000 158.000 L27.000 161.000 Z M27.000 155.000 C25.343 155.000 24.000 156.343 24.000 158.000 L24.000 970.000 C24.000 1001.492 49.181 1027.000 80.000 1027.000 L595.000 1027.000 C625.819 1027.000 651.000 1001.492 651.000 970.000 L651.000 158.000 C651.000 156.343 649.657 155.000 648.000 155.000 L27.000 155.000 Z " fill="#EB943A" stroke="none" />
+  </g>
+  <g id="instant-action-cp-tag" aria-label="Editable Roll Phase Action CP tag" transform="translate(24 169)">
+    <defs>
+      <linearGradient id="cp-badge-fill" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#FFFFFF" />
+        <stop offset="1" stop-color="#D9D9D9" />
+      </linearGradient>
+      <linearGradient id="cp-red-fill" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#F7B95E" />
+        <stop offset="0.12" stop-color="#EB943A" />
+        <stop offset="0.78" stop-color="#B96F25" />
+        <stop offset="1" stop-color="#F0A94D" />
+      </linearGradient>
+      <linearGradient id="cp-red-edge" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#FFD18A" stop-opacity="0.9" />
+        <stop offset="0.14" stop-color="#C77D32" stop-opacity="0.72" />
+        <stop offset="0.6" stop-color="#92551F" stop-opacity="0.2" />
+        <stop offset="1" stop-color="#F4B45A" stop-opacity="0.75" />
+      </linearGradient>
+      <linearGradient id="cp-label-fill" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#292929" />
+        <stop offset="0.12" stop-color="#121212" />
+        <stop offset="0.78" stop-color="#070707" />
+        <stop offset="1" stop-color="#202020" />
+      </linearGradient>
+      <linearGradient id="cp-label-edge" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#777777" stop-opacity="0.9" />
+        <stop offset="0.14" stop-color="#3A3A3A" stop-opacity="0.72" />
+        <stop offset="0.6" stop-color="#101010" stop-opacity="0.2" />
+        <stop offset="1" stop-color="#454545" stop-opacity="0.75" />
+      </linearGradient>
+      <filter id="cp-panel-shadow" x="-12" y="-8" width="84" height="450" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+        <feGaussianBlur in="SourceAlpha" stdDeviation="1.6" result="blur" />
+        <feOffset dy="1.2" result="offset" />
+        <feFlood flood-color="#000000" flood-opacity="0.74" result="shade" />
+        <feComposite in="shade" in2="offset" operator="in" result="shadow" />
+        <feMerge><feMergeNode in="shadow" /><feMergeNode in="SourceGraphic" /></feMerge>
+      </filter>
+      <filter id="cp-badge-shadow" x="0" y="5" width="60" height="115" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+        <feGaussianBlur in="SourceAlpha" stdDeviation="1.2" result="blur" />
+        <feOffset dy="1" result="offset" />
+        <feFlood flood-color="#5A2D0A" flood-opacity="0.68" result="shade" />
+        <feComposite in="shade" in2="offset" operator="in" result="shadow" />
+        <feMerge><feMergeNode in="shadow" /><feMergeNode in="SourceGraphic" /></feMerge>
+      </filter>
+    </defs>
+    <g id="cp-tag-red-panel" filter="url(#cp-panel-shadow)">
+      <path d="M0.5 0.5 H51.5 C55.4 0.5 58.5 3.6 58.5 7.5 V174.5 C58.5 178.4 55.4 181.5 51.5 181.5 H0.5 Z" fill="url(#cp-red-fill)" stroke="url(#cp-red-edge)" stroke-width="1.2" />
+      <path id="cp-badge-face" d="M13 11 H46 C50.418 11 54 14.582 54 19 V105 C54 109.418 50.418 113 46 113 H13 C8.582 113 5 109.418 5 105 V19 C5 14.582 8.582 11 13 11 Z" fill="url(#cp-badge-fill)" stroke="#B8B8B8" stroke-width="1.5" filter="url(#cp-badge-shadow)" />
+      <path id="cp-red-left-sheen" d="M2 13 V170" fill="none" stroke="#FFFFFF" stroke-opacity="0.24" stroke-width="1.2" stroke-linecap="round" />
+      
+      <path id="cp-star" d="M29.5 24 L35 38 L52 38 L38 48 L43.5 64 L29.5 55 L15.5 64 L21 48 L7 38 L24 38 Z" fill="#EB943A" />
+      <text id="cp-cost-number" x="17.05" y="94.2" text-anchor="middle" font-family="Arial, sans-serif" font-size="24px" font-weight="700" fill="#080808" data-text="1">1</text><path id="cp-units-outline" data-text="CP" data-font="Arial Bold" d="M37.023 89.526 L39.405 90.281 Q38.857 92.273 37.583 93.240 Q36.309 94.208 34.350 94.208 Q31.926 94.208 30.366 92.552 Q28.805 90.896 28.805 88.023 Q28.805 84.985 30.374 83.304 Q31.943 81.624 34.500 81.624 Q36.732 81.624 38.127 82.943 Q38.957 83.724 39.372 85.185 L36.940 85.766 Q36.724 84.819 36.039 84.271 Q35.354 83.724 34.375 83.724 Q33.022 83.724 32.179 84.695 Q31.337 85.666 31.337 87.841 Q31.337 90.148 32.167 91.128 Q32.997 92.107 34.325 92.107 Q35.305 92.107 36.010 91.485 Q36.716 90.862 37.023 89.526 Z M41.514 94.000 L41.514 81.831 L45.457 81.831 Q47.698 81.831 48.378 82.014 Q49.424 82.288 50.130 83.205 Q50.835 84.122 50.835 85.575 Q50.835 86.695 50.429 87.459 Q50.022 88.223 49.395 88.658 Q48.769 89.094 48.121 89.235 Q47.241 89.410 45.573 89.410 L43.971 89.410 L43.971 94.000 Z M43.971 83.890 L43.971 87.343 L45.315 87.343 Q46.768 87.343 47.258 87.152 Q47.748 86.961 48.026 86.554 Q48.304 86.147 48.304 85.608 Q48.304 84.944 47.914 84.512 Q47.523 84.081 46.926 83.973 Q46.486 83.890 45.158 83.890 Z " fill="#080808" />
+      <g id="roll-phase-die-icon" aria-label="Vector roll die icon"><path d="M29.5 122 L51 134.5 L29.5 147 L8 134.5 Z" fill="#FFFFFF" /><path d="M8 134.5 L29.5 147 L29.5 173 L8 160 Z" fill="#FFFFFF" /><path d="M51 134.5 L29.5 147 L29.5 173 L51 160 Z" fill="#FFFFFF" /><path d="M8 134.5 L29.5 147 L51 134.5 M29.5 147 V173" fill="none" stroke="#EB943A" stroke-width="1.3" stroke-linejoin="round" stroke-linecap="round" /><ellipse cx="29.5" cy="134.6" rx="3.1" ry="2.25" fill="#EB943A" /><ellipse cx="14.8" cy="143.5" rx="2.4" ry="3.8" transform="rotate(-24 14.8 143.5)" fill="#EB943A" /><ellipse cx="23.2" cy="160.8" rx="2.4" ry="3.8" transform="rotate(-24 23.2 160.8)" fill="#EB943A" /><ellipse cx="36.1" cy="150.5" rx="2.4" ry="3.8" transform="rotate(24 36.1 150.5)" fill="#EB943A" /><ellipse cx="44.2" cy="158.4" rx="2.4" ry="3.8" transform="rotate(24 44.2 158.4)" fill="#EB943A" /></g></g>
+    <g id="instant-action-label" filter="url(#cp-panel-shadow)" aria-label="Main Phase Action CP tag label">
+      <path d="M0.5 182.5 H42.5 V375 C42.5 379.14 39.14 382.5 35 382.5 H0.5 Z" fill="url(#cp-label-fill)" stroke="url(#cp-label-edge)" stroke-width="1.2" stroke-linejoin="round" />
+      <g id="main-phase-action-label" data-text="Roll Phase Action" data-font="Arial Narrow Bold" fill="#FFFFFF" transform="rotate(-90 21.5 282.5)"><text id="main-phase-action-label-text" x="21.5" y="291" text-anchor="middle" font-family="Arial Narrow" font-size="24px" font-weight="700" fill="#FFFFFF">Roll Phase Action</text></g>
+    </g>
+    <path id="cp-tag-outer-outline" d="M0 0.5 H51.5 C55.4 0.5 58.5 3.6 58.5 7.5 V174.5 C58.5 178.4 55.4 181.5 51.5 181.5 H43 V375 C43 379.4 39.9 382.5 35.5 382.5 H0 Z" fill="none" stroke="#3A3A3A" stroke-width="1.2" stroke-linejoin="round" pointer-events="none" />
+  </g>
+  <g id="card-title" aria-label="Roll Phase Action card title" transform="translate(17.69 -4) scale(0.9476 1)"><text id="card-title-text" data-text="TACTICAL RECALIBRATION" data-font="Helvetica Compressed" x="337.5" y="121" text-anchor="middle" font-family="Helvetica Compressed" font-size="68px" font-weight="400" fill="#101219">TACTICAL RECALIBRATION</text></g>
+<g id="editable-rules" aria-label="Editable rules text and linked inline icons" font-family="Avenir Next Condensed, sans-serif" font-size="36px" fill="#F7F7F7" text-anchor="middle"><g id="rule-line-1"><text x="86.40" y="799.00" text-anchor="start" font-family="Avenir Next Condensed, sans-serif" font-size="36px" fill="#F7F7F7" stroke="#000000" stroke-width="1.2" paint-order="stroke fill" stroke-linejoin="round">During your </text><text x="268.92" y="799.00" text-anchor="start" font-family="Avenir Next Condensed, sans-serif" font-size="36px" fill="#EB943A" stroke="#000000" stroke-width="1.2" paint-order="stroke fill" stroke-linejoin="round">Offensive Roll Phase</text><text x="885.96" y="799.00" text-anchor="start" font-family="Avenir Next Condensed, sans-serif" font-size="36px" fill="#F7F7F7" stroke="#000000" stroke-width="1.2" paint-order="stroke fill" stroke-linejoin="round">,</text></g><g id="rule-line-2"><text x="71.10" y="849.00" text-anchor="start" font-family="Avenir Next Condensed, sans-serif" font-size="36px" fill="#F7F7F7" stroke="#000000" stroke-width="1.2" paint-order="stroke fill" stroke-linejoin="round">after a roll attempt, reroll one die.</text></g></g></svg>

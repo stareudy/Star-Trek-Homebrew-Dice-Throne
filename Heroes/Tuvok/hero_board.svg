@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="15in" height="9in" viewBox="0 0 4500 2700" version="1.1">
+<title>Tuvok Hero Board — editable SVG</title>
+<desc>4500 × 2700 px board. Panel frames, header fills, titles, rules, and labels are vector shapes and editable text. Only the starfield, individual ability artwork, and separate icon assets are raster images.</desc>
+<defs><clipPath id="clip-nerve-pinch" clipPathUnits="userSpaceOnUse"><path d="M30 159 H645 V970 C645 998.2 622.5 1021 595 1021 H80 C52.5 1021 30 998.2 30 970 Z"/></clipPath><clipPath id="clip-meditate" clipPathUnits="userSpaceOnUse"><path d="M30 159 H645 V970 C645 998.2 622.5 1021 595 1021 H80 C52.5 1021 30 998.2 30 970 Z"/></clipPath><clipPath id="clip-kolinar" clipPathUnits="userSpaceOnUse"><path d="M30 159 H645 V970 C645 998.2 622.5 1021 595 1021 H80 C52.5 1021 30 998.2 30 970 Z"/></clipPath><clipPath id="clip-combat-drill" clipPathUnits="userSpaceOnUse"><path d="M30 159 H645 V970 C645 998.2 622.5 1021 595 1021 H80 C52.5 1021 30 998.2 30 970 Z"/></clipPath><clipPath id="clip-measured-response" clipPathUnits="userSpaceOnUse"><path d="M30 159 H645 V970 C645 998.2 622.5 1021 595 1021 H80 C52.5 1021 30 998.2 30 970 Z"/></clipPath><clipPath id="clip-tactical-precision" clipPathUnits="userSpaceOnUse"><path d="M30 159 H645 V970 C645 998.2 622.5 1021 595 1021 H80 C52.5 1021 30 998.2 30 970 Z"/></clipPath><clipPath id="clip-final-calculation" clipPathUnits="userSpaceOnUse"><path d="M30 159 H645 V970 C645 998.2 622.5 1021 595 1021 H80 C52.5 1021 30 998.2 30 970 Z"/></clipPath><clipPath id="clip-return-fire" clipPathUnits="userSpaceOnUse"><path d="M30 159 H645 V970 C645 998.2 622.5 1021 595 1021 H80 C52.5 1021 30 998.2 30 970 Z"/></clipPath><clipPath id="clip-logical-outcome" clipPathUnits="userSpaceOnUse"><path d="M30 159 H1257 V396 C1257 424 1234 447 1207 447 H81 C53 447 30 424 30 396 Z"/></clipPath></defs><defs>
+      <filter id="rulesHalo" x="-3" y="-1" width="7" height="3" color-interpolation-filters="sRGB">
+        <feMorphology in="SourceAlpha" operator="dilate" radius="8.4" result="expanded"/>
+        <feGaussianBlur in="expanded" stdDeviation="6.75" result="soft"/>
+        <feFlood flood-color="#000000" flood-opacity="0.92" result="black"/>
+        <feComposite in="black" in2="soft" operator="in" result="halo"/>
+        <feMerge><feMergeNode in="halo"/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+      <filter id="iconHalo" x="-0.35" y="-0.35" width="1.7" height="1.7" color-interpolation-filters="sRGB">
+        <feMorphology in="SourceAlpha" operator="dilate" radius="6.3" result="expanded"/>
+        <feGaussianBlur in="expanded" stdDeviation="4.9" result="soft"/>
+        <feFlood flood-color="#000000" flood-opacity="0.8" result="black"/>
+        <feComposite in="black" in2="soft" operator="in" result="halo"/>
+        <feMerge><feMergeNode in="halo"/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+      <filter id="iconHaloLarge" x="-0.35" y="-0.35" width="1.7" height="1.7" color-interpolation-filters="sRGB">
+        <feMorphology in="SourceAlpha" operator="dilate" radius="9" result="expanded"/>
+        <feGaussianBlur in="expanded" stdDeviation="7" result="soft"/>
+        <feFlood flood-color="#000000" flood-opacity="0.8" result="black"/>
+        <feComposite in="black" in2="soft" operator="in" result="halo"/>
+        <feMerge><feMergeNode in="halo"/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+      <clipPath id="clip-starfield"><rect x="0" y="0" width="4500" height="2700"/></clipPath>
+    </defs>
+<g id="layer-starfield" inkscape:groupmode="layer" inkscape:label="01 - Starfield background"><image id="starfield" x="0" y="91" width="4500" height="2609" preserveAspectRatio="none" href="art/hero%20board%20Starfield.PNG" xlink:href="art/hero%20board%20Starfield.PNG"/></g><g id="layer-panels" inkscape:groupmode="layer" inkscape:label="02 - Editable vector panels, titles, and rules"><g id="panel-nerve-pinch" inkscape:groupmode="layer" inkscape:label="Nerve Pinch panel">
+<g transform="translate(61.115 606.324) scale(0.99521531 0.98529412)">
+<path id="nerve-pinch-panel-body" d="M31 159 H644 V970 C644 997.614 621.614 1020 594 1020 H81 C53.386 1020 31 997.614 31 970 Z" fill="#101219"/>
+<image id="nerve-pinch-art" inkscape:label="Nerve Pinch panel art" x="30" y="159" width="615" height="862" preserveAspectRatio="xMidYMid slice" href="art/cardart_source/nerve_pinch.png" xlink:href="art/cardart_source/nerve_pinch.png" clip-path="url(#clip-nerve-pinch)"/>
+<path id="nerve-pinch-header" d="M24 76 C24 46.177 48.177 22 78 22 H597 C626.823 22 651 46.177 651 76 V158 H24 Z" fill="#F2D66D"/>
+<path id="nerve-pinch-frame" d="M27 161 L648 161 L645 158 L645 970 C645 998.196 622.488 1021 595 1021 H80 C52.512 1021 30 998.196 30 970 L30 158 L27 161 Z M27 155 C25.343 155 24 156.343 24 158 L24 970 C24 1001.492 49.181 1027 80 1027 H595 C625.819 1027 651 1001.492 651 970 L651 158 C651 156.343 649.657 155 648 155 H27 Z" fill="#F2D66D" fill-rule="evenodd"/>
+<text id="nerve-pinch-title" inkscape:label="Editable title" x="337.5" y="120.500" text-anchor="middle" font-family="Helvetica Compressed" font-size="86px" font-weight="400" fill="#171319">NERVE PINCH</text>
+<g class="rules-line" inkscape:label="Rules line">
+<g class="inline-icon-cluster" inkscape:label="Inline icon cluster" filter="url(#iconHalo)">
+<image class="inline-icon" inkscape:label="phaser_die" x="132.333" y="185.556" width="68.444" height="68.444" preserveAspectRatio="xMidYMid meet" href="icons/phaser_die.png" xlink:href="icons/phaser_die.png" />
+<rect class="die-face-border" inkscape:label="Die face red border" x="134.153" y="187.376" width="64.804" height="64.804" rx="3.080" fill="none" stroke="#FF0000" stroke-width="3.640"/>
+<image class="inline-icon" inkscape:label="phaser_die" x="204.778" y="185.556" width="68.444" height="68.444" preserveAspectRatio="xMidYMid meet" href="icons/phaser_die.png" xlink:href="icons/phaser_die.png" />
+<rect class="die-face-border" inkscape:label="Die face red border" x="206.598" y="187.376" width="64.804" height="64.804" rx="3.080" fill="none" stroke="#FF0000" stroke-width="3.640"/>
+<image class="inline-icon" inkscape:label="phaser_die" x="277.222" y="185.556" width="68.444" height="68.444" preserveAspectRatio="xMidYMid meet" href="icons/phaser_die.png" xlink:href="icons/phaser_die.png" />
+<rect class="die-face-border" inkscape:label="Die face red border" x="279.042" y="187.376" width="64.804" height="64.804" rx="3.080" fill="none" stroke="#FF0000" stroke-width="3.640"/>
+</g>
+<text class="rules-text" x="389.667" y="243.000" font-family="Avenir Next Condensed" font-size="45.833333333333336px" font-weight="400" fill="#F7F7F7" filter="url(#rulesHalo)">Deal </text>
+<g class="inline-icon-cluster" inkscape:label="Inline icon cluster" filter="url(#iconHalo)">
+<image class="inline-icon" inkscape:label="normal_damage_6" x="487.667" y="199.000" width="55.000" height="55.000" preserveAspectRatio="xMidYMid meet" href="../../Shared/icons/normal_damage_6.png" xlink:href="../../Shared/icons/normal_damage_6.png" />
+
+</g>
+</g>
+<g class="rules-line" inkscape:label="Rules line">
+<g class="inline-icon-cluster" inkscape:label="Inline icon cluster" filter="url(#iconHalo)">
+<image class="inline-icon" inkscape:label="phaser_die" x="96.111" y="287.556" width="68.444" height="68.444" preserveAspectRatio="xMidYMid meet" href="icons/phaser_die.png" xlink:href="icons/phaser_die.png" />
+<rect class="die-face-border" inkscape:label="Die face red border" x="97.931" y="289.376" width="64.804" height="64.804" rx="3.080" fill="none" stroke="#FF0000" stroke-width="3.640"/>
+<image class="inline-icon" inkscape:label="phaser_die" x="168.556" y="287.556" width="68.444" height="68.444" preserveAspectRatio="xMidYMid meet" href="icons/phaser_die.png" xlink:href="icons/phaser_die.png" />
+<rect class="die-face-border" inkscape:label="Die face red border" x="170.376" y="289.376" width="64.804" height="64.804" rx="3.080" fill="none" stroke="#FF0000" stroke-width="3.640"/>
+<image class="inline-icon" inkscape:label="phaser_die" x="241.000" y="287.556" width="68.444" height="68.444" preserveAspectRatio="xMidYMid meet" href="icons/phaser_die.png" xlink:href="icons/phaser_die.png" />
+<rect class="die-face-border" inkscape:label="Die face red border" x="242.820" y="289.376" width="64.804" height="64.804" rx="3.080" fill="none" stroke="#FF0000" stroke-width="3.640"/>
+<image class="inline-icon" inkscape:label="phaser_die" x="313.444" y="287.556" width="68.444" height="68.444" preserveAspectRatio="xMidYMid meet" href="icons/phaser_die.png" xlink:href="icons/phaser_die.png" />
+<rect class="die-face-border" inkscape:label="Die face red border" x="315.264" y="289.376" width="64.804" height="64.804" rx="3.080" fill="none" stroke="#FF0000" stroke-width="3.640"/>
+</g>
+<text class="rules-text" x="425.889" y="345.000" font-family="Avenir Next Condensed" font-size="45.833333333333336px" font-weight="400" fill="#F7F7F7" filter="url(#rulesHalo)">Deal </text>
+<g class="inline-icon-cluster" inkscape:label="Inline icon cluster" filter="url(#iconHalo)">
+<image class="inline-icon" inkscape:label="normal_damage_7" x="523.889" y="301.000" width="55.000" height="55.000" preserveAspectRatio="xMidYMid meet" href="../../Shared/icons/normal_damage_7.png" xlink:href="../../Shared/icons/normal_damage_7.png" />
+
+</g>
+</g>
+<g class="rules-line" inkscape:label="Rules line">
+<g class="inline-icon-cluster" inkscape:label="Inline icon cluster" filter="url(#iconHalo)">
+<image class="inline-icon" inkscape:label="phaser_die" x="59.889" y="389.556" width="68.444" height="68.444" preserveAspectRatio="xMidYMid meet" href="icons/phaser_die.png" xlink:href="icons/phaser_die.png" />
+<rect class="die-face-border" inkscape:label="Die face red border" x="61.709" y="391.376" width="64.804" height="64.804" rx="3.080" fill="none" stroke="#FF0000" stroke-width="3.640"/>
+<image class="inline-icon" inkscape:label="phaser_die" x="132.333" y="389.556" width="68.444" height="68.444" preserveAspectRatio="xMidYMid meet" href="icons/phaser_die.png" xlink:href="icons/phaser_die.png" />
+<rect class="die-face-border" inkscape:label="Die face red border" x="134.153" y="391.376" width="64.804" height="64.804" rx="3.080" fill="none" stroke="#FF0000" stroke-width="3.640"/>
+<image class="inline-icon" inkscape:label="phaser_die" x="204.778" y="389.556" width="68.444" height="68.444" preserveAspectRatio="xMidYMid meet" href="icons/phaser_die.png" xlink:href="icons/phaser_die.png" />
+<rect class="die-face-border" inkscape:label="Die face red border" x="206.598" y="391.376" width="64.804" height="64.804" rx="3.080" fill="none" stroke="#FF0000" stroke-width="3.640"/>
+<image class="inline-icon" inkscape:label="phaser_die" x="277.222" y="389.556" width="68.444" height="68.444" preserveAspectRatio="xMidYMid meet" href="icons/phaser_die.png" xlink:href="icons/phaser_die.png" />
+<rect class="die-face-border" inkscape:label="Die face red border" x="279.042" y="391.376" width="64.804" height="64.804" rx="3.080" fill="none" stroke="#FF0000" stroke-width="3.640"/>
+<image class="inline-icon" inkscape:label="phaser_die" x="349.667" y="389.556" width="68.444" height="68.444" preserveAspectRatio="xMidYMid meet" href="icons/phaser_die.png" xlink:href="icons/phaser_die.png" />
+<rect class="die-face-border" inkscape:label="Die face red border" x="351.487" y="391.376" width="64.804" height="64.804" rx="3.080" fill="none" stroke="#FF0000" stroke-width="3.640"/>
+</g>
+<text class="rules-text" x="462.111" y="447.000" font-family="Avenir Next Condensed" font-size="45.833333333333336px" font-weight="400" fill="#F7F7F7" filter="url(#rulesHalo)">Deal </text>
+<g class="inline-icon-cluster" inkscape:label="Inline icon cluster" filter="url(#iconHalo)">
+<image class="inline-icon" inkscape:label="normal_damage_8" x="560.111" y="403.000" width="55.000" height="55.000" preserveAspectRatio="xMidYMid meet" href="../../Shared/icons/normal_damage_8.png" xlink:href="../../Shared/icons/normal_damage_8.png" />
+
+</g>
+</g>
+</g>
+</g><g id="panel-meditate" inkscape:groupmode="layer" inkscape:label="Meditate panel">
+<g transform="translate(771.115 606.324) scale(0.99521531 0.98529412)">
+<path id="meditate-panel-body" d="M31 159 H644 V970 C644 997.614 621.614 1020 594 1020 H81 C53.386 1020 31 997.614 31 970 Z" fill="#101219"/>
+<image id="meditate-art" inkscape:label="Meditate panel art" x="30" y="159" width="615" height="862" preserveAspectRatio="xMidYMid slice" href="art/cardart_source/meditate.png" xlink:href="art/cardart_source/meditate.png" clip-path="url(#clip-meditate)"/>
+<path id="meditate-header" d="M24 76 C24 46.177 48.177 22 78 22 H597 C626.823 22 651 46.177 651 76 V158 H24 Z" fill="#EDB378"/>
+<path id="meditate-frame" d="M27 161 L648 161 L645 158 L645 970 C645 998.196 622.488 1021 595 1021 H80 C52.512 1021 30 998.196 30 970 L30 158 L27 161 Z M27 155 C25.343 155 24 156.343 24 158 L24 970 C24 1001.492 49.181 1027 80 1027 H595 C625.819 1027 651 1001.492 651 970 L651 158 C651 156.343 649.657 155 648 155 H27 Z" fill="#EDB378" fill-rule="evenodd"/>
+<text id="meditate-title" inkscape:label="Editable title" x="337.5" y="120.500" text-anchor="middle" font-family="Helvetica Compressed" font-size="86px" font-weight="400" fill="#171319">MEDITATE</text>
+<g inkscape:label="Die face row" filter="url(#iconHaloLarge)">
+<image class="die-icon" inkscape:label="salute_die" x="181.500" y="190.000" width="100.000" height="100.000" preserveAspectRatio="xMidYMid meet" href="icons/salute_die.png" xlink:href="icons/salute_die.png" />
+<rect class="die-face-border" inkscape:label="Die face red border" x="182.800" y="191.300" width="97.400" height="97.400" rx="4.500" fill="none" stroke="#FF0000" stroke-width="2.600"/>
+<image class="die-icon" inkscape:label="salute_die" x="287.500" y="190.000" width="100.000" height="100.000" preserveAspectRatio="xMidYMid meet" href="icons/salute_die.png" xlink:href="icons/salute_die.png" />
+<rect class="die-face-border" inkscape:label="Die face red border" x="288.800" y="191.300" width="97.400" height="97.400" rx="4.500" fill="none" stroke="#FF0000" stroke-width="2.600"/>
+<image class="die-icon" inkscape:label="salute_die" x="393.500" y="190.000" width="100.000" height="100.000" preserveAspectRatio="xMidYMid meet" href="icons/salute_die.png" xlink:href="icons/salute_die.png" />
+<rect class="die-face-border" inkscape:label="Die face red border" x="394.800" y="191.300" width="97.400" height="97.400" rx="4.500" fill="none" stroke="#FF0000" stroke-width="2.600"/>
+</g>
+<g class="rules-line" inkscape:label="Rules line">
+<text class="rules-text" x="256.678" y="370.000" font-family="Avenir Next Condensed" font-size="45.833333333333336px" font-weight="400" fill="#F7F7F7" filter="url(#rulesHalo)">Roll 4</text>
+<g class="inline-icon-cluster" inkscape:label="Inline icon cluster" filter="url(#iconHalo)">
+<image class="inline-icon" inkscape:label="roll_die" x="357.678" y="331.000" width="47.343" height="50.000" preserveAspectRatio="xMidYMid meet" href="../../Shared/icons/roll_die.png" xlink:href="../../Shared/icons/roll_die.png" />
+
+</g>
+<text class="rules-text" x="406.322" y="370.000" font-family="Avenir Next Condensed" font-size="45.833333333333336px" font-weight="400" fill="#F7F7F7" filter="url(#rulesHalo)">:</text>
+</g>
+<g class="rules-line" inkscape:label="Rules line">
+<text class="rules-text" x="158.516" y="440.000" font-family="Avenir Next Condensed" font-size="45.833333333333336px" font-weight="400" fill="#F7F7F7" filter="url(#rulesHalo)">For each</text>
+<g class="inline-icon-cluster" inkscape:label="Inline icon cluster" filter="url(#iconHalo)">
+<image class="inline-icon" inkscape:label="phaser_die" x="300.500" y="401.000" width="50.000" height="50.000" preserveAspectRatio="xMidYMid meet" href="icons/phaser_die.png" xlink:href="icons/phaser_die.png" />
+<rect class="die-face-border" inkscape:label="Die face red border" x="301.830" y="402.330" width="47.341" height="47.341" rx="2.250" fill="none" stroke="#FF0000" stroke-width="2.659"/>
+</g>
+<text class="rules-text" x="362.500" y="440.000" font-family="Avenir Next Condensed" font-size="45.833333333333336px" font-weight="400" fill="#F7F7F7" filter="url(#rulesHalo)">, gain</text>
+<g class="inline-icon-cluster" inkscape:label="Inline icon cluster" filter="url(#iconHalo)">
+<image class="inline-icon" inkscape:label="logic_token" x="461.484" y="396.000" width="55.000" height="55.000" preserveAspectRatio="xMidYMid meet" href="icons/logic_token.png" xlink:href="icons/logic_token.png" />
+
+</g>
+</g>
+<g class="rules-line" inkscape:label="Rules line">
+<text class="rules-text" x="174.508" y="510.000" font-family="Avenir Next Condensed" font-size="45.833333333333336px" font-weight="400" fill="#F7F7F7" filter="url(#rulesHalo)">On</text>
+<g class="inline-icon-cluster" inkscape:label="Inline icon cluster" filter="url(#iconHalo)">
+<image class="inline-icon" inkscape:label="idic_die" x="230.508" y="471.000" width="50.000" height="50.000" preserveAspectRatio="xMidYMid meet" href="icons/idic_die.png" xlink:href="icons/idic_die.png" />
+<rect class="die-face-border" inkscape:label="Die face red border" x="231.837" y="472.330" width="47.341" height="47.341" rx="2.250" fill="none" stroke="#FF0000" stroke-width="2.659"/>
+<image class="inline-icon" inkscape:label="idic_die" x="284.508" y="471.000" width="50.000" height="50.000" preserveAspectRatio="xMidYMid meet" href="icons/idic_die.png" xlink:href="icons/idic_die.png" />
+<rect class="die-face-border" inkscape:label="Die face red border" x="285.837" y="472.330" width="47.341" height="47.341" rx="2.250" fill="none" stroke="#FF0000" stroke-width="2.659"/>
+</g>
+<text class="rules-text" x="346.508" y="510.000" font-family="Avenir Next Condensed" font-size="45.833333333333336px" font-weight="400" fill="#F7F7F7" filter="url(#rulesHalo)">, gain</text>
+<g class="inline-icon-cluster" inkscape:label="Inline icon cluster" filter="url(#iconHalo)">
+<image class="inline-icon" inkscape:label="protect_token" x="445.492" y="466.000" width="55.000" height="55.000" preserveAspectRatio="xMidYMid meet" href="icons/protect_token.png" xlink:href="icons/protect_token.png" />
+
+</g>
+</g>
+</g>
+</g><g id="panel-kolinar" inkscape:groupmode="layer" inkscape:label="Kolinar panel">
+<g transform="translate(61.115 1656.324) scale(0.99521531 0.98529412)">
+<path id="kolinar-panel-body" d="M31 159 H644 V970 C644 997.614 621.614 1020 594 1020 H81 C53.386 1020 31 997.614 31 970 Z" fill="#101219"/>
+<image id="kolinar-art" inkscape:label="Kolinar panel art" x="30" y="159" width="615" height="862" preserveAspectRatio="xMidYMid slice" href="art/cardart_source/kolinar.png" xlink:href="art/cardart_source/kolinar.png" clip-path="url(#clip-kolinar)"/>
+<path id="kolinar-header" d="M24 76 C24 46.177 48.177 22 78 22 H597 C626.823 22 651 46.177 651 76 V158 H24 Z" fill="#BAA4E5"/>
+<path id="kolinar-frame" d="M27 161 L648 161 L645 158 L645 970 C645 998.196 622.488 1021 595 1021 H80 C52.512 1021 30 998.196 30 970 L30 158 L27 161 Z M27 155 C25.343 155 24 156.343 24 158 L24 970 C24 1001.492 49.181 1027 80 1027 H595 C625.819 1027 651 1001.492 651 970 L651 158 C651 156.343 649.657 155 648 155 H27 Z" fill="#BAA4E5" fill-rule="evenodd"/>
+<text id="kolinar-title" inkscape:label="Editable title" x="337.5" y="120.500" text-anchor="middle" font-family="Helvetica Compressed" font-size="86px" font-weight="400" fill="#171319">KOLINAR</text>
+<g class="rules-line" inkscape:label="Rules line">
+<text class="rules-text" x="117.008" y="239.000" font-family="Avenir Next Condensed" font-size="45.833333333333336px" font-weight="400" fill="#F7F7F7" filter="url(#rulesHalo)">During your Upkeep Phase,</text>
+</g>
+<g class="rules-line" inkscape:label="Rules line">
+<text class="rules-text" x="270.000" y="309.000" font-family="Avenir Next Condensed" font-size="45.833333333333336px" font-weight="400" fill="#F7F7F7" filter="url(#rulesHalo)">gain</text>
+<g class="inline-icon-cluster" inkscape:label="Inline icon cluster" filter="url(#iconHalo)">
+<image class="inline-icon" inkscape:label="logic_token" x="350.000" y="265.000" width="55.000" height="55.000" preserveAspectRatio="xMidYMid meet" href="icons/logic_token.png" xlink:href="icons/logic_token.png" />
+
+</g>
+</g>
+</g>
+</g><g id="panel-combat-drill" inkscape:groupmode="layer" inkscape:label="Combat Drill panel">
+<g transform="translate(771.115 1656.324) scale(0.99521531 0.98529412)">
+<path id="combat-drill-panel-body" d="M31 159 H644 V970 C644 997.614 621.614 1020 594 1020 H81 C53.386 1020 31 997.614 31 970 Z" fill="#101219"/>
+<image id="combat-drill-art" inkscape:label="Combat Drill panel art" x="30" y="159" width="615" height="862" preserveAspectRatio="xMidYMid slice" href="art/cardart_source/combat_drill.png" xlink:href="art/cardart_source/combat_drill.png" clip-path="url(#clip-combat-drill)"/>
+<path id="combat-drill-header" d="M24 76 C24 46.177 48.177 22 78 22 H597 C626.823 22 651 46.177 651 76 V158 H24 Z" fill="#C082A9"/>
+<path id="combat-drill-frame" d="M27 161 L648 161 L645 158 L645 970 C645 998.196 622.488 1021 595 1021 H80 C52.512 1021 30 998.196 30 970 L30 158 L27 161 Z M27 155 C25.343 155 24 156.343 24 158 L24 970 C24 1001.492 49.181 1027 80 1027 H595 C625.819 1027 651 1001.492 651 970 L651 158 C651 156.343 649.657 155 648 155 H27 Z" fill="#C082A9" fill-rule="evenodd"/>
+<text id="combat-drill-title" inkscape:label="Editable title" x="337.5" y="120.500" text-anchor="middle" font-family="Helvetica Compressed" font-size="86px" font-weight="400" fill="#171319">COMBAT DRILL</text>
+<g inkscape:label="Die face row" filter="url(#iconHaloLarge)">
+<image class="die-icon" inkscape:label="phaser_die" x="75.500" y="190.000" width="100.000" height="100.000" preserveAspectRatio="xMidYMid meet" href="icons/phaser_die.png" xlink:href="icons/phaser_die.png" />
+<rect class="die-face-border" inkscape:label="Die face red border" x="76.800" y="191.300" width="97.400" height="97.400" rx="4.500" fill="none" stroke="#FF0000" stroke-width="2.600"/>
+<image class="die-icon" inkscape:label="phaser_die" x="181.500" y="190.000" width="100.000" height="100.000" preserveAspectRatio="xMidYMid meet" href="icons/phaser_die.png" xlink:href="icons/phaser_die.png" />
+<rect class="die-face-border" inkscape:label="Die face red border" x="182.800" y="191.300" width="97.400" height="97.400" rx="4.500" fill="none" stroke="#FF0000" stroke-width="2.600"/>
+<image class="die-icon" inkscape:label="phaser_die" x="287.500" y="190.000" width="100.000" height="100.000" preserveAspectRatio="xMidYMid meet" href="icons/phaser_die.png" xlink:href="icons/phaser_die.png" />
+<rect class="die-face-border" inkscape:label="Die face red border" x="288.800" y="191.300" width="97.400" height="97.400" rx="4.500" fill="none" stroke="#FF0000" stroke-width="2.600"/>
+<image class="die-icon" inkscape:label="salute_die" x="393.500" y="190.000" width="100.000" height="100.000" preserveAspectRatio="xMidYMid meet" href="icons/salute_die.png" xlink:href="icons/salute_die.png" />
+<rect class="die-face-border" inkscape:label="Die face red border" x="394.800" y="191.300" width="97.400" height="97.400" rx="4.500" fill="none" stroke="#FF0000" stroke-width="2.600"/>
+<image class="die-icon" inkscape:label="salute_die" x="499.500" y="190.000" width="100.000" height="100.000" preserveAspectRatio="xMidYMid meet" href="icons/salute_die.png" xlink:href="icons/salute_die.png" />
+<rect class="die-face-border" inkscape:label="Die face red border" x="500.800" y="191.300" width="97.400" height="97.400" rx="4.500" fill="none" stroke="#FF0000" stroke-width="2.600"/>
+</g>
+<g class="rules-line" inkscape:label="Rules line">
+<text class="rules-text" x="269.500" y="370.000" font-family="Avenir Next Condensed" font-size="45.833333333333336px" font-weight="400" fill="#F7F7F7" filter="url(#rulesHalo)">Deal</text>
+<g class="inline-icon-cluster" inkscape:label="Inline icon cluster" filter="url(#iconHalo)">
+<image class="inline-icon" inkscape:label="normal_damage_4" x="350.500" y="326.000" width="55.000" height="55.000" preserveAspectRatio="xMidYMid meet" href="../../Shared/icons/normal_damage_4.png" xlink:href="../../Shared/icons/normal_damage_4.png" />
+
+</g>
+</g>
+<g class="rules-line" inkscape:label="Rules line">
+<text class="rules-text" x="134.500" y="460.000" font-family="Avenir Next Condensed" font-size="45.833333333333336px" font-weight="400" fill="#F7F7F7" filter="url(#rulesHalo)">Up to 3</text>
+<g class="inline-icon-cluster" inkscape:label="Inline icon cluster" filter="url(#iconHalo)">
+<image class="inline-icon" inkscape:label="logic_token" x="260.500" y="416.000" width="55.000" height="55.000" preserveAspectRatio="xMidYMid meet" href="icons/logic_token.png" xlink:href="icons/logic_token.png" />
+
+</g>
+<text class="rules-text" x="323.500" y="460.000" font-family="Avenir Next Condensed" font-size="45.833333333333336px" font-weight="400" fill="#F7F7F7" filter="url(#rulesHalo)">may be spent</text>
+</g>
+<g class="rules-line" inkscape:label="Rules line">
+<text class="rules-text" x="212.350" y="530.000" font-family="Avenir Next Condensed" font-size="45.833333333333336px" font-weight="400" fill="#F7F7F7" filter="url(#rulesHalo)">to add</text>
+<g class="inline-icon-cluster" inkscape:label="Inline icon cluster" filter="url(#iconHalo)">
+<image class="inline-icon" inkscape:label="normal_damage_2" x="322.350" y="486.000" width="55.000" height="55.000" preserveAspectRatio="xMidYMid meet" href="../../Shared/icons/normal_damage_2.png" xlink:href="../../Shared/icons/normal_damage_2.png" />
+
+</g>
+<text class="rules-text" x="378.650" y="530.000" font-family="Avenir Next Condensed" font-size="45.833333333333336px" font-weight="400" fill="#F7F7F7" filter="url(#rulesHalo)">each.</text>
+</g>
+<g class="rules-line" inkscape:label="Rules line">
+<text class="rules-text" x="110.500" y="620.000" font-family="Avenir Next Condensed" font-size="45.833333333333336px" font-weight="400" fill="#F7F7F7" filter="url(#rulesHalo)">Additional</text>
+<g class="inline-icon-cluster" inkscape:label="Inline icon cluster" filter="url(#iconHalo)">
+<image class="inline-icon" inkscape:label="logic_token" x="284.500" y="576.000" width="55.000" height="55.000" preserveAspectRatio="xMidYMid meet" href="icons/logic_token.png" xlink:href="icons/logic_token.png" />
+
+</g>
+<text class="rules-text" x="347.500" y="620.000" font-family="Avenir Next Condensed" font-size="45.833333333333336px" font-weight="400" fill="#F7F7F7" filter="url(#rulesHalo)">may be spent</text>
+</g>
+<g class="rules-line" inkscape:label="Rules line">
+<text class="rules-text" x="148.500" y="690.000" font-family="Avenir Next Condensed" font-size="45.833333333333336px" font-weight="400" fill="#F7F7F7" filter="url(#rulesHalo)">to add the standard</text>
+<g class="inline-icon-cluster" inkscape:label="Inline icon cluster" filter="url(#iconHalo)">
+<image class="inline-icon" inkscape:label="normal_damage_1" x="471.500" y="646.000" width="55.000" height="55.000" preserveAspectRatio="xMidYMid meet" href="../../Shared/icons/normal_damage_1.png" xlink:href="../../Shared/icons/normal_damage_1.png" />
+
+</g>
+</g>
+</g>
+</g><g id="panel-measured-response" inkscape:groupmode="layer" inkscape:label="Measured Response panel">
+<g transform="translate(3061.115 606.324) scale(0.99521531 0.98529412)">
+<path id="measured-response-panel-body" d="M31 159 H644 V970 C644 997.614 621.614 1020 594 1020 H81 C53.386 1020 31 997.614 31 970 Z" fill="#101219"/>
+<image id="measured-response-art" inkscape:label="Measured Response panel art" x="30" y="159" width="615" height="862" preserveAspectRatio="xMidYMid slice" href="art/cardart_source/measured_response.png" xlink:href="art/cardart_source/measured_response.png" clip-path="url(#clip-measured-response)"/>
+<path id="measured-response-header" d="M24 76 C24 46.177 48.177 22 78 22 H597 C626.823 22 651 46.177 651 76 V158 H24 Z" fill="#EA9C72"/>
+<path id="measured-response-frame" d="M27 161 L648 161 L645 158 L645 970 C645 998.196 622.488 1021 595 1021 H80 C52.512 1021 30 998.196 30 970 L30 158 L27 161 Z M27 155 C25.343 155 24 156.343 24 158 L24 970 C24 1001.492 49.181 1027 80 1027 H595 C625.819 1027 651 1001.492 651 970 L651 158 C651 156.343 649.657 155 648 155 H27 Z" fill="#EA9C72" fill-rule="evenodd"/>
+<text id="measured-response-title" inkscape:label="Editable title" x="337.5" y="114.000" text-anchor="middle" font-family="Helvetica Compressed" font-size="68px" font-weight="400" fill="#171319">MEASURED RESPONSE</text>
+<image class="ability-icon" inkscape:label="Small straight" x="157.500" y="190.000" width="360.000" height="135.260" preserveAspectRatio="xMidYMid meet" href="../../Shared/icons/smallstraight.png" xlink:href="../../Shared/icons/smallstraight.png" filter="url(#iconHaloLarge)"/>
+<g class="rules-line" inkscape:label="Rules line">
+<text class="rules-text" x="256.678" y="405.000" font-family="Avenir Next Condensed" font-size="45.833333333333336px" font-weight="400" fill="#F7F7F7" filter="url(#rulesHalo)">Roll 3</text>
+<g class="inline-icon-cluster" inkscape:label="Inline icon cluster" filter="url(#iconHalo)">
+<image class="inline-icon" inkscape:label="roll_die" x="357.678" y="366.000" width="47.343" height="50.000" preserveAspectRatio="xMidYMid meet" href="../../Shared/icons/roll_die.png" xlink:href="../../Shared/icons/roll_die.png" />
+
+</g>
+<text class="rules-text" x="406.322" y="405.000" font-family="Avenir Next Condensed" font-size="45.833333333333336px" font-weight="400" fill="#F7F7F7" filter="url(#rulesHalo)">:</text>
+</g>
+<g class="rules-line" inkscape:label="Rules line">
+<text class="rules-text" x="112.500" y="475.000" font-family="Avenir Next Condensed" font-size="45.833333333333336px" font-weight="400" fill="#F7F7F7" filter="url(#rulesHalo)">Gain </text>
+<g class="inline-icon-cluster" inkscape:label="Inline icon cluster" filter="url(#iconHalo)">
+<image class="inline-icon" inkscape:label="phaser_die" x="205.500" y="436.000" width="50.000" height="50.000" preserveAspectRatio="xMidYMid meet" href="icons/phaser_die.png" xlink:href="icons/phaser_die.png" />
+<rect class="die-face-border" inkscape:label="Die face red border" x="206.830" y="437.330" width="47.341" height="47.341" rx="2.250" fill="none" stroke="#FF0000" stroke-width="2.659"/>
+</g>
+<text class="rules-text" x="267.500" y="475.000" font-family="Avenir Next Condensed" font-size="45.833333333333336px" font-weight="400" fill="#F7F7F7" filter="url(#rulesHalo)">x</text>
+<g class="inline-icon-cluster" inkscape:label="Inline icon cluster" filter="url(#iconHalo)">
+<image class="inline-icon" inkscape:label="logic_token" x="296.500" y="431.000" width="55.000" height="55.000" preserveAspectRatio="xMidYMid meet" href="icons/logic_token.png" xlink:href="icons/logic_token.png" />
+
+</g>
+<text class="rules-text" x="359.500" y="475.000" font-family="Avenir Next Condensed" font-size="45.833333333333336px" font-weight="400" fill="#F7F7F7" filter="url(#rulesHalo)">and deal</text>
+<g class="inline-icon-cluster" inkscape:label="Inline icon cluster" filter="url(#iconHalo)">
+<image class="inline-icon" inkscape:label="normal_damage_6" x="507.500" y="431.000" width="55.000" height="55.000" preserveAspectRatio="xMidYMid meet" href="../../Shared/icons/normal_damage_6.png" xlink:href="../../Shared/icons/normal_damage_6.png" />
+
+</g>
+</g>
+</g>
+</g><g id="panel-tactical-precision" inkscape:groupmode="layer" inkscape:label="Tactical Precision panel">
+<g transform="translate(3771.115 606.324) scale(0.99521531 0.98529412)">
+<path id="tactical-precision-panel-body" d="M31 159 H644 V970 C644 997.614 621.614 1020 594 1020 H81 C53.386 1020 31 997.614 31 970 Z" fill="#101219"/>
+<image id="tactical-precision-art" inkscape:label="Tactical Precision panel art" x="30" y="159" width="615" height="862" preserveAspectRatio="xMidYMid slice" href="art/cardart_source/tactical_precision.png" xlink:href="art/cardart_source/tactical_precision.png" clip-path="url(#clip-tactical-precision)"/>
+<path id="tactical-precision-header" d="M24 76 C24 46.177 48.177 22 78 22 H597 C626.823 22 651 46.177 651 76 V158 H24 Z" fill="#C47D69"/>
+<path id="tactical-precision-frame" d="M27 161 L648 161 L645 158 L645 970 C645 998.196 622.488 1021 595 1021 H80 C52.512 1021 30 998.196 30 970 L30 158 L27 161 Z M27 155 C25.343 155 24 156.343 24 158 L24 970 C24 1001.492 49.181 1027 80 1027 H595 C625.819 1027 651 1001.492 651 970 L651 158 C651 156.343 649.657 155 648 155 H27 Z" fill="#C47D69" fill-rule="evenodd"/>
+<text id="tactical-precision-title" inkscape:label="Editable title" x="337.5" y="115.500" text-anchor="middle" font-family="Helvetica Compressed" font-size="72px" font-weight="400" fill="#171319">TACTICAL PRECISION</text>
+<g inkscape:label="Die face row" filter="url(#iconHaloLarge)">
+<image class="die-icon" inkscape:label="idic_die" x="128.500" y="190.000" width="100.000" height="100.000" preserveAspectRatio="xMidYMid meet" href="icons/idic_die.png" xlink:href="icons/idic_die.png" />
+<rect class="die-face-border" inkscape:label="Die face red border" x="129.800" y="191.300" width="97.400" height="97.400" rx="4.500" fill="none" stroke="#FF0000" stroke-width="2.600"/>
+<image class="die-icon" inkscape:label="idic_die" x="234.500" y="190.000" width="100.000" height="100.000" preserveAspectRatio="xMidYMid meet" href="icons/idic_die.png" xlink:href="icons/idic_die.png" />
+<rect class="die-face-border" inkscape:label="Die face red border" x="235.800" y="191.300" width="97.400" height="97.400" rx="4.500" fill="none" stroke="#FF0000" stroke-width="2.600"/>
+<image class="die-icon" inkscape:label="idic_die" x="340.500" y="190.000" width="100.000" height="100.000" preserveAspectRatio="xMidYMid meet" href="icons/idic_die.png" xlink:href="icons/idic_die.png" />
+<rect class="die-face-border" inkscape:label="Die face red border" x="341.800" y="191.300" width="97.400" height="97.400" rx="4.500" fill="none" stroke="#FF0000" stroke-width="2.600"/>
+<image class="die-icon" inkscape:label="idic_die" x="446.500" y="190.000" width="100.000" height="100.000" preserveAspectRatio="xMidYMid meet" href="icons/idic_die.png" xlink:href="icons/idic_die.png" />
+<rect class="die-face-border" inkscape:label="Die face red border" x="447.800" y="191.300" width="97.400" height="97.400" rx="4.500" fill="none" stroke="#FF0000" stroke-width="2.600"/>
+</g>
+<g class="rules-line" inkscape:label="Rules line">
+<text class="rules-text" x="165.858" y="370.000" font-family="Avenir Next Condensed" font-size="45.833333333333336px" font-weight="400" fill="#F7F7F7" filter="url(#rulesHalo)">Gain 2</text>
+<g class="inline-icon-cluster" inkscape:label="Inline icon cluster" filter="url(#iconHalo)">
+<image class="inline-icon" inkscape:label="logic_token" x="280.858" y="326.000" width="55.000" height="55.000" preserveAspectRatio="xMidYMid meet" href="icons/logic_token.png" xlink:href="icons/logic_token.png" />
+
+</g>
+<text class="rules-text" x="337.158" y="370.000" font-family="Avenir Next Condensed" font-size="45.833333333333336px" font-weight="400" fill="#F7F7F7" filter="url(#rulesHalo)">, inflict</text>
+<g class="inline-icon-cluster" inkscape:label="Inline icon cluster" filter="url(#iconHalo)">
+<image class="inline-icon" inkscape:label="targeted_token" x="454.142" y="326.000" width="55.000" height="55.000" preserveAspectRatio="xMidYMid meet" href="icons/targeted_token.png" xlink:href="icons/targeted_token.png" />
+
+</g>
+</g>
+<g class="rules-line" inkscape:label="Rules line">
+<text class="rules-text" x="230.000" y="440.000" font-family="Avenir Next Condensed" font-size="45.833333333333336px" font-weight="400" fill="#F7F7F7" filter="url(#rulesHalo)">then deal</text>
+<g class="inline-icon-cluster" inkscape:label="Inline icon cluster" filter="url(#iconHalo)">
+<image class="inline-icon" inkscape:label="undefendable_damage_8" x="390.000" y="396.000" width="55.000" height="55.000" preserveAspectRatio="xMidYMid meet" href="../../Shared/icons/undefendable_damage_8.png" xlink:href="../../Shared/icons/undefendable_damage_8.png" />
+
+</g>
+</g>
+</g>
+</g><g id="panel-final-calculation" inkscape:groupmode="layer" inkscape:label="Final Calculation panel">
+<g transform="translate(3061.115 1656.324) scale(0.99521531 0.98529412)">
+<path id="final-calculation-panel-body" d="M31 159 H644 V970 C644 997.614 621.614 1020 594 1020 H81 C53.386 1020 31 997.614 31 970 Z" fill="#101219"/>
+<image id="final-calculation-art" inkscape:label="Final Calculation panel art" x="30" y="159" width="615" height="862" preserveAspectRatio="xMidYMid slice" href="art/cardart_source/final_calculation.png" xlink:href="art/cardart_source/final_calculation.png" clip-path="url(#clip-final-calculation)"/>
+<path id="final-calculation-header" d="M24 76 C24 46.177 48.177 22 78 22 H597 C626.823 22 651 46.177 651 76 V158 H24 Z" fill="#FCC19F"/>
+<path id="final-calculation-frame" d="M27 161 L648 161 L645 158 L645 970 C645 998.196 622.488 1021 595 1021 H80 C52.512 1021 30 998.196 30 970 L30 158 L27 161 Z M27 155 C25.343 155 24 156.343 24 158 L24 970 C24 1001.492 49.181 1027 80 1027 H595 C625.819 1027 651 1001.492 651 970 L651 158 C651 156.343 649.657 155 648 155 H27 Z" fill="#FCC19F" fill-rule="evenodd"/>
+<text id="final-calculation-title" inkscape:label="Editable title" x="337.5" y="117.000" text-anchor="middle" font-family="Helvetica Compressed" font-size="76px" font-weight="400" fill="#171319">FINAL CALCULATION</text>
+<image class="ability-icon" inkscape:label="Large straight" x="142.500" y="185.000" width="390.000" height="124.348" preserveAspectRatio="xMidYMid meet" href="../../Shared/icons/largestraight.png" xlink:href="../../Shared/icons/largestraight.png" filter="url(#iconHaloLarge)"/>
+<g class="rules-line" inkscape:label="Rules line">
+<text class="rules-text" x="148.186" y="389.000" font-family="Avenir Next Condensed" font-size="45.833333333333336px" font-weight="400" fill="#F7F7F7" filter="url(#rulesHalo)">Deal</text>
+<g class="inline-icon-cluster" inkscape:label="Inline icon cluster" filter="url(#iconHalo)">
+<image class="inline-icon" inkscape:label="normal_damage_8" x="229.186" y="345.000" width="55.000" height="55.000" preserveAspectRatio="xMidYMid meet" href="../../Shared/icons/normal_damage_8.png" xlink:href="../../Shared/icons/normal_damage_8.png" />
+
+</g>
+<text class="rules-text" x="285.486" y="389.000" font-family="Avenir Next Condensed" font-size="45.833333333333336px" font-weight="400" fill="#F7F7F7" filter="url(#rulesHalo)">, then roll 2</text>
+<g class="inline-icon-cluster" inkscape:label="Inline icon cluster" filter="url(#iconHalo)">
+<image class="inline-icon" inkscape:label="roll_die" x="479.470" y="350.000" width="47.343" height="50.000" preserveAspectRatio="xMidYMid meet" href="../../Shared/icons/roll_die.png" xlink:href="../../Shared/icons/roll_die.png" />
+
+</g>
+</g>
+<g class="rules-line" inkscape:label="Rules line">
+<text class="rules-text" x="207.008" y="459.000" font-family="Avenir Next Condensed" font-size="45.833333333333336px" font-weight="400" fill="#F7F7F7" filter="url(#rulesHalo)">On</text>
+<g class="inline-icon-cluster" inkscape:label="Inline icon cluster" filter="url(#iconHalo)">
+<image class="inline-icon" inkscape:label="phaser_die" x="263.008" y="420.000" width="50.000" height="50.000" preserveAspectRatio="xMidYMid meet" href="icons/phaser_die.png" xlink:href="icons/phaser_die.png" />
+<rect class="die-face-border" inkscape:label="Die face red border" x="264.337" y="421.330" width="47.341" height="47.341" rx="2.250" fill="none" stroke="#FF0000" stroke-width="2.659"/>
+</g>
+<text class="rules-text" x="325.008" y="459.000" font-family="Avenir Next Condensed" font-size="45.833333333333336px" font-weight="400" fill="#F7F7F7" filter="url(#rulesHalo)">, add</text>
+<g class="inline-icon-cluster" inkscape:label="Inline icon cluster" filter="url(#iconHalo)">
+<image class="inline-icon" inkscape:label="normal_damage_2" x="412.992" y="415.000" width="55.000" height="55.000" preserveAspectRatio="xMidYMid meet" href="../../Shared/icons/normal_damage_2.png" xlink:href="../../Shared/icons/normal_damage_2.png" />
+
+</g>
+</g>
+<g class="rules-line" inkscape:label="Rules line">
+<text class="rules-text" x="207.008" y="529.000" font-family="Avenir Next Condensed" font-size="45.833333333333336px" font-weight="400" fill="#F7F7F7" filter="url(#rulesHalo)">On</text>
+<g class="inline-icon-cluster" inkscape:label="Inline icon cluster" filter="url(#iconHalo)">
+<image class="inline-icon" inkscape:label="salute_die" x="263.008" y="490.000" width="50.000" height="50.000" preserveAspectRatio="xMidYMid meet" href="icons/salute_die.png" xlink:href="icons/salute_die.png" />
+<rect class="die-face-border" inkscape:label="Die face red border" x="264.337" y="491.330" width="47.341" height="47.341" rx="2.250" fill="none" stroke="#FF0000" stroke-width="2.659"/>
+</g>
+<text class="rules-text" x="325.008" y="529.000" font-family="Avenir Next Condensed" font-size="45.833333333333336px" font-weight="400" fill="#F7F7F7" filter="url(#rulesHalo)">, add</text>
+<g class="inline-icon-cluster" inkscape:label="Inline icon cluster" filter="url(#iconHalo)">
+<image class="inline-icon" inkscape:label="normal_damage_3" x="412.992" y="485.000" width="55.000" height="55.000" preserveAspectRatio="xMidYMid meet" href="../../Shared/icons/normal_damage_3.png" xlink:href="../../Shared/icons/normal_damage_3.png" />
+
+</g>
+</g>
+<g class="rules-line" inkscape:label="Rules line">
+<text class="rules-text" x="207.008" y="599.000" font-family="Avenir Next Condensed" font-size="45.833333333333336px" font-weight="400" fill="#F7F7F7" filter="url(#rulesHalo)">On</text>
+<g class="inline-icon-cluster" inkscape:label="Inline icon cluster" filter="url(#iconHalo)">
+<image class="inline-icon" inkscape:label="idic_die" x="263.008" y="560.000" width="50.000" height="50.000" preserveAspectRatio="xMidYMid meet" href="icons/idic_die.png" xlink:href="icons/idic_die.png" />
+<rect class="die-face-border" inkscape:label="Die face red border" x="264.337" y="561.330" width="47.341" height="47.341" rx="2.250" fill="none" stroke="#FF0000" stroke-width="2.659"/>
+</g>
+<text class="rules-text" x="325.008" y="599.000" font-family="Avenir Next Condensed" font-size="45.833333333333336px" font-weight="400" fill="#F7F7F7" filter="url(#rulesHalo)">, add</text>
+<g class="inline-icon-cluster" inkscape:label="Inline icon cluster" filter="url(#iconHalo)">
+<image class="inline-icon" inkscape:label="normal_damage_4" x="412.992" y="555.000" width="55.000" height="55.000" preserveAspectRatio="xMidYMid meet" href="../../Shared/icons/normal_damage_4.png" xlink:href="../../Shared/icons/normal_damage_4.png" />
+
+</g>
+</g>
+<g class="rules-line" inkscape:label="Rules line">
+<text class="rules-text" x="111.523" y="669.000" font-family="Avenir Next Condensed" font-size="45.833333333333336px" font-weight="400" fill="#F7F7F7" filter="url(#rulesHalo)">On</text>
+<g class="inline-icon-cluster" inkscape:label="Inline icon cluster" filter="url(#iconHalo)">
+<image class="inline-icon" inkscape:label="idic_die" x="167.523" y="630.000" width="50.000" height="50.000" preserveAspectRatio="xMidYMid meet" href="icons/idic_die.png" xlink:href="icons/idic_die.png" />
+<rect class="die-face-border" inkscape:label="Die face red border" x="168.853" y="631.330" width="47.341" height="47.341" rx="2.250" fill="none" stroke="#FF0000" stroke-width="2.659"/>
+<image class="inline-icon" inkscape:label="idic_die" x="221.523" y="630.000" width="50.000" height="50.000" preserveAspectRatio="xMidYMid meet" href="icons/idic_die.png" xlink:href="icons/idic_die.png" />
+<rect class="die-face-border" inkscape:label="Die face red border" x="222.853" y="631.330" width="47.341" height="47.341" rx="2.250" fill="none" stroke="#FF0000" stroke-width="2.659"/>
+</g>
+<text class="rules-text" x="283.523" y="669.000" font-family="Avenir Next Condensed" font-size="45.833333333333336px" font-weight="400" fill="#F7F7F7" filter="url(#rulesHalo)">, make this attack</text>
+</g>
+<g class="rules-line" inkscape:label="Rules line">
+<text class="rules-text" x="224.500" y="739.000" font-family="Avenir Next Condensed" font-size="45.833333333333336px" font-weight="400" fill="#F7F7F7" filter="url(#rulesHalo)">undefendable</text>
+</g>
+</g>
+</g><g id="panel-return-fire" inkscape:groupmode="layer" inkscape:label="Return Fire panel">
+<g transform="translate(3771.115 1656.324) scale(0.99521531 0.98529412)">
+<path id="return-fire-panel-body" d="M31 159 H644 V970 C644 997.614 621.614 1020 594 1020 H81 C53.386 1020 31 997.614 31 970 Z" fill="#101219"/>
+<image id="return-fire-art" inkscape:label="Return Fire panel art" x="30" y="159" width="615" height="862" preserveAspectRatio="xMidYMid slice" href="art/cardart_source/return_fire.png" xlink:href="art/cardart_source/return_fire.png" clip-path="url(#clip-return-fire)"/>
+<path id="return-fire-header" d="M24 76 C24 46.177 48.177 22 78 22 H597 C626.823 22 651 46.177 651 76 V158 H24 Z" fill="#64A77B"/>
+<path id="return-fire-frame" d="M27 161 L648 161 L645 158 L645 970 C645 998.196 622.488 1021 595 1021 H80 C52.512 1021 30 998.196 30 970 L30 158 L27 161 Z M27 155 C25.343 155 24 156.343 24 158 L24 970 C24 1001.492 49.181 1027 80 1027 H595 C625.819 1027 651 1001.492 651 970 L651 158 C651 156.343 649.657 155 648 155 H27 Z" fill="#64A77B" fill-rule="evenodd"/>
+<text id="return-fire-title" inkscape:label="Editable title" x="337.5" y="120.000" text-anchor="middle" font-family="Helvetica Compressed" font-size="86px" font-weight="400" fill="#171319">RETURN FIRE</text>
+<g class="activation-requirements" inkscape:label="Three green square activation requirements" filter="url(#iconHaloLarge)">
+<rect x="170.500" y="194.000" width="108.000" height="108.000" rx="10" fill="#080B0D" stroke="#50C77F" stroke-width="5"/>
+<rect x="283.500" y="194.000" width="108.000" height="108.000" rx="10" fill="#080B0D" stroke="#50C77F" stroke-width="5"/>
+<rect x="396.500" y="194.000" width="108.000" height="108.000" rx="10" fill="#080B0D" stroke="#50C77F" stroke-width="5"/>
+</g>
+<g class="rules-line" inkscape:label="Rules line">
+<text class="rules-text" x="256.678" y="370.000" font-family="Avenir Next Condensed" font-size="45.833333333333336px" font-weight="400" fill="#F7F7F7" filter="url(#rulesHalo)">Roll 3</text>
+<g class="inline-icon-cluster" inkscape:label="Inline icon cluster" filter="url(#iconHalo)">
+<image class="inline-icon" inkscape:label="roll_die" x="357.678" y="331.000" width="47.343" height="50.000" preserveAspectRatio="xMidYMid meet" href="../../Shared/icons/roll_die.png" xlink:href="../../Shared/icons/roll_die.png" />
+
+</g>
+<text class="rules-text" x="406.322" y="370.000" font-family="Avenir Next Condensed" font-size="45.833333333333336px" font-weight="400" fill="#F7F7F7" filter="url(#rulesHalo)">:</text>
+</g>
+<g class="rules-line" inkscape:label="Rules line">
+<text class="rules-text" x="122.866" y="440.000" font-family="Avenir Next Condensed" font-size="45.833333333333336px" font-weight="400" fill="#F7F7F7" filter="url(#rulesHalo)">For each</text>
+<g class="inline-icon-cluster" inkscape:label="Inline icon cluster" filter="url(#iconHalo)">
+<image class="inline-icon" inkscape:label="phaser_die" x="264.850" y="401.000" width="50.000" height="50.000" preserveAspectRatio="xMidYMid meet" href="icons/phaser_die.png" xlink:href="icons/phaser_die.png" />
+<rect class="die-face-border" inkscape:label="Die face red border" x="266.180" y="402.330" width="47.341" height="47.341" rx="2.250" fill="none" stroke="#FF0000" stroke-width="2.659"/>
+</g>
+<text class="rules-text" x="326.850" y="440.000" font-family="Avenir Next Condensed" font-size="45.833333333333336px" font-weight="400" fill="#F7F7F7" filter="url(#rulesHalo)">, deal</text>
+<g class="inline-icon-cluster" inkscape:label="Inline icon cluster" filter="url(#iconHalo)">
+<image class="inline-icon" inkscape:label="normal_damage_1" x="422.834" y="396.000" width="55.000" height="55.000" preserveAspectRatio="xMidYMid meet" href="../../Shared/icons/normal_damage_1.png" xlink:href="../../Shared/icons/normal_damage_1.png" />
+
+</g>
+<text class="rules-text" x="479.134" y="440.000" font-family="Avenir Next Condensed" font-size="45.833333333333336px" font-weight="400" fill="#F7F7F7" filter="url(#rulesHalo)">back</text>
+</g>
+<g class="rules-line" inkscape:label="Rules line">
+<text class="rules-text" x="165.858" y="510.000" font-family="Avenir Next Condensed" font-size="45.833333333333336px" font-weight="400" fill="#F7F7F7" filter="url(#rulesHalo)">On</text>
+<g class="inline-icon-cluster" inkscape:label="Inline icon cluster" filter="url(#iconHalo)">
+<image class="inline-icon" inkscape:label="salute_die" x="221.858" y="471.000" width="50.000" height="50.000" preserveAspectRatio="xMidYMid meet" href="icons/salute_die.png" xlink:href="icons/salute_die.png" />
+<rect class="die-face-border" inkscape:label="Die face red border" x="223.187" y="472.330" width="47.341" height="47.341" rx="2.250" fill="none" stroke="#FF0000" stroke-width="2.659"/>
+</g>
+<text class="rules-text" x="283.858" y="510.000" font-family="Avenir Next Condensed" font-size="45.833333333333336px" font-weight="400" fill="#F7F7F7" filter="url(#rulesHalo)">, deal</text>
+<g class="inline-icon-cluster" inkscape:label="Inline icon cluster" filter="url(#iconHalo)">
+<image class="inline-icon" inkscape:label="normal_damage_2" x="379.842" y="466.000" width="55.000" height="55.000" preserveAspectRatio="xMidYMid meet" href="../../Shared/icons/normal_damage_2.png" xlink:href="../../Shared/icons/normal_damage_2.png" />
+
+</g>
+<text class="rules-text" x="436.142" y="510.000" font-family="Avenir Next Condensed" font-size="45.833333333333336px" font-weight="400" fill="#F7F7F7" filter="url(#rulesHalo)">back</text>
+</g>
+<g class="rules-line" inkscape:label="Rules line">
+<text class="rules-text" x="174.508" y="580.000" font-family="Avenir Next Condensed" font-size="45.833333333333336px" font-weight="400" fill="#F7F7F7" filter="url(#rulesHalo)">On</text>
+<g class="inline-icon-cluster" inkscape:label="Inline icon cluster" filter="url(#iconHalo)">
+<image class="inline-icon" inkscape:label="idic_die" x="230.508" y="541.000" width="50.000" height="50.000" preserveAspectRatio="xMidYMid meet" href="icons/idic_die.png" xlink:href="icons/idic_die.png" />
+<rect class="die-face-border" inkscape:label="Die face red border" x="231.837" y="542.330" width="47.341" height="47.341" rx="2.250" fill="none" stroke="#FF0000" stroke-width="2.659"/>
+<image class="inline-icon" inkscape:label="idic_die" x="284.508" y="541.000" width="50.000" height="50.000" preserveAspectRatio="xMidYMid meet" href="icons/idic_die.png" xlink:href="icons/idic_die.png" />
+<rect class="die-face-border" inkscape:label="Die face red border" x="285.837" y="542.330" width="47.341" height="47.341" rx="2.250" fill="none" stroke="#FF0000" stroke-width="2.659"/>
+</g>
+<text class="rules-text" x="346.508" y="580.000" font-family="Avenir Next Condensed" font-size="45.833333333333336px" font-weight="400" fill="#F7F7F7" filter="url(#rulesHalo)">, gain</text>
+<g class="inline-icon-cluster" inkscape:label="Inline icon cluster" filter="url(#iconHalo)">
+<image class="inline-icon" inkscape:label="protect_token" x="445.492" y="536.000" width="55.000" height="55.000" preserveAspectRatio="xMidYMid meet" href="icons/protect_token.png" xlink:href="icons/protect_token.png" />
+
+</g>
+</g>
+</g>
+</g><g id="panel-logical-outcome" inkscape:groupmode="layer" inkscape:label="Logical Outcome panel">
+<g transform="translate(1608 2224)">
+<path id="logical-outcome-body" d="M31 159 H1256 V396 C1256 424 1234 446 1206 446 H81 C53 446 31 424 31 396 Z" fill="#101219"/>
+<image id="logical-outcome-art" inkscape:label="Logical Outcome panel art" x="30" y="59" width="1227" height="447" preserveAspectRatio="xMidYMid slice" href="art/cardart_source/logical_outcome.png" xlink:href="art/cardart_source/logical_outcome.png" clip-path="url(#clip-logical-outcome)"/>
+<path id="logical-outcome-header" d="M24 76 C24 46.2 48.2 22 78 22 H1209 C1238.8 22 1263 46.2 1263 76 V158 H24 Z" fill="#CF4F4F"/>
+<path id="logical-outcome-frame" d="M24 158 H1263 V396 C1263 427.5 1237.5 453 1206.5 453 H80.5 C49.5 453 24 427.5 24 396 Z M30 159 H1257 V396 C1257 424 1234 447 1207 447 H81 C53 447 30 424 30 396 Z" fill="#CF4F4F" fill-rule="evenodd"/>
+<text id="logical-outcome-title" inkscape:label="Editable title" x="74" y="119.500" font-family="Helvetica Compressed" font-size="82px" font-weight="400" fill="#171319">LOGICAL OUTCOME</text>
+<g id="logical-outcome-icon-cluster" inkscape:label="IDIC die face cluster" filter="url(#iconHaloLarge)">
+<image id="logical-outcome-face-1" inkscape:label="IDIC die face 1" x="665.000" y="40.000" width="100.000" height="100.000" preserveAspectRatio="xMidYMid meet" href="icons/idic_die.png" xlink:href="icons/idic_die.png" />
+<image id="logical-outcome-face-2" inkscape:label="IDIC die face 2" x="775.000" y="40.000" width="100.000" height="100.000" preserveAspectRatio="xMidYMid meet" href="icons/idic_die.png" xlink:href="icons/idic_die.png" />
+<image id="logical-outcome-face-3" inkscape:label="IDIC die face 3" x="885.000" y="40.000" width="100.000" height="100.000" preserveAspectRatio="xMidYMid meet" href="icons/idic_die.png" xlink:href="icons/idic_die.png" />
+<image id="logical-outcome-face-4" inkscape:label="IDIC die face 4" x="995.000" y="40.000" width="100.000" height="100.000" preserveAspectRatio="xMidYMid meet" href="icons/idic_die.png" xlink:href="icons/idic_die.png" />
+<image id="logical-outcome-face-5" inkscape:label="IDIC die face 5" x="1105.000" y="40.000" width="100.000" height="100.000" preserveAspectRatio="xMidYMid meet" href="icons/idic_die.png" xlink:href="icons/idic_die.png" />
+</g>
+<g class="rules-line" inkscape:label="Rules line">
+<text class="rules-text" x="90.000" y="222.000" font-family="Avenir Next Condensed" font-size="45.833333333333336px" font-weight="400" fill="#F7F7F7" filter="url(#rulesHalo)">Increase Logic stack limit by 1, gain</text>
+<g class="inline-icon-cluster" inkscape:label="Inline icon cluster" filter="url(#iconHalo)">
+<image class="inline-icon" inkscape:label="mind_meld_token" x="664.984" y="178.000" width="55.000" height="55.000" preserveAspectRatio="xMidYMid meet" href="icons/mind_meld_token.png" xlink:href="icons/mind_meld_token.png" />
+
+</g>
+</g>
+<g class="rules-line" inkscape:label="Rules line">
+<text class="rules-text" x="90.000" y="288.000" font-family="Avenir Next Condensed" font-size="45.833333333333336px" font-weight="400" fill="#F7F7F7" filter="url(#rulesHalo)">and 4</text>
+<g class="inline-icon-cluster" inkscape:label="Inline icon cluster" filter="url(#iconHalo)">
+<image class="inline-icon" inkscape:label="logic_token" x="191.000" y="244.000" width="55.000" height="55.000" preserveAspectRatio="xMidYMid meet" href="icons/logic_token.png" xlink:href="icons/logic_token.png" />
+
+</g>
+<text class="rules-text" x="247.300" y="288.000" font-family="Avenir Next Condensed" font-size="45.833333333333336px" font-weight="400" fill="#F7F7F7" filter="url(#rulesHalo)">, then deal</text>
+<g class="inline-icon-cluster" inkscape:label="Inline icon cluster" filter="url(#iconHalo)">
+<image class="inline-icon" inkscape:label="undefendable_damage_12" x="426.284" y="244.000" width="55.000" height="55.000" preserveAspectRatio="xMidYMid meet" href="../../Shared/icons/undefendable_damage_12.png" xlink:href="../../Shared/icons/undefendable_damage_12.png" />
+
+</g>
+</g>
+<text id="ultimate-label" inkscape:label="Ultimate label" x="48" y="430" font-family="Helvetica Compressed" font-size="90px" font-weight="700" fill="#CF4F4F">ULTIMATE</text>
+<text id="ultimate-footnote-1" x="380" y="383" font-family="Avenir Next Condensed" font-size="22px" fill="#F7F7F7" filter="url(#rulesHalo)">Dice may be altered to prevent an Ultimate. Otherwise, no action</text>
+<text id="ultimate-footnote-2" x="380" y="417" font-family="Avenir Next Condensed" font-size="22px" fill="#F7F7F7" filter="url(#rulesHalo)">of any kind may be performed by an opponent until the ability fully completes.</text>
+</g>
+</g></g>
+</svg>

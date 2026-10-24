@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-12.6 -12.6 369.2 369.2" width="369.2" height="369.2" role="img" aria-label="Seven of Nine Omega die-face vector draft">
+  <title>Seven of Nine Omega die-face draft</title>
+  <defs>
+    <clipPath id="face-clip"><rect x="-12.6" y="-12.6" width="369.2" height="369.2" rx="37.3" /></clipPath>
+  </defs>
+  <g clip-path="url(#face-clip)">
+    <rect x="-12.6" y="-12.6" width="369.2" height="369.2" rx="37.3" fill="#55595D" />
+    <rect width="344" height="344" rx="24.7" fill="#000000" />
+    <path d="M56 240
+      L109 240
+      C78 218 59 191 59 162
+      C59 103 108 57 172 57
+      C237 57 285 104 285 162
+      C285 192 266 218 234 240
+      L288 240
+      L288 275
+      L200 275
+      L200 241
+      C225 220 240 194 240 162
+      C240 118 212 86 172 86
+      C131 86 103 118 103 162
+      C103 194 118 221 145 241
+      L145 275
+      L56 275 Z"
+      fill="#B8860B" stroke="#55595D" stroke-width="2" stroke-linejoin="round" />
+  </g>
+</svg>

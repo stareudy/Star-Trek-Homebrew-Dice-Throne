@@ -10,6 +10,16 @@
 - When the user says a to-do item is finished, remove that item from the relevant `todo.md`. If it seems finished but the user has not said so, ask them before removing it.
 - Keep progress updates concise, and report completed changes with the affected paths.
 - When making raster image pixels fully transparent, set their RGB channels to zero at the same time as setting alpha to zero, unless the user explicitly asks to preserve the hidden RGB data.
+- Whenever showing a preview of an image with transparency, composite it over a bright neon color that does not appear in the image so transparent areas are easy to see.
+
+## SVG rendering
+
+- Always use Google Chrome to render SVG files, including SVG-to-PNG and SVG-to-PDF exports, so installed fonts render consistently with the browser. Do not use librsvg/rsvg-convert or other SVG renderers for final or preview output.
+
+## Asset format transition
+
+- The project is transitioning from raster assets toward SVG vector assets wherever practical.
+- Until SVG-specific guidance is added, follow the existing procedures for current raster assets. Later guidance for text styling, icon sizing, SVG construction, and related details will replace the corresponding current procedures as the project adopts SVG workflows.
 
 ## Heroes and task scope
 

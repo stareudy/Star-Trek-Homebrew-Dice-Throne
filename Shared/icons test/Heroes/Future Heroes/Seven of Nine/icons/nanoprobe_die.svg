@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-12.6 -12.6 369.2 369.2" width="369.2" height="369.2" role="img" aria-label="Seven of Nine Nanoprobe die-face vector draft">
+  <title>Seven of Nine Nanoprobe die-face draft</title>
+  <defs>
+    <clipPath id="face-clip"><rect x="-12.6" y="-12.6" width="369.2" height="369.2" rx="37.3" /></clipPath>
+  </defs>
+  <g clip-path="url(#face-clip)">
+    <rect x="-12.6" y="-12.6" width="369.2" height="369.2" rx="37.3" fill="#55595D" />
+    <rect width="344" height="344" rx="24.7" fill="#000000" />
+
+    <!-- Far-side tubes, mirrored from the visible sets and hidden by the chip. -->
+    <g fill="none" stroke="#000000" stroke-width="16" stroke-linecap="butt">
+      <!-- Back-left face: same projected length as the visible right-side set. -->
+      <path d="M90.667 163.667 L35.167 139.067" />
+      <path d="M113 137.5 L57.5 112.9" />
+      <path d="M135.333 111.333 L79.833 86.733" />
+      <!-- Back-right face: same projected length as the visible front-left set. -->
+      <path d="M164 106 L199.43 64.48" />
+      <path d="M199 121.5 L234.43 79.98" />
+      <path d="M234 137 L269.43 95.48" />
+    </g>
+    <g fill="none" stroke="#36A64A" stroke-width="12" stroke-linecap="butt">
+      <path d="M90.667 163.667 L35.167 139.067" />
+      <path d="M113 137.5 L57.5 112.9" />
+      <path d="M135.333 111.333 L79.833 86.733" />
+      <path d="M164 106 L199.43 64.48" />
+      <path d="M199 121.5 L234.43 79.98" />
+      <path d="M234 137 L269.43 95.48" />
+    </g>
+    <!-- Far tube tips are green flattened ovals without a dark outline. -->
+    <g fill="#36A64A">
+      <ellipse cx="35.167" cy="139.067" rx="6" ry="2.33" transform="rotate(113.9 35.167 139.067)" />
+      <ellipse cx="57.5" cy="112.9" rx="6" ry="2.33" transform="rotate(113.9 57.5 112.9)" />
+      <ellipse cx="79.833" cy="86.733" rx="6" ry="2.33" transform="rotate(113.9 79.833 86.733)" />
+      <ellipse cx="199.43" cy="64.48" rx="6" ry="3.36" transform="rotate(40.5 199.43 64.48)" />
+      <ellipse cx="234.43" cy="79.98" rx="6" ry="3.36" transform="rotate(40.5 234.43 79.98)" />
+      <ellipse cx="269.43" cy="95.48" rx="6" ry="3.36" transform="rotate(40.5 269.43 95.48)" />
+    </g>
+    <!-- Top corners balanced to an exact parallelogram around the PNG trace. -->
+    <path d="M79.5 162.75 L146.5 84.25 L251.5 130.75 L184.5 209.25 Z" fill="#36A64A" stroke="#000000" stroke-width="2.5" stroke-linejoin="miter" />
+    <!-- The aligned bottom face is the same projection translated by (0,28). -->
+    <path d="M79.5 162.75 L79.5 190.75 L184.5 237.25 L184.5 209.25 Z" fill="#36A64A" stroke="#000000" stroke-width="2.5" stroke-linejoin="miter" />
+    <path d="M184.5 209.25 L251.5 130.75 L251.5 158.75 L184.5 237.25 Z" fill="#36A64A" stroke="#000000" stroke-width="2.5" stroke-linejoin="miter" />
+
+    <!-- Tubes sit above the faces so their roots remain visible at each
+         face's vertical midpoint and the midpoint of each horizontal third. -->
+    <g fill="none" stroke="#36A64A" stroke-width="12" stroke-linecap="butt">
+      <path d="M97 184.5 L61.57 226.02" />
+      <path d="M132 200 L96.57 241.52" />
+      <path d="M167 215.5 L131.57 257.02" />
+      <path d="M240.333 157.833 L295.833 182.433" />
+      <path d="M218 184 L273.5 208.6" />
+      <path d="M195.667 210.167 L251.167 234.767" />
+    </g>
+    <!-- Tube side edges run to the chip edge; no transverse black root seam. -->
+    <g fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="butt">
+      <!-- Front-left row, offset perpendicular to its projected axis. -->
+      <path d="M92.44 180.11 L57.01 221.63" />
+      <path d="M101.56 188.89 L66.13 230.41" />
+      <path d="M127.44 195.61 L92.01 237.13" />
+      <path d="M136.56 204.39 L101.13 245.91" />
+      <path d="M162.44 211.11 L127.01 252.63" />
+      <path d="M171.56 219.89 L136.13 261.41" />
+      <!-- Right row, offset perpendicular to its projected axis. -->
+      <path d="M242.76 152.36 L298.26 176.96" />
+      <path d="M237.91 163.31 L293.41 187.91" />
+      <path d="M220.43 178.53 L275.93 203.13" />
+      <path d="M215.57 189.47 L271.07 214.07" />
+      <path d="M198.09 204.69 L253.59 229.29" />
+      <path d="M193.24 215.64 L248.74 240.24" />
+    </g>
+    <!-- Flattened projected circular end faces, oriented across each tube. -->
+    <g fill="#36A64A" stroke="#000000" stroke-width="2.5">
+      <!-- The two face axes have different foreshortening in the source view. -->
+      <ellipse cx="61.57" cy="226.02" rx="6" ry="3.36" transform="rotate(40.5 61.57 226.02)" />
+      <ellipse cx="96.57" cy="241.52" rx="6" ry="3.36" transform="rotate(40.5 96.57 241.52)" />
+      <ellipse cx="131.57" cy="257.02" rx="6" ry="3.36" transform="rotate(40.5 131.57 257.02)" />
+      <ellipse cx="295.833" cy="182.433" rx="6" ry="2.33" transform="rotate(113.9 295.833 182.433)" />
+      <ellipse cx="273.5" cy="208.6" rx="6" ry="2.33" transform="rotate(113.9 273.5 208.6)" />
+      <ellipse cx="251.167" cy="234.767" rx="6" ry="2.33" transform="rotate(113.9 251.167 234.767)" />
+    </g>
+  </g>
+</svg>

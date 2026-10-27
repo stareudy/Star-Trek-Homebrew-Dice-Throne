@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 344 344" width="344" height="344" role="img" aria-label="Protect token rebuilt with smooth symmetric vector contours">
+<title>Protect token</title>
+<defs><clipPath id="face"><circle cx="172" cy="172" r="172" /></clipPath></defs>
+<g clip-path="url(#face)">
+<rect width="344" height="344" fill="#222E2C" />
+<g transform="scale(0.5733333333333333)"><g id="protect-emblem" transform="translate(2 0)">
+<path id="shield" d="M 298 70 C 279.938 158.5 173.625 174.5 123 234 C 173.5 417.312 195.125 417.312 298 499 C 400.875 417.312 422.5 417.312 473 234 C 422.375 174.5 316.062 158.5 298 70 Z" fill="#F6F6F4" stroke="#000000" stroke-width="4" stroke-linejoin="round" />
+<path id="star-border" d="M 298 128 C 292.812 162.75 268.438 181.312 241 196 C 282.062 201.125 289.938 257.938 298 300 C 306.062 257.938 313.938 201.125 355 196 C 327.562 181.312 303.188 162.75 298 128 Z M 298 153 C 290.625 182.25 270.688 188.375 262 196 C 288.438 199.312 293.5 240.5 298 267 C 302.5 240.5 307.562 199.312 334 196 C 325.312 188.375 305.375 182.25 298 153 Z" fill="#000000" fill-rule="evenodd" />
+<path id="left-separator" d="M 151.5 330 C 139.25 272.812 154.938 224 209.5 224 C 282.625 224 298 347.875 298 397 L 298 498 C 298 383.875 277.938 242.5 209.5 242.5 C 142.812 242.5 157.688 310.625 151.5 330 Z" fill="#000000" />
+<path id="right-separator" d="M 151.5 330 C 139.25 272.812 154.938 224 209.5 224 C 282.625 224 298 347.875 298 397 L 298 498 C 298 383.875 277.938 242.5 209.5 242.5 C 142.812 242.5 157.688 310.625 151.5 330 Z" fill="#000000" transform="translate(596 0) scale(-1 1)" />
+</g></g>
+</g>
+</svg>

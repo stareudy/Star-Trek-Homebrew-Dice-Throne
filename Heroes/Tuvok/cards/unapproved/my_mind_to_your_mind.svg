@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="675" height="1050" viewBox="0 0 675 1050">
+<svg xmlns="http://www.w3.org/2000/svg" width="2.25in" height="3.5in" viewBox="0 0 675 1050">
   <title>MY MIND TO YOUR MIND — Tuvok action card draft</title>
-  <desc>Art area intentionally left empty; source artwork has not been provided. Rules are editable vector text and linked icons.</desc>
+  <desc>Art area intentionally left empty; source artwork has not been provided. Rules are editable vector text and linked icons. Raster icon instances replaced with embedded SVG vector shapes; original text preserved.</desc>
   <defs id="rules-layout-defaults">
     <style type="text/css">
       .rules-text { font-family: "Avenir Next Condensed"; font-size: 45.833333px; font-weight: 400; fill: #F7F7F7; }
@@ -22,7 +22,7 @@
   <g id="accent-elements" aria-label="Change this group color to recolor the template" fill="#CF4F4F" stroke="#CF4F4F">
     <path id="header" d="M24 76 C24 46.2 48.2 22 78 22 H597 C626.8 22 651 46.2 651 76 V158 H24 Z" stroke="none" />
     <rect id="panel-divider" x="24" y="635" width="627" height="8" stroke="none" />
-    <path id="inner-frame" data-text-equivalent="expanded 6px red perimeter stroke" d="M27.000 161.000 L648.000 161.000 L645.000 158.000 L645.000 970.000 C645.000 998.196 622.488 1021.000 595.000 1021.000 L80.000 1021.000 C52.512 1021.000 30.000 998.196 30.000 970.000 L30.000 158.000 L27.000 161.000 Z M27.000 155.000 C25.343 155.000 24.000 156.343 24.000 158.000 L24.000 970.000 C24.000 1001.492 49.181 1027.000 80.000 1027.000 L595.000 1027.000 C625.819 1027.000 651.000 1001.492 651.000 970.000 L651.000 158.000 C651.000 156.343 649.657 155.000 648.000 155.000 L27.000 155.000 Z " fill="#CF4F4F" stroke="none" />
+    <path id="inner-frame" data-text-equivalent="expanded 6px red perimeter stroke" d="M36 158 H639 V970 C639 994.853 619.301 1015 595 1015 H80 C55.699 1015 36 994.853 36 970 Z M27.000 155.000 C25.343 155.000 24.000 156.343 24.000 158.000 L24.000 970.000 C24.000 1001.492 49.181 1027.000 80.000 1027.000 L595.000 1027.000 C625.819 1027.000 651.000 1001.492 651.000 970.000 L651.000 158.000 C651.000 156.343 649.657 155.000 648.000 155.000 L27.000 155.000 Z " fill="#CF4F4F" stroke="none" />
   </g>
   <g id="instant-action-cp-tag" aria-label="Editable Instant Action CP tag" transform="translate(24 169)">
     <defs>
@@ -31,16 +31,16 @@
         <stop offset="1" stop-color="#D9D9D9" />
       </linearGradient>
       <linearGradient id="cp-red-fill" x1="0" y1="0" x2="1" y2="0">
-        <stop offset="0" stop-color="#E56A6A" />
-        <stop offset="0.12" stop-color="#D65858" />
-        <stop offset="0.78" stop-color="#A83D3D" />
-        <stop offset="1" stop-color="#D95B5B" />
+        <stop offset="0" stop-color="#DE6161" />
+        <stop offset="0.12" stop-color="#CF4F4F" />
+        <stop offset="0.78" stop-color="#A13434" />
+        <stop offset="1" stop-color="#D25252" />
       </linearGradient>
       <linearGradient id="cp-red-edge" x1="0" y1="0" x2="1" y2="0">
-        <stop offset="0" stop-color="#F48C8C" stop-opacity="0.9" />
-        <stop offset="0.14" stop-color="#BE4949" stop-opacity="0.72" />
-        <stop offset="0.6" stop-color="#702929" stop-opacity="0.2" />
-        <stop offset="1" stop-color="#E57474" stop-opacity="0.75" />
+        <stop offset="0" stop-color="#ED8383" stop-opacity="0.9" />
+        <stop offset="0.14" stop-color="#B74040" stop-opacity="0.72" />
+        <stop offset="0.6" stop-color="#692020" stop-opacity="0.2" />
+        <stop offset="1" stop-color="#DE6B6B" stop-opacity="0.75" />
       </linearGradient>
       <linearGradient id="cp-label-fill" x1="0" y1="0" x2="1" y2="0">
         <stop offset="0" stop-color="#292929" />
@@ -85,4 +85,19 @@
     <path id="cp-tag-outer-outline" d="M0 0.5 H51.5 C55.4 0.5 58.5 3.6 58.5 7.5 V174.5 C58.5 178.4 55.4 181.5 51.5 181.5 H43 V330 C43 334.4 39.9 337.5 35.5 337.5 H0 Z" fill="none" stroke="#3A3A3A" stroke-width="1.2" stroke-linejoin="round" pointer-events="none" />
   </g>
   <g id="card-title" aria-label="Instant Action card title" transform="translate(17.69 -4) scale(0.9476 1)"><text id="card-title-text" data-text="MY MIND TO YOUR MIND" data-font="Helvetica Compressed" x="337.5" y="121" text-anchor="middle" font-family="Helvetica Compressed" font-size="68px" font-weight="400" fill="#101219">MY MIND TO YOUR MIND</text></g>
-<g id="editable-rules" aria-label="Editable rules text and linked inline icons" font-family="Avenir Next Condensed, sans-serif" font-size="36px" fill="#F7F7F7" text-anchor="middle"><g id="rule-line-1"><text x="252.00" y="799.00" text-anchor="start" font-family="Avenir Next Condensed, sans-serif" font-size="36px" fill="#F7F7F7" stroke="#000000" stroke-width="1.2" paint-order="stroke fill" stroke-linejoin="round">Gain </text><image x="326.16" y="768.00" width="36" height="36" preserveAspectRatio="xMidYMid meet" href="../../icons/mind_meld_token.png" aria-label="mind_meld_token.png" xlink:href="../../icons/mind_meld_token.png" /><text x="362.16" y="799.00" text-anchor="start" font-family="Avenir Next Condensed, sans-serif" font-size="36px" fill="#F7F7F7" stroke="#000000" stroke-width="1.2" paint-order="stroke fill" stroke-linejoin="round"> and</text></g><g id="rule-line-2"><text x="0.00" y="849.00" text-anchor="start" font-family="Avenir Next Condensed, sans-serif" font-size="36px" fill="#F7F7F7" stroke="#000000" stroke-width="1.2" paint-order="stroke fill" stroke-linejoin="round">spend it while being targeted by an opponent.</text></g></g></svg>
+<g id="editable-rules" aria-label="Editable rules text and linked inline icons" font-family="Avenir Next Condensed, sans-serif" font-size="36px" fill="#F7F7F7" text-anchor="middle"><g id="rule-line-1"><text x="249.0331916809082" y="702.5" text-anchor="start" font-family="Avenir Next Condensed, sans-serif" font-size="36px" fill="#F7F7F7" stroke="#000000" stroke-width="1.2" paint-order="stroke fill" stroke-linejoin="round">Gain </text><g class="vector-icon-halo"><svg viewBox="-5 -5 354 354" x="315.7245979309082" y="663" width="54" height="54" preserveAspectRatio="xMidYMid meet" aria-label="mind_meld_token.png" data-original-x="326.16" data-original-y="768.00" data-original-width="36" data-original-height="36" overflow="visible" data-vector-icon="mind_meld" data-vector-source="Heroes/Tuvok/icons/mind_meld.svg" data-original-icon="../../icons/mind_meld_token.png" stroke="none" fill="#000000" text-anchor="start">
+<title>Mind Meld token</title>
+<defs><clipPath id="vi1-face"><circle cx="172" cy="172" r="172" /></clipPath></defs>
+<g clip-path="url(#vi1-face)">
+<rect width="344" height="344" fill="#021A46" />
+<g transform="translate(172 172) scale(.90) translate(-172 -172)"><g transform="scale(0.5733333333333333)"><g id="vi1-original-emblem">
+<path id="vi1-right-profile" d="M 448 146 C 504 144 546 180 551 237 C 553 261 547 283 531 306 C 515 336 514 366 537 404 C 503 414 467 437 435 462 C 437 448 426 407 418 394 C 413 385 402 392 385 395 C 369 399 357 399 356 387 C 355 380 360 371 356 366 C 352 362 348 358 350 353 C 350 351 353 350 354 349 C 349 347 344 344 345 338 C 347 332 351 326 341 324 C 333 321 327 316 329 309 C 334 298 347 278 350 271 C 353 265 347 262 345 255 C 341 242 346 219 350 202 C 369 164 409 144 448 146 Z" fill="#FEFDFD" stroke="#000000" stroke-width="4.0697674419" stroke-linejoin="round" />
+<path id="vi1-left-profile" d="M 448 146 C 504 144 546 180 551 237 C 553 261 547 283 531 306 C 515 336 514 366 537 404 C 503 414 467 437 435 462 C 437 448 426 407 418 394 C 413 385 402 392 385 395 C 369 399 357 399 356 387 C 355 380 360 371 356 366 C 352 362 348 358 350 353 C 350 351 353 350 354 349 C 349 347 344 344 345 338 C 347 332 351 326 341 324 C 333 321 327 316 329 309 C 334 298 347 278 350 271 C 353 265 347 262 345 255 C 341 242 346 219 350 202 C 369 164 409 144 448 146 Z" transform="translate(600 0) scale(-1 1)" fill="#FEFDFD" stroke="#000000" stroke-width="4.0697674419" stroke-linejoin="round" />
+<path id="vi1-right-ear" d="M 514 214 C 522 214 523 260 514 280 C 505 309 492 320 479 330 C 474 334 471 338 470 343 C 469 336 471 329 477 324 C 492 314 501 298 506 280 C 513 256 515 238 513 225 C 506 237 496 248 482 258 C 470 267 462 276 459 287 C 458 272 462 265 470 258 C 484 247 500 239 509 219 C 511 216 513 212 514 214 Z" fill="#021A46" />
+<path id="vi1-left-ear" d="M 514 214 C 522 214 523 260 514 280 C 505 309 492 320 479 330 C 474 334 471 338 470 343 C 469 336 471 329 477 324 C 492 314 501 298 506 280 C 513 256 515 238 513 225 C 506 237 496 248 482 258 C 470 267 462 276 459 287 C 458 272 462 265 470 258 C 484 247 500 239 509 219 C 511 216 513 212 514 214 Z" transform="translate(600 0) scale(-1 1)" fill="#021A46" />
+<path id="vi1-mind-link" d="M 242 198 C 232 198 225 211 225 224 C 225 237 232 249 242 249 C 250 249 254 243 262 238 C 282 227 318 227 338 238 C 346 243 350 249 358 249 C 368 249 375 237 375 224 C 375 211 368 198 358 198 C 350 198 346 205 338 210 C 318 221 282 221 262 210 C 254 205 250 198 242 198 Z" fill="#00D5E5" stroke="#000000" stroke-width="4.0697674419" stroke-linejoin="round" />
+</g></g></g>
+<circle cx="172" cy="172" r="165.7" fill="none" stroke="#FFFFFF" stroke-width="12.6" />
+</g>
+<circle cx="172" cy="172" r="174.1" fill="none" stroke="#FFFFFF" stroke-width="4.2" />
+</svg></g><text x="377.7245979309082" y="702.5" text-anchor="start" font-family="Avenir Next Condensed, sans-serif" font-size="36px" fill="#F7F7F7" stroke="#000000" stroke-width="1.2" paint-order="stroke fill" stroke-linejoin="round"> and</text></g><g id="rule-line-2"><text x="46.1181640625" y="766.5" text-anchor="start" font-family="Avenir Next Condensed, sans-serif" font-size="36px" fill="#F7F7F7" stroke="#000000" stroke-width="1.2" paint-order="stroke fill" stroke-linejoin="round">spend it while being targeted by an opponent.</text></g></g><defs id="vector-icon-filters"><filter id="vectorIconHalo" x="-0.7" y="-0.7" width="2.4" height="2.4" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="6.272" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="4.9" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter><filter id="vectorIconHaloSmall" x="-0.7" y="-0.7" width="2.4" height="2.4" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="4.224" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="3.3" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter><filter id="vectorIconHaloLarge" x="-0.7" y="-0.7" width="2.4" height="2.4" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="8.96" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="7" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs></svg>

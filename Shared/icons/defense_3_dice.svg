@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-4.2 -4.2 1057.2 352.4" width="1057.2" height="352.4" role="img" aria-label="Defense 3 dice face">
+  <title>Defense 3 dice face</title>
+  <defs>
+    <clipPath id="face-clip"><rect x="0" y="0" width="344" height="344" rx="31" /></clipPath>
+  </defs>
+  <g>
+    <g clip-path="url(#face-clip)">
+      <rect width="344" height="344" fill="#000000" />
+    </g>
+    <rect x="-2.1" y="-2.1" width="348.2" height="348.2" rx="33.1" fill="none" stroke-width="4.2" stroke="#000000" />
+    <rect x="6.3" y="6.3" width="331.4" height="331.4" rx="24.7" fill="none" stroke-width="12.6" stroke="#6AF2A8" />
+  </g>
+  <g transform="translate(352.4 0)">
+    <g clip-path="url(#face-clip)">
+      <rect width="344" height="344" fill="#000000" />
+    </g>
+    <rect x="-2.1" y="-2.1" width="348.2" height="348.2" rx="33.1" fill="none" stroke-width="4.2" stroke="#000000" />
+    <rect x="6.3" y="6.3" width="331.4" height="331.4" rx="24.7" fill="none" stroke-width="12.6" stroke="#6AF2A8" />
+  </g>
+  <g transform="translate(704.8 0)">
+    <g clip-path="url(#face-clip)">
+      <rect width="344" height="344" fill="#000000" />
+    </g>
+    <rect x="-2.1" y="-2.1" width="348.2" height="348.2" rx="33.1" fill="none" stroke-width="4.2" stroke="#000000" />
+    <rect x="6.3" y="6.3" width="331.4" height="331.4" rx="24.7" fill="none" stroke-width="12.6" stroke="#6AF2A8" />
+  </g>
+</svg>

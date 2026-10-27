@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" width="675" height="1050" viewBox="0 0 675 1050">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2.25in" height="3.5in" viewBox="0 0 675 1050"><defs><clipPath id="vector-upgrade-art-clip"><path d="M31 159 H644 V970 C644 998 622 1020 594 1020 H81 C53 1020 31 998 31 970 Z" /></clipPath></defs>
   <title>Shore Leave II — editable SVG card</title>
-  <desc>Editable vector card layout. Artwork and inline symbols are linked raster assets; title and rules are editable SVG text.</desc>
+  <desc>Editable vector card layout. Artwork and inline symbols are linked raster assets; title and rules are editable SVG text. Raster icon instances replaced with embedded SVG vector shapes; original text preserved.</desc>
   <defs id="rules-layout-defaults">
     <style type="text/css">
       .rules-text { font-family: "Avenir Next Condensed"; font-size: 45.833333px; font-weight: 400; fill: #F7F7F7; }
@@ -17,9 +17,9 @@
   </g>
   <g id="dark-panels" aria-label="Dark content panels">
     <path id="full-upgrade-panel" d="M31 159 H644 V970 C644 998 622 1020 594 1020 H81 C53 1020 31 998 31 970 Z" fill="#101219" /></g>
-  <g id="linked-card-art" aria-label="Linked original card artwork"><image x="31" y="159" width="613" height="350" preserveAspectRatio="xMidYMid slice" clip-path="url(#shore_leave_ii-clip)" href="../../art/cardart_source/shore_leave.png" /></g><g id="accent-elements" aria-label="Change this group color to recolor the template" fill="#EDB378" stroke="#EDB378">
+  <g id="linked-card-art" aria-label="Linked original card artwork"><g id="upgrade-full-resolution-art" clip-path="url(#vector-upgrade-art-clip)"><image x="31" y="159" width="613" height="862" preserveAspectRatio="xMidYMid slice" href="../../art/shore_leave.png" /></g></g><g id="accent-elements" aria-label="Change this group color to recolor the template" fill="#EDB378" stroke="#EDB378">
     <path id="header" d="M24 76 C24 46.2 48.2 22 78 22 H597 C626.8 22 651 46.2 651 76 V158 H24 Z" stroke="none" />
-    <path id="inner-frame" data-text-equivalent="expanded 6px red perimeter stroke" d="M27.000 161.000 L648.000 161.000 L645.000 158.000 L645.000 970.000 C645.000 998.196 622.488 1021.000 595.000 1021.000 L80.000 1021.000 C52.512 1021.000 30.000 998.196 30.000 970.000 L30.000 158.000 L27.000 161.000 Z M27.000 155.000 C25.343 155.000 24.000 156.343 24.000 158.000 L24.000 970.000 C24.000 1001.492 49.181 1027.000 80.000 1027.000 L595.000 1027.000 C625.819 1027.000 651.000 1001.492 651.000 970.000 L651.000 158.000 C651.000 156.343 649.657 155.000 648.000 155.000 L27.000 155.000 Z " fill="#EDB378" stroke="none" />
+    <path id="inner-frame" data-text-equivalent="expanded 6px red perimeter stroke" d="M36 158 H639 V970 C639 994.853 619.301 1015 595 1015 H80 C55.699 1015 36 994.853 36 970 Z M27.000 155.000 C25.343 155.000 24.000 156.343 24.000 158.000 L24.000 970.000 C24.000 1001.492 49.181 1027.000 80.000 1027.000 L595.000 1027.000 C625.819 1027.000 651.000 1001.492 651.000 970.000 L651.000 158.000 C651.000 156.343 649.657 155.000 648.000 155.000 L27.000 155.000 Z " fill="#EDB378" stroke="none" />
   </g>
   <g id="instant-action-cp-tag" aria-label="Editable Main Phase Action CP tag" transform="translate(24 169)">
     <defs>
@@ -81,4 +81,160 @@
     <path id="cp-tag-outer-outline" d="M0 0.5 H51.5 C55.4 0.5 58.5 3.6 58.5 7.5 V174.5 C58.5 178.4 55.4 181.5 51.5 181.5 H43 V375 C43 379.4 39.9 382.5 35.5 382.5 H0 Z" fill="none" stroke="#3A3A3A" stroke-width="1.2" stroke-linejoin="round" pointer-events="none" />
   </g>
   <g id="card-title" aria-label="Shore Leave II" transform="translate(17.69 -4) scale(0.9476 1)"><text id="card-title-text" data-text="SHORE LEAVE II" data-font="Helvetica Compressed" x="337.5" y="121" text-anchor="middle" font-family="Helvetica Compressed" font-size="62px" font-weight="400" fill="#101219">SHORE LEAVE II</text></g>
-<g id="editable-rules" aria-label="Editable rules text and linked inline icons" font-family="Avenir Next Condensed, sans-serif" font-size="36px" fill="#F7F7F7" text-anchor="middle"><text x="316.5" y="708.5" text-anchor="start" font-family="Avenir Next Condensed, sans-serif" font-size="36px" font-weight="400" fill="#F7F7F7" stroke="#000000" stroke-width="1.2" paint-order="stroke fill" stroke-linejoin="round"><tspan fill="#F7F7F7"> </tspan><tspan fill="#F7F7F7"> </tspan><tspan fill="#F7F7F7"> </tspan></text><image x="316.5" y="687.5" width="36" height="36" preserveAspectRatio="xMidYMid meet" href="../../icons/combadge_die.png" aria-label="combadge_die.png" /><image x="356.5" y="687.5" width="36" height="36" preserveAspectRatio="xMidYMid meet" href="../../icons/combadge_die.png" aria-label="combadge_die.png" /><image x="396.5" y="687.5" width="36" height="36" preserveAspectRatio="xMidYMid meet" href="../../icons/combadge_die.png" aria-label="combadge_die.png" /><text x="242.75" y="752.5" text-anchor="start" font-family="Avenir Next Condensed, sans-serif" font-size="36px" font-weight="400" fill="#F7F7F7" stroke="#000000" stroke-width="1.2" paint-order="stroke fill" stroke-linejoin="round"><tspan x="242.75" y="752.5">Gain </tspan><tspan x="316.75" y="752.5">2 </tspan><tspan fill="#F7F7F7"> </tspan><tspan x="384.25" y="752.5">and </tspan><tspan x="442.75" y="752.5">2 </tspan><tspan fill="#F7F7F7"> </tspan></text><image x="344.25" y="731.5" width="36" height="36" preserveAspectRatio="xMidYMid meet" href="../../icons/coffee_token.png" aria-label="coffee_token.png" /><image x="470.25" y="731.5" width="36" height="36" preserveAspectRatio="xMidYMid meet" href="../../icons/command_codes_token.png" aria-label="command_codes_token.png" /><text x="319.5" y="796.5" text-anchor="start" font-family="Avenir Next Condensed, sans-serif" font-size="36px" font-weight="400" fill="#F7F7F7" stroke="#000000" stroke-width="1.2" paint-order="stroke fill" stroke-linejoin="round"><tspan x="319.5" y="796.5">Draw </tspan><tspan fill="#F7F7F7"> </tspan></text><image x="393.5" y="775.5" width="36" height="36" preserveAspectRatio="xMidYMid meet" href="../../../../Shared/icons/carddraw_1.png" aria-label="carddraw_1.png" /></g></svg>
+<g id="editable-rules" aria-label="Editable rules text and linked inline icons" font-family="Avenir Next Condensed, sans-serif" font-size="36px" fill="#F7F7F7" text-anchor="middle"><text x="210" y="247.5" text-anchor="start" font-family="Avenir Next Condensed, sans-serif" font-size="36px" font-weight="400" fill="#F7F7F7" stroke="#000000" stroke-width="1.2" paint-order="stroke fill" stroke-linejoin="round"><tspan fill="#F7F7F7"> </tspan><tspan fill="#F7F7F7"> </tspan><tspan fill="#F7F7F7"> </tspan></text><g class="vector-die-cluster" filter="url(#vectorIconHalo)"><svg viewBox="0 0 344 344" x="210" y="193" width="85" height="85" preserveAspectRatio="xMidYMid meet" aria-label="combadge_die.png" data-original-x="316.5" data-original-y="687.5" data-original-width="36" data-original-height="36" overflow="visible" data-vector-icon="combadge_die" data-vector-source="Heroes/Janeway/icons/combadge_die.svg" data-original-icon="../../icons/combadge_die.png" stroke="none" fill="#000000" text-anchor="start">
+  <title>Combadge die face</title>
+  <desc>Hand-drawn vector draft with a solid, color-matched die-face background.</desc>
+  <defs>
+    <clipPath id="vi1-face-clip">
+      <rect x="0" y="0" width="344" height="344" rx="31" />
+    </clipPath>
+    <clipPath id="vi1-clip-gold-bars" clipPathUnits="userSpaceOnUse">
+      <path d="m 232.70572,218.03132 -154.417074,18.3161 c -9.57147,1.026 -18.70758,5.7031 -25.1416,12.8633 -4.36725,4.8604 -7.49726,10.8156 -9.01979,17.1699 l -26.95373,153.101 c -1.66364,5.5463 -0.37652,11.888 3.31541,16.3489 2.65658,3.2098 6.48302,5.4291 10.58808,6.1435 l 115.209424,14.4156 379.61907,0 115.20946,-14.4156 c 4.10506,-0.7144 7.93149,-2.9337 10.58808,-6.1435 3.69193,-4.4609 4.9709,-10.8026 3.30729,-16.3489 l -26.95373,-153.101 c -1.52253,-6.3543 -4.65254,-12.3095 -9.01979,-17.1699 -6.43401,-7.1602 -15.57017,-11.8373 -25.14163,-12.8633 l -154.41704,-18.3161 z m -121.70133,103.1852 450.18321,0 c 9.97628,0 18.00767,8.0314 18.00767,18.0078 0,9.976 -8.03139,18.0074 -18.00767,18.0074 l -450.18321,0 c -9.97629,0 -18.007674,-8.0314 -18.007674,-18.0074 0,-9.9764 8.031384,-18.0078 18.007674,-18.0078 z" transform="translate(81.57205 74.27132) scale(0.26905653)" clip-rule="evenodd" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#vi1-face-clip)">
+    <rect width="344" height="344" fill="#084064" />
+
+    
+    <g transform="translate(81.57205 74.27132) scale(0.26905653)">
+      <path d="m 232.70572,218.03132 -154.417074,18.3161 c -9.57147,1.026 -18.70758,5.7031 -25.1416,12.8633 -4.36725,4.8604 -7.49726,10.8156 -9.01979,17.1699 l -26.95373,153.101 c -1.66364,5.5463 -0.37652,11.888 3.31541,16.3489 2.65658,3.2098 6.48302,5.4291 10.58808,6.1435 l 115.209424,14.4156 379.61907,0 115.20946,-14.4156 c 4.10506,-0.7144 7.93149,-2.9337 10.58808,-6.1435 3.69193,-4.4609 4.9709,-10.8026 3.30729,-16.3489 l -26.95373,-153.101 c -1.52253,-6.3543 -4.65254,-12.3095 -9.01979,-17.1699 -6.43401,-7.1602 -15.57017,-11.8373 -25.14163,-12.8633 l -154.41704,-18.3161 z m -121.70133,103.1852 450.18321,0 c 9.97628,0 18.00767,8.0314 18.00767,18.0078 0,9.976 -8.03139,18.0074 -18.00767,18.0074 l -450.18321,0 c -9.97629,0 -18.007674,-8.0314 -18.007674,-18.0074 0,-9.9764 8.031384,-18.0078 18.007674,-18.0078 z" fill="#D4AF37" fill-rule="evenodd" stroke="#55595D" stroke-width="11" stroke-linejoin="round" />
+    </g>
+
+    
+    
+    <path d="m 344.167,16.45792 -1.76332,2.2591 -5.28185,6.777 c -4.62475,5.9354 -9.27134,11.9422 -13.78969,18.1289 -60.05624,82.2343 -102.17032,176.019 -136.57255,271.4711 -21.14125,58.6585 -39.56559,118.3243 -54.33807,178.9413 -18.48616,75.8562 -31.02496,153.1241 -37.858714,230.8739 l -2.07213,23.5487 16.365654,-17.0562 c 26.31153,-27.4209 53.41902,-54.0526 81.51118,-79.5692 38.25458,-34.747 78.26135,-67.7521 122.66907,-93.5457 16.80533,-9.761 34.18958,-18.448 52.2822,-25.1985 9.76868,-3.6449 19.59976,-6.5972 29.35899,-6.5493 8.85761,0.041 17.76872,2.552 26.2549,6.2486 19.2023,8.3642 35.78258,22.3122 50.89268,37.6069 25.03646,25.3419 46.3629,54.2797 66.95767,83.7542 7.57802,10.8446 14.97272,21.9045 22.42759,32.9992 l 19.78664,29.4645 -4.63993,-35.1851 c -4.00059,-30.3652 -8.78605,-60.6698 -14.83792,-90.7829 -14.91052,-74.1913 -35.93678,-146.933 -58.69363,-218.9371 -14.90615,-47.1641 -30.59186,-94.1421 -48.42241,-140.3671 -24.16355,-62.6435 -52.34649,-124.0437 -87.97131,-181.1679 -5.13815,-8.239 -10.48624,-16.2779 -15.85371,-24.2232 l -6.41134,-9.4912 z" transform="translate(89.19411 74.95297) scale(0.24590164)" fill="#C2CAD2" stroke="none" />
+    <path d="m 344.167,16.45792 -1.76332,2.2591 -5.28185,6.777 c -4.62475,5.9354 -9.27134,11.9422 -13.78969,18.1289 -60.05624,82.2343 -102.17032,176.019 -136.57255,271.4711 -21.14125,58.6585 -39.56559,118.3243 -54.33807,178.9413 -18.48616,75.8562 -31.02496,153.1241 -37.858714,230.8739 l -2.07213,23.5487 16.365654,-17.0562 c 26.31153,-27.4209 53.41902,-54.0526 81.51118,-79.5692 38.25458,-34.747 78.26135,-67.7521 122.66907,-93.5457 16.80533,-9.761 34.18958,-18.448 52.2822,-25.1985 9.76868,-3.6449 19.59976,-6.5972 29.35899,-6.5493 8.85761,0.041 17.76872,2.552 26.2549,6.2486 19.2023,8.3642 35.78258,22.3122 50.89268,37.6069 25.03646,25.3419 46.3629,54.2797 66.95767,83.7542 7.57802,10.8446 14.97272,21.9045 22.42759,32.9992 l 19.78664,29.4645 -4.63993,-35.1851 c -4.00059,-30.3652 -8.78605,-60.6698 -14.83792,-90.7829 -14.91052,-74.1913 -35.93678,-146.933 -58.69363,-218.9371 -14.90615,-47.1641 -30.59186,-94.1421 -48.42241,-140.3671 -24.16355,-62.6435 -52.34649,-124.0437 -87.97131,-181.1679 -5.13815,-8.239 -10.48624,-16.2779 -15.85371,-24.2232 l -6.41134,-9.4912 z" transform="translate(89.19411 74.95297) scale(0.24590164)" fill="none" stroke="#55595D" stroke-width="11" stroke-linejoin="round" />
+    <path d="m 344.167,16.45792 -1.76332,2.2591 -5.28185,6.777 c -4.62475,5.9354 -9.27134,11.9422 -13.78969,18.1289 -60.05624,82.2343 -102.17032,176.019 -136.57255,271.4711 -21.14125,58.6585 -39.56559,118.3243 -54.33807,178.9413 -18.48616,75.8562 -31.02496,153.1241 -37.858714,230.8739 l -2.07213,23.5487 16.365654,-17.0562 c 26.31153,-27.4209 53.41902,-54.0526 81.51118,-79.5692 38.25458,-34.747 78.26135,-67.7521 122.66907,-93.5457 16.80533,-9.761 34.18958,-18.448 52.2822,-25.1985 9.76868,-3.6449 19.59976,-6.5972 29.35899,-6.5493 8.85761,0.041 17.76872,2.552 26.2549,6.2486 19.2023,8.3642 35.78258,22.3122 50.89268,37.6069 25.03646,25.3419 46.3629,54.2797 66.95767,83.7542 7.57802,10.8446 14.97272,21.9045 22.42759,32.9992 l 19.78664,29.4645 -4.63993,-35.1851 c -4.00059,-30.3652 -8.78605,-60.6698 -14.83792,-90.7829 -14.91052,-74.1913 -35.93678,-146.933 -58.69363,-218.9371 -14.90615,-47.1641 -30.59186,-94.1421 -48.42241,-140.3671 -24.16355,-62.6435 -52.34649,-124.0437 -87.97131,-181.1679 -5.13815,-8.239 -10.48624,-16.2779 -15.85371,-24.2232 l -6.41134,-9.4912 z" transform="translate(89.19411 74.95297) scale(0.24590164)" fill="none" stroke="#55595D" stroke-width="11" stroke-linejoin="round" clip-path="url(#vi1-clip-gold-bars)" />
+    
+    <rect x="6.3" y="6.3" width="331.4" height="331.4" rx="24.7" fill="none" stroke="#086480" stroke-width="12.6" />
+  </g>
+</svg><svg viewBox="0 0 344 344" x="295" y="193" width="85" height="85" preserveAspectRatio="xMidYMid meet" aria-label="combadge_die.png" data-original-x="356.5" data-original-y="687.5" data-original-width="36" data-original-height="36" overflow="visible" data-vector-icon="combadge_die" data-vector-source="Heroes/Janeway/icons/combadge_die.svg" data-original-icon="../../icons/combadge_die.png" stroke="none" fill="#000000" text-anchor="start">
+  <title>Combadge die face</title>
+  <desc>Hand-drawn vector draft with a solid, color-matched die-face background.</desc>
+  <defs>
+    <clipPath id="vi2-face-clip">
+      <rect x="0" y="0" width="344" height="344" rx="31" />
+    </clipPath>
+    <clipPath id="vi2-clip-gold-bars" clipPathUnits="userSpaceOnUse">
+      <path d="m 232.70572,218.03132 -154.417074,18.3161 c -9.57147,1.026 -18.70758,5.7031 -25.1416,12.8633 -4.36725,4.8604 -7.49726,10.8156 -9.01979,17.1699 l -26.95373,153.101 c -1.66364,5.5463 -0.37652,11.888 3.31541,16.3489 2.65658,3.2098 6.48302,5.4291 10.58808,6.1435 l 115.209424,14.4156 379.61907,0 115.20946,-14.4156 c 4.10506,-0.7144 7.93149,-2.9337 10.58808,-6.1435 3.69193,-4.4609 4.9709,-10.8026 3.30729,-16.3489 l -26.95373,-153.101 c -1.52253,-6.3543 -4.65254,-12.3095 -9.01979,-17.1699 -6.43401,-7.1602 -15.57017,-11.8373 -25.14163,-12.8633 l -154.41704,-18.3161 z m -121.70133,103.1852 450.18321,0 c 9.97628,0 18.00767,8.0314 18.00767,18.0078 0,9.976 -8.03139,18.0074 -18.00767,18.0074 l -450.18321,0 c -9.97629,0 -18.007674,-8.0314 -18.007674,-18.0074 0,-9.9764 8.031384,-18.0078 18.007674,-18.0078 z" transform="translate(81.57205 74.27132) scale(0.26905653)" clip-rule="evenodd" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#vi2-face-clip)">
+    <rect width="344" height="344" fill="#084064" />
+
+    
+    <g transform="translate(81.57205 74.27132) scale(0.26905653)">
+      <path d="m 232.70572,218.03132 -154.417074,18.3161 c -9.57147,1.026 -18.70758,5.7031 -25.1416,12.8633 -4.36725,4.8604 -7.49726,10.8156 -9.01979,17.1699 l -26.95373,153.101 c -1.66364,5.5463 -0.37652,11.888 3.31541,16.3489 2.65658,3.2098 6.48302,5.4291 10.58808,6.1435 l 115.209424,14.4156 379.61907,0 115.20946,-14.4156 c 4.10506,-0.7144 7.93149,-2.9337 10.58808,-6.1435 3.69193,-4.4609 4.9709,-10.8026 3.30729,-16.3489 l -26.95373,-153.101 c -1.52253,-6.3543 -4.65254,-12.3095 -9.01979,-17.1699 -6.43401,-7.1602 -15.57017,-11.8373 -25.14163,-12.8633 l -154.41704,-18.3161 z m -121.70133,103.1852 450.18321,0 c 9.97628,0 18.00767,8.0314 18.00767,18.0078 0,9.976 -8.03139,18.0074 -18.00767,18.0074 l -450.18321,0 c -9.97629,0 -18.007674,-8.0314 -18.007674,-18.0074 0,-9.9764 8.031384,-18.0078 18.007674,-18.0078 z" fill="#D4AF37" fill-rule="evenodd" stroke="#55595D" stroke-width="11" stroke-linejoin="round" />
+    </g>
+
+    
+    
+    <path d="m 344.167,16.45792 -1.76332,2.2591 -5.28185,6.777 c -4.62475,5.9354 -9.27134,11.9422 -13.78969,18.1289 -60.05624,82.2343 -102.17032,176.019 -136.57255,271.4711 -21.14125,58.6585 -39.56559,118.3243 -54.33807,178.9413 -18.48616,75.8562 -31.02496,153.1241 -37.858714,230.8739 l -2.07213,23.5487 16.365654,-17.0562 c 26.31153,-27.4209 53.41902,-54.0526 81.51118,-79.5692 38.25458,-34.747 78.26135,-67.7521 122.66907,-93.5457 16.80533,-9.761 34.18958,-18.448 52.2822,-25.1985 9.76868,-3.6449 19.59976,-6.5972 29.35899,-6.5493 8.85761,0.041 17.76872,2.552 26.2549,6.2486 19.2023,8.3642 35.78258,22.3122 50.89268,37.6069 25.03646,25.3419 46.3629,54.2797 66.95767,83.7542 7.57802,10.8446 14.97272,21.9045 22.42759,32.9992 l 19.78664,29.4645 -4.63993,-35.1851 c -4.00059,-30.3652 -8.78605,-60.6698 -14.83792,-90.7829 -14.91052,-74.1913 -35.93678,-146.933 -58.69363,-218.9371 -14.90615,-47.1641 -30.59186,-94.1421 -48.42241,-140.3671 -24.16355,-62.6435 -52.34649,-124.0437 -87.97131,-181.1679 -5.13815,-8.239 -10.48624,-16.2779 -15.85371,-24.2232 l -6.41134,-9.4912 z" transform="translate(89.19411 74.95297) scale(0.24590164)" fill="#C2CAD2" stroke="none" />
+    <path d="m 344.167,16.45792 -1.76332,2.2591 -5.28185,6.777 c -4.62475,5.9354 -9.27134,11.9422 -13.78969,18.1289 -60.05624,82.2343 -102.17032,176.019 -136.57255,271.4711 -21.14125,58.6585 -39.56559,118.3243 -54.33807,178.9413 -18.48616,75.8562 -31.02496,153.1241 -37.858714,230.8739 l -2.07213,23.5487 16.365654,-17.0562 c 26.31153,-27.4209 53.41902,-54.0526 81.51118,-79.5692 38.25458,-34.747 78.26135,-67.7521 122.66907,-93.5457 16.80533,-9.761 34.18958,-18.448 52.2822,-25.1985 9.76868,-3.6449 19.59976,-6.5972 29.35899,-6.5493 8.85761,0.041 17.76872,2.552 26.2549,6.2486 19.2023,8.3642 35.78258,22.3122 50.89268,37.6069 25.03646,25.3419 46.3629,54.2797 66.95767,83.7542 7.57802,10.8446 14.97272,21.9045 22.42759,32.9992 l 19.78664,29.4645 -4.63993,-35.1851 c -4.00059,-30.3652 -8.78605,-60.6698 -14.83792,-90.7829 -14.91052,-74.1913 -35.93678,-146.933 -58.69363,-218.9371 -14.90615,-47.1641 -30.59186,-94.1421 -48.42241,-140.3671 -24.16355,-62.6435 -52.34649,-124.0437 -87.97131,-181.1679 -5.13815,-8.239 -10.48624,-16.2779 -15.85371,-24.2232 l -6.41134,-9.4912 z" transform="translate(89.19411 74.95297) scale(0.24590164)" fill="none" stroke="#55595D" stroke-width="11" stroke-linejoin="round" />
+    <path d="m 344.167,16.45792 -1.76332,2.2591 -5.28185,6.777 c -4.62475,5.9354 -9.27134,11.9422 -13.78969,18.1289 -60.05624,82.2343 -102.17032,176.019 -136.57255,271.4711 -21.14125,58.6585 -39.56559,118.3243 -54.33807,178.9413 -18.48616,75.8562 -31.02496,153.1241 -37.858714,230.8739 l -2.07213,23.5487 16.365654,-17.0562 c 26.31153,-27.4209 53.41902,-54.0526 81.51118,-79.5692 38.25458,-34.747 78.26135,-67.7521 122.66907,-93.5457 16.80533,-9.761 34.18958,-18.448 52.2822,-25.1985 9.76868,-3.6449 19.59976,-6.5972 29.35899,-6.5493 8.85761,0.041 17.76872,2.552 26.2549,6.2486 19.2023,8.3642 35.78258,22.3122 50.89268,37.6069 25.03646,25.3419 46.3629,54.2797 66.95767,83.7542 7.57802,10.8446 14.97272,21.9045 22.42759,32.9992 l 19.78664,29.4645 -4.63993,-35.1851 c -4.00059,-30.3652 -8.78605,-60.6698 -14.83792,-90.7829 -14.91052,-74.1913 -35.93678,-146.933 -58.69363,-218.9371 -14.90615,-47.1641 -30.59186,-94.1421 -48.42241,-140.3671 -24.16355,-62.6435 -52.34649,-124.0437 -87.97131,-181.1679 -5.13815,-8.239 -10.48624,-16.2779 -15.85371,-24.2232 l -6.41134,-9.4912 z" transform="translate(89.19411 74.95297) scale(0.24590164)" fill="none" stroke="#55595D" stroke-width="11" stroke-linejoin="round" clip-path="url(#vi2-clip-gold-bars)" />
+    
+    <rect x="6.3" y="6.3" width="331.4" height="331.4" rx="24.7" fill="none" stroke="#086480" stroke-width="12.6" />
+  </g>
+</svg><svg viewBox="0 0 344 344" x="380" y="193" width="85" height="85" preserveAspectRatio="xMidYMid meet" aria-label="combadge_die.png" data-original-x="396.5" data-original-y="687.5" data-original-width="36" data-original-height="36" overflow="visible" data-vector-icon="combadge_die" data-vector-source="Heroes/Janeway/icons/combadge_die.svg" data-original-icon="../../icons/combadge_die.png" stroke="none" fill="#000000" text-anchor="start">
+  <title>Combadge die face</title>
+  <desc>Hand-drawn vector draft with a solid, color-matched die-face background.</desc>
+  <defs>
+    <clipPath id="vi3-face-clip">
+      <rect x="0" y="0" width="344" height="344" rx="31" />
+    </clipPath>
+    <clipPath id="vi3-clip-gold-bars" clipPathUnits="userSpaceOnUse">
+      <path d="m 232.70572,218.03132 -154.417074,18.3161 c -9.57147,1.026 -18.70758,5.7031 -25.1416,12.8633 -4.36725,4.8604 -7.49726,10.8156 -9.01979,17.1699 l -26.95373,153.101 c -1.66364,5.5463 -0.37652,11.888 3.31541,16.3489 2.65658,3.2098 6.48302,5.4291 10.58808,6.1435 l 115.209424,14.4156 379.61907,0 115.20946,-14.4156 c 4.10506,-0.7144 7.93149,-2.9337 10.58808,-6.1435 3.69193,-4.4609 4.9709,-10.8026 3.30729,-16.3489 l -26.95373,-153.101 c -1.52253,-6.3543 -4.65254,-12.3095 -9.01979,-17.1699 -6.43401,-7.1602 -15.57017,-11.8373 -25.14163,-12.8633 l -154.41704,-18.3161 z m -121.70133,103.1852 450.18321,0 c 9.97628,0 18.00767,8.0314 18.00767,18.0078 0,9.976 -8.03139,18.0074 -18.00767,18.0074 l -450.18321,0 c -9.97629,0 -18.007674,-8.0314 -18.007674,-18.0074 0,-9.9764 8.031384,-18.0078 18.007674,-18.0078 z" transform="translate(81.57205 74.27132) scale(0.26905653)" clip-rule="evenodd" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#vi3-face-clip)">
+    <rect width="344" height="344" fill="#084064" />
+
+    
+    <g transform="translate(81.57205 74.27132) scale(0.26905653)">
+      <path d="m 232.70572,218.03132 -154.417074,18.3161 c -9.57147,1.026 -18.70758,5.7031 -25.1416,12.8633 -4.36725,4.8604 -7.49726,10.8156 -9.01979,17.1699 l -26.95373,153.101 c -1.66364,5.5463 -0.37652,11.888 3.31541,16.3489 2.65658,3.2098 6.48302,5.4291 10.58808,6.1435 l 115.209424,14.4156 379.61907,0 115.20946,-14.4156 c 4.10506,-0.7144 7.93149,-2.9337 10.58808,-6.1435 3.69193,-4.4609 4.9709,-10.8026 3.30729,-16.3489 l -26.95373,-153.101 c -1.52253,-6.3543 -4.65254,-12.3095 -9.01979,-17.1699 -6.43401,-7.1602 -15.57017,-11.8373 -25.14163,-12.8633 l -154.41704,-18.3161 z m -121.70133,103.1852 450.18321,0 c 9.97628,0 18.00767,8.0314 18.00767,18.0078 0,9.976 -8.03139,18.0074 -18.00767,18.0074 l -450.18321,0 c -9.97629,0 -18.007674,-8.0314 -18.007674,-18.0074 0,-9.9764 8.031384,-18.0078 18.007674,-18.0078 z" fill="#D4AF37" fill-rule="evenodd" stroke="#55595D" stroke-width="11" stroke-linejoin="round" />
+    </g>
+
+    
+    
+    <path d="m 344.167,16.45792 -1.76332,2.2591 -5.28185,6.777 c -4.62475,5.9354 -9.27134,11.9422 -13.78969,18.1289 -60.05624,82.2343 -102.17032,176.019 -136.57255,271.4711 -21.14125,58.6585 -39.56559,118.3243 -54.33807,178.9413 -18.48616,75.8562 -31.02496,153.1241 -37.858714,230.8739 l -2.07213,23.5487 16.365654,-17.0562 c 26.31153,-27.4209 53.41902,-54.0526 81.51118,-79.5692 38.25458,-34.747 78.26135,-67.7521 122.66907,-93.5457 16.80533,-9.761 34.18958,-18.448 52.2822,-25.1985 9.76868,-3.6449 19.59976,-6.5972 29.35899,-6.5493 8.85761,0.041 17.76872,2.552 26.2549,6.2486 19.2023,8.3642 35.78258,22.3122 50.89268,37.6069 25.03646,25.3419 46.3629,54.2797 66.95767,83.7542 7.57802,10.8446 14.97272,21.9045 22.42759,32.9992 l 19.78664,29.4645 -4.63993,-35.1851 c -4.00059,-30.3652 -8.78605,-60.6698 -14.83792,-90.7829 -14.91052,-74.1913 -35.93678,-146.933 -58.69363,-218.9371 -14.90615,-47.1641 -30.59186,-94.1421 -48.42241,-140.3671 -24.16355,-62.6435 -52.34649,-124.0437 -87.97131,-181.1679 -5.13815,-8.239 -10.48624,-16.2779 -15.85371,-24.2232 l -6.41134,-9.4912 z" transform="translate(89.19411 74.95297) scale(0.24590164)" fill="#C2CAD2" stroke="none" />
+    <path d="m 344.167,16.45792 -1.76332,2.2591 -5.28185,6.777 c -4.62475,5.9354 -9.27134,11.9422 -13.78969,18.1289 -60.05624,82.2343 -102.17032,176.019 -136.57255,271.4711 -21.14125,58.6585 -39.56559,118.3243 -54.33807,178.9413 -18.48616,75.8562 -31.02496,153.1241 -37.858714,230.8739 l -2.07213,23.5487 16.365654,-17.0562 c 26.31153,-27.4209 53.41902,-54.0526 81.51118,-79.5692 38.25458,-34.747 78.26135,-67.7521 122.66907,-93.5457 16.80533,-9.761 34.18958,-18.448 52.2822,-25.1985 9.76868,-3.6449 19.59976,-6.5972 29.35899,-6.5493 8.85761,0.041 17.76872,2.552 26.2549,6.2486 19.2023,8.3642 35.78258,22.3122 50.89268,37.6069 25.03646,25.3419 46.3629,54.2797 66.95767,83.7542 7.57802,10.8446 14.97272,21.9045 22.42759,32.9992 l 19.78664,29.4645 -4.63993,-35.1851 c -4.00059,-30.3652 -8.78605,-60.6698 -14.83792,-90.7829 -14.91052,-74.1913 -35.93678,-146.933 -58.69363,-218.9371 -14.90615,-47.1641 -30.59186,-94.1421 -48.42241,-140.3671 -24.16355,-62.6435 -52.34649,-124.0437 -87.97131,-181.1679 -5.13815,-8.239 -10.48624,-16.2779 -15.85371,-24.2232 l -6.41134,-9.4912 z" transform="translate(89.19411 74.95297) scale(0.24590164)" fill="none" stroke="#55595D" stroke-width="11" stroke-linejoin="round" />
+    <path d="m 344.167,16.45792 -1.76332,2.2591 -5.28185,6.777 c -4.62475,5.9354 -9.27134,11.9422 -13.78969,18.1289 -60.05624,82.2343 -102.17032,176.019 -136.57255,271.4711 -21.14125,58.6585 -39.56559,118.3243 -54.33807,178.9413 -18.48616,75.8562 -31.02496,153.1241 -37.858714,230.8739 l -2.07213,23.5487 16.365654,-17.0562 c 26.31153,-27.4209 53.41902,-54.0526 81.51118,-79.5692 38.25458,-34.747 78.26135,-67.7521 122.66907,-93.5457 16.80533,-9.761 34.18958,-18.448 52.2822,-25.1985 9.76868,-3.6449 19.59976,-6.5972 29.35899,-6.5493 8.85761,0.041 17.76872,2.552 26.2549,6.2486 19.2023,8.3642 35.78258,22.3122 50.89268,37.6069 25.03646,25.3419 46.3629,54.2797 66.95767,83.7542 7.57802,10.8446 14.97272,21.9045 22.42759,32.9992 l 19.78664,29.4645 -4.63993,-35.1851 c -4.00059,-30.3652 -8.78605,-60.6698 -14.83792,-90.7829 -14.91052,-74.1913 -35.93678,-146.933 -58.69363,-218.9371 -14.90615,-47.1641 -30.59186,-94.1421 -48.42241,-140.3671 -24.16355,-62.6435 -52.34649,-124.0437 -87.97131,-181.1679 -5.13815,-8.239 -10.48624,-16.2779 -15.85371,-24.2232 l -6.41134,-9.4912 z" transform="translate(89.19411 74.95297) scale(0.24590164)" fill="none" stroke="#55595D" stroke-width="11" stroke-linejoin="round" clip-path="url(#vi3-clip-gold-bars)" />
+    
+    <rect x="6.3" y="6.3" width="331.4" height="331.4" rx="24.7" fill="none" stroke="#086480" stroke-width="12.6" />
+  </g>
+</svg></g><text x="191.1044921875" y="329.50006103515625" text-anchor="start" font-family="Avenir Next Condensed, sans-serif" font-size="36px" font-weight="400" fill="#F7F7F7" stroke="#000000" stroke-width="1.2" paint-order="stroke fill" stroke-linejoin="round"><tspan x="191.1044921875" y="329.50006103515625">Gain </tspan><tspan x="256.4365234375" y="329.50006103515625">2 </tspan><tspan fill="#F7F7F7"> </tspan><tspan x="350.0205078125" y="329.50006103515625">and </tspan><tspan x="404.9521484375" y="329.50006103515625">2 </tspan><tspan fill="#F7F7F7"> </tspan></text><g class="vector-icon-halo" filter="url(#vectorIconHalo)"><svg viewBox="-5 -5 354 354" x="288.0205078125" y="290" width="54" height="54" preserveAspectRatio="xMidYMid meet" aria-label="coffee_token.png" data-original-x="344.25" data-original-y="731.5" data-original-width="36" data-original-height="36" overflow="visible" data-vector-icon="coffee_token" data-vector-source="Heroes/Janeway/icons/coffee_token.svg" data-original-icon="../../icons/coffee_token.png" stroke="none" fill="#000000" text-anchor="start">
+  <title>Coffee token</title>
+  <desc>Vector coffee cup and steam on a full-bleed dark blue circular background.</desc>
+  <defs>
+    <clipPath id="vi4-face-clip">
+      <circle cx="172" cy="172" r="172" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#vi4-face-clip)">
+    <rect width="344" height="344" fill="#4A3528" />
+
+    <g transform="translate(0 3.7) translate(172 172) scale(0.9986 0.8694) translate(-172 -172)">
+    <g fill="#7A848B" transform="translate(0 -28)">
+      
+
+      <g transform="translate(16.5 -35.175) scale(0.9 1.15)">
+      
+      <g transform="translate(330 0) scale(-1 1)" fill="#111111">
+        <path d="M121 176 L88 176 C67 176 50 188 50 207 L50 256 C50 275 67 287 88 287 L121 287 L121 268 L91 268 C82 268 76 263 76 255 L76 208 C76 200 82 195 91 195 L121 195 Z" />
+      </g>
+
+      
+      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168 C217 176 192 181 165 181 C138 181 113 176 101 168 Z" />
+
+      
+      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169 C230 178 201 184 165 184 C129 184 100 178 100 169 Z" />
+      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+    </g>
+
+    <g transform="translate(16.5 -63.175) scale(0.9 1.15)">
+    
+
+    
+    <path d="M109 169 C109 164 134 160 165 160 C196 160 221 164 221 169 C221 174 196 178 165 178 C134 178 109 174 109 169 Z" fill="#3B271C" />
+    </g>
+    <g fill="#D8C7A8">
+      <path d="M151 75 C162 84 171 97 169 109 C167 122 157 132 149 143 C141 154 143 164 152 173 C138 168 131 156 137 143 C142 131 153 121 158 110 C164 97 159 85 151 75 Z" transform="translate(0 -41.825)" />
+      <path d="M181 99 C192 108 196 119 192 131 C188 142 180 151 179 161 C178 168 181 174 188 179 C176 176 168 167 169 156 C170 143 180 132 183 121 C185 113 183 105 181 99 Z" transform="translate(0 -47.825)" />
+    </g>
+    </g>
+    <circle cx="172" cy="172" r="165.7" fill="none" stroke="#FFFFFF" stroke-width="12.6" />
+  </g>
+<circle cx="172" cy="172" r="174.1" fill="none" stroke="#FFFFFF" stroke-width="4.2" />
+</svg></g><g class="vector-icon-halo" filter="url(#vectorIconHalo)"><svg viewBox="-5 -5 354 354" x="429.8955078125" y="290" width="54" height="54" preserveAspectRatio="xMidYMid meet" aria-label="command_codes_token.png" data-original-x="470.25" data-original-y="731.5" data-original-width="36" data-original-height="36" overflow="visible" data-vector-icon="command_codes" data-vector-source="Heroes/Janeway/icons/command_codes.svg" data-original-icon="../../icons/command_codes_token.png" stroke="none" fill="#000000" text-anchor="start">
+  <title>Command codes token</title>
+  <desc>Flat vector pi glyph in gold.</desc>
+  <defs>
+    <clipPath id="vi5-face-clip">
+      <circle cx="172" cy="172" r="172" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#vi5-face-clip)">
+    <rect width="344" height="344" fill="#2F2C59" />
+
+    <g transform="scale(0.5733333333333333)" stroke-linecap="round" stroke-linejoin="round"><path d="M119 260 C127 222 148 187 181 166 C198 154 219 150 239 150 L490 150 L478 207 L397 207 L376 375 C378 394 395 416 410 416 C427 416 451 404 467 364 L476 369 C466 411 441 442 409 457 C380 470 351 461 335 440 C320 421 316 398 319 369 L352 207 L273 207 L232 379 C223 423 205 451 177 457 C154 462 137 452 138 431 C139 412 151 394 168 375 C199 338 217 282 228 207 C183 207 151 224 134 263 Z" fill="#FAC447" stroke="#000000" stroke-width="3.6627905" stroke-linejoin="round" /></g><circle cx="172" cy="172" r="165.7" fill="none" stroke="#FFFFFF" stroke-width="12.6" />
+  </g>
+<circle cx="172" cy="172" r="174.1" fill="none" stroke="#FFFFFF" stroke-width="4.2" />
+</svg></g><text x="274.2978515625" y="395.50003814697266" text-anchor="start" font-family="Avenir Next Condensed, sans-serif" font-size="36px" font-weight="400" fill="#F7F7F7" stroke="#000000" stroke-width="1.2" paint-order="stroke fill" stroke-linejoin="round"><tspan x="274.2978515625" y="395.50003814697266">Draw </tspan><tspan fill="#F7F7F7"> </tspan></text><g class="vector-icon-halo" filter="url(#vectorIconHalo)"><svg viewBox="0 0 714 824" x="346.7021484375" y="356" width="54" height="54" preserveAspectRatio="xMidYMid meet" aria-label="carddraw_1.png" data-original-x="393.5" data-original-y="775.5" data-original-width="36" data-original-height="36" overflow="visible" data-vector-icon="carddraw" data-vector-source="Shared/icons/carddraw.svg" data-original-icon="../../../../Shared/icons/carddraw_1.png" stroke="none" fill="#000000" text-anchor="start">
+  <title id="vi6-title">Card draw icon</title>
+  <desc id="vi6-description">Two overlapping rounded playing cards, drawn with editable vector shapes. The front card contains an editable number.</desc>
+
+  
+  <g id="vi6-back-card">
+    <rect id="vi6-back-card-outline" x="140" y="75" width="554" height="720" rx="86" fill="#000000" />
+    <rect id="vi6-back-card-face" x="175" y="105" width="484" height="660" rx="55" fill="#FFFFFF" />
+  </g>
+
+  
+  <g id="vi6-front-card">
+    <rect id="vi6-front-card-outline" x="0" y="0" width="550" height="720" rx="86" fill="#000000" />
+    <rect id="vi6-front-card-face" x="30" y="30" width="490" height="660" rx="55" fill="#FFFFFF" />
+    <text id="vi6-editable-number" data-editable="number" x="263" y="490" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="358.33" font-weight="700" fill="#000000" data-vector-import="true">1</text>
+  </g>
+</svg></g></g><defs id="vector-icon-filters"><filter id="vectorIconHalo" x="-0.7" y="-0.7" width="2.4" height="2.4" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="6.272" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="4.9" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter><filter id="vectorIconHaloSmall" x="-0.7" y="-0.7" width="2.4" height="2.4" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="4.224" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="3.3" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter><filter id="vectorIconHaloLarge" x="-0.7" y="-0.7" width="2.4" height="2.4" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="8.96" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="7" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs></svg>

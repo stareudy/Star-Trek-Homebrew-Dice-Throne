@@ -9,12 +9,26 @@
 - When the user asks to push a commit but has not specified a commit message, ask them what message to use before creating or pushing the commit. Do not create or push a commit without a message that notes what changed.
 - When the user says a to-do item is finished, remove that item from the relevant `todo.md`. If it seems finished but the user has not said so, ask them before removing it.
 - Keep progress updates concise, and report completed changes with the affected paths.
+- At the end of every completed task, give a short usage report with only the weekly usage remaining, the percent used by the task, and when the weekly limit resets. Estimate task consumption by comparing the last reported weekly usage with the current usage; use decimal precision when available. If usage is reported only in whole percentages and the task consumed less than 1%, say “less than 1%” rather than rounding it to 0%. If no earlier weekly usage report is available for comparison, say task usage cannot be determined.
 - When making raster image pixels fully transparent, set their RGB channels to zero at the same time as setting alpha to zero, unless the user explicitly asks to preserve the hidden RGB data.
 - Whenever showing a preview of an image with transparency, composite it over a bright neon color that does not appear in the image so transparent areas are easy to see.
 
 ## SVG rendering
 
-- Always use Google Chrome to render SVG files, including SVG-to-PNG and SVG-to-PDF exports, so installed fonts render consistently with the browser. Do not use librsvg/rsvg-convert or other SVG renderers for final or preview output.
+- Before creating or editing any SVG asset, check `Shared/` for an applicable style guide, including `Shared/style_guides/`. If a guide exists, read it and adhere to it when creating or editing that asset.
+- When an SVG contains editable text, use Google Chrome to render it, including SVG-to-PNG and SVG-to-PDF exports, so installed fonts render consistently with the browser.
+- For Chrome rendering, reuse a dedicated rendering script at a stable path and invoke it with a consistent command prefix so saved “Always approve” permissions can apply. Run file creation, edits, and other preparation separately from the rendering command; do not bundle them into changing shell scripts or heredocs with the Chrome launch. When approval is required, request a reusable permission scoped to the rendering command and reuse it for future renders.
+- When an SVG contains no editable text, use whichever renderer is most effective for accurate output; Chrome is not required.
+
+## SVG artwork references
+
+- Do not embed PNGs or other raster images inside SVG files, including as base64 or data URIs.
+- Link to the existing original artwork files using relative paths. Reuse those originals rather than creating duplicate artwork copies, to avoid redundant disk usage.
+- Keep artwork references linked so replacing or editing an original artwork file at the same path automatically updates every SVG that renders it on the next render.
+
+## Image edit verification
+
+- Whenever editing any image-format file, inspect a freshly rendered preview of the saved result before reporting completion. Confirm the preview reflects the current file; do not rely on a stale, cached, or earlier render.
 
 ## Asset format transition
 
@@ -49,6 +63,9 @@ Use `Heroes/Janeway/` as the reference layout for hero folders, except for `Hero
 
 ## Asset dimensions and resolution
 
+- Whenever an authorized edit adds or removes canvas width or height, crops an asset, or changes its SVG `viewBox`, synchronize its declared physical print dimensions with the applicable style guide and any explicit user size overrides. Do this as part of the edit, without requiring a separate request. Distinguish finished trim size from source-canvas, bleed, and page size.
+- For SVGs, declare root `width` and `height` in physical units (`in` or `mm`), preserving the required print size and uniform scale. If the guide fixes width and allows height to vary, calculate `height = declared width × viewBox height ÷ viewBox width`; if height is fixed and width varies, use the inverse calculation. If both dimensions are fixed, preserve both and adapt the canvas/layout without stretching the artwork. Content edits within an unchanged canvas do not require dimension changes.
+- Verify the saved asset's resulting physical size and aspect ratio after these edits. Keep PDF page dimensions and raster resolution metadata consistent when generating exports within the requested scope; do not assume internal SVG transforms or unitless pixel dimensions establish the intended print size.
 - Card page PNG assets, including art and overlays, must be 3300 × 2550 px. Card PDFs must render at 11 × 8.5 inches per page.
 - Hero board PNG assets, including art and overlays, must be 4500 × 2700 px. Hero board PDFs must render at 15 × 9 inches per page.
 - Hero art PNG assets must be 1500 × 2700 px. Hero art PDFs must render at 5 × 9 inches per page.

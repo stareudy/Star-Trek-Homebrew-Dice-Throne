@@ -3,10 +3,10 @@ LEAFLET
 COFFEE
 Positive Status Effect | Stack limit: 5
 
-Spend to gain {cp_none.png}
+Spend to gain {cp.svg}
 Once per turn during your Main Phase, spend these tokens for one of the following effects:
-- Spend 1: Gain {cp_1.png}.
-- Spend 2: Roll one {roll_die.png} and gain half the roll value (rounded up) as {cp_none.png}.
+- Spend 1: Gain {{cp.svg}1}.
+- Spend 2: Roll one {roll_die.svg} and gain half the roll value (rounded up) as {cp.svg}.
 
 COMMAND CODES
 Positive Status Effect | Stack limit: 5
@@ -20,65 +20,65 @@ During any Roll Phase, spend Command Codes for one effect:
 REPRIMAND
 Negative Status Effect | Stack limit: 2
 
-Make Roll Action Cards cost additional {cp_none.png}
-The next time a player with this token would play a Roll Phase action card, they must pay one extra {cp_none.png} for each Reprimand token to play the card. Then remove all Reprimand tokens.
+Make Roll Action Cards cost additional {cp.svg}
+The next time a player with this token would play a Roll Phase action card, they must pay one extra {cp.svg} for each Reprimand token to play the card. Then remove all Reprimand tokens.
 
 HERO BOARD
 
 FIRE PHASERS
-{coffee_die.png} {coffee_die.png} {coffee_die.png} Deal {normal_damage_4.png} dmg
-{coffee_die.png} {coffee_die.png} {coffee_die.png} {coffee_die.png} Deal {normal_damage_5.png} dmg
-{coffee_die.png} {coffee_die.png} {coffee_die.png} {coffee_die.png} {coffee_die.png} Deal {normal_damage_6.png} dmg
+{coffee_die.svg} {coffee_die.svg} {coffee_die.svg} Deal {{normal_damage.svg}4} dmg
+{coffee_die.svg} {coffee_die.svg} {coffee_die.svg} {coffee_die.svg} Deal {{normal_damage.svg}5} dmg
+{coffee_die.svg} {coffee_die.svg} {coffee_die.svg} {coffee_die.svg} {coffee_die.svg} Deal {{normal_damage.svg}6} dmg
 
 SHORE LEAVE
-{combadge_die.png} {combadge_die.png} {combadge_die.png}
-- Gain {coffee_token.png} and {command_codes_token.png}
-- Draw {carddraw_1.png}
+{combadge_die.svg} {combadge_die.svg} {combadge_die.svg}
+- Gain {coffee_token.svg} and {command_codes.svg}
+- Draw {{carddraw.svg}1}
 
 DO IT
-{smallstraight.png}
-- Deal {normal_damage_7.png} dmg
-- Inflict {reprimand_token.png}
+{smallstraight.svg}
+- Deal {{normal_damage.svg}7} dmg
+- Inflict {reprimand.svg}
 
 RED ALERT
-{earth_die.png} {earth_die.png} {earth_die.png} {earth_die.png}
-- Gain {command_codes_token.png} and {coffee_token.png}
-- Inflict {reprimand_token.png}
-- Deal {normal_damage_7.png} dmg
+{earth_die.svg} {earth_die.svg} {earth_die.svg} {earth_die.svg}
+- Gain {command_codes.svg} and {coffee_token.svg}
+- Inflict {reprimand.svg}
+- Deal {{normal_damage.svg}7} dmg
 
 TACTICAL EXERCISES
-{coffee_die.png} {coffee_die.png} {coffee_die.png} {coffee_die.png} {earth_die.png}
-Roll 2 {roll_die.png} for the following effects:
-- For each {coffee_die.png}, Deal {normal_damage_4.png} dmg
-- On {combadge_die.png}, Gain 2 {command_codes_token.png} and 1 {coffee_token.png}
-- On {earth_die.png}, Draw {carddraw_1.png}
-- On {earth_die.png} {earth_die.png}, Begin a new Offensive Roll Phase targeting the same opponent
-You may spend 1 {coffee_token.png} before rolling to roll 3 {roll_die.png} instead of 2
+{coffee_die.svg} {coffee_die.svg} {coffee_die.svg} {coffee_die.svg} {earth_die.svg}
+Roll 2 {roll_die.svg} for the following effects:
+- For each {coffee_die.svg}, Deal {{normal_damage.svg}4} dmg
+- On {combadge_die.svg}, Gain 2 {command_codes.svg} and 1 {coffee_token.svg}
+- On {earth_die.svg}, Draw {{carddraw.svg}1}
+- On {earth_die.svg} {earth_die.svg}, Begin a new Offensive Roll Phase targeting the same opponent
+You may spend 1 {coffee_token.svg} before rolling to roll 3 {roll_die.svg} instead of 2
 
 COMMAND PROTOCOL
-{coffee_die.png} {coffee_die.png} {combadge_die.png} {combadge_die.png} {earth_die.png}
-- Deal {normal_damage_2.png} dmg. You may spend up to 2 {coffee_token.png} to add {normal_damage_4.png} dmg per {coffee_token.png} spent
-- You may spend 3 {command_codes_token.png} to make this attack undefendable
+{coffee_die.svg} {coffee_die.svg} {combadge_die.svg} {combadge_die.svg} {earth_die.svg}
+- Deal {{normal_damage.svg}2} dmg. You may spend up to 2 {coffee_token.svg} to add {{normal_damage.svg}4} dmg per {coffee_token.svg} spent
+- You may spend 3 {command_codes.svg} to make this attack undefendable
 
 GET OFF MY SHIP!
-{largestraight.png}
-- Deal {normal_damage_7.png} dmg, then roll 3 {roll_die.png}
-- For each {coffee_die.png}, add {normal_damage_1.png} dmg
-- On {combadge_die.png}, inflict {reprimand_token.png}
-- On {earth_die.png}, gain {command_codes_token.png} or {coffee_token.png}
-- On {coffee_die.png} {combadge_die.png} {earth_die.png}, ignore the previously mentioned effects and instead add {normal_damage_3.png} dmg and make the attack undefendable
+{largestraight.svg}
+- Deal {{normal_damage.svg}7} dmg, then roll 3 {roll_die.svg}
+- For each {coffee_die.svg}, add {{normal_damage.svg}1} dmg
+- On {combadge_die.svg}, inflict {reprimand.svg}
+- On {earth_die.svg}, gain {command_codes.svg} or {coffee_token.svg}
+- On {coffee_die.svg} {combadge_die.svg} {earth_die.svg}, ignore the previously mentioned effects and instead add {{normal_damage.svg}3} dmg and make the attack undefendable
 
 SHIELDS UP
-{defense_3_dice.png}
-Roll 3 {roll_die.png}:
-- On {coffee_die.png}, prevent {damage_prevention_1.png}
-- On {combadge_die.png}, prevent {damage_prevention_2.png}
-- On {combadge_die.png} {earth_die.png}, Inflict {reprimand_token.png}
+{defense_3_dice.svg}
+Roll 3 {roll_die.svg}:
+- On {coffee_die.svg}, prevent {{damage_prevention.svg}1}
+- On {combadge_die.svg}, prevent {{damage_prevention.svg}2}
+- On {combadge_die.svg} {earth_die.svg}, Inflict {reprimand.svg}
 
 PUNCH YOUR WAY THROUGH (ULTIMATE)
-{earth_die.png} {earth_die.png} {earth_die.png} {earth_die.png} {earth_die.png}
-- Gain 3 {command_codes_token.png}, gain 3 {coffee_token.png}, and inflict 2 {reprimand_token.png}
-- Then deal {undefendable_damage_12.png} dmg
+{earth_die.svg} {earth_die.svg} {earth_die.svg} {earth_die.svg} {earth_die.svg}
+- Gain 3 {command_codes.svg}, gain 3 {coffee_token.svg}, and inflict 2 {reprimand.svg}
+- Then deal {{undefendable_damage.svg}12} dmg
 Dice may be altered to prevent an Ultimate. Otherwise, no action of any kind may be performed by any opponent until the ability fully completes.
 
 CARDS
@@ -86,83 +86,83 @@ CARDS
 The first 18 cards in Janeway's deck are standard Dice Throne cards and are omitted here. The cards below are Janeway-specific.
 
 DETERMINATION
-Cost: {cp_3.png} | Roll Phase Action
-A chosen player may perform an additional Roll Attempt of up to three {roll_die.png} during their Offensive or Defensive Roll Phase
+Cost: {{cp.svg}3} | Roll Phase Action
+A chosen player may perform an additional Roll Attempt of up to three {roll_die.svg} during their Offensive or Defensive Roll Phase
 
 SET TO KILL
-Cost: {cp_4.png} | Roll Phase Action
-You may remove up to 2 {coffee_token.png} to add {normal_damage_3.png} dmg per {coffee_token.png} removed
-You may remove 3 {command_codes_token.png} to make this attack undefendable (Attack modifier)
+Cost: {{cp.svg}4} | Roll Phase Action
+You may remove up to 2 {coffee_token.svg} to add {{normal_damage.svg}3} dmg per {coffee_token.svg} removed
+You may remove 3 {command_codes.svg} to make this attack undefendable (Attack modifier)
 
 COUNTERPOINT
-Cost: {cp_3.png} | Roll Phase Action
+Cost: {{cp.svg}3} | Roll Phase Action
 (Play only after being attacked)
-Prevent {damage_prevention_3.png} incoming dmg, and deal {normal_damage_3.png} dmg to the attacking player
+Prevent {{damage_prevention.svg}3} incoming dmg, and deal {{normal_damage.svg}3} dmg to the attacking player
 
 THERE'S COFFEE IN THAT NEBULA
-Cost: {cp_0.png} | Main Phase Action
-Roll 1 {roll_die.png} and gain half the value (rounded up) in {coffee_token.png}
+Cost: {{cp.svg}0} | Main Phase Action
+Roll 1 {roll_die.svg} and gain half the value (rounded up) in {coffee_token.svg}
 
 COMMAND TRAINING
-Cost: {cp_2.png} | Main Phase Action
-Gain {command_codes_token.png}. You may spend an additional {cp_4.png} for an additional {command_codes_token.png} per extra {cp_2.png} spent
+Cost: {{cp.svg}2} | Main Phase Action
+Gain {command_codes.svg}. You may spend an additional {{cp.svg}4} for an additional {command_codes.svg} per extra {{cp.svg}2} spent
 
 CAPTAIN'S PREROGATIVE
-Cost: {cp_3.png} | Main Phase Action
-Can only be played during your first Main Phase. You may skip your Offensive Roll Phase and instead roll 1 {roll_die.png}, and heal the total roll value
+Cost: {{cp.svg}3} | Main Phase Action
+Can only be played during your first Main Phase. You may skip your Offensive Roll Phase and instead roll 1 {roll_die.svg}, and heal the total roll value
 
 REPRIMANDED
-Cost: {cp_3.png} | Instant Action
-Inflict {reprimand_token.png} on two players. (Can be two different players or the same player twice)
+Cost: {{cp.svg}3} | Instant Action
+Inflict {reprimand.svg} on two players. (Can be two different players or the same player twice)
 
 RESOLVE
-Cost: {cp_3.png} | Instant Action
-Roll 3 {roll_die.png} for the following effects:
-- For each {coffee_die.png}, Gain {coffee_token.png}
-- For each {combadge_die.png}, Gain {command_codes_token.png}
-- On {earth_die.png}, {healing_6.png}
-- On {earth_die.png} {earth_die.png}, Also gain {command_codes_token.png} and {coffee_token.png}
+Cost: {{cp.svg}3} | Instant Action
+Roll 3 {roll_die.svg} for the following effects:
+- For each {coffee_die.svg}, Gain {coffee_token.svg}
+- For each {combadge_die.svg}, Gain {command_codes.svg}
+- On {earth_die.svg}, {{healing.svg}6}
+- On {earth_die.svg} {earth_die.svg}, Also gain {command_codes.svg} and {coffee_token.svg}
 
 FIRE PHASERS II
-Cost: {cp_2.png} | Main Phase Action
-- {coffee_die.png} {coffee_die.png} {coffee_die.png}, Deal {normal_damage_5.png} dmg
-- {coffee_die.png} {coffee_die.png} {coffee_die.png} {coffee_die.png}, Deal {normal_damage_6.png} dmg
-- {coffee_die.png} {coffee_die.png} {coffee_die.png} {coffee_die.png} {coffee_die.png}, Deal {normal_damage_7.png} dmg
+Cost: {{cp.svg}2} | Main Phase Action
+- {coffee_die.svg} {coffee_die.svg} {coffee_die.svg}, Deal {{normal_damage.svg}5} dmg
+- {coffee_die.svg} {coffee_die.svg} {coffee_die.svg} {coffee_die.svg}, Deal {{normal_damage.svg}6} dmg
+- {coffee_die.svg} {coffee_die.svg} {coffee_die.svg} {coffee_die.svg} {coffee_die.svg}, Deal {{normal_damage.svg}7} dmg
 
 FIRE PHASERS III
-Cost: {cp_4.png} | Main Phase Action
-- {coffee_die.png} {coffee_die.png} {coffee_die.png}, Deal {normal_damage_6.png} dmg
-- {coffee_die.png} {coffee_die.png} {coffee_die.png} {coffee_die.png}, Deal {normal_damage_7.png} dmg
-- {coffee_die.png} {coffee_die.png} {coffee_die.png} {coffee_die.png} {coffee_die.png}, Deal {normal_damage_8.png} dmg
-- Inflict {reprimand_token.png}
+Cost: {{cp.svg}4} | Main Phase Action
+- {coffee_die.svg} {coffee_die.svg} {coffee_die.svg}, Deal {{normal_damage.svg}6} dmg
+- {coffee_die.svg} {coffee_die.svg} {coffee_die.svg} {coffee_die.svg}, Deal {{normal_damage.svg}7} dmg
+- {coffee_die.svg} {coffee_die.svg} {coffee_die.svg} {coffee_die.svg} {coffee_die.svg}, Deal {{normal_damage.svg}8} dmg
+- Inflict {reprimand.svg}
 
 SHORE LEAVE II
-Cost: {cp_3.png} | Main Phase Action
-{combadge_die.png} {combadge_die.png} {combadge_die.png}
-- Gain 2 {coffee_token.png} and 2 {command_codes_token.png}
-- Draw {carddraw_1.png}
+Cost: {{cp.svg}3} | Main Phase Action
+{combadge_die.svg} {combadge_die.svg} {combadge_die.svg}
+- Gain 2 {coffee_token.svg} and 2 {command_codes.svg}
+- Draw {{carddraw.svg}1}
 
 TACTICAL EXERCISES II
-Cost: {cp_3.png} | Main Phase Action
-{coffee_die.png} {coffee_die.png} {coffee_die.png} {coffee_die.png} {earth_die.png}
-Roll 3 {roll_die.png} for the following effects:
-- For each {coffee_die.png}, Deal {normal_damage_4.png} dmg
-- On {combadge_die.png}, Gain 2 {command_codes_token.png} and 1 {coffee_token.png}
-- On {earth_die.png}, Draw {carddraw_1.png}
-- On {earth_die.png} {earth_die.png}, Begin a new Offensive Roll Phase targeting the same opponent
+Cost: {{cp.svg}3} | Main Phase Action
+{coffee_die.svg} {coffee_die.svg} {coffee_die.svg} {coffee_die.svg} {earth_die.svg}
+Roll 3 {roll_die.svg} for the following effects:
+- For each {coffee_die.svg}, Deal {{normal_damage.svg}4} dmg
+- On {combadge_die.svg}, Gain 2 {command_codes.svg} and 1 {coffee_token.svg}
+- On {earth_die.svg}, Draw {{carddraw.svg}1}
+- On {earth_die.svg} {earth_die.svg}, Begin a new Offensive Roll Phase targeting the same opponent
 
 SHIELDS UP II
-Cost: {cp_3.png} | Main Phase Action
-{defense_4_dice.png}
-Roll 4 {roll_die.png}:
-- For each {coffee_die.png}, prevent {damage_prevention_1.png}
-- On {combadge_die.png}, prevent {damage_prevention_2.png}
-- On {combadge_die.png} {earth_die.png}, Inflict {reprimand_token.png}
+Cost: {{cp.svg}3} | Main Phase Action
+{defense_4_dice.svg}
+Roll 4 {roll_die.svg}:
+- For each {coffee_die.svg}, prevent {{damage_prevention.svg}1}
+- On {combadge_die.svg}, prevent {{damage_prevention.svg}2}
+- On {combadge_die.svg} {earth_die.svg}, Inflict {reprimand.svg}
 
 SHIELDS UP III
-Cost: {cp_5.png} | Main Phase Action
-{defense_5_dice.png}
-Roll 5 {roll_die.png}:
-- For each {coffee_die.png}, prevent {damage_prevention_1.png}
-- For each {combadge_die.png} {combadge_die.png}, prevent {damage_prevention_2.png}
-- On {combadge_die.png} {earth_die.png}, Inflict {reprimand_token.png}
+Cost: {{cp.svg}5} | Main Phase Action
+{defense_5_dice.svg}
+Roll 5 {roll_die.svg}:
+- For each {coffee_die.svg}, prevent {{damage_prevention.svg}1}
+- For each {combadge_die.svg} {combadge_die.svg}, prevent {{damage_prevention.svg}2}
+- On {combadge_die.svg} {earth_die.svg}, Inflict {reprimand.svg}

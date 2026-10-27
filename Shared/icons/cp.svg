@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" width="806" height="860" viewBox="0 0 806 860" role="img" aria-labelledby="title description">
+  <ns0:title id="title">CP badge icon</ns0:title>
+  <ns0:desc id="description">Clean vector redraw with editable text where applicable.</ns0:desc>
+  <ns0:path id="cp-badge" fill="#015768" d="M170 0 H194 L750 318 C786 339 806 381 806 430 C806 479 786 521 750 542 L194 860 H170 C76 860 0 784 0 690 V170 C0 76 76 0 170 0 Z" />
+  <ns0:text id="editable-number" data-editable="number" x="250" y="556" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="322.22" font-weight="700" fill="#FFFFFF">1</ns0:text>
+  <ns0:text id="editable-cp-label" data-editable="label" x="482" y="501" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="180" font-weight="700" fill="#B5E0E6">CP</ns0:text>
+</ns0:svg>

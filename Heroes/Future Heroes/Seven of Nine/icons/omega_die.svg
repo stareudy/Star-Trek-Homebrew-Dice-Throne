@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 344 344" width="344" height="344" role="img" aria-label="Seven of Nine Omega die-face vector draft">
+  <title>Seven of Nine Omega die-face draft</title>
+  <defs>
+    <clipPath id="face-clip"><rect x="0" y="0" width="344" height="344" rx="31" /></clipPath>
+  </defs>
+  <g clip-path="url(#face-clip)">
+    <rect width="344" height="344" fill="#000000" /><g transform="translate(172 172) scale(0.926744186047) translate(-172 -172)"><path d="M59 240 L106 240 Q109 240 106.55 238.27 C78 218 59 191 59 162 C59 103 108 57 172 57 C237 57 285 104 285 162 C285 192 266 218 236.47 238.30 Q234 240 237 240 L285 240 Q288 240 288 243 L288 272 Q288 275 285 275 L203 275 Q200 275 200 272 L200 244 Q200 241 202.30 239.07 C225 220 240 194 240 162 C240 118 212 86 172 86 C131 86 103 118 103 162 C103 194 118 221 142.59 239.21 Q145 241 145 244 L145 272 Q145 275 142 275 L59 275 Q56 275 56 272 L56 243 Q56 240 59 240 Z" fill="#B8860B" stroke="#55595D" stroke-width="2" stroke-linejoin="round" />
+  </g><rect x="6.3" y="6.3" width="331.4" height="331.4" rx="24.7" fill="none" stroke-width="12.6" stroke="#55595D" /></g>
+</svg>

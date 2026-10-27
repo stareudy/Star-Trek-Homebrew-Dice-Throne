@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" width="675" height="1050" viewBox="0 0 675 1050">
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2.25in" height="3.5in" viewBox="0 0 675 1050">
   <title>Set to Kill — editable SVG card</title>
-  <desc>Editable vector card layout. Artwork and inline symbols are linked raster assets; title and rules are editable SVG text.</desc>
+  <desc>Editable vector card layout. Artwork and inline symbols are linked raster assets; title and rules are editable SVG text. Raster icon instances replaced with embedded SVG vector shapes; original text preserved.</desc>
   <defs id="rules-layout-defaults">
     <style type="text/css">
       .rules-text { font-family: "Avenir Next Condensed"; font-size: 45.833333px; font-weight: 400; fill: #F7F7F7; }
@@ -19,10 +19,10 @@
     <path id="upper-panel" d="M31 159 H644 V635 H31 Z" fill="#101219" />
     <path id="lower-panel" d="M31 643 H644 V970 C644 998 622 1020 594 1020 H81 C53 1020 31 998 31 970 Z" fill="#101219" />
   </g>
-  <g id="linked-card-art" aria-label="Linked original card artwork"><image x="31" y="159" width="613" height="476" preserveAspectRatio="xMidYMid slice" clip-path="url(#set_to_kill-clip)" href="../../art/cardart_source/set_to_kill.png" /></g><g id="accent-elements" aria-label="Change this group color to recolor the template" fill="#EB943A" stroke="#EB943A">
+  <g id="linked-card-art" aria-label="Linked original card artwork"><image x="0" y="0" width="675" height="1050" preserveAspectRatio="xMidYMid meet" clip-path="url(#set_to_kill-clip)" href="../../art/set_to_kill.png" xlink:href="../../art/set_to_kill.png" /></g><g id="accent-elements" aria-label="Change this group color to recolor the template" fill="#EB943A" stroke="#EB943A">
     <path id="header" d="M24 76 C24 46.2 48.2 22 78 22 H597 C626.8 22 651 46.2 651 76 V158 H24 Z" stroke="none" />
     <rect id="panel-divider" x="24" y="635" width="627" height="8" stroke="none" />
-    <path id="inner-frame" data-text-equivalent="expanded 6px red perimeter stroke" d="M27.000 161.000 L648.000 161.000 L645.000 158.000 L645.000 970.000 C645.000 998.196 622.488 1021.000 595.000 1021.000 L80.000 1021.000 C52.512 1021.000 30.000 998.196 30.000 970.000 L30.000 158.000 L27.000 161.000 Z M27.000 155.000 C25.343 155.000 24.000 156.343 24.000 158.000 L24.000 970.000 C24.000 1001.492 49.181 1027.000 80.000 1027.000 L595.000 1027.000 C625.819 1027.000 651.000 1001.492 651.000 970.000 L651.000 158.000 C651.000 156.343 649.657 155.000 648.000 155.000 L27.000 155.000 Z " fill="#EB943A" stroke="none" />
+    <path id="inner-frame" data-text-equivalent="expanded 6px red perimeter stroke" d="M36 158 H639 V970 C639 994.853 619.301 1015 595 1015 H80 C55.699 1015 36 994.853 36 970 Z M27.000 155.000 C25.343 155.000 24.000 156.343 24.000 158.000 L24.000 970.000 C24.000 1001.492 49.181 1027.000 80.000 1027.000 L595.000 1027.000 C625.819 1027.000 651.000 1001.492 651.000 970.000 L651.000 158.000 C651.000 156.343 649.657 155.000 648.000 155.000 L27.000 155.000 Z " fill="#EB943A" stroke="none" />
   </g>
   <g id="instant-action-cp-tag" aria-label="Editable Roll Phase Action CP tag" transform="translate(24 169)">
     <defs>
@@ -84,4 +84,113 @@
     <path id="cp-tag-outer-outline" d="M0 0.5 H51.5 C55.4 0.5 58.5 3.6 58.5 7.5 V174.5 C58.5 178.4 55.4 181.5 51.5 181.5 H43 V375 C43 379.4 39.9 382.5 35.5 382.5 H0 Z" fill="none" stroke="#3A3A3A" stroke-width="1.2" stroke-linejoin="round" pointer-events="none" />
   </g>
   <g id="card-title" aria-label="Set to Kill" transform="translate(17.69 -4) scale(0.9476 1)"><text id="card-title-text" data-text="SET TO KILL" data-font="Helvetica Compressed" x="337.5" y="121" text-anchor="middle" font-family="Helvetica Compressed" font-size="62px" font-weight="400" fill="#101219">SET TO KILL</text></g>
-<g id="editable-rules" aria-label="Editable rules text and linked inline icons" font-family="Avenir Next Condensed, sans-serif" font-size="36px" fill="#F7F7F7" text-anchor="middle"><text x="138.0" y="743.0" text-anchor="start" font-family="Avenir Next Condensed, sans-serif" font-size="36px" font-weight="400" fill="#F7F7F7" stroke="#000000" stroke-width="1.2" paint-order="stroke fill" stroke-linejoin="round"><tspan x="138.0" y="743.0">You </tspan><tspan x="196.5" y="743.0">may </tspan><tspan x="255.0" y="743.0">remove </tspan><tspan x="360.0" y="743.0">up </tspan><tspan x="403.0" y="743.0">to </tspan><tspan x="446.0" y="743.0">2 </tspan><tspan fill="#F7F7F7"> </tspan><tspan x="513.5" y="743.0">to </tspan><tspan x="556.5" y="743.0">add </tspan></text><image x="473.5" y="722.0" width="36" height="36" preserveAspectRatio="xMidYMid meet" href="../../icons/coffee_token.png" aria-label="coffee_token.png" /><text x="217.75" y="787.0" text-anchor="start" font-family="Avenir Next Condensed, sans-serif" font-size="36px" font-weight="400" fill="#F7F7F7" stroke="#000000" stroke-width="1.2" paint-order="stroke fill" stroke-linejoin="round"><tspan fill="#F7F7F7"> </tspan><tspan x="257.75" y="787.0">dmg </tspan><tspan x="316.25" y="787.0">per </tspan><tspan fill="#F7F7F7"> </tspan><tspan x="414.75" y="787.0">removed </tspan></text><image x="217.75" y="766.0" width="36" height="36" preserveAspectRatio="xMidYMid meet" href="../../../../Shared/icons/normal_damage_3.png" aria-label="normal_damage_3.png" /><image x="374.75" y="766.0" width="36" height="36" preserveAspectRatio="xMidYMid meet" href="../../icons/coffee_token.png" aria-label="coffee_token.png" /><text x="136.25" y="831.0" text-anchor="start" font-family="Avenir Next Condensed, sans-serif" font-size="36px" font-weight="400" fill="#F7F7F7" stroke="#000000" stroke-width="1.2" paint-order="stroke fill" stroke-linejoin="round"><tspan x="136.25" y="831.0">You </tspan><tspan x="194.75" y="831.0">may </tspan><tspan x="253.25" y="831.0">remove </tspan><tspan x="358.25" y="831.0">3 </tspan><tspan fill="#F7F7F7"> </tspan><tspan x="425.75" y="831.0">to </tspan><tspan x="468.75" y="831.0">make </tspan><tspan x="542.75" y="831.0">this </tspan></text><image x="385.75" y="810.0" width="36" height="36" preserveAspectRatio="xMidYMid meet" href="../../icons/command_codes_token.png" aria-label="command_codes_token.png" /><text x="164.75" y="875.0" text-anchor="start" font-family="Avenir Next Condensed, sans-serif" font-size="36px" font-weight="400" fill="#F7F7F7" stroke="#000000" stroke-width="1.2" paint-order="stroke fill" stroke-linejoin="round"><tspan x="164.75" y="875.0">attack </tspan><tspan x="269.75" y="875.0">undefendable </tspan><tspan x="467.75" y="875.0">(Attack </tspan></text><text x="300.75" y="919.0" text-anchor="start" font-family="Avenir Next Condensed, sans-serif" font-size="36px" font-weight="400" fill="#F7F7F7" stroke="#000000" stroke-width="1.2" paint-order="stroke fill" stroke-linejoin="round"><tspan x="300.75" y="919.0">modifier) </tspan></text></g></svg>
+<g id="editable-rules" aria-label="Editable rules text and linked inline icons" font-family="Avenir Next Condensed, sans-serif" font-size="36px" fill="#F7F7F7" text-anchor="middle" transform="translate(0 11.5)"><text x="107.4560546875" y="679.5" text-anchor="start" font-family="Avenir Next Condensed, sans-serif" font-size="36px" font-weight="400" fill="#F7F7F7" stroke="#000000" stroke-width="1.2" paint-order="stroke fill" stroke-linejoin="round"><tspan x="107.4560546875" y="679.5">You </tspan><tspan x="160.1416015625" y="679.5">may </tspan><tspan x="220.5419921875" y="679.5">remove </tspan><tspan x="322.3486328125" y="679.5">up </tspan><tspan x="362.7294921875" y="679.5">to </tspan><tspan x="394.2724609375" y="679.5">2 </tspan><tspan fill="#F7F7F7"> </tspan><tspan x="487.8564453125" y="679.5">to </tspan><tspan x="519.3994140625" y="679.5">add </tspan></text><g class="vector-icon-halo"><svg viewBox="-5 -5 354 354" x="425.8564453125" y="640" width="54" height="54" preserveAspectRatio="xMidYMid meet" aria-label="coffee_token.png" data-original-x="473.5" data-original-y="722.0" data-original-width="36" data-original-height="36" overflow="visible" data-vector-icon="coffee_token" data-vector-source="Heroes/Janeway/icons/coffee_token.svg" data-original-icon="../../icons/coffee_token.png" stroke="none" fill="#000000" text-anchor="start">
+  <title>Coffee token</title>
+  <desc>Vector coffee cup and steam on a full-bleed dark blue circular background.</desc>
+  <defs>
+    <clipPath id="vi1-face-clip">
+      <circle cx="172" cy="172" r="172" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#vi1-face-clip)">
+    <rect width="344" height="344" fill="#4A3528" />
+
+    <g transform="translate(0 3.7) translate(172 172) scale(0.9986 0.8694) translate(-172 -172)">
+    <g fill="#7A848B" transform="translate(0 -28)">
+      
+
+      <g transform="translate(16.5 -35.175) scale(0.9 1.15)">
+      
+      <g transform="translate(330 0) scale(-1 1)" fill="#111111">
+        <path d="M121 176 L88 176 C67 176 50 188 50 207 L50 256 C50 275 67 287 88 287 L121 287 L121 268 L91 268 C82 268 76 263 76 255 L76 208 C76 200 82 195 91 195 L121 195 Z" />
+      </g>
+
+      
+      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168 C217 176 192 181 165 181 C138 181 113 176 101 168 Z" />
+
+      
+      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169 C230 178 201 184 165 184 C129 184 100 178 100 169 Z" />
+      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+    </g>
+
+    <g transform="translate(16.5 -63.175) scale(0.9 1.15)">
+    
+
+    
+    <path d="M109 169 C109 164 134 160 165 160 C196 160 221 164 221 169 C221 174 196 178 165 178 C134 178 109 174 109 169 Z" fill="#3B271C" />
+    </g>
+    <g fill="#D8C7A8">
+      <path d="M151 75 C162 84 171 97 169 109 C167 122 157 132 149 143 C141 154 143 164 152 173 C138 168 131 156 137 143 C142 131 153 121 158 110 C164 97 159 85 151 75 Z" transform="translate(0 -41.825)" />
+      <path d="M181 99 C192 108 196 119 192 131 C188 142 180 151 179 161 C178 168 181 174 188 179 C176 176 168 167 169 156 C170 143 180 132 183 121 C185 113 183 105 181 99 Z" transform="translate(0 -47.825)" />
+    </g>
+    </g>
+    <circle cx="172" cy="172" r="165.7" fill="none" stroke="#FFFFFF" stroke-width="12.6" />
+  </g>
+<circle cx="172" cy="172" r="174.1" fill="none" stroke="#FFFFFF" stroke-width="4.2" />
+</svg></g><text x="158.31640625" y="745.5" text-anchor="start" font-family="Avenir Next Condensed, sans-serif" font-size="36px" font-weight="400" fill="#F7F7F7" stroke="#000000" stroke-width="1.2" paint-order="stroke fill" stroke-linejoin="round"><tspan fill="#F7F7F7"> </tspan><tspan x="220.31640625" y="745.5">dmg </tspan><tspan x="286.234375" y="745.5">per </tspan><tspan fill="#F7F7F7"> </tspan><tspan x="404.76953125" y="745.5">removed </tspan></text><g class="vector-icon-halo"><svg viewBox="0 0 900 900" x="158.31640625" y="706" width="54" height="54" preserveAspectRatio="xMidYMid meet" aria-label="normal_damage_3.png" data-original-x="217.75" data-original-y="766.0" data-original-width="36" data-original-height="36" overflow="visible" data-vector-icon="normal_damage" data-vector-source="Shared/icons/normal_damage.svg" data-original-icon="../../../../Shared/icons/normal_damage_3.png" stroke="none" fill="#000000" text-anchor="start">
+  <title id="vi2-title">Normal damage burst</title>
+  <desc id="vi2-description">Clean vector redraw with editable text where applicable.</desc>
+  <g id="vi2-scaled-icon" transform="translate(13.5 13.5) scale(0.97)"><polygon id="vi2-outer-outline" points="450.00,13.00 485.09,93.72 535.25,21.40 553.92,107.42 617.23,46.26 618.76,134.27 692.78,86.65 677.11,173.26 759.01,140.99 726.74,222.89 813.35,207.22 765.73,281.24 853.74,282.77 792.58,346.08 878.60,364.75 806.28,414.91 887.00,450.00 806.28,485.09 878.60,535.25 792.58,553.92 853.74,617.23 765.73,618.76 813.35,692.78 726.74,677.11 759.01,759.01 677.11,726.74 692.78,813.35 618.76,765.73 617.23,853.74 553.92,792.58 535.25,878.60 485.09,806.28 450.00,887.00 414.91,806.28 364.75,878.60 346.08,792.58 282.77,853.74 281.24,765.73 207.22,813.35 222.89,726.74 140.99,759.01 173.26,677.11 86.65,692.78 134.27,618.76 46.26,617.23 107.42,553.92 21.40,535.25 93.72,485.09 13.00,450.00 93.72,414.91 21.40,364.75 107.42,346.08 46.26,282.77 134.27,281.24 86.65,207.22 173.26,222.89 140.99,140.99 222.89,173.26 207.22,86.65 281.24,134.27 282.77,46.26 346.08,107.42 364.75,21.40 414.91,93.72" fill="none" stroke="#FFFFFF" stroke-width="19" stroke-linejoin="miter" stroke-miterlimit="10" /><polygon id="vi2-burst" points="450.00,13.00 485.09,93.72 535.25,21.40 553.92,107.42 617.23,46.26 618.76,134.27 692.78,86.65 677.11,173.26 759.01,140.99 726.74,222.89 813.35,207.22 765.73,281.24 853.74,282.77 792.58,346.08 878.60,364.75 806.28,414.91 887.00,450.00 806.28,485.09 878.60,535.25 792.58,553.92 853.74,617.23 765.73,618.76 813.35,692.78 726.74,677.11 759.01,759.01 677.11,726.74 692.78,813.35 618.76,765.73 617.23,853.74 553.92,792.58 535.25,878.60 485.09,806.28 450.00,887.00 414.91,806.28 364.75,878.60 346.08,792.58 282.77,853.74 281.24,765.73 207.22,813.35 222.89,726.74 140.99,759.01 173.26,677.11 86.65,692.78 134.27,618.76 46.26,617.23 107.42,553.92 21.40,535.25 93.72,485.09 13.00,450.00 93.72,414.91 21.40,364.75 107.42,346.08 46.26,282.77 134.27,281.24 86.65,207.22 173.26,222.89 140.99,140.99 222.89,173.26 207.22,86.65 281.24,134.27 282.77,46.26 346.08,107.42 364.75,21.40 414.91,93.72" fill="#030304" stroke="#FFFFFF" stroke-width="9" stroke-linejoin="miter" stroke-miterlimit="10" />
+  <text id="vi2-editable-number" data-editable="number" x="438" y="663" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="561.11" font-weight="700" fill="#FFFFFF" data-vector-import="true">3</text>
+</g></svg></g><g class="vector-icon-halo"><svg viewBox="-5 -5 354 354" x="342.76953125" y="706" width="54" height="54" preserveAspectRatio="xMidYMid meet" aria-label="coffee_token.png" data-original-x="374.75" data-original-y="766.0" data-original-width="36" data-original-height="36" overflow="visible" data-vector-icon="coffee_token" data-vector-source="Heroes/Janeway/icons/coffee_token.svg" data-original-icon="../../icons/coffee_token.png" stroke="none" fill="#000000" text-anchor="start">
+  <title>Coffee token</title>
+  <desc>Vector coffee cup and steam on a full-bleed dark blue circular background.</desc>
+  <defs>
+    <clipPath id="vi3-face-clip">
+      <circle cx="172" cy="172" r="172" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#vi3-face-clip)">
+    <rect width="344" height="344" fill="#4A3528" />
+
+    <g transform="translate(0 3.7) translate(172 172) scale(0.9986 0.8694) translate(-172 -172)">
+    <g fill="#7A848B" transform="translate(0 -28)">
+      
+
+      <g transform="translate(16.5 -35.175) scale(0.9 1.15)">
+      
+      <g transform="translate(330 0) scale(-1 1)" fill="#111111">
+        <path d="M121 176 L88 176 C67 176 50 188 50 207 L50 256 C50 275 67 287 88 287 L121 287 L121 268 L91 268 C82 268 76 263 76 255 L76 208 C76 200 82 195 91 195 L121 195 Z" />
+      </g>
+
+      
+      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168 C217 176 192 181 165 181 C138 181 113 176 101 168 Z" />
+
+      
+      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169 C230 178 201 184 165 184 C129 184 100 178 100 169 Z" />
+      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+    </g>
+
+    <g transform="translate(16.5 -63.175) scale(0.9 1.15)">
+    
+
+    
+    <path d="M109 169 C109 164 134 160 165 160 C196 160 221 164 221 169 C221 174 196 178 165 178 C134 178 109 174 109 169 Z" fill="#3B271C" />
+    </g>
+    <g fill="#D8C7A8">
+      <path d="M151 75 C162 84 171 97 169 109 C167 122 157 132 149 143 C141 154 143 164 152 173 C138 168 131 156 137 143 C142 131 153 121 158 110 C164 97 159 85 151 75 Z" transform="translate(0 -41.825)" />
+      <path d="M181 99 C192 108 196 119 192 131 C188 142 180 151 179 161 C178 168 181 174 188 179 C176 176 168 167 169 156 C170 143 180 132 183 121 C185 113 183 105 181 99 Z" transform="translate(0 -47.825)" />
+    </g>
+    </g>
+    <circle cx="172" cy="172" r="165.7" fill="none" stroke="#FFFFFF" stroke-width="12.6" />
+  </g>
+<circle cx="172" cy="172" r="174.1" fill="none" stroke="#FFFFFF" stroke-width="4.2" />
+</svg></g><text x="106.455078125" y="811.5000610351562" text-anchor="start" font-family="Avenir Next Condensed, sans-serif" font-size="36px" font-weight="400" fill="#F7F7F7" stroke="#000000" stroke-width="1.2" paint-order="stroke fill" stroke-linejoin="round"><tspan x="106.455078125" y="811.5000610351562">You </tspan><tspan x="159.140625" y="811.5000610351562">may </tspan><tspan x="219.541015625" y="811.5000610351562">remove </tspan><tspan x="321.34765625" y="811.5000610351562">3 </tspan><tspan fill="#F7F7F7"> </tspan><tspan x="414.931640625" y="811.5000610351562">to </tspan><tspan x="446.474609375" y="811.5000610351562">make </tspan><tspan x="522.548828125" y="811.5000610351562">this </tspan></text><g class="vector-icon-halo"><svg viewBox="-5 -5 354 354" x="352.931640625" y="772" width="54" height="54" preserveAspectRatio="xMidYMid meet" aria-label="command_codes_token.png" data-original-x="385.75" data-original-y="810.0" data-original-width="36" data-original-height="36" overflow="visible" data-vector-icon="command_codes" data-vector-source="Heroes/Janeway/icons/command_codes.svg" data-original-icon="../../icons/command_codes_token.png" stroke="none" fill="#000000" text-anchor="start">
+  <title>Command codes token</title>
+  <desc>Flat vector pi glyph in gold.</desc>
+  <defs>
+    <clipPath id="vi4-face-clip">
+      <circle cx="172" cy="172" r="172" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#vi4-face-clip)">
+    <rect width="344" height="344" fill="#2F2C59" />
+
+    <g transform="scale(0.5733333333333333)" stroke-linecap="round" stroke-linejoin="round"><path d="M119 260 C127 222 148 187 181 166 C198 154 219 150 239 150 L490 150 L478 207 L397 207 L376 375 C378 394 395 416 410 416 C427 416 451 404 467 364 L476 369 C466 411 441 442 409 457 C380 470 351 461 335 440 C320 421 316 398 319 369 L352 207 L273 207 L232 379 C223 423 205 451 177 457 C154 462 137 452 138 431 C139 412 151 394 168 375 C199 338 217 282 228 207 C183 207 151 224 134 263 Z" fill="#FAC447" stroke="#000000" stroke-width="3.6627905" stroke-linejoin="round" /></g><circle cx="172" cy="172" r="165.7" fill="none" stroke="#FFFFFF" stroke-width="12.6" />
+  </g>
+<circle cx="172" cy="172" r="174.1" fill="none" stroke="#FFFFFF" stroke-width="4.2" />
+</svg></g><text x="163.1835708618164" y="875.5" text-anchor="start" font-family="Avenir Next Condensed, sans-serif" font-size="36px" font-weight="400" fill="#F7F7F7" stroke="#000000" stroke-width="1.2" paint-order="stroke fill" stroke-linejoin="round"><tspan x="163.1835708618164" y="875.5">attack </tspan><tspan x="243.01757049560547" y="875.5">undefendable </tspan><tspan x="427.4902572631836" y="875.5">(Attack </tspan></text><text x="279.1259765625" y="937.5000610351562" text-anchor="start" font-family="Avenir Next Condensed, sans-serif" font-size="36px" font-weight="400" fill="#F7F7F7" stroke="#000000" stroke-width="1.2" paint-order="stroke fill" stroke-linejoin="round"><tspan x="279.1259765625" y="937.5000610351562">modifier) </tspan></text></g><defs id="vector-icon-filters"><filter id="vectorIconHalo" x="-0.7" y="-0.7" width="2.4" height="2.4" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="6.272" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="4.9" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter><filter id="vectorIconHaloSmall" x="-0.7" y="-0.7" width="2.4" height="2.4" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="4.224" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="3.3" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter><filter id="vectorIconHaloLarge" x="-0.7" y="-0.7" width="2.4" height="2.4" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="8.96" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="7" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs></svg>

@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" width="858" height="792" viewBox="0 0 858 792" role="img" aria-labelledby="title description">
+  <ns0:title id="title">Healing heart</ns0:title>
+  <ns0:desc id="description">Clean vector redraw with editable text where applicable.</ns0:desc>
+  <ns0:path id="heart-outline" fill="#FFFFFF" d="M429 786 C365 729 0 483 0 276 C0 121 112 2 251 2 C330 2 393 43 429 110 C465 43 528 2 607 2 C746 2 858 121 858 276 C858 483 493 729 429 786 Z" />
+  <ns0:path id="heart-face" fill="#87DA87" d="M429 746 C357 682 36 458 36 278 C36 143 129 39 251 39 C325 39 383 81 413 140 L429 172 L445 140 C475 81 533 39 607 39 C729 39 822 143 822 278 C822 458 501 682 429 746 Z" />
+  <ns0:text id="editable-number" data-editable="number" x="417" y="576" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="497.22" font-weight="700" fill="#000000">1</ns0:text>
+</ns0:svg>

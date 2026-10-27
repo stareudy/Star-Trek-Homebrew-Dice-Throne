@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" width="750" height="819" viewBox="0 0 750 819" role="img" aria-labelledby="title description">
+  <ns0:title id="title">Damage prevention shield</ns0:title>
+  <ns0:desc id="description">Clean vector redraw with editable text where applicable.</ns0:desc>
+  <ns0:path id="shield-outline" fill="#FFFFFF" d="M375 8 L735 74 C714 343 627 636 375 811 C123 636 36 343 15 74 Z" />
+  <ns0:path id="shield-face" fill="#1468B7" d="M375 35 L704 91 C682 324 603 585 375 759 C147 585 68 324 46 91 Z" />
+  <ns0:text id="editable-number" data-editable="number" x="363" y="580" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="465.28" font-weight="700" fill="#FFFFFF">1</ns0:text>
+</ns0:svg>

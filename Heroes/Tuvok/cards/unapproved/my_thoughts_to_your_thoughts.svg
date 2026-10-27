@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" width="675" height="1050" viewBox="0 0 675 1050">
+<svg xmlns="http://www.w3.org/2000/svg" width="2.25in" height="3.5in" viewBox="0 0 675 1050">
   <title>MY THOUGHTS TO YOUR THOUGHTS — Tuvok action card draft</title>
   <desc>Art area intentionally left empty; source artwork has not been provided. Rules are editable vector text and linked icons.</desc>
   <defs id="rules-layout-defaults">
@@ -22,7 +22,7 @@
   <g id="accent-elements" aria-label="Change this group color to recolor the template" fill="#CF4F4F" stroke="#CF4F4F">
     <path id="header" d="M24 76 C24 46.2 48.2 22 78 22 H597 C626.8 22 651 46.2 651 76 V158 H24 Z" stroke="none" />
     <rect id="panel-divider" x="24" y="635" width="627" height="8" stroke="none" />
-    <path id="inner-frame" data-text-equivalent="expanded 6px red perimeter stroke" d="M27.000 161.000 L648.000 161.000 L645.000 158.000 L645.000 970.000 C645.000 998.196 622.488 1021.000 595.000 1021.000 L80.000 1021.000 C52.512 1021.000 30.000 998.196 30.000 970.000 L30.000 158.000 L27.000 161.000 Z M27.000 155.000 C25.343 155.000 24.000 156.343 24.000 158.000 L24.000 970.000 C24.000 1001.492 49.181 1027.000 80.000 1027.000 L595.000 1027.000 C625.819 1027.000 651.000 1001.492 651.000 970.000 L651.000 158.000 C651.000 156.343 649.657 155.000 648.000 155.000 L27.000 155.000 Z " fill="#CF4F4F" stroke="none" />
+    <path id="inner-frame" data-text-equivalent="expanded 6px red perimeter stroke" d="M36 158 H639 V970 C639 994.853 619.301 1015 595 1015 H80 C55.699 1015 36 994.853 36 970 Z M27.000 155.000 C25.343 155.000 24.000 156.343 24.000 158.000 L24.000 970.000 C24.000 1001.492 49.181 1027.000 80.000 1027.000 L595.000 1027.000 C625.819 1027.000 651.000 1001.492 651.000 970.000 L651.000 158.000 C651.000 156.343 649.657 155.000 648.000 155.000 L27.000 155.000 Z " fill="#CF4F4F" stroke="none" />
   </g>
   <g id="instant-action-cp-tag" aria-label="Editable Instant Action CP tag" transform="translate(24 169)">
     <defs>
@@ -31,16 +31,16 @@
         <stop offset="1" stop-color="#D9D9D9" />
       </linearGradient>
       <linearGradient id="cp-red-fill" x1="0" y1="0" x2="1" y2="0">
-        <stop offset="0" stop-color="#E56A6A" />
-        <stop offset="0.12" stop-color="#D65858" />
-        <stop offset="0.78" stop-color="#A83D3D" />
-        <stop offset="1" stop-color="#D95B5B" />
+        <stop offset="0" stop-color="#DE6161" />
+        <stop offset="0.12" stop-color="#CF4F4F" />
+        <stop offset="0.78" stop-color="#A13434" />
+        <stop offset="1" stop-color="#D25252" />
       </linearGradient>
       <linearGradient id="cp-red-edge" x1="0" y1="0" x2="1" y2="0">
-        <stop offset="0" stop-color="#F48C8C" stop-opacity="0.9" />
-        <stop offset="0.14" stop-color="#BE4949" stop-opacity="0.72" />
-        <stop offset="0.6" stop-color="#702929" stop-opacity="0.2" />
-        <stop offset="1" stop-color="#E57474" stop-opacity="0.75" />
+        <stop offset="0" stop-color="#ED8383" stop-opacity="0.9" />
+        <stop offset="0.14" stop-color="#B74040" stop-opacity="0.72" />
+        <stop offset="0.6" stop-color="#692020" stop-opacity="0.2" />
+        <stop offset="1" stop-color="#DE6B6B" stop-opacity="0.75" />
       </linearGradient>
       <linearGradient id="cp-label-fill" x1="0" y1="0" x2="1" y2="0">
         <stop offset="0" stop-color="#292929" />

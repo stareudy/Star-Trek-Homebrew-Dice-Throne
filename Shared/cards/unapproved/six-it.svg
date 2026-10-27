@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" width="675" height="1050" viewBox="0 0 675 1050">
+<svg xmlns="http://www.w3.org/2000/svg" width="2.25in" height="3.5in" viewBox="0 0 675 1050">
   <title>Six-It! — editable SVG card</title>
   <desc>Editable vector card layout. Artwork and inline symbols are linked raster assets; title and rules are editable SVG text.</desc>
   <defs id="rules-layout-defaults">
@@ -19,10 +19,10 @@
     <path id="upper-panel" d="M31 159 H644 V635 H31 Z" fill="#101219" />
     <path id="lower-panel" d="M31 643 H644 V970 C644 998 622 1020 594 1020 H81 C53 1020 31 998 31 970 Z" fill="#101219" />
   </g>
-  <g id="linked-card-art" aria-label="Linked original card artwork"><image x="31" y="159" width="613" height="476" preserveAspectRatio="xMidYMid slice" clip-path="url(#six-it-clip)" href="../../art/cardartsource/six_it.png" /></g><g id="accent-elements" aria-label="Change this group color to recolor the template" fill="#EB943A" stroke="#EB943A">
+  <g id="linked-card-art" aria-label="Linked original card artwork"><image x="31" y="159" width="613" height="476" preserveAspectRatio="xMidYMid slice" clip-path="url(#six-it-clip)" href="../../art/six_it.png" /></g><g id="accent-elements" aria-label="Change this group color to recolor the template" fill="#EB943A" stroke="#EB943A">
     <path id="header" d="M24 76 C24 46.2 48.2 22 78 22 H597 C626.8 22 651 46.2 651 76 V158 H24 Z" stroke="none" />
     <rect id="panel-divider" x="24" y="635" width="627" height="8" stroke="none" />
-    <path id="inner-frame" data-text-equivalent="expanded 6px red perimeter stroke" d="M27.000 161.000 L648.000 161.000 L645.000 158.000 L645.000 970.000 C645.000 998.196 622.488 1021.000 595.000 1021.000 L80.000 1021.000 C52.512 1021.000 30.000 998.196 30.000 970.000 L30.000 158.000 L27.000 161.000 Z M27.000 155.000 C25.343 155.000 24.000 156.343 24.000 158.000 L24.000 970.000 C24.000 1001.492 49.181 1027.000 80.000 1027.000 L595.000 1027.000 C625.819 1027.000 651.000 1001.492 651.000 970.000 L651.000 158.000 C651.000 156.343 649.657 155.000 648.000 155.000 L27.000 155.000 Z " fill="#EB943A" stroke="none" />
+    <path id="inner-frame" data-text-equivalent="expanded 6px red perimeter stroke" d="M36 158 H639 V970 C639 994.853 619.301 1015 595 1015 H80 C55.699 1015 36 994.853 36 970 Z M27.000 155.000 C25.343 155.000 24.000 156.343 24.000 158.000 L24.000 970.000 C24.000 1001.492 49.181 1027.000 80.000 1027.000 L595.000 1027.000 C625.819 1027.000 651.000 1001.492 651.000 970.000 L651.000 158.000 C651.000 156.343 649.657 155.000 648.000 155.000 L27.000 155.000 Z " fill="#EB943A" stroke="none" />
   </g>
   <g id="instant-action-cp-tag" aria-label="Editable Roll Phase Action CP tag" transform="translate(24 169)">
     <defs>

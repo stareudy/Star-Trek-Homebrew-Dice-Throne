@@ -5,17 +5,17 @@ Positive Status Effect | Stack limit: 5
 
 Spend to gain {cp.svg}
 Once per turn during your Main Phase, spend these tokens for one of the following effects:
-- Spend 1: Gain {{cp.svg}1}.
-- Spend 2: Roll one {roll_die.svg} and gain half the roll value (rounded up) as {cp.svg}.
+Spend 1: Gain {{cp.svg}1}.
+Spend 2: Roll one {roll_die.svg} and gain half the roll value (rounded up) as {cp.svg}.
 
 COMMAND CODES
 Positive Status Effect | Stack limit: 5
 
 Spend to modify dice
 During any Roll Phase, spend Command Codes for one effect:
-- Spend 1: Reroll any one of your own dice.
-- Spend 4: Select one of your opponents dice to force them to reroll it, or change any one of your dice to any value except six.
-- Spend 5: Change one of your dice to a six.
+Spend 1: Reroll any one of your own dice.
+Spend 4: Select one of your opponents dice to force them to reroll it, or change any one of your dice to any value except six.
+Spend 5: Change one of your dice to a six.
 
 REPRIMAND
 Negative Status Effect | Stack limit: 2
@@ -49,10 +49,10 @@ RED ALERT
 TACTICAL EXERCISES
 {coffee_die.svg} {coffee_die.svg} {coffee_die.svg} {coffee_die.svg} {earth_die.svg}
 Roll 2 {roll_die.svg} for the following effects:
-- For each {coffee_die.svg}, Deal {{normal_damage.svg}4} dmg
-- On {combadge_die.svg}, Gain 2 {command_codes.svg} and 1 {coffee_token.svg}
-- On {earth_die.svg}, Draw {{carddraw.svg}1}
-- On {earth_die.svg} {earth_die.svg}, Begin a new Offensive Roll Phase targeting the same opponent
+- For each {coffee_die.svg} Deal {{normal_damage.svg}4} dmg
+- On {combadge_die.svg} Gain 2 {command_codes.svg} and 1 {coffee_token.svg}
+- On {earth_die.svg} Draw {{carddraw.svg}1}
+- On {earth_die.svg} {earth_die.svg} Begin a new Offensive Roll Phase targeting the same opponent
 You may spend 1 {coffee_token.svg} before rolling to roll 3 {roll_die.svg} instead of 2
 
 COMMAND PROTOCOL
@@ -70,10 +70,10 @@ GET OFF MY SHIP!
 
 SHIELDS UP
 {defense_3_dice.svg}
-Roll 3 {roll_die.svg}:
-- On {coffee_die.svg}, prevent {{damage_prevention.svg}1}
-- On {combadge_die.svg}, prevent {{damage_prevention.svg}2}
-- On {combadge_die.svg} {earth_die.svg}, Inflict {reprimand.svg}
+Roll 3 {roll_die.svg}
+- On {coffee_die.svg} prevent {{damage_prevention.svg}1}
+- On {combadge_die.svg} prevent {{damage_prevention.svg}2}
+- On {combadge_die.svg} {earth_die.svg} Inflict {reprimand.svg}
 
 PUNCH YOUR WAY THROUGH (ULTIMATE)
 {earth_die.svg} {earth_die.svg} {earth_die.svg} {earth_die.svg} {earth_die.svg}
@@ -118,22 +118,22 @@ Inflict {reprimand.svg} on two players. (Can be two different players or the sam
 RESOLVE
 Cost: {{cp.svg}3} | Instant Action
 Roll 3 {roll_die.svg} for the following effects:
-- For each {coffee_die.svg}, Gain {coffee_token.svg}
-- For each {combadge_die.svg}, Gain {command_codes.svg}
-- On {earth_die.svg}, {{healing.svg}6}
-- On {earth_die.svg} {earth_die.svg}, Also gain {command_codes.svg} and {coffee_token.svg}
+For each {coffee_die.svg}, Gain {coffee_token.svg}
+For each {combadge_die.svg}, Gain {command_codes.svg}
+On {earth_die.svg}, {{healing.svg}6}
+On {earth_die.svg} {earth_die.svg}, Also gain {command_codes.svg} and {coffee_token.svg}
 
 FIRE PHASERS II
 Cost: {{cp.svg}2} | Main Phase Action
-- {coffee_die.svg} {coffee_die.svg} {coffee_die.svg}, Deal {{normal_damage.svg}5} dmg
-- {coffee_die.svg} {coffee_die.svg} {coffee_die.svg} {coffee_die.svg}, Deal {{normal_damage.svg}6} dmg
-- {coffee_die.svg} {coffee_die.svg} {coffee_die.svg} {coffee_die.svg} {coffee_die.svg}, Deal {{normal_damage.svg}7} dmg
+- {coffee_die.svg} {coffee_die.svg} {coffee_die.svg} Deal {{normal_damage.svg}5} dmg
+- {coffee_die.svg} {coffee_die.svg} {coffee_die.svg} {coffee_die.svg} Deal {{normal_damage.svg}6} dmg
+- {coffee_die.svg} {coffee_die.svg} {coffee_die.svg} {coffee_die.svg} {coffee_die.svg} Deal {{normal_damage.svg}7} dmg
 
 FIRE PHASERS III
 Cost: {{cp.svg}4} | Main Phase Action
-- {coffee_die.svg} {coffee_die.svg} {coffee_die.svg}, Deal {{normal_damage.svg}6} dmg
-- {coffee_die.svg} {coffee_die.svg} {coffee_die.svg} {coffee_die.svg}, Deal {{normal_damage.svg}7} dmg
-- {coffee_die.svg} {coffee_die.svg} {coffee_die.svg} {coffee_die.svg} {coffee_die.svg}, Deal {{normal_damage.svg}8} dmg
+- {coffee_die.svg} {coffee_die.svg} {coffee_die.svg} Deal {{normal_damage.svg}6} dmg
+- {coffee_die.svg} {coffee_die.svg} {coffee_die.svg} {coffee_die.svg} Deal {{normal_damage.svg}7} dmg
+- {coffee_die.svg} {coffee_die.svg} {coffee_die.svg} {coffee_die.svg} {coffee_die.svg} Deal {{normal_damage.svg}8} dmg
 - Inflict {reprimand.svg}
 
 SHORE LEAVE II
@@ -146,23 +146,23 @@ TACTICAL EXERCISES II
 Cost: {{cp.svg}3} | Main Phase Action
 {coffee_die.svg} {coffee_die.svg} {coffee_die.svg} {coffee_die.svg} {earth_die.svg}
 Roll 3 {roll_die.svg} for the following effects:
-- For each {coffee_die.svg}, Deal {{normal_damage.svg}4} dmg
-- On {combadge_die.svg}, Gain 2 {command_codes.svg} and 1 {coffee_token.svg}
-- On {earth_die.svg}, Draw {{carddraw.svg}1}
-- On {earth_die.svg} {earth_die.svg}, Begin a new Offensive Roll Phase targeting the same opponent
+- For each {coffee_die.svg} Deal {{normal_damage.svg}4} dmg
+- On {combadge_die.svg} Gain 2 {command_codes.svg} and 1 {coffee_token.svg}
+- On {earth_die.svg} Draw {{carddraw.svg}1}
+- On {earth_die.svg} {earth_die.svg} Begin a new Offensive Roll Phase targeting the same opponent
 
 SHIELDS UP II
 Cost: {{cp.svg}3} | Main Phase Action
 {defense_4_dice.svg}
 Roll 4 {roll_die.svg}:
-- For each {coffee_die.svg}, prevent {{damage_prevention.svg}1}
-- On {combadge_die.svg}, prevent {{damage_prevention.svg}2}
-- On {combadge_die.svg} {earth_die.svg}, Inflict {reprimand.svg}
+- For each {coffee_die.svg} prevent {{damage_prevention.svg}1}
+- On {combadge_die.svg} prevent {{damage_prevention.svg}2}
+- On {combadge_die.svg} {earth_die.svg} Inflict {reprimand.svg}
 
 SHIELDS UP III
 Cost: {{cp.svg}5} | Main Phase Action
 {defense_5_dice.svg}
 Roll 5 {roll_die.svg}:
-- For each {coffee_die.svg}, prevent {{damage_prevention.svg}1}
-- For each {combadge_die.svg} {combadge_die.svg}, prevent {{damage_prevention.svg}2}
-- On {combadge_die.svg} {earth_die.svg}, Inflict {reprimand.svg}
+- For each {coffee_die.svg} prevent {{damage_prevention.svg}1}
+- For each {combadge_die.svg} {combadge_die.svg} prevent {{damage_prevention.svg}2}
+- On {combadge_die.svg} {earth_die.svg} Inflict {reprimand.svg}

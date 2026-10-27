@@ -1,6 +1,6 @@
 # Janeway icon inventory
 
-Scope: hero board abilities and hero-specific cards, using `rules.txt` only. Leaflets and Shared assets are deferred until the icon conversion work in the other chat is complete. No image, SVG, PDF, or other artwork asset was inspected for this revision.
+Scope: hero board abilities and hero-specific cards, using `rules.txt`, plus die-face icon instances in the saved leaflet SVG when present. Shared assets are deferred. Rules-derived counts cover board abilities and hero-specific cards; leaflet counts are checked against its embedded SVG icons.
 
 **CP tags are not considered icons and are excluded.** Entire card `Cost:` lines are excluded. CP symbols used inside actual rules remain included, because those are gameplay icons rather than CP tags.
 
@@ -269,7 +269,7 @@ Use this index to locate the board abilities and cards whose rules reference an 
 - Source: `rules.txt` (SHA-256: `2359385f11af4c06426ca497d65146958961a788af226b2d9a7ac35269479d35`).
 - Hero board abilities: 9.
 - Hero-specific cards: 14.
-- Icon markup references, excluding CP cost tags and leaflet rules: 188.
+- Rules icon markup references, excluding CP cost tags: 188.
 - Standard/shared cards: deferred; their rules are intentionally absent from this source.
-- Leaflet: deferred; its source section was excluded.
+- Leaflet die-face instances: 0; no Janeway `leaflet.svg` is present.
 - Artwork-only icons, activation symbols not explicitly included in the rules, and editable-number implementation: pending later asset inspection.

@@ -10,6 +10,10 @@
 
 Sizes in this guide use the hero board's 4500 × 2700 SVG coordinate system, corresponding to a 15 × 9 inch source canvas. The source canvas dimensions are distinct from the finished board dimensions above. Scale these measurements proportionally if the entire board uses a different coordinate scale.
 
+## Ability title sizing
+
+- Render hero board ability titles, including Ultimate ability titles, at **86 px** at the desired print size. The user may specify a different size.
+
 ## Standard icon size
 
 Use a 54 × 54 unit viewport for every instance of these icon types:

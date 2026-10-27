@@ -11,10 +11,10 @@ During an opponent's Offensive Roll Phase: spend this before their first reroll.
 LOGIC
 Positive Status Effect | Stack limit: 5
 
-You may activate only one of these effects per turn.
-Spend x: During any Roll Phase add x{{normal_damage.svg}1} (attack modifier) or prevent x{{damage_prevention.svg}1}.
-Spend 2: During Upkeep Phase look at the top card of your deck. Put it back on top or bottom.
-Spend 3: During Upkeep Phase gain {{cp.svg}1} or draw {{carddraw.svg}1}.
+You may activate one of these effects per turn.
+Spend x: During any Roll Phase add x{{normal_damage.svg}1} or prevent x{{damage_prevention.svg}1}
+Spend 2: During Upkeep Phase look at the top card of your deck. Put it back on top or bottom
+Spend 3: During Upkeep Phase gain {{cp.svg}1} or draw {{carddraw.svg}1}
 Spend 4: During Main Phase gain {protect.svg} or inflict {targeted.svg}
 
 TARGETED

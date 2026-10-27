@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="-4.2 -4.2 1057.2 352.4" width="1057.2" height="352.4" role="img" aria-label="Defense 3 dice face">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-4.2 -4.2 1057.2 352.4" width="1057.2" height="352.4" role="img" aria-label="Defense 3 dice face" overflow="visible"><defs><linearGradient id="approved-black-dice-surface" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#4A4A50"/><stop offset="0.2" stop-color="#29292E"/><stop offset="0.55" stop-color="#111115"/><stop offset="1" stop-color="#030305"/></linearGradient></defs><defs id="approved-reusable-die-lighting"><linearGradient id="reusable-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28"/><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02"/><stop offset="1" stop-color="#101018" stop-opacity="0.24"/></linearGradient><linearGradient id="reusable-defense-green" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#BAFFD7"/><stop offset="0.35" stop-color="#6AF2A8"/><stop offset="0.72" stop-color="#359963"/><stop offset="1" stop-color="#236D45"/></linearGradient><linearGradient id="reusable-straight-gold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFF0C6"/><stop offset="0.35" stop-color="#FFD27A"/><stop offset="1" stop-color="#97703B"/></linearGradient><filter id="reusable-dice-shared-shadow" x="-0.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="36" result="expanded"/><feGaussianBlur in="expanded" stdDeviation="28" result="soft"/><feFlood flood-color="#000000" flood-opacity="0.8" result="black"/><feComposite in="black" in2="soft" operator="in" result="halo"/><feMerge><feMergeNode in="halo"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><g id="approved-reusable-die-surface" filter="url(#reusable-dice-shared-shadow)">
   <title>Defense 3 dice face</title>
   <defs>
     <clipPath id="face-clip"><rect x="0" y="0" width="344" height="344" rx="31" /></clipPath>
   </defs>
   <g>
     <g clip-path="url(#face-clip)">
-      <rect width="344" height="344" fill="#000000" />
+      <rect width="344" height="344" fill="url(#approved-black-dice-surface)" />
     </g>
     <rect x="-2.1" y="-2.1" width="348.2" height="348.2" rx="33.1" fill="none" stroke-width="4.2" stroke="#000000" />
-    <rect x="6.3" y="6.3" width="331.4" height="331.4" rx="24.7" fill="none" stroke-width="12.6" stroke="#6AF2A8" />
+    <rect x="6.3" y="6.3" width="331.4" height="331.4" rx="24.7" fill="none" stroke-width="12.6" stroke="url(#reusable-defense-green)" />
   </g>
   <g transform="translate(352.4 0)">
     <g clip-path="url(#face-clip)">
-      <rect width="344" height="344" fill="#000000" />
+      <rect width="344" height="344" fill="url(#approved-black-dice-surface)" />
     </g>
     <rect x="-2.1" y="-2.1" width="348.2" height="348.2" rx="33.1" fill="none" stroke-width="4.2" stroke="#000000" />
-    <rect x="6.3" y="6.3" width="331.4" height="331.4" rx="24.7" fill="none" stroke-width="12.6" stroke="#6AF2A8" />
+    <rect x="6.3" y="6.3" width="331.4" height="331.4" rx="24.7" fill="none" stroke-width="12.6" stroke="url(#reusable-defense-green)" />
   </g>
   <g transform="translate(704.8 0)">
     <g clip-path="url(#face-clip)">
-      <rect width="344" height="344" fill="#000000" />
+      <rect width="344" height="344" fill="url(#approved-black-dice-surface)" />
     </g>
     <rect x="-2.1" y="-2.1" width="348.2" height="348.2" rx="33.1" fill="none" stroke-width="4.2" stroke="#000000" />
-    <rect x="6.3" y="6.3" width="331.4" height="331.4" rx="24.7" fill="none" stroke-width="12.6" stroke="#6AF2A8" />
+    <rect x="6.3" y="6.3" width="331.4" height="331.4" rx="24.7" fill="none" stroke-width="12.6" stroke="url(#reusable-defense-green)" />
   </g>
-</svg>
+</g></svg>

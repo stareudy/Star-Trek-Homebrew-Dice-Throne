@@ -54,6 +54,10 @@ All Upgrade Cards, including Two Panel Upgrade Cards, have artwork behind their 
 
 Sizes in this guide use a 3300 × 2550 card-page SVG coordinate system, corresponding to an 11 × 8.5 inch source canvas. This uses the same scale of 300 units per inch as the hero board style guide. Scale these measurements proportionally if the entire card page uses a different coordinate scale.
 
+## Card title sizing
+
+Render card titles at **86 px** by default. The user may specify a different size.
+
 ## Standard icon size
 
 Use a 54 × 54 unit viewport for every instance of these icon types:

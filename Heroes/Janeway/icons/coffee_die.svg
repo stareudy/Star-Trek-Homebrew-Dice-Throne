@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 344 344" width="344" height="344" role="img" aria-label="Coffee cup with rising steam on a dark blue die face">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 344 344" width="344" height="344" role="img" aria-label="Coffee cup with rising steam on a dark blue die face" overflow="visible"><defs id="approved-reusable-die-lighting"><linearGradient id="reusable-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28"/><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02"/><stop offset="1" stop-color="#101018" stop-opacity="0.24"/></linearGradient><linearGradient id="reusable-defense-green" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#BAFFD7"/><stop offset="0.35" stop-color="#6AF2A8"/><stop offset="0.72" stop-color="#359963"/><stop offset="1" stop-color="#236D45"/></linearGradient><linearGradient id="reusable-straight-gold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFF0C6"/><stop offset="0.35" stop-color="#FFD27A"/><stop offset="1" stop-color="#97703B"/></linearGradient><filter id="reusable-dice-shared-shadow" x="-0.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="36" result="expanded"/><feGaussianBlur in="expanded" stdDeviation="28" result="soft"/><feFlood flood-color="#000000" flood-opacity="0.8" result="black"/><feComposite in="black" in2="soft" operator="in" result="halo"/><feMerge><feMergeNode in="halo"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><g id="approved-reusable-die-surface" filter="url(#reusable-dice-shared-shadow)">
   <title>Coffee die face</title>
   <desc>Hand-drawn vector draft with a solid, color-matched die-face background.</desc>
   <defs>
@@ -7,7 +7,7 @@
     </clipPath>
   </defs>
   <g clip-path="url(#face-clip)">
-    <rect width="344" height="344" fill="#084064" />
+    <rect width="344" height="344" fill="#003085" />
 
     <g transform="translate(0 3.7) translate(172 172) scale(0.8322 0.7245) translate(-172 -172)">
     <g fill="#7A848B" transform="translate(0 -28)">
@@ -40,6 +40,6 @@
       <path d="M181 99 C192 108 196 119 192 131 C188 142 180 151 179 161 C178 168 181 174 188 179 C176 176 168 167 169 156 C170 143 180 132 183 121 C185 113 183 105 181 99 Z" transform="translate(0 -47.825)" />
     </g>
     </g>
-    <rect x="6.3" y="6.3" width="331.4" height="331.4" rx="24.7" fill="none" stroke="#086480" stroke-width="12.6" />
+    
   </g>
-</svg>
+<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#reusable-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none"/></g></svg>

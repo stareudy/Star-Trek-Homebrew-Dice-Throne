@@ -54,7 +54,9 @@ All Upgrade Cards, including Two Panel Upgrade Cards, have artwork behind their 
 
 Sizes in this guide use a 3300 × 2550 card-page SVG coordinate system, corresponding to an 11 × 8.5 inch source canvas. This uses the same scale of 300 units per inch as the hero board style guide. Scale these measurements proportionally if the entire card page uses a different coordinate scale.
 
-## Card title sizing
+## Card title font and sizing
+
+Use **Gardablack** for all card titles. Keep titles as editable SVG text, using the installed TTF or linking the font file in `Shared/fonts/Gardablack/`; do not convert the letters to vector outlines.
 
 Render card titles at **86 px** by default. The user may specify a different size.
 
@@ -87,7 +89,7 @@ When a punctuation mark immediately follows a die face icon or die face group, l
 
 ## Die face icon sizing
 
-Use the same three die face icon classes and sizes as the hero board. On Upgrade Cards, classify icons by their role in the corresponding ability; use the inline class for die faces within card rules text.
+Use the same three die face icon classes as the hero board, with the card-specific sizes listed below. The hero board's enlarged icon sizes do not change these card sizes. On Upgrade Cards, classify icons by their role in the corresponding ability; use the inline class for die faces within card rules text.
 
 1. **Activation icons:** Use **85 × 85 units** per die face icon in the single activation row at the top of an ability panel, including the Ultimate panel. Defense die icons and large straight and small straight icons belong to this class. Scale these composite icons proportionally so their largest square measures **85 × 85 units**, including its outer black border; do not size the entire composite icon to 85 × 85 units.
 2. **Basic power activation icons:** Use **60 × 60 units** per die face icon for abilities with three activation rows containing 3, 4, and 5 die face icons, respectively, with damage text to the right of each row. Use this class when that arrangement appears on an Upgrade Card, regardless of the corresponding ability's location on the hero board.

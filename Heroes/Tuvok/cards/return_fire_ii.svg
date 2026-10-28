@@ -61,16 +61,16 @@
         <stop offset="1" stop-color="#D9D9D9" />
       </linearGradient>
       <linearGradient id="cp-red-fill" x1="0" y1="0" x2="1" y2="0">
-        <stop offset="0" stop-color="#A9B9E2" />
-        <stop offset="0.12" stop-color="#8799C8" />
-        <stop offset="0.78" stop-color="#556A9D" />
-        <stop offset="1" stop-color="#93A6D8" />
+        <stop offset="0" stop-color="#6E9CDA" />
+        <stop offset="0.12" stop-color="#507EBC" />
+        <stop offset="0.78" stop-color="#385377" />
+        <stop offset="1" stop-color="#588BD0" />
       </linearGradient>
       <linearGradient id="cp-red-edge" x1="0" y1="0" x2="1" y2="0">
-        <stop offset="0" stop-color="#CBD7F3" stop-opacity="0.9" />
-        <stop offset="0.14" stop-color="#7285B6" stop-opacity="0.72" />
-        <stop offset="0.6" stop-color="#43557F" stop-opacity="0.2" />
-        <stop offset="1" stop-color="#A5B6E3" stop-opacity="0.75" />
+        <stop offset="0" stop-color="#8CB6EF" stop-opacity="0.9" />
+        <stop offset="0.14" stop-color="#476C9E" stop-opacity="0.72" />
+        <stop offset="0.6" stop-color="#283C57" stop-opacity="0.2" />
+        <stop offset="1" stop-color="#689ADD" stop-opacity="0.75" />
       </linearGradient>
       <linearGradient id="cp-label-fill" x1="0" y1="0" x2="1" y2="0">
         <stop offset="0" stop-color="#292929" />
@@ -109,7 +109,7 @@
       <path d="M0.5 0.5 H51.5 C55.4 0.5 58.5 3.6 58.5 7.5 V174.5 C58.5 178.4 55.4 181.5 51.5 181.5 H0.5 Z" fill="url(#cp-red-fill)" stroke="url(#cp-red-edge)" stroke-width="1.2" />
       <path id="cp-badge-face" d="M13 11 H46 C50.418 11 54 14.582 54 19 V105 C54 109.418 50.418 113 46 113 H13 C8.582 113 5 109.418 5 105 V19 C5 14.582 8.582 11 13 11 Z" fill="url(#cp-badge-fill)" stroke="#B8B8B8" stroke-width="1.5" filter="url(#cp-badge-shadow)" />
       <path id="cp-red-left-sheen" d="M2 13 V170" fill="none" stroke="#FFFFFF" stroke-opacity="0.24" stroke-width="1.2" stroke-linecap="round" />
-      <path id="cp-star" d="M29.5 24 L35 38 L52 38 L38 48 L43.5 64 L29.5 55 L15.5 64 L21 48 L7 38 L24 38 Z" fill="#8799C8" />
+      <path id="cp-star" d="M29.5 24 L35 38 L52 38 L38 48 L43.5 64 L29.5 55 L15.5 64 L21 48 L7 38 L24 38 Z" fill="#507EBC" />
       <text id="cp-cost-number" data-text="3" data-font="Arial Bold" x="17.05" y="93.5" text-anchor="middle" font-family="Arial" font-size="25px" font-weight="700" fill="#080808">3</text>
       <path id="cp-units-outline" data-text="CP" data-font="Arial Bold" d="M37.023 89.526 L39.405 90.281 Q38.857 92.273 37.583 93.240 Q36.309 94.208 34.350 94.208 Q31.926 94.208 30.366 92.552 Q28.805 90.896 28.805 88.023 Q28.805 84.985 30.374 83.304 Q31.943 81.624 34.500 81.624 Q36.732 81.624 38.127 82.943 Q38.957 83.724 39.372 85.185 L36.940 85.766 Q36.724 84.819 36.039 84.271 Q35.354 83.724 34.375 83.724 Q33.022 83.724 32.179 84.695 Q31.337 85.666 31.337 87.841 Q31.337 90.148 32.167 91.128 Q32.997 92.107 34.325 92.107 Q35.305 92.107 36.010 91.485 Q36.716 90.862 37.023 89.526 Z M41.514 94.000 L41.514 81.831 L45.457 81.831 Q47.698 81.831 48.378 82.014 Q49.424 82.288 50.130 83.205 Q50.835 84.122 50.835 85.575 Q50.835 86.695 50.429 87.459 Q50.022 88.223 49.395 88.658 Q48.769 89.094 48.121 89.235 Q47.241 89.410 45.573 89.410 L43.971 89.410 L43.971 94.000 Z M43.971 83.890 L43.971 87.343 L45.315 87.343 Q46.768 87.343 47.258 87.152 Q47.748 86.961 48.026 86.554 Q48.304 86.147 48.304 85.608 Q48.304 84.944 47.914 84.512 Q47.523 84.081 46.926 83.973 Q46.486 83.890 45.158 83.890 Z " fill="#080808" />
       <g id="main-phase-clock-icon" aria-label="Main Phase M-clock icon" fill="#FFFFFF">

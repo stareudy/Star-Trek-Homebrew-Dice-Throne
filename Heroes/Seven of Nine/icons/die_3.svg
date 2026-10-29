@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 344 344" width="344" height="344" role="img" aria-label="Seven of Nine numbered die face 3"><title>Seven of Nine numbered die face 3</title><desc>Vector die face and symbol based on the approved icon, with placement and numeral color matched to the numbered PNG reference.</desc><defs>
+    <clipPath id="face-clip"><rect x="0" y="0" width="344" height="344" rx="31" /></clipPath>
+    <filter id="icon-outline" filterUnits="userSpaceOnUse" x="-4" y="-4" width="352" height="352" color-interpolation-filters="sRGB">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1" result="expanded" />
+      <feComposite in="expanded" in2="SourceAlpha" operator="out" result="outline-mask" />
+      <feFlood flood-color="#55595D" result="outline-color" />
+      <feComposite in="outline-color" in2="outline-mask" operator="in" result="outline" />
+      <feMerge><feMergeNode in="outline" /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+  </defs>
+  <g clip-path="url(#face-clip)"><rect x="0" y="0" width="344" height="344" fill="#000000" /><g transform="translate(60.059305 70.494643) scale(0.850034 0.850472)"><g filter="url(#icon-outline)">
+    
+    <g fill="none" stroke="#000000" stroke-width="16" stroke-linecap="butt">
+      
+      <path d="M90.667 163.667 L35.167 139.067" />
+      <path d="M113 137.5 L57.5 112.9" />
+      <path d="M135.333 111.333 L79.833 86.733" />
+      
+      <path d="M164 106 L199.43 64.48" />
+      <path d="M199 121.5 L234.43 79.98" />
+      <path d="M234 137 L269.43 95.48" />
+    </g>
+    <g fill="none" stroke="#36A64A" stroke-width="12" stroke-linecap="butt">
+      <path d="M90.667 163.667 L35.167 139.067" />
+      <path d="M113 137.5 L57.5 112.9" />
+      <path d="M135.333 111.333 L79.833 86.733" />
+      <path d="M164 106 L199.43 64.48" />
+      <path d="M199 121.5 L234.43 79.98" />
+      <path d="M234 137 L269.43 95.48" />
+    </g>
+    
+    <g fill="#36A64A">
+      <ellipse cx="35.167" cy="139.067" rx="6" ry="2.33" transform="rotate(113.9 35.167 139.067)" />
+      <ellipse cx="57.5" cy="112.9" rx="6" ry="2.33" transform="rotate(113.9 57.5 112.9)" />
+      <ellipse cx="79.833" cy="86.733" rx="6" ry="2.33" transform="rotate(113.9 79.833 86.733)" />
+      <ellipse cx="199.43" cy="64.48" rx="6" ry="3.36" transform="rotate(40.5 199.43 64.48)" />
+      <ellipse cx="234.43" cy="79.98" rx="6" ry="3.36" transform="rotate(40.5 234.43 79.98)" />
+      <ellipse cx="269.43" cy="95.48" rx="6" ry="3.36" transform="rotate(40.5 269.43 95.48)" />
+    </g>
+    <g fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round">
+      
+      <path d="M32.736 144.553 A6 2.33 113.9 0 1 37.598 133.581" />
+      <path d="M55.069 118.386 A6 2.33 113.9 0 1 59.931 107.414" />
+      <path d="M77.402 92.219 A6 2.33 113.9 0 1 82.264 81.247" />
+      
+      <path d="M203.992 68.377 A6 3.36 40.5 0 0 194.868 60.583" />
+      <path d="M238.992 83.877 A6 3.36 40.5 0 0 229.868 76.083" />
+      <path d="M273.992 99.377 A6 3.36 40.5 0 0 264.868 91.583" />
+    </g>
+    
+    <path d="M79.5 162.75 L146.5 84.25 L251.5 130.75 L184.5 209.25 Z" fill="#36A64A" stroke="#000000" stroke-width="2.5" stroke-linejoin="round" />
+    
+    <path d="M79.5 162.75 L79.5 190.75 L184.5 237.25 L184.5 209.25 Z" fill="#36A64A" stroke="#000000" stroke-width="2.5" stroke-linejoin="round" />
+    <path d="M184.5 209.25 L251.5 130.75 L251.5 158.75 L184.5 237.25 Z" fill="#36A64A" stroke="#000000" stroke-width="2.5" stroke-linejoin="round" />
+
+    
+    <g fill="none" stroke="#36A64A" stroke-width="12" stroke-linecap="butt">
+      <path d="M97 184.5 L61.57 226.02" />
+      <path d="M132 200 L96.57 241.52" />
+      <path d="M167 215.5 L131.57 257.02" />
+      <path d="M240.333 157.833 L295.833 182.433" />
+      <path d="M218 184 L273.5 208.6" />
+      <path d="M195.667 210.167 L251.167 234.767" />
+    </g>
+    
+    <g fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="butt">
+      
+      <path d="M91.212 181.937 L57.01 221.63" />
+      <path d="M102.788 187.063 L66.13 230.41" />
+      <path d="M126.212 197.437 L92.01 237.13" />
+      <path d="M137.788 202.563 L101.13 245.91" />
+      <path d="M161.212 212.937 L127.01 252.63" />
+      <path d="M172.788 218.063 L136.13 261.41" />
+      
+      <path d="M244.222 153.278 L298.26 176.96" />
+      <path d="M236.448 162.386 L293.41 187.91" />
+      <path d="M221.886 179.447 L275.93 203.13" />
+      <path d="M214.114 188.553 L271.07 214.07" />
+      <path d="M199.552 205.614 L253.59 229.29" />
+      <path d="M191.778 214.723 L248.74 240.24" />
+    </g>
+    
+    <g fill="#000000">
+      <circle cx="91.212" cy="181.937" r="1.25" />
+      <circle cx="102.788" cy="187.063" r="1.25" />
+      <circle cx="126.212" cy="197.437" r="1.25" />
+      <circle cx="137.788" cy="202.563" r="1.25" />
+      <circle cx="161.212" cy="212.937" r="1.25" />
+      <circle cx="172.788" cy="218.063" r="1.25" />
+      <circle cx="244.222" cy="153.278" r="1.25" />
+      <circle cx="236.448" cy="162.386" r="1.25" />
+      <circle cx="221.886" cy="179.447" r="1.25" />
+      <circle cx="214.114" cy="188.553" r="1.25" />
+      <circle cx="199.552" cy="205.614" r="1.25" />
+      <circle cx="191.778" cy="214.723" r="1.25" />
+    </g>
+    
+    <g fill="#36A64A" stroke="#000000" stroke-width="2.5">
+      
+      <ellipse cx="61.57" cy="226.02" rx="6" ry="3.36" transform="rotate(40.5 61.57 226.02)" />
+      <ellipse cx="96.57" cy="241.52" rx="6" ry="3.36" transform="rotate(40.5 96.57 241.52)" />
+      <ellipse cx="131.57" cy="257.02" rx="6" ry="3.36" transform="rotate(40.5 131.57 257.02)" />
+      <ellipse cx="295.833" cy="182.433" rx="6" ry="2.33" transform="rotate(113.9 295.833 182.433)" />
+      <ellipse cx="273.5" cy="208.6" rx="6" ry="2.33" transform="rotate(113.9 273.5 208.6)" />
+      <ellipse cx="251.167" cy="234.767" rx="6" ry="2.33" transform="rotate(113.9 251.167 234.767)" />
+    </g>
+    </g>
+  </g><path d="M2.626473 31.289285 L2.626473 17.357559 C2.626473 4.111001 11.076864 -1.598723 26.150534 -1.598723 C39.282898 -1.598723 50.245567 3.996806 50.245567 18.042726 L50.245567 27.064089 C50.245567 37.569981 45.677788 40.767426 38.369342 41.795176 L38.369342 42.480343 C38.369342 42.251954 38.369342 42.251954 38.483536 42.366148 C45.677788 43.964871 50.245567 48.075872 50.245567 59.609513 L50.245567 64.748264 C50.245567 78.337406 37.912564 82.905185 26.150534 82.905185 C17.12917 82.905185 2.626473 79.365157 2.626473 63.720514 L2.626473 52.072678 L21.582755 52.072678 L21.582755 61.094041 C21.582755 64.862459 21.46856 69.887016 26.378923 69.887016 C29.462173 69.887016 31.289285 67.603126 31.289285 64.862459 L31.289285 55.384318 C31.289285 49.788789 27.292478 48.190066 23.181477 48.190066 L15.873031 48.190066 L15.873031 35.171897 L22.267922 35.171897 C27.406673 35.171897 31.289285 34.829313 31.289285 27.863451 L31.289285 17.585948 C31.289285 14.274309 30.261535 11.419447 26.378923 11.419447 C22.496311 11.419447 21.582755 14.274309 21.582755 17.585948 L21.582755 31.289285 Z" transform="matrix(1.075403753 0 0 -1 41.153374 107.631902)" fill="#36A64A" /></g><rect x="4" y="4" width="336" height="336" rx="27" fill="none" stroke="#000000" stroke-width="8" pointer-events="none" id="approved-numbered-die-rim" /></svg>

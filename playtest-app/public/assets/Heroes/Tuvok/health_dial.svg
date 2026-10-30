@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="85mm" height="51mm" viewBox="0 0 510 306">
+  <title>health dial front</title>
+  <desc>Approved dial with embedded full-resolution illustration, vector icon and contour, and transparent openings.</desc>
+  <defs>
+    <clipPath id="front-clip"><path d="M 18,0 H 492 Q 510,0 510,18 V 288 Q 510,306 492,306 H 18 Q 0,306 0,288 V 18 Q 0,0 18,0 Z M 220,107 H 290 C 309,107 323,119 323,140 V 170 C 323,190 311,200 291,200 H 220 C 197,200 187,189 187,169 V 139 C 187,118 199,107 220,107 Z" clip-rule="evenodd"/></clipPath>
+    
+    <filter id="icon-aura" x="-65%" y="-65%" width="230%" height="230%" color-interpolation-filters="sRGB">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="3" result="expanded-silhouette"/>
+      <feGaussianBlur in="expanded-silhouette" stdDeviation="4.5" result="soft-silhouette"/>
+      <feFlood flood-color="#000000" flood-opacity="0.8" result="halo-color"/>
+      <feComposite in="halo-color" in2="soft-silhouette" operator="in" result="halo"/>
+      <feMerge><feMergeNode in="halo"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <g id="background" inkscape:groupmode="layer" inkscape:label="Blank background">
+    <path id="front-shape" d="M 18,0 H 492 Q 510,0 510,18 V 288 Q 510,306 492,306 H 18 Q 0,306 0,288 V 18 Q 0,0 18,0 Z M 220,107 H 290 C 309,107 323,119 323,140 V 170 C 323,190 311,200 291,200 H 220 C 197,200 187,189 187,169 V 139 C 187,118 199,107 220,107 Z" fill="#bcbcbc" fill-rule="evenodd"/>
+  </g>
+  <g id="artwork" inkscape:groupmode="layer" inkscape:label="Add artwork here" clip-path="url(#front-clip)"/>
+  <g id="approved-art" clip-path="url(#front-clip)"><rect x="0" y="0" width="510" height="306" fill="#000"  /></g><g id="labels" inkscape:groupmode="layer" inkscape:label="Editable labels" clip-path="url(#front-clip)" font-family="Arial Narrow, Arial Narrow, sans-serif" font-weight="800" fill="#ffffff" stroke="#222222" stroke-width="1.4" paint-order="stroke fill" stroke-linejoin="round">
+    <g id="health-heart-aura" filter="url(#icon-aura)"><g id="health-heart" data-source="icons/healing.svg" transform="translate(9 203.027972) scale(0.111888112)" stroke="none" paint-order="normal"><path xmlns="http://www.w3.org/2000/svg" id="healing-heart-outline" fill="#FFFFFF" d="M429 786 C365 729 0 483 0 276 C0 121 112 2 251 2 C330 2 393 43 429 110 C465 43 528 2 607 2 C746 2 858 121 858 276 C858 483 493 729 429 786 Z" />
+  <path xmlns="http://www.w3.org/2000/svg" id="healing-heart-face" fill="#87DA87" d="M429 746 C357 682 36 458 36 278 C36 143 129 39 251 39 C325 39 383 81 413 140 L429 172 L445 140 C475 81 533 39 607 39 C729 39 822 143 822 278 C822 458 501 682 429 746 Z" />
+  </g></g>
+  </g>
+  <g id="cut-lines" inkscape:groupmode="layer" inkscape:label="Cut contours" fill="none" stroke="#000000" stroke-width="1.2" stroke-linejoin="round">
+    <path id="cut-contour" d="M 18,0 H 492 Q 510,0 510,18 V 288 Q 510,306 492,306 H 18 Q 0,306 0,288 V 18 Q 0,0 18,0 Z M 220,107 H 290 C 309,107 323,119 323,140 V 170 C 323,190 311,200 291,200 H 220 C 197,200 187,189 187,169 V 139 C 187,118 199,107 220,107 Z"/>
+  </g>
+</svg>

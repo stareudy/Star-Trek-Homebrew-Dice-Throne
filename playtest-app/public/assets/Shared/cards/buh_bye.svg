@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2.25in" height="3.5in" viewBox="0 0 675 1050"><defs id="action-readability-filters"><filter id="action-rules-halo" x="-100" y="540" width="875" height="610" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="4.5" result="expanded"/><feGaussianBlur in="expanded" stdDeviation="3.8" result="soft"/><feFlood flood-color="#000000" flood-opacity="0.8" result="black"/><feComposite in="black" in2="soft" operator="in" result="halo"/><feMerge><feMergeNode in="halo"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+  <title>Buh, Bye! — editable SVG card</title>
+  <desc>Editable vector card layout. Artwork and inline symbols are linked raster assets; title and rules are editable SVG text.</desc>
+  <defs id="rules-layout-defaults">
+    <style type="text/css">
+      .rules-text { font-family: "Arial Narrow"; font-size: 45.833333px; font-weight: 400; fill: #F7F7F7; }
+      .die-face-icon { width: 50px; height: 50px; }
+      .inline-die-icon { width: auto; height: 50px; }
+      .inline-damage-icon, .inline-token-icon { width: auto; height: 55px; }
+    </style>
+  <clipPath id="buh_bye-clip" clipPathUnits="userSpaceOnUse"><rect x="31" y="159" width="613" height="476" /></clipPath></defs>
+  <g id="rules-content-guide" aria-label="Default sizing for future editable rules content" data-rules-font="Arial Narrow" data-rules-font-size="45.833333px" data-inline-die-icon-height="50" data-inline-damage-token-icon-height="55" data-rule-row-baseline-step="70" data-rules-text-alignment="center" data-activation-die-sizing="match-source-power-per-face" data-activation-die-row-spacing="match-source-power" data-inline-die-face-height="50" />
+
+  <g id="outer-black-card" aria-label="Black outer card silhouette">
+    <rect x="0" y="0" width="675" height="1050" rx="54" fill="#000000" />
+  </g>
+  <g id="dark-panels" aria-label="Dark content panels">
+    <path id="upper-panel" d="M31 159 H644 V635 H31 Z" fill="#101219" />
+    <path id="lower-panel" d="M31 643 H644 V970 C644 998 622 1020 594 1020 H81 C53 1020 31 998 31 970 Z" fill="#101219" /><defs><clipPath id="action-rules-background-clip" clipPathUnits="userSpaceOnUse"><path d="M31 643 H644 V970 C644 998 622 1020 594 1020 H81 C53 1020 31 998 31 970 Z"/></clipPath></defs><rect x="31" y="643" width="613" height="377" fill="#000"  clip-path="url(#action-rules-background-clip)"/>
+  </g>
+  <g id="linked-card-art" aria-label="Linked original card artwork"><rect x="31" y="159" width="613" height="476" fill="#000"  clip-path="url(#buh_bye-clip)"/></g><g id="accent-elements" aria-label="Change this group color to recolor the template" fill="#D93A32" stroke="#D93A32"><defs id="surface-study-definitions"><linearGradient id="surface-study-continuous-light" gradientUnits="userSpaceOnUse" x1="0" y1="22" x2="0" y2="1027"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.38"/><stop offset="0.065" stop-color="#FFFFFF" stop-opacity="0.08"/><stop offset="0.1353233831" stop-color="#16151B" stop-opacity="0.23"/><stop offset="0.23" stop-color="#16151B" stop-opacity="0.02"/><stop offset="0.8" stop-color="#16151B" stop-opacity="0.03"/><stop offset="1" stop-color="#16151B" stop-opacity="0.16"/></linearGradient>
+<linearGradient id="surface-study-header" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.38"/><stop offset="0.48" stop-color="#FFFFFF" stop-opacity="0.08"/><stop offset="1" stop-color="#16151B" stop-opacity="0.23"/></linearGradient>
+<linearGradient id="surface-study-frame" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.14"/><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="1" stop-color="#101018" stop-opacity="0.12"/></linearGradient>
+<filter id="surface-study-bevel" x="-0.1" y="-0.1" width="1.2" height="1.2" color-interpolation-filters="sRGB">
+<feOffset in="SourceAlpha" dx="2.6" dy="2.6" result="insetFromLight"/>
+<feComposite in="SourceAlpha" in2="insetFromLight" operator="out" result="litEdge"/>
+<feGaussianBlur in="litEdge" stdDeviation="0.85" result="softLitEdge"/>
+<feComposite in="softLitEdge" in2="SourceAlpha" operator="in" result="clippedLitEdge"/>
+<feFlood flood-color="#FFFFFF" flood-opacity="0.64" result="lightColor"/>
+<feComposite in="lightColor" in2="clippedLitEdge" operator="in" result="highlight"/>
+<feOffset in="SourceAlpha" dx="-2.6" dy="-2.6" result="insetFromShade"/>
+<feComposite in="SourceAlpha" in2="insetFromShade" operator="out" result="darkEdge"/>
+<feGaussianBlur in="darkEdge" stdDeviation="0.95" result="softDarkEdge"/>
+<feComposite in="softDarkEdge" in2="SourceAlpha" operator="in" result="clippedDarkEdge"/>
+<feFlood flood-color="#11101A" flood-opacity="0.53" result="shadeColor"/>
+<feComposite in="shadeColor" in2="clippedDarkEdge" operator="in" result="shade"/>
+<feMerge><feMergeNode in="SourceGraphic"/><feMergeNode in="highlight"/><feMergeNode in="shade"/></feMerge>
+</filter><linearGradient id="approved-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28"/><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02"/><stop offset="1" stop-color="#101018" stop-opacity="0.24"/></linearGradient><linearGradient id="straight-gold-shaded" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFF0C6"/><stop offset="0.35" stop-color="#FFD27A"/><stop offset="1" stop-color="#97703B"/></linearGradient><linearGradient id="defense-green-border-shaded" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#BAFFD7"/><stop offset="0.35" stop-color="#6AF2A8"/><stop offset="0.72" stop-color="#359963"/><stop offset="1" stop-color="#236D45"/></linearGradient><filter id="activation-composite-shared-halo" x="-0.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="9" result="expanded"/><feGaussianBlur in="expanded" stdDeviation="7" result="soft"/><feFlood flood-color="#000000" flood-opacity="0.8" result="black"/><feComposite in="black" in2="soft" operator="in" result="halo"/><feMerge><feMergeNode in="halo"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><g id="approved-continuous-panel" filter="url(#surface-study-bevel)"><path id="inner-frame" data-text-equivalent="expanded 6px red perimeter stroke" d="M36 158 H639 V970 C639 994.853 619.301 1015 595 1015 H80 C55.699 1015 36 994.853 36 970 Z M27.000 155.000 C25.343 155.000 24.000 156.343 24.000 158.000 L24.000 970.000 C24.000 1001.492 49.181 1027.000 80.000 1027.000 L595.000 1027.000 C625.819 1027.000 651.000 1001.492 651.000 970.000 L651.000 158.000 C651.000 156.343 649.657 155.000 648.000 155.000 L27.000 155.000 Z " fill="#D93A32" stroke="none" /><path id="header" d="M24 76 C24 46.2 48.2 22 78 22 H597 C626.8 22 651 46.2 651 76 V158 H24 Z" stroke="none" /><rect id="panel-divider" x="24" y="635" width="627" height="8" stroke="none" /><path id="approved-unified-glaze" d="M24 76 C24 46.2 48.2 22 78 22 H597 C626.8 22 651 46.2 651 76 V970 C651 1001.492 625.819 1027 595 1027 H80 C49.181 1027 24 1001.492 24 970 Z M36 158 H639 V635 H36 Z M36 643 H639 V970 C639 994.853 619.301 1015 595 1015 H80 C55.699 1015 36 994.853 36 970 Z" fill="url(#surface-study-continuous-light)" fill-rule="evenodd" stroke="none" pointer-events="none"/></g></g>
+  <g id="instant-action-cp-tag" aria-label="Editable Instant Action CP tag" transform="translate(24 169)">
+    <defs>
+      <linearGradient id="cp-badge-fill" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#FFFFFF" />
+        <stop offset="1" stop-color="#D9D9D9" />
+      </linearGradient>
+      <linearGradient id="cp-red-fill" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#E94B43" />
+        <stop offset="0.12" stop-color="#D93A32" />
+        <stop offset="0.78" stop-color="#9D2B25" />
+        <stop offset="1" stop-color="#DC3D35" />
+      </linearGradient>
+      <linearGradient id="cp-red-edge" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#F76D66" stop-opacity="0.9" />
+        <stop offset="0.14" stop-color="#B43630" stop-opacity="0.72" />
+        <stop offset="0.6" stop-color="#611915" stop-opacity="0.2" />
+        <stop offset="1" stop-color="#E7564F" stop-opacity="0.75" />
+      </linearGradient>
+      <linearGradient id="cp-label-fill" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#292929" />
+        <stop offset="0.12" stop-color="#121212" />
+        <stop offset="0.78" stop-color="#070707" />
+        <stop offset="1" stop-color="#202020" />
+      </linearGradient>
+      <linearGradient id="cp-label-edge" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#777777" stop-opacity="0.9" />
+        <stop offset="0.14" stop-color="#3A3A3A" stop-opacity="0.72" />
+        <stop offset="0.6" stop-color="#101010" stop-opacity="0.2" />
+        <stop offset="1" stop-color="#454545" stop-opacity="0.75" />
+      </linearGradient>
+      <filter id="cp-panel-shadow" x="-12" y="-8" width="84" height="390" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+        <feGaussianBlur in="SourceAlpha" stdDeviation="1.6" result="blur" />
+        <feOffset dy="1.2" result="offset" />
+        <feFlood flood-color="#000000" flood-opacity="0.74" result="shade" />
+        <feComposite in="shade" in2="offset" operator="in" result="shadow" />
+        <feMerge><feMergeNode in="shadow" /><feMergeNode in="SourceGraphic" /></feMerge>
+      </filter>
+      <filter id="cp-badge-shadow" x="0" y="5" width="60" height="115" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+        <feGaussianBlur in="SourceAlpha" stdDeviation="1.2" result="blur" />
+        <feOffset dy="1" result="offset" />
+        <feFlood flood-color="#460008" flood-opacity="0.68" result="shade" />
+        <feComposite in="shade" in2="offset" operator="in" result="shadow" />
+        <feMerge><feMergeNode in="shadow" /><feMergeNode in="SourceGraphic" /></feMerge>
+      </filter>
+    </defs>
+    <g id="cp-tag-red-panel" filter="url(#cp-panel-shadow)">
+      <path d="M0.5 0.5 H51.5 C55.4 0.5 58.5 3.6 58.5 7.5 V174.5 C58.5 178.4 55.4 181.5 51.5 181.5 H0.5 Z" fill="url(#cp-red-fill)" stroke="url(#cp-red-edge)" stroke-width="1.2" />
+      <path id="cp-badge-face" d="M13 11 H46 C50.418 11 54 14.582 54 19 V105 C54 109.418 50.418 113 46 113 H13 C8.582 113 5 109.418 5 105 V19 C5 14.582 8.582 11 13 11 Z" fill="url(#cp-badge-fill)" stroke="#B8B8B8" stroke-width="1.5" filter="url(#cp-badge-shadow)" />
+      <path id="cp-red-left-sheen" d="M2 13 V170" fill="none" stroke="#FFFFFF" stroke-opacity="0.24" stroke-width="1.2" stroke-linecap="round" />
+      
+      <path id="cp-star" d="M29.5 24 L35 38 L52 38 L38 48 L43.5 64 L29.5 55 L15.5 64 L21 48 L7 38 L24 38 Z" fill="#D93A32" />
+      <text id="editable-cp-number" x="17.2" y="94" text-anchor="middle" font-family="Arial, sans-serif" font-size="25px" font-weight="700" fill="#080808" data-text="2">2</text><path id="cp-units-outline" data-text="CP" data-font="Arial Bold" d="M37.023 89.526 L39.405 90.281 Q38.857 92.273 37.583 93.240 Q36.309 94.208 34.350 94.208 Q31.926 94.208 30.366 92.552 Q28.805 90.896 28.805 88.023 Q28.805 84.985 30.374 83.304 Q31.943 81.624 34.500 81.624 Q36.732 81.624 38.127 82.943 Q38.957 83.724 39.372 85.185 L36.940 85.766 Q36.724 84.819 36.039 84.271 Q35.354 83.724 34.375 83.724 Q33.022 83.724 32.179 84.695 Q31.337 85.666 31.337 87.841 Q31.337 90.148 32.167 91.128 Q32.997 92.107 34.325 92.107 Q35.305 92.107 36.010 91.485 Q36.716 90.862 37.023 89.526 Z M41.514 94.000 L41.514 81.831 L45.457 81.831 Q47.698 81.831 48.378 82.014 Q49.424 82.288 50.130 83.205 Q50.835 84.122 50.835 85.575 Q50.835 86.695 50.429 87.459 Q50.022 88.223 49.395 88.658 Q48.769 89.094 48.121 89.235 Q47.241 89.410 45.573 89.410 L43.971 89.410 L43.971 94.000 Z M43.971 83.890 L43.971 87.343 L45.315 87.343 Q46.768 87.343 47.258 87.152 Q47.748 86.961 48.026 86.554 Q48.304 86.147 48.304 85.608 Q48.304 84.944 47.914 84.512 Q47.523 84.081 46.926 83.973 Q46.486 83.890 45.158 83.890 Z " fill="#080808" />
+      <path id="instant-action-exclamation" transform="translate(-1 0)" d="M20.5 124 H38.5 L34.5 158 H24.5 Z M21 162 H38 V174 H21 Z" fill="#FFFFFF" />
+    <text id="editable-cp-number" x="17.2" y="94" text-anchor="middle" font-family="Arial, sans-serif" font-size="25px" font-weight="700" fill="#080808" data-text="2">2</text></g>
+    <g id="instant-action-label" filter="url(#cp-panel-shadow)">
+      <path d="M0.5 182.5 H42.5 V330 C42.5 334.4 39.4 337.5 35 337.5 H0.5 Z" fill="url(#cp-label-fill)" stroke="url(#cp-label-edge)" stroke-width="1.2" stroke-linejoin="round" />
+      <g id="instant-action-label-outline" data-text="Instant Action" data-font="Arial Narrow Bold" transform="translate(-4 -13) rotate(-90 25.5 272.5)" fill="#FFFFFF"><path d="M-41.059 281.545 L-41.059 263.650 L-38.105 263.650 L-38.105 281.545 Z M-25.617 281.545 L-28.437 281.545 L-28.437 274.929 Q-28.437 272.939 -28.595 272.280 Q-28.754 271.621 -29.188 271.267 Q-29.621 270.913 -30.170 270.913 Q-30.878 270.913 -31.452 271.371 Q-32.026 271.829 -32.258 272.634 Q-32.490 273.440 -32.490 275.674 L-32.490 281.545 L-35.309 281.545 L-35.309 268.582 L-32.697 268.582 L-32.697 270.486 Q-32.001 269.387 -31.128 268.838 Q-30.256 268.289 -29.194 268.289 Q-27.961 268.289 -27.112 268.929 Q-26.264 269.570 -25.940 270.577 Q-25.617 271.584 -25.617 273.489 Z M-23.749 277.847 L-20.929 277.322 Q-20.563 279.360 -18.659 279.360 Q-17.646 279.360 -17.145 278.970 Q-16.645 278.579 -16.645 277.957 Q-16.645 277.529 -16.865 277.285 Q-17.096 277.041 -17.780 276.858 Q-21.247 275.942 -22.187 275.112 Q-23.359 274.075 -23.359 272.268 Q-23.359 270.461 -22.211 269.375 Q-21.064 268.289 -18.879 268.289 Q-16.791 268.289 -15.705 269.100 Q-14.618 269.912 -14.179 271.719 L-16.828 272.317 Q-17.182 270.754 -18.830 270.754 Q-19.867 270.754 -20.307 271.053 Q-20.746 271.353 -20.746 271.829 Q-20.746 272.256 -20.344 272.537 Q-19.941 272.830 -17.841 273.416 Q-15.485 274.075 -14.643 275.015 Q-13.813 275.955 -13.813 277.517 Q-13.813 279.397 -15.101 280.618 Q-16.388 281.838 -18.659 281.838 Q-20.722 281.838 -22.028 280.819 Q-23.334 279.800 -23.749 277.847 Z M-6.501 268.582 L-6.501 271.316 L-8.417 271.316 L-8.417 276.541 Q-8.417 278.237 -8.332 278.506 Q-8.161 278.994 -7.636 278.994 Q-7.245 278.994 -6.513 278.665 L-6.269 281.326 Q-7.245 281.838 -8.478 281.838 Q-9.552 281.838 -10.199 281.326 Q-10.846 280.813 -11.066 279.849 Q-11.237 279.141 -11.237 276.968 L-11.237 271.316 L-12.531 271.316 L-12.531 268.582 L-11.237 268.582 L-11.237 266.006 L-8.417 264.004 L-8.417 268.582 Z M-2.436 272.537 L-4.987 271.975 Q-4.523 270.010 -3.455 269.149 Q-2.387 268.289 -0.385 268.289 Q1.397 268.289 2.337 268.789 Q3.277 269.290 3.680 270.150 Q4.083 271.011 4.083 273.281 L4.058 277.285 Q4.058 278.970 4.193 279.794 Q4.327 280.618 4.693 281.545 L1.910 281.545 L1.544 280.129 Q0.823 280.984 -0.000 281.411 Q-0.824 281.838 -1.752 281.838 Q-3.302 281.838 -4.291 280.795 Q-5.280 279.751 -5.280 278.018 Q-5.280 276.919 -4.877 276.101 Q-4.474 275.283 -3.742 274.795 Q-3.010 274.307 -1.398 273.928 Q0.555 273.477 1.324 273.086 Q1.324 272.012 1.171 271.676 Q1.019 271.340 0.610 271.127 Q0.201 270.913 -0.544 270.913 Q-1.301 270.913 -1.734 271.255 Q-2.167 271.597 -2.436 272.537 Z M1.324 275.320 Q0.787 275.540 -0.348 275.833 Q-1.655 276.174 -2.057 276.589 Q-2.460 277.004 -2.460 277.664 Q-2.460 278.408 -2.015 278.915 Q-1.569 279.421 -0.898 279.421 Q-0.300 279.421 0.286 279.012 Q0.872 278.604 1.098 278.042 Q1.324 277.480 1.324 276.003 Z M16.534 281.545 L13.714 281.545 L13.714 274.929 Q13.714 272.939 13.555 272.280 Q13.397 271.621 12.963 271.267 Q12.530 270.913 11.981 270.913 Q11.273 270.913 10.699 271.371 Q10.125 271.829 9.893 272.634 Q9.661 273.440 9.661 275.674 L9.661 281.545 L6.842 281.545 L6.842 268.582 L9.454 268.582 L9.454 270.486 Q10.150 269.387 11.022 268.838 Q11.895 268.289 12.957 268.289 Q14.190 268.289 15.039 268.929 Q15.887 269.570 16.210 270.577 Q16.534 271.584 16.534 273.489 Z M24.249 268.582 L24.249 271.316 L22.332 271.316 L22.332 276.541 Q22.332 278.237 22.418 278.506 Q22.589 278.994 23.114 278.994 Q23.504 278.994 24.237 278.665 L24.481 281.326 Q23.504 281.838 22.271 281.838 Q21.197 281.838 20.550 281.326 Q19.903 280.813 19.683 279.849 Q19.512 279.141 19.512 276.968 L19.512 271.316 L18.219 271.316 L18.219 268.582 L19.512 268.582 L19.512 266.006 L22.332 264.004 L22.332 268.582 Z M44.415 281.545 L41.192 281.545 L39.910 277.480 L34.051 277.480 L32.843 281.545 L29.693 281.545 L35.406 263.650 L38.543 263.650 Z M38.958 274.465 L36.944 267.825 L34.954 274.465 Z M55.230 272.415 L52.459 273.025 Q52.154 270.986 50.543 270.986 Q49.505 270.986 48.870 271.865 Q48.236 272.744 48.236 274.832 Q48.236 277.139 48.870 278.091 Q49.505 279.043 50.567 279.043 Q51.361 279.043 51.873 278.500 Q52.386 277.957 52.606 276.577 L55.377 277.151 Q54.522 281.838 50.457 281.838 Q47.857 281.838 46.600 279.861 Q45.343 277.883 45.343 275.100 Q45.343 271.768 46.765 270.028 Q48.187 268.289 50.494 268.289 Q52.362 268.289 53.540 269.277 Q54.718 270.266 55.230 272.415 Z M62.225 268.582 L62.225 271.316 L60.308 271.316 L60.308 276.541 Q60.308 278.237 60.394 278.506 Q60.565 278.994 61.090 278.994 Q61.480 278.994 62.213 278.665 L62.457 281.326 Q61.480 281.838 60.247 281.838 Q59.173 281.838 58.526 281.326 Q57.879 280.813 57.659 279.849 Q57.489 279.141 57.489 276.968 L57.489 271.316 L56.195 271.316 L56.195 268.582 L57.489 268.582 L57.489 266.006 L60.308 264.004 L60.308 268.582 Z M64.190 266.824 L64.190 263.650 L67.010 263.650 L67.010 266.824 Z M64.190 281.545 L64.190 268.582 L67.010 268.582 L67.010 281.545 Z M69.232 274.880 Q69.232 272.976 69.989 271.414 Q70.745 269.851 71.966 269.070 Q73.187 268.289 74.713 268.289 Q77.276 268.289 78.741 270.297 Q80.206 272.305 80.206 274.990 Q80.206 276.992 79.443 278.604 Q78.680 280.215 77.441 281.027 Q76.202 281.838 74.725 281.838 Q72.357 281.838 70.794 280.032 Q69.232 278.225 69.232 274.880 Z M72.113 275.063 Q72.113 277.029 72.882 278.036 Q73.651 279.043 74.737 279.043 Q75.799 279.043 76.556 278.030 Q77.313 277.017 77.313 275.039 Q77.313 273.110 76.544 272.097 Q75.775 271.084 74.700 271.084 Q73.638 271.084 72.875 272.097 Q72.113 273.110 72.113 275.063 Z M92.083 281.545 L89.263 281.545 L89.263 274.929 Q89.263 272.939 89.105 272.280 Q88.946 271.621 88.513 271.267 Q88.079 270.913 87.530 270.913 Q86.822 270.913 86.248 271.371 Q85.675 271.829 85.443 272.634 Q85.211 273.440 85.211 275.674 L85.211 281.545 L82.391 281.545 L82.391 268.582 L85.003 268.582 L85.003 270.486 Q85.699 269.387 86.572 268.838 Q87.445 268.289 88.507 268.289 Q89.740 268.289 90.588 268.929 Q91.436 269.570 91.760 270.577 Q92.083 271.584 92.083 273.489 Z " /></g>
+    </g>
+    <path id="cp-tag-outer-outline" d="M0 0.5 H51.5 C55.4 0.5 58.5 3.6 58.5 7.5 V174.5 C58.5 178.4 55.4 181.5 51.5 181.5 H43 V330 C43 334.4 39.9 337.5 35.5 337.5 H0 Z" fill="none" stroke="#3A3A3A" stroke-width="1.2" stroke-linejoin="round" pointer-events="none" />
+  </g>
+  <g id="card-title" aria-label="Buh, Bye!" transform="translate(17.69 -4) scale(0.9476 1)"><text id="card-title-text" data-text="BUH, BYE!" data-font="Helvetica Compressed" x="337.5" y="119.0" text-anchor="middle" font-family="Helvetica Compressed" font-size="86px" font-weight="400" fill="#101219">BUH, BYE!</text></g>
+<g id="editable-rules" filter="url(#action-rules-halo)" aria-label="Editable rules text and linked inline icons" font-family="Arial Narrow, sans-serif" font-size="37.5px" font-weight="400" fill="#F7F7F7">
+<text x="151.006" y="809" text-anchor="start" xml:space="preserve">Remove a status effect token</text>
+<text x="197.207" y="863" text-anchor="start" xml:space="preserve">from a chosen player.</text>
+</g></svg>

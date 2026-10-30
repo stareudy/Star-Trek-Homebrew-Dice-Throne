@@ -1,0 +1,31 @@
+name: Playtest macOS app (manual)
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  macos:
+    runs-on: macos-latest
+    defaults:
+      run:
+        working-directory: playtest-app
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: swatinem/rust-cache@v2
+        with:
+          workspaces: playtest-app/src-tauri
+      - name: Install web dependencies
+        run: npm install
+      - name: Build macOS app using Tauri
+        run: npx --yes @tauri-apps/cli@^2 build
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dice-throne-macos-app
+          path: |
+            playtest-app/src-tauri/target/release/bundle/macos/*.app
+            playtest-app/src-tauri/target/release/bundle/dmg/*.dmg
+          if-no-files-found: error

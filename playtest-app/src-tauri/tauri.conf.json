@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Star Trek Dice Throne Playtest",
+  "version": "0.1.0",
+  "identifier": "com.stareudy.dicethrone.playtest",
+  "build": {
+    "frontendDist": "../dist",
+    "beforeBuildCommand": "npm run build"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "Star Trek Dice Throne Playtest",
+        "width": 1200,
+        "height": 850
+      }
+    ]
+  },
+  "bundle": {
+    "active": true,
+    "targets": [
+      "app",
+      "dmg"
+    ],
+    "icon": []
+  }
+}

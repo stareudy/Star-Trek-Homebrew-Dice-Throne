@@ -1,0 +1,43 @@
+name: Playtest iOS unsigned IPA (manual)
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  ios:
+    runs-on: macos-latest
+    defaults:
+      run:
+        working-directory: playtest-app
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install web dependencies and build
+        run: |
+          npm install
+          npm run build
+      - name: Generate iOS project and install pods
+        run: |
+          npx cap add ios
+          npx cap sync ios
+      - name: Compile iOS application without signing
+        run: |
+          xcodebuild -workspace ios/App/App.xcworkspace \
+            -scheme App -configuration Release -sdk iphoneos \
+            -destination 'generic/platform=iOS' \
+            -derivedDataPath "$PWD/ios-derived-data" \
+            CODE_SIGNING_ALLOWED=NO build
+      - name: Package unsigned IPA for third-party signing
+        run: |
+          APP=$(find ios-derived-data/Build/Products/Release-iphoneos -maxdepth 1 -name '*.app' -type d -print -quit)
+          test -n "$APP"
+          mkdir -p ipa-package/Payload
+          cp -R "$APP" ipa-package/Payload/
+          (cd ipa-package && zip -qry ../StarTrekDiceThrone-unsigned.ipa Payload)
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dice-throne-ios-unsigned-ipa
+          path: playtest-app/StarTrekDiceThrone-unsigned.ipa
+          if-no-files-found: error

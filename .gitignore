@@ -1,1 +1,3 @@
 .DS_Store
+playtest-app/node_modules/
+playtest-app/dist/

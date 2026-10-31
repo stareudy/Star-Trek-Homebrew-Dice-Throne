@@ -206,7 +206,7 @@
   </g></g>
 <rect x="4" y="4" width="336" height="336" rx="27" fill="url(#card-face-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></svg></g>
 <text x="350.475" y="510" text-anchor="start" xml:space="preserve" filter="url(#cardRulesTextHalo)">, gain</text>
-<g filter="url(#cardRulesIconHalo)"><svg viewBox="-5 -5 354 354" x="433.859" y="536.500" width="54.0" height="54.0" preserveAspectRatio="xMidYMid meet" data-original-x="449.175" data-original-y="536" data-original-width="55" data-original-height="55" overflow="visible" data-vector-icon="protect" data-vector-source="Heroes/Tuvok/icons/protect.svg" data-original-icon="../../icons/protect_token.png" stroke="none" fill="#000000" text-anchor="start">
+<g filter="url(#cardRulesIconHalo)"><svg viewBox="-5 -5 354 354" x="433.859" y="466.500" width="54.0" height="54.0" preserveAspectRatio="xMidYMid meet" data-original-x="449.175" data-original-y="536" data-original-width="55" data-original-height="55" overflow="visible" data-vector-icon="protect" data-vector-source="Heroes/Tuvok/icons/protect.svg" data-original-icon="../../icons/protect_token.png" stroke="none" fill="#000000" text-anchor="start">
 <title>Protect token</title>
 <defs><clipPath id="glass-icon-8-vi8-face"><circle cx="172" cy="172" r="172" /></clipPath></defs>
 <g clip-path="url(#glass-icon-8-vi8-face)">

@@ -22,6 +22,25 @@ jobs:
         run: |
           npx cap add ios
           npx cap sync ios
+      - name: Enable universal iPhone and iPad with portrait and landscape
+        run: |
+          python3 - <<'PY'
+          import plistlib
+          from pathlib import Path
+          import subprocess
+          project=Path('ios/App/App.xcodeproj/project.pbxproj')
+          s=project.read_text()
+          s=s.replace('TARGETED_DEVICE_FAMILY = "1,2";','TARGETED_DEVICE_FAMILY = "1,2";')
+          s=s.replace('TARGETED_DEVICE_FAMILY = "1";','TARGETED_DEVICE_FAMILY = "1,2";')
+          project.write_text(s)
+          path=Path('ios/App/App/Info.plist')
+          with path.open('rb') as f: data=plistlib.load(f)
+          orientations=['UIInterfaceOrientationPortrait','UIInterfaceOrientationLandscapeLeft','UIInterfaceOrientationLandscapeRight','UIInterfaceOrientationPortraitUpsideDown']
+          data['UISupportedInterfaceOrientations']=orientations[:3]
+          data['UISupportedInterfaceOrientations~ipad']=orientations
+          data['UIDeviceFamily']=[1,2]
+          with path.open('wb') as f: plistlib.dump(data,f)
+          PY
       - name: Set Janeway combadge app icon
         run: npm run generate-icons -- ios
       - name: Compile iOS application without signing

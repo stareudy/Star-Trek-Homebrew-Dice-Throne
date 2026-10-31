@@ -1,0 +1,62 @@
+
+name: Deploy STDT Web App
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'playtest-app/**'
+      - '.github/workflows/deploy-webapp.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    defaults:
+      run:
+        working-directory: playtest-app
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: playtest-app/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Prepare artwork
+        run: npm run prepare
+
+      - name: Build website
+        run: npx vite build --base=/Star-Trek-Homebrew-Dice-Throne/
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload website
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: playtest-app/dist
+
+      - name: Deploy website
+        id: deployment
+        uses: actions/deploy-pages@v4

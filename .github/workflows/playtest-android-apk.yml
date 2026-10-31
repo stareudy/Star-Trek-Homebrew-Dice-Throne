@@ -27,6 +27,8 @@ jobs:
         run: |
           npx cap add android
           npx cap sync android
+      - name: Set Janeway combadge app icon
+        run: npm run generate-icons -- android
       - name: Build unsigned-for-distribution debug APK
         run: |
           cd android

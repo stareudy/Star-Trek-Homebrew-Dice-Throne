@@ -20,6 +20,10 @@ jobs:
           workspaces: playtest-app/src-tauri
       - name: Install web dependencies
         run: npm install
+      - name: Generate Janeway combadge app icon
+        run: |
+          npm run generate-icons -- macos
+          npx --yes @tauri-apps/cli@^2 icon public/app-icon.svg
       - name: Build macOS app using Tauri
         run: npx --yes @tauri-apps/cli@^2 build
       - uses: actions/upload-artifact@v4

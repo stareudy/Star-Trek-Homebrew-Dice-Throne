@@ -22,6 +22,8 @@ jobs:
         run: |
           npx cap add ios
           npx cap sync ios
+      - name: Set Janeway combadge app icon
+        run: npm run generate-icons -- ios
       - name: Compile iOS application without signing
         run: |
           xcodebuild -workspace ios/App/App.xcworkspace \

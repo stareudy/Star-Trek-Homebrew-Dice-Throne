@@ -72,7 +72,6 @@ RETURN FIRE
 {defense_3_dice.svg}
 Roll 3 {roll_die.svg}:
 For each {phaser_die.svg}, deal {{normal_damage.svg}1}
-On {salute_die.svg}, deal {{normal_damage.svg}2}
 On {idic_die.svg}{idic_die.svg}, gain {protect.svg}
 
 LOGICAL OUTCOME (ULTIMATE)
@@ -147,14 +146,12 @@ Inflict {targeted.svg} and gain 3 {logic.svg}
 RETURN FIRE II
 Cost: {{cp.svg}3} | Upgrade Card
 Roll 4 {roll_die.svg}:
-For each {phaser_die.svg}, deal {{normal_damage.svg}2} back
-On {salute_die.svg}, deal {{normal_damage.svg}2} back
+For each {phaser_die.svg}, deal {{normal_damage.svg}1}
 On {idic_die.svg}{idic_die.svg}, gain {protect.svg}
 
 RETURN FIRE III
 Cost: {{cp.svg}5} | Upgrade Card
 Roll 5 {roll_die.svg}:
-For each {phaser_die.svg}, deal {{normal_damage.svg}2} back
-For each {salute_die.svg}, deal {{normal_damage.svg}2} back
+For each {phaser_die.svg}, deal {{normal_damage.svg}1}
 On {idic_die.svg}{idic_die.svg}, gain {protect.svg}
 

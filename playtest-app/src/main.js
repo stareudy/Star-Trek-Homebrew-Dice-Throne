@@ -51,14 +51,12 @@ function renderBoard(main){
  const board=el('div','compact-board');main.append(board);
  inlineSvg(root+'Heroes/'+state.hero+'/hero_board.svg',board,svg=>{
   svg.querySelector('#layer-background')?.remove();
-  const nameLayer=svg.querySelector('#layer-janeway-name, #layer-tuvok-name');
-  const heroName=nameLayer?.querySelector('[id$="-name-label"]')?.cloneNode(true);nameLayer?.remove();
+  svg.querySelector('#layer-janeway-name, #layer-tuvok-name')?.remove();
   const panels=boardSlots[state.hero].map(id=>svg.querySelector('#panel-'+id)).filter(Boolean);
   if(!panels.length)return;
   const bounds=panels.map(g=>{const b=g.getBBox(),m=g.getCTM(),p=[[b.x,b.y],[b.x+b.width,b.y],[b.x,b.y+b.height],[b.x+b.width,b.y+b.height]].map(([x,y])=>({x:m.a*x+m.c*y+m.e,y:m.b*x+m.d*y+m.f}));return {x:Math.min(...p.map(v=>v.x)),y:Math.min(...p.map(v=>v.y)),r:Math.max(...p.map(v=>v.x)),b:Math.max(...p.map(v=>v.y))}});
   const l=Math.min(...bounds.map(b=>b.x)),t=Math.min(...bounds.map(b=>b.y)),r=Math.max(...bounds.map(b=>b.r)),bottom=Math.max(...bounds.map(b=>b.b));
-  if(heroName){heroName.removeAttribute('display');heroName.removeAttribute('opacity');heroName.removeAttribute('textLength');heroName.setAttribute('x',String((l+r)/2));heroName.setAttribute('y',String(t-45));heroName.setAttribute('font-size','100');heroName.setAttribute('font-family','Arial Black, Arial, sans-serif');svg.append(heroName)}
-  svg.setAttribute('viewBox',`${l-28} ${t-170} ${r-l+56} ${bottom-t+198}`);
+  svg.setAttribute('viewBox',`${l-28} ${t-28} ${r-l+56} ${bottom-t+56}`);
   panels.forEach((g,i)=>{g.classList.add('tappable-ability');g.addEventListener('click',()=>showAbilityZoom(svg,boardSlots[state.hero][i]))});
  });
  const installed=Object.entries(state.upgrades);

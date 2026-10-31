@@ -34,7 +34,7 @@ function renderDice(main){main.append(el('h2','','Dice tray'));const tray=el('di
 function renderResources(main){const area=el('section','resources');for(const [label,key] of [['Health','health'],['Combat points','cp']]){const item=el('div','resource');item.append(el('h3','',label));const art=el('div','dial-art');inlineSvg(root+'Heroes/'+state.hero+'/'+(key==='health'?'health_dial.svg':'cp_dial.svg'),art);const number=el('span','dial-value',String(state[key]));item.append(art);item.append(number);const controls=el('div','controls dial-controls');controls.append(button('−',()=>action(()=>state[key]=Math.max(0,state[key]-1))),button('+',()=>action(()=>state[key]++)));item.append(controls);area.append(item)}main.append(area)}
 function showAbilityZoom(svg,id){
  const original=svg.querySelector('#panel-'+id);if(!original)return;
- const b=original.getBBox(),m=original.getCTM();
+ const b=original.getBBox(),m=svg.getCTM().inverse().multiply(original.getCTM());
  const pts=[[b.x,b.y],[b.x+b.width,b.y],[b.x,b.y+b.height],[b.x+b.width,b.y+b.height]].map(([x,y])=>({x:m.a*x+m.c*y+m.e,y:m.b*x+m.d*y+m.f}));
  const x=Math.min(...pts.map(p=>p.x)),y=Math.min(...pts.map(p=>p.y)),w=Math.max(...pts.map(p=>p.x))-x,h=Math.max(...pts.map(p=>p.y))-y;
  const overlay=el('div','card-overlay'),panel=el('div','card-detail ability-detail');
@@ -54,7 +54,7 @@ function renderBoard(main){
   svg.querySelector('#layer-janeway-name, #layer-tuvok-name')?.remove();
   const panels=boardSlots[state.hero].map(id=>svg.querySelector('#panel-'+id)).filter(Boolean);
   if(!panels.length)return;
-  const bounds=panels.map(g=>{const b=g.getBBox(),m=g.getCTM(),p=[[b.x,b.y],[b.x+b.width,b.y],[b.x,b.y+b.height],[b.x+b.width,b.y+b.height]].map(([x,y])=>({x:m.a*x+m.c*y+m.e,y:m.b*x+m.d*y+m.f}));return {x:Math.min(...p.map(v=>v.x)),y:Math.min(...p.map(v=>v.y)),r:Math.max(...p.map(v=>v.x)),b:Math.max(...p.map(v=>v.y))}});
+  const bounds=panels.map(g=>{const b=g.getBBox(),m=svg.getCTM().inverse().multiply(g.getCTM()),p=[[b.x,b.y],[b.x+b.width,b.y],[b.x,b.y+b.height],[b.x+b.width,b.y+b.height]].map(([x,y])=>({x:m.a*x+m.c*y+m.e,y:m.b*x+m.d*y+m.f}));return {x:Math.min(...p.map(v=>v.x)),y:Math.min(...p.map(v=>v.y)),r:Math.max(...p.map(v=>v.x)),b:Math.max(...p.map(v=>v.y))}});
   const l=Math.min(...bounds.map(b=>b.x)),t=Math.min(...bounds.map(b=>b.y)),r=Math.max(...bounds.map(b=>b.r)),bottom=Math.max(...bounds.map(b=>b.b));
   svg.setAttribute('viewBox',`${l-28} ${t-28} ${r-l+56} ${bottom-t+56}`);
   panels.forEach((g,i)=>{g.classList.add('tappable-ability');g.addEventListener('click',()=>showAbilityZoom(svg,boardSlots[state.hero][i]))});

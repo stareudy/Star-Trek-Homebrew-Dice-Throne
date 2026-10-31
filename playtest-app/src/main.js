@@ -57,11 +57,28 @@ function renderBoard(main){
   const bounds=panels.map(g=>{const b=g.getBBox(),m=svg.getCTM().inverse().multiply(g.getCTM()),p=[[b.x,b.y],[b.x+b.width,b.y],[b.x,b.y+b.height],[b.x+b.width,b.y+b.height]].map(([x,y])=>({x:m.a*x+m.c*y+m.e,y:m.b*x+m.d*y+m.f}));return {x:Math.min(...p.map(v=>v.x)),y:Math.min(...p.map(v=>v.y)),r:Math.max(...p.map(v=>v.x)),b:Math.max(...p.map(v=>v.y))}});
   const l=Math.min(...bounds.map(b=>b.x)),t=Math.min(...bounds.map(b=>b.y)),r=Math.max(...bounds.map(b=>b.r)),bottom=Math.max(...bounds.map(b=>b.b));
   svg.setAttribute('viewBox',`${l-28} ${t-28} ${r-l+56} ${bottom-t+56}`);
-  panels.forEach((g,i)=>{g.classList.add('tappable-ability');g.addEventListener('click',()=>showAbilityZoom(svg,boardSlots[state.hero][i]))});
+  panels.forEach((g,i)=>{
+   const slot=boardSlots[state.hero][i];
+   const upgrade=state.upgrades[title(slot.replaceAll('-','_'))];
+   g.classList.add('tappable-ability');
+   if(upgrade){
+    // Keep the original board panel's geometry; show the installed upgrade
+    // as an SVG card in its place, scaled to fit the ability footprint.
+    const b=g.getBBox(),cardFrame=document.createElementNS('http://www.w3.org/2000/svg','foreignObject');
+    cardFrame.setAttribute('x',b.x);cardFrame.setAttribute('y',b.y);
+    cardFrame.setAttribute('width',b.width);cardFrame.setAttribute('height',b.height);
+    const holder=document.createElement('div');holder.setAttribute('xmlns','http://www.w3.org/1999/xhtml');
+    holder.className='installed-ability';
+    holder.style.cssText='width:100%;height:100%;display:flex;align-items:center;justify-content:center;overflow:hidden;background:#111b2d;border-radius:10px';
+    const image=document.createElement('img');image.src=img(upgrade);image.alt=title(upgrade.id);
+    image.style.cssText='display:block;width:100%;height:100%;object-fit:contain';
+    holder.append(image);cardFrame.append(holder);
+    g.replaceChildren(cardFrame);
+    g.addEventListener('click',()=>showCardDetail(upgrade));
+   }else g.addEventListener('click',()=>showAbilityZoom(svg,slot));
+  });
  });
- const installed=Object.entries(state.upgrades);
- if(installed.length){main.append(el('h3','','Installed upgrades'));const area=el('div','upgrade-list');for(const [slot,c] of installed){const item=el('section','upgrade');item.append(el('h4','',slot),cardNode(c),button('Remove upgrade',()=>action(()=>{state.hand.push(c);delete state.upgrades[slot]})));area.append(item)}main.append(area)}
- main.append(el('p','hint','Original hero-board layout. Tap any ability panel to enlarge it.'));
+ main.append(el('p','hint','Tap an ability panel to enlarge it. Installed upgrades replace their board panels for this session.'));
 }
 function renderCards(main){const counts=el('p','counts','Deck: '+state.deck.length+' · Hand: '+state.hand.length+' · Discard: '+state.discard.length);main.append(counts);const controls=el('div','controls');controls.append(button('Draw 1',()=>action(()=>{if(state.deck.length)state.hand.push(state.deck.shift())})),button('Draw 4',()=>action(()=>{for(let i=0;i<4&&state.deck.length;i++)state.hand.push(state.deck.shift())})),button('Peek',()=>{const n=prompt('How many cards to peek? (1, 2 or 3)','1');if(n!==null&&['1','2','3'].includes(n.trim()))action(()=>state.peek=Math.min(Number(n),state.deck.length))}),button('Shuffle discard into deck',()=>action(()=>{state.deck=shuffle([...state.deck,...state.discard]);state.discard=[];state.peek=0})));main.append(controls);
 if(state.peek){main.append(el('h3','','Top '+state.peek+' cards (leftmost is next)'));const peek=el('div','cards');state.deck.slice(0,state.peek).forEach((c,i)=>{const box=cardNode(c);const moves=el('div','controls');moves.append(button('To top',()=>action(()=>{state.deck.splice(i,1);state.deck.unshift(c);state.peek=Math.min(state.peek,state.deck.length)})),button('To bottom',()=>action(()=>{state.deck.splice(i,1);state.deck.push(c);state.peek=Math.min(state.peek,state.deck.length)})));if(i>0)moves.append(button('Move earlier',()=>action(()=>{[state.deck[i-1],state.deck[i]]=[state.deck[i],state.deck[i-1]]})));if(i<state.peek-1)moves.append(button('Move later',()=>action(()=>{[state.deck[i+1],state.deck[i]]=[state.deck[i],state.deck[i+1]]})));box.append(moves);peek.append(box)});main.append(peek,button('Finish peeking',()=>action(()=>state.peek=0)))}

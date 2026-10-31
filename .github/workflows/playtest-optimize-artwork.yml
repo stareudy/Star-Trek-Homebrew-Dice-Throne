@@ -1,0 +1,33 @@
+name: Prepare optimized playtest artwork (one-time)
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/playtest-optimize-artwork.yml'
+      - 'playtest-app/scripts/optimize-artwork.mjs'
+permissions:
+  contents: write
+jobs:
+  optimize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install optimizer and create screen-quality WebP assets
+        working-directory: playtest-app
+        run: |
+          npm install
+          node scripts/optimize-artwork.mjs
+      - name: Commit optimized artwork to repository
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add playtest-app/public/assets
+          if ! git diff --cached --quiet; then
+            git commit -m "Bundle optimized offline card and ability artwork"
+            git push
+          fi

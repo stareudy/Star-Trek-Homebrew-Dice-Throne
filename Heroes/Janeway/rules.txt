@@ -86,11 +86,11 @@ CARDS
 The first 18 cards in Janeway's deck are standard Dice Throne cards and are omitted here. The cards below are Janeway-specific.
 
 DETERMINATION
-Cost: {{cp.svg}3} | Roll Phase Action
+Cost: {{cp.svg}2} | Roll Phase Action
 A chosen player may perform an additional Roll Attempt of up to three {roll_die.svg} during their Offensive or Defensive Roll Phase
 
 SET TO KILL
-Cost: {{cp.svg}4} | Roll Phase Action
+Cost: {{cp.svg}3} | Roll Phase Action
 You may remove up to 2 {coffee_token.svg} to add {{normal_damage.svg}3} dmg per {coffee_token.svg} removed
 You may remove 3 {command_codes.svg} to make this attack undefendable (Attack modifier)
 
@@ -104,7 +104,7 @@ Cost: {{cp.svg}0} | Main Phase Action
 Roll 1 {roll_die.svg} and gain half the value (rounded up) in {coffee_token.svg}
 
 COMMAND TRAINING
-Cost: {{cp.svg}2} | Main Phase Action
+Cost: {{cp.svg}1} | Main Phase Action
 Gain {command_codes.svg}. You may spend an additional {{cp.svg}4} for an additional {command_codes.svg} per extra {{cp.svg}2} spent
 
 CAPTAIN'S PREROGATIVE
@@ -130,14 +130,14 @@ Cost: {{cp.svg}2} | Main Phase Action
 - {coffee_die.svg} {coffee_die.svg} {coffee_die.svg} {coffee_die.svg} {coffee_die.svg} Deal {{normal_damage.svg}7} dmg
 
 FIRE PHASERS III
-Cost: {{cp.svg}4} | Main Phase Action
+Cost: {{cp.svg}3} | Main Phase Action
 - {coffee_die.svg} {coffee_die.svg} {coffee_die.svg} Deal {{normal_damage.svg}6} dmg
 - {coffee_die.svg} {coffee_die.svg} {coffee_die.svg} {coffee_die.svg} Deal {{normal_damage.svg}7} dmg
 - {coffee_die.svg} {coffee_die.svg} {coffee_die.svg} {coffee_die.svg} {coffee_die.svg} Deal {{normal_damage.svg}8} dmg
 - Inflict {reprimand.svg}
 
 SHORE LEAVE II
-Cost: {{cp.svg}3} | Main Phase Action
+Cost: {{cp.svg}2} | Main Phase Action
 {combadge_die.svg} {combadge_die.svg} {combadge_die.svg}
 - Gain 2 {coffee_token.svg} and 2 {command_codes.svg}
 - Draw {{carddraw.svg}1}
@@ -160,9 +160,9 @@ Roll 4 {roll_die.svg}:
 - On {combadge_die.svg} {earth_die.svg} Inflict {reprimand.svg}
 
 SHIELDS UP III
-Cost: {{cp.svg}5} | Main Phase Action
+Cost: {{cp.svg}4} | Main Phase Action
 {defense_5_dice.svg}
 Roll 5 {roll_die.svg}:
 - For each {coffee_die.svg} prevent {{damage_prevention.svg}1}
-- For each {combadge_die.svg} {combadge_die.svg} prevent {{damage_prevention.svg}2}
+- For each {combadge_die.svg} prevent {{damage_prevention.svg}2}
 - On {combadge_die.svg} {earth_die.svg} Inflict {reprimand.svg}

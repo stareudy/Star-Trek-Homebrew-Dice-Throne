@@ -31,9 +31,9 @@ A player with this token may spend it at any time to prevent half of their incom
 HERO BOARD
 
 NERVE PINCH
-{phaser_die.svg}{phaser_die.svg}{phaser_die.svg} Deal {{normal_damage.svg}6}
-{phaser_die.svg}{phaser_die.svg}{phaser_die.svg}{phaser_die.svg} Deal {{normal_damage.svg}7}
-{phaser_die.svg}{phaser_die.svg}{phaser_die.svg}{phaser_die.svg}{phaser_die.svg} Deal {{normal_damage.svg}8}
+{phaser_die.svg}{phaser_die.svg}{phaser_die.svg} Deal {{normal_damage.svg}5}
+{phaser_die.svg}{phaser_die.svg}{phaser_die.svg}{phaser_die.svg} Deal {{normal_damage.svg}6}
+{phaser_die.svg}{phaser_die.svg}{phaser_die.svg}{phaser_die.svg}{phaser_die.svg} Deal {{normal_damage.svg}7}
 
 MEDITATE
 {salute_die.svg}{salute_die.svg}{salute_die.svg}
@@ -117,15 +117,15 @@ Force an opponent to reveal to you two cards from their hand at random. Or, if s
 
 NERVE PINCH II
 Cost: {{cp.svg}2} | Upgrade Card
-{phaser_die.svg}{phaser_die.svg}{phaser_die.svg}: Deal {{normal_damage.svg}7}
-{phaser_die.svg}{phaser_die.svg}{phaser_die.svg}{phaser_die.svg}: Deal {{normal_damage.svg}8}
-{phaser_die.svg}{phaser_die.svg}{phaser_die.svg}{phaser_die.svg}{phaser_die.svg}: Deal {{normal_damage.svg}9}
+{phaser_die.svg}{phaser_die.svg}{phaser_die.svg}: Deal {{normal_damage.svg}6}
+{phaser_die.svg}{phaser_die.svg}{phaser_die.svg}{phaser_die.svg}: Deal {{normal_damage.svg}7}
+{phaser_die.svg}{phaser_die.svg}{phaser_die.svg}{phaser_die.svg}{phaser_die.svg}: Deal {{normal_damage.svg}8}
 
 NERVE PINCH III
 Cost: {{cp.svg}4} | Upgrade Card
-{phaser_die.svg}{phaser_die.svg}{phaser_die.svg}: Deal {{normal_damage.svg}8}
-{phaser_die.svg}{phaser_die.svg}{phaser_die.svg}{phaser_die.svg}: Deal {{normal_damage.svg}9}
-{phaser_die.svg}{phaser_die.svg}{phaser_die.svg}{phaser_die.svg}{phaser_die.svg}: Deal {{normal_damage.svg}10}
+{phaser_die.svg}{phaser_die.svg}{phaser_die.svg}: Deal {{normal_damage.svg}7}
+{phaser_die.svg}{phaser_die.svg}{phaser_die.svg}{phaser_die.svg}: Deal {{normal_damage.svg}8}
+{phaser_die.svg}{phaser_die.svg}{phaser_die.svg}{phaser_die.svg}{phaser_die.svg}: Deal {{normal_damage.svg}9}
 On 4 of a kind, make this attack undefendable.
 
 KOLINAR II

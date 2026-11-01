@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 354 354" width="344" height="344" role="img" aria-label="Targeted token">
+  <title>Targeted token</title>
+  <desc>Flat vector crosshair and person emblem.</desc>
+  <defs>
+    </defs>
+  <g>
+    <circle fill="#550101" cx="172" cy="172" r="172" /><g transform="scale(0.5733333333333333)" stroke-linecap="round" stroke-linejoin="round"><circle cx="300" cy="300" r="164" fill="none" stroke="#000000" stroke-width="20" /><circle cx="300" cy="300" r="164" fill="none" stroke="#F5F4F2" stroke-width="16" /><rect x="285" y="95" width="30" height="72" rx="5" fill="#F5F4F2" stroke="#000000" stroke-width="4" /><rect x="285" y="433" width="30" height="72" rx="5" fill="#F5F4F2" stroke="#000000" stroke-width="4" /><rect x="95" y="285" width="72" height="30" rx="5" fill="#F5F4F2" stroke="#000000" stroke-width="4" /><rect x="433" y="285" width="72" height="30" rx="5" fill="#F5F4F2" stroke="#000000" stroke-width="4" /><path transform="translate(300 24.5) scale(1.1 1) translate(-300 0)" d="M300 181 C326 181 344 203 344 231 C344 250 337 265 326 276 C345 282 361 293 372 307 C387 328 389 347 377 359 C369 367 356 370 338 370 L262 370 C244 370 231 367 223 359 C211 347 213 328 228 307 C239 293 255 282 274 276 C263 265 256 250 256 231 C256 203 274 181 300 181 Z" fill="#F5F4F2" stroke="#000000" stroke-width="4" stroke-linejoin="round" /></g><circle cx="172" cy="172" r="165.7" fill="none" stroke="#FFFFFF" stroke-width="12.6" />
+  </g>
+<circle cx="172" cy="172" r="174.1" fill="none" stroke="#FFFFFF" stroke-width="4.2" />
+</svg>

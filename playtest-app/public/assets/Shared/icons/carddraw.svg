@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" width="714" height="824" viewBox="0 0 714 824" role="img" aria-labelledby="title description">
+  <ns0:title id="title">Card draw icon</ns0:title>
+  <ns0:desc id="description">Two overlapping rounded playing cards, drawn with editable vector shapes. The front card contains an editable number.</ns0:desc>
+
+  
+  <ns0:g id="back-card">
+    <ns0:rect id="back-card-outline" x="140" y="75" width="554" height="720" rx="86" fill="#000000" />
+    <ns0:rect id="back-card-face" x="175" y="105" width="484" height="660" rx="55" fill="#FFFFFF" />
+  </ns0:g>
+
+  
+  <ns0:g id="front-card">
+    <ns0:rect id="front-card-outline" x="0" y="0" width="550" height="720" rx="86" fill="#000000" />
+    <ns0:rect id="front-card-face" x="30" y="30" width="490" height="660" rx="55" fill="#FFFFFF" />
+    <ns0:text id="editable-number" data-editable="number" x="263" y="490" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="358.33" font-weight="700" fill="#000000">1</ns0:text>
+  </ns0:g>
+</ns0:svg>

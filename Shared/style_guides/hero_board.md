@@ -20,16 +20,29 @@ Sizes in this guide use the hero board's 4500 × 2700 SVG coordinate system, cor
 
 ## Rules text font and sizing
 
-- Use **Avenir Next Condensed Regular** at an effective **41.625 px** for ability rules, including the damage text beside basic-power activation rows.
-- Use an effective **30.375 px** for the Ultimate's explanatory restriction text, matching the smaller note on Janeway's glass board.
+- Use **Avenir Next Condensed Regular** at an effective **41.625 px** for regular ability rules, including the damage text beside basic-power activation rows. Ultimate effects and disclaimers follow the separate rules below.
+- Do not apply a universal small-note size to Ultimate disclaimers; preserve the original hero-specific effective size below.
 - These are the approved final sizes: the earlier 37 px rules text and 27 px Ultimate note enlarged to **112.5%**. They exclude titles.
-- Center rules lines within their panels. Rewrap the text to provide clear, balanced side margins, using the available vertical space rather than reducing the approved font size. Preserve wording, numerals, punctuation, phase colors, and icon order.
-- Match the first rules line's gap below its activation row to Janeway's approved Get Off My Ship panel. Basic powers retain their three activation rows with damage rules alongside them.
+- Center regular ability rules lines within their panels. Ultimate effects and disclaimers are left-aligned and follow the separate layout below. Rewrap the text to provide clear, balanced side margins, using the available vertical space rather than reducing the approved font size. Preserve wording, numerals, punctuation, phase colors, and icon order.
+- Set the first rules baseline to the activation viewport bottom plus **85.441 effective units**, matching Janeway's approved Get Off My Ship panel; use the first-placement tables below. Basic powers retain their three activation rows with damage rules alongside them.
 - Vertically center inline icons against their text line. Keep multiword phase names together where practical and avoid isolating a number from its following icon.
+
+## Ultimate panels: independent typography and layout
+
+The original saved hero board is the presentation reference for its Ultimate's uniquely shaped panel. Preserve its left-aligned effects as one continuous line, its exact starting position, and the disclaimer's left alignment, font, placement, and original line breaks. Preserve the title and activation dice separately. Do not apply regular-panel centering, line widths, wrapping, or fallback font sizes to Ultimate content.
+
+| Hero | Effective effects size | Effective disclaimer size |
+| --- | ---: | ---: |
+| Janeway | 49.95 SVG units | 36.5 SVG units |
+| Tuvok | 49.950002 SVG units | 30.375 SVG units |
+
+These sizes are in the full board's SVG coordinate system, after all nested transforms. Janeway's effects use local 37-unit text with both 1.2 and 1.125 scaling; her 36.5-unit disclaimer is outside those scale groups. Tuvok's effects and disclaimer declare their effective sizes directly. Do not multiply an already effective size again, or force one hero's disclaimer size onto another.
+
+Markdown must distinguish activation, effects, and disclaimer with `data-ultimate-role` values. Keep the effects in one paragraph without forced line breaks and mark the block left-aligned and non-wrapping. Display any source disclaimer absent from gameplay rules as a separate asset note. Conversion scripts must read the actual original Ultimate layout, preserve its transforms, and validate effective sizes, anchors, and line counts. If changed wording exceeds the available line, report that for layout review; do not silently shrink, wrap, or center it.
 
 ## Effective sizes and existing transforms
 
-The rules and icon sizes below describe their final size in the board coordinate system, including content-group scaling. Janeway's glass board retains a `scale(1.125)` content transform: its local 37 px rules text renders at 41.625 px, its local 27 px Ultimate note at 30.375 px, and its local icon dimensions scale in the same way. Use either these local values with that transform or the final dimensions without it; do not apply the increase twice. Title sizes are set separately and are not multiplied by the rules-content transform.
+The rules and icon sizes below describe their final size in the board coordinate system, including content-group scaling. Janeway's glass board retains a `scale(1.125)` content transform: its local 37 px rules text renders at 41.625 px, its local icon dimensions scale in the same way. Use either these local values with that transform or the final dimensions without it; do not apply the increase twice. Title sizes are set separately and are not multiplied by the rules-content transform.
 
 ## Standard icon size
 
@@ -46,17 +59,15 @@ Use an effective **60.75 × 60.75 unit** viewport for every instance of these ic
 
 Preserve each icon's aspect ratio within its viewport. The 60.75 × 60.75 measurement includes the icon's existing borders and excludes its surrounding shadow.
 
-## Shared shadows for die face rows
+## Shadows on dice rows
 
-Consecutive die face icons in the same row must share a single shadow around the entire icon group, including when their borders touch.
+Activation dice rows must have no individual or shared halo/drop shadows. This includes ordinary activation rows, three-row basic powers, Ultimates, and the composite Small Straight, Large Straight, and defense requirement icons. Remove shadow/halo filters inherited from row groups and embedded in icon instances. Preserve the icon surface shading, highlights, borders, geometry, sizes, and positions; keep icon masters unchanged.
 
-- Remove the individual shadows from the die face icons in that group.
-- Build the shared shadow from the combined silhouette of all icons in the group.
-- Render that shadow behind the complete group, so no icon's shadow falls over a neighboring icon or reveals the order in which the icons were drawn.
+This activation requirement overrides older shared-row shadow guidance. It does not remove the established treatment from rules text or other non-activation content. Where a non-activation die group still needs a shadow, use one group shadow rather than overlapping individual shadows.
 
 ## Punctuation after die face icons
 
-When a punctuation mark immediately follows a die face icon or die face group, leave enough horizontal space that the punctuation mark's shadow does not fall over the right edge of the die face icon. Judge the spacing using the rendered shadow as well as the visible punctuation glyph.
+Gameplay rules must not contain commas immediately after dice icons or groups. Preserve other punctuation. When another punctuation mark immediately follows a die face icon or die face group, leave enough horizontal space that the punctuation mark's shadow does not fall over the right edge of the die face icon. Judge the spacing using the rendered shadow as well as the visible punctuation glyph.
 
 ## Die face icon sizing
 
@@ -67,6 +78,59 @@ Die face icons have three separate classes, each with its own sizing rules based
 3. **Inline die face icons:** Use **60.75 × 60.75 units** per die face icon. These die faces appear within an ability's rules text, below its activation row or rows, and only in abilities whose rules include die face icons.
 
 These die face sizes include the icon's existing borders and exclude its surrounding shadow.
+
+## Spacing and first-placement profiles for new boards
+
+The numeric companion [layout_metrics.json](layout_metrics.json) defines reusable new-asset profiles. These defaults were measured from the original Janeway board and the approved Markdown conversion spacing. They let a first-time board use the established layout without needing an existing SVG for that new hero. An existing asset's measured anchors take precedence over these defaults; do not normalize existing designs to this table.
+
+### Coordinate origin and scaling
+
+For each regular ability, use the transformed `(0,0)` of its `*-vector-panel` frame as the reference origin. Values below are **effective full-board SVG units** relative to that origin, not unscaled child-group coordinates. For a new panel, add its chosen origin to these offsets. Sizes already include the approved 1.125 content enlargement: apply them directly, or divide by the group's uniform scale if constructing inside a scaled group. Never apply the enlargement twice. Scale the entire profile uniformly if the board coordinate scale changes; do not independently stretch x/y spacing with the old frame's slight nonuniform transforms.
+
+### Gaps between icons and following text
+
+Within a consecutive die-face group, outer borders touch: **zero gap**, zero margin, and no overlap. Source whitespace between icon tags has no visual width.
+
+For inline dice/status/damage icons followed by prose, use **0.185 em** of clear horizontal space at the rules-text font size (about **7.701 units** at 41.625). Apply the gap once, not both as SVG positioning and a rendered space. Treat a consecutive dice group as one item. Do not insert the gap between its dice. Follow the rules below for basic-power text, which needs a larger measured gap.
+
+For a new three-row basic power, keep the dice-group centers aligned at **x = 230.6975** relative to the frame origin. Use 67.5-unit squares and position the first visible rules character from the last die's right edge using the row-specific gap:
+
+| Dice count | Activation top y | Rules baseline y | Gap to following text |
+| --- | ---: | ---: | ---: |
+| 3 | 142.868 | 194.618 | 20.8125 |
+| 4 | 247.493 | 299.243 | 18.5625 |
+| 5 | 350.993 | 402.743 | 23.0625 |
+
+For each row, `dice_left = 230.6975 − dice_count × 67.5 ÷ 2` and `text_start_x = dice_left + dice_count × 67.5 + gap`. Measure the first non-whitespace character, not the text element's raw `x` if it contains leading spaces. These gaps reproduce Fire Phasers' original spacing; do not replace them with a normal space or add literal spaces to `rules.md`.
+
+### Activation rows with rules underneath
+
+Center the complete activation symbol/group beneath the title. The composite viewport includes its label pill; scale straight and defense symbols by the largest square as described above, not by total width.
+
+| Activation profile | Viewport top y | Viewport height | First rules baseline y |
+| --- | ---: | ---: | ---: |
+| Ordinary die-face row | 142.868 | 95.625 | 323.933 |
+| Small or Large Straight | 143.439 | 128.436 | 357.315 |
+| Defense requirement | 143.438 | 94.485 | 323.364 |
+
+The general rule is **first baseline = activation viewport bottom + 85.441 units**. This is a baseline clearance, not a gap to the top of the letters. The tiny composite top/height differences are part of the measured reference. Use the complete symbol viewport when measuring; keep activation shadows disabled. Values rounded to three decimals may differ from a saved source by up to 0.002 unit.
+
+### Subsequent regular rules lines
+
+Retain the fixed first baseline above. For later lines, preserve the Markdown conversion spacing: minimum line-box height **49.95**, enlarged to the tallest inline icon on that line (normally **60.75**); empty gap **5.625** before a continuation line or **13.5** before a new paragraph. Center inline icons vertically in the line box. Put the text baseline **13.32** below its line-box center.
+
+Thus the baseline advance is `previous_height ÷ 2 + gap + next_height ÷ 2`. Anchor the first line box from its required baseline rather than adding another default top gap. Do not let whole-block vertical centering move the title, activation row, or first baseline. Basic-power rows and Ultimates retain their separate positions.
+
+### First-time Ultimate panels
+
+Use an explicitly selected existing shaped-panel template; regular ability profiles do not apply. For the current wide Ultimate frame, the effects start is **x = 14**, baseline **y = 259.72844**, left-aligned at an effective **49.95-unit** size on one line. Preserve the chosen template's frame, title and text treatment.
+
+| Ultimate template | First activation x | Activation top y | Dice size | Disclaimer x | Disclaimer baselines | Disclaimer size |
+| --- | ---: | ---: | ---: | ---: | --- | ---: |
+| Janeway | 799.37113 | 54.146 | 95.625 | 297.346154 | 378.047547; 415.131865 | 36.5 |
+| Tuvok | 792.9375 | 70.1875 | 95.625 | 297 | 378; 415 | 30.375 |
+
+Ultimate coordinates are relative to the chosen `*-vector-panel` origin and already include all source scaling. Keep the original two disclaimer lines left-aligned. Do not mix one template's activation placement with the other's disclaimer settings. A new panel shape requires an explicit new profile rather than guessed offsets or automatic shrinking/wrapping.
 
 ## Hero board print kit
 

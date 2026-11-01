@@ -7,11 +7,19 @@ const svgPaths=[];
 async function walk(dir){for(const e of await readdir(dir,{withFileTypes:true})){const p=path.join(dir,e.name);if(e.isDirectory())await walk(p);else if(e.name.endsWith('.svg'))svgPaths.push(p)}}
 await walk(out);
 const needed=new Map();
+const bundledFontCss=await readFile(path.join(out,'Shared/fonts/fonts.css'),'utf8');
 let rewritten=0;
 for(const target of svgPaths){
  const relative=path.relative(out,target);
  const original=path.join(source,relative);
  let svg=await readFile(original,'utf8');
+ svg=svg.replace(/@font-face\s*\{[^}]*Gardablack\.ttf[^}]*\}/g,'');
+ if(/Avenir|Gardablack|Garda Black/.test(svg)){
+  const fontBase=path.relative(path.dirname(target),path.join(out,'Shared/fonts')).split(path.sep).join('/')+'/';
+  const fontCss=bundledFontCss.replace(/url\("([^"]+)"\)/g,(_,ref)=>'url("'+fontBase+ref+'")');
+  svg=svg.replace(/(<svg\b[^>]*>)/,'$1<style id="bundled-asset-fonts" type="text/css">'+fontCss+'</style>');
+ }
+
  const references=[...svg.matchAll(/(?:href|xlink:href)\s*=\s*["']([^"']+\.(?:png|jpe?g))["']|url\(\s*["']?([^"'()]+\.(?:png|jpe?g))["']?\s*\)/gi)];
  for(const match of references){
   const ref=match[1]||match[2];

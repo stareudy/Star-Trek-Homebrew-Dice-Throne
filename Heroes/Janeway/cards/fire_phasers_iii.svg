@@ -12,580 +12,601 @@
   <clipPath id="fire_phasers_iii-clip" clipPathUnits="userSpaceOnUse"><rect x="31" y="159" width="613" height="350" /></clipPath></defs>
   <defs id="vector-icon-filters"><filter id="vectorIconHalo" x="-0.7" y="-0.7" width="2.4" height="2.4" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="6.272" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="4.9" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter><filter id="vectorIconHaloSmall" x="-0.7" y="-0.7" width="2.4" height="2.4" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="4.224" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="3.3" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter><filter id="vectorIconHaloLarge" x="-0.7" y="-0.7" width="2.4" height="2.4" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="8.96" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="7" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><g id="glass-card-content" clip-path="url(#glass-card-trim)"><g id="registered-board-background" transform="matrix(0.975000000000 0 0 0.975000000000 -49.575162946875 -518.421130752000)" data-source-ability="fire-phasers" data-registration="physical-print-scale-panel-center"><image id="linked-janeway-board-background" x="0" y="-89.4257064722" width="4500" height="2789.4257064722" preserveAspectRatio="xMidYMid meet" href="../art/Voyager bridge.PNG" xlink:href="../art/Voyager bridge.PNG" /></g><g id="rules-content-guide" aria-label="Default sizing for future editable rules content" data-rules-font="Avenir Next Condensed" data-rules-font-size="45.833333px" data-inline-die-icon-height="50" data-inline-damage-token-icon-height="55" data-rule-row-baseline-step="70" data-rules-text-alignment="center" data-activation-die-sizing="match-source-power-per-face" data-activation-die-row-spacing="match-source-power" data-inline-die-face-height="50" />
 
-  <g id="glass-glass-ability-panel" ns2:label="Vector panel framing and editable title"><path id="glass-fire-phasers-glass-surface" d="M 74,28 H 601 Q 645,28 645,72 V 977 Q 645,1021 601,1021 H 74 Q 30,1021 30,977 V 72 Q 30,28 74,28 Z" fill="url(#glass-new-alert-huntress)" opacity=".96" /><path id="glass-fire-phasers-top-shading" d="M 74,28 H 601 Q 645,28 645,72 V 977 Q 645,1021 601,1021 H 74 Q 30,1021 30,977 V 72 Q 30,28 74,28 Z" fill="url(#glass-red-alert-vertical-shading)" pointer-events="none" /><image id="glass-fire-phasers-art" class="panel-art" x="30" y="173" width="615" height="993" preserveAspectRatio="none" clip-path="url(#glass-fire-phasers-art-clip)" href="../art/fire_phasers.png" xlink:href="../art/fire_phasers.png" opacity="1" /><path id="glass-fire-phasers-inner-panel-outline" d="M 74,28 H 601 Q 645,28 645,72 V 977 Q 645,1021 601,1021 H 74 Q 30,1021 30,977 V 72 Q 30,28 74,28 Z" fill="none" stroke="#78b8ef" stroke-width="3" stroke-linejoin="round" /><path id="glass-fire-phasers-glass-rim" d="M 49,4 H 626 Q 671,4 671,49 V 1001 Q 671,1046 626,1046 H 49 Q 4,1046 4,1001 V 49 Q 4,4 49,4 Z" fill="none" stroke="url(#glass-new-rim-huntress)" stroke-width="5" stroke-linejoin="round" stroke-opacity=".82" filter="url(#glass-glass-rim-outer-shadow)" /><text id="card-title-text" ns2:label="Editable title" x="337.5" y="110" text-anchor="middle" font-family="Gardablack" font-size="50px" font-weight="400" fill="#f4faff" class="panel-title" data-text="FIRE PHASERS III" filter="url(#abilityTitleHalo)">FIRE PHASERS III</text></g><g id="editable-rules" aria-label="Editable formatted card rules" font-family="Avenir Next Condensed, sans-serif" font-size="37px" font-weight="400" fill="#F7F7F7" transform="translate(0 -48.5) translate(337.5 193.5) scale(1.125) translate(-337.5 -193.5)">
-<defs><filter id="cardRulesTextHalo" x="-100" y="-100" width="875" height="1250" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="4" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="3.4" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter><filter id="cardRulesIconHalo" x="-100" y="-100" width="875" height="1250" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="6" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="5" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs>
-<g filter="url(#glass-iconHalo)"><svg viewBox="0 0 344 344" x="145.409" y="193.500" width="60.0" height="60.0" preserveAspectRatio="xMidYMid meet" aria-label="coffee_die.png" data-original-x="216.5" data-original-y="665.5" data-original-width="36" data-original-height="36" overflow="visible" data-vector-icon="coffee_die" data-vector-source="Heroes/Janeway/icons/coffee_die.svg" data-original-icon="../../icons/coffee_die.png" stroke="none" fill="#000000" text-anchor="start">
-  <title>Coffee die face</title>
-  <desc>Hand-drawn vector draft with a solid, color-matched die-face background.</desc>
+  <g id="glass-glass-ability-panel" ns2:label="Vector panel framing and editable title"><path id="glass-fire-phasers-glass-surface" d="M 74,28 H 601 Q 645,28 645,72 V 977 Q 645,1021 601,1021 H 74 Q 30,1021 30,977 V 72 Q 30,28 74,28 Z" fill="url(#glass-new-alert-huntress)" opacity=".96" /><path id="glass-fire-phasers-top-shading" d="M 74,28 H 601 Q 645,28 645,72 V 977 Q 645,1021 601,1021 H 74 Q 30,1021 30,977 V 72 Q 30,28 74,28 Z" fill="url(#glass-red-alert-vertical-shading)" pointer-events="none" /><image id="glass-fire-phasers-art" class="panel-art" x="30" y="173" width="615" height="993" preserveAspectRatio="none" clip-path="url(#glass-fire-phasers-art-clip)" href="../art/fire_phasers.png" xlink:href="../art/fire_phasers.png" opacity="1" /><path id="glass-fire-phasers-inner-panel-outline" d="M 74,28 H 601 Q 645,28 645,72 V 977 Q 645,1021 601,1021 H 74 Q 30,1021 30,977 V 72 Q 30,28 74,28 Z" fill="none" stroke="#78b8ef" stroke-width="3" stroke-linejoin="round" /><path id="glass-fire-phasers-glass-rim" d="M 49,4 H 626 Q 671,4 671,49 V 1001 Q 671,1046 626,1046 H 49 Q 4,1046 4,1001 V 49 Q 4,4 49,4 Z" fill="none" stroke="url(#glass-new-rim-huntress)" stroke-width="5" stroke-linejoin="round" stroke-opacity=".82" filter="url(#glass-glass-rim-outer-shadow)" /><text id="card-title-text" ns2:label="Editable title" x="337.5" y="110" text-anchor="middle" font-family="Gardablack" font-size="50px" font-weight="400" fill="#f4faff" class="panel-title" data-text="FIRE PHASERS III" filter="url(#abilityTitleHalo)">FIRE PHASERS III</text></g><g id="editable-rules" aria-label="Editable formatted card rules" font-family="Avenir Next Condensed, sans-serif" font-size="37px" font-weight="400" fill="#F7F7F7" transform="translate(0 -48.5) translate(337.5 193.5) scale(1.125) translate(-337.5 -193.5)" data-rules-source="../rules.md" data-md-rule="FIRE PHASERS III"><defs><filter id="cardRulesTextHalo" x="-100" y="-100" width="875" height="1250" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="4" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="3.4" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter><filter id="cardRulesIconHalo" x="-100" y="-100" width="875" height="1250" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="6" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="5" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs>
+<defs>
+    <clipPath id="face-clip">
+      <rect x="0" y="0" width="344" height="344" rx="31" />
+    </clipPath>
+  </defs>
   <defs>
     <clipPath id="face-clip">
       <rect x="0" y="0" width="344" height="344" rx="31" />
     </clipPath>
   </defs>
-  <g clip-path="url(#face-clip)">
-    <rect width="344" height="344" fill="#003085" />
-
-    <g transform="translate(0 3.7) translate(172 172) scale(0.8322 0.7245) translate(-172 -172)">
-    <g fill="#7A848B" transform="translate(0 -28)">
-      
-
-      <g transform="translate(16.5 -35.175) scale(0.9 1.15)">
-      
-      <g transform="translate(330 0) scale(-1 1)" fill="#111111">
-        <path d="M121 176 L88 176 C67 176 50 188 50 207 L50 256 C50 275 67 287 88 287 L121 287 L121 268 L91 268 C82 268 76 263 76 255 L76 208 C76 200 82 195 91 195 L121 195 Z" />
-      </g>
-
-      
-      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168 C217 176 192 181 165 181 C138 181 113 176 101 168 Z" />
-
-      
-      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169 C230 178 201 184 165 184 C129 184 100 178 100 169 Z" />
-      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-      </g>
-    </g>
-
-    <g transform="translate(16.5 -63.175) scale(0.9 1.15)">
-    
-
-    
-    <path d="M109 169 C109 164 134 160 165 160 C196 160 221 164 221 169 C221 174 196 178 165 178 C134 178 109 174 109 169 Z" fill="#3B271C" />
-    </g>
-    <g fill="#D8C7A8">
-      <path d="M151 75 C162 84 171 97 169 109 C167 122 157 132 149 143 C141 154 143 164 152 173 C138 168 131 156 137 143 C142 131 153 121 158 110 C164 97 159 85 151 75 Z" transform="translate(0 -41.825)" />
-      <path d="M181 99 C192 108 196 119 192 131 C188 142 180 151 179 161 C178 168 181 174 188 179 C176 176 168 167 169 156 C170 143 180 132 183 121 C185 113 183 105 181 99 Z" transform="translate(0 -47.825)" />
-    </g>
-    </g>
-    
-  </g>
-<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#approved-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></svg><svg viewBox="0 0 344 344" x="205.409" y="193.500" width="60.0" height="60.0" preserveAspectRatio="xMidYMid meet" aria-label="coffee_die.png" data-original-x="256.5" data-original-y="665.5" data-original-width="36" data-original-height="36" overflow="visible" data-vector-icon="coffee_die" data-vector-source="Heroes/Janeway/icons/coffee_die.svg" data-original-icon="../../icons/coffee_die.png" stroke="none" fill="#000000" text-anchor="start">
-  <title>Coffee die face</title>
-  <desc>Hand-drawn vector draft with a solid, color-matched die-face background.</desc>
   <defs>
     <clipPath id="face-clip">
       <rect x="0" y="0" width="344" height="344" rx="31" />
     </clipPath>
   </defs>
-  <g clip-path="url(#face-clip)">
-    <rect width="344" height="344" fill="#003085" />
-
-    <g transform="translate(0 3.7) translate(172 172) scale(0.8322 0.7245) translate(-172 -172)">
-    <g fill="#7A848B" transform="translate(0 -28)">
-      
-
-      <g transform="translate(16.5 -35.175) scale(0.9 1.15)">
-      
-      <g transform="translate(330 0) scale(-1 1)" fill="#111111">
-        <path d="M121 176 L88 176 C67 176 50 188 50 207 L50 256 C50 275 67 287 88 287 L121 287 L121 268 L91 268 C82 268 76 263 76 255 L76 208 C76 200 82 195 91 195 L121 195 Z" />
-      </g>
-
-      
-      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168 C217 176 192 181 165 181 C138 181 113 176 101 168 Z" />
-
-      
-      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169 C230 178 201 184 165 184 C129 184 100 178 100 169 Z" />
-      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-      </g>
-    </g>
-
-    <g transform="translate(16.5 -63.175) scale(0.9 1.15)">
-    
-
-    
-    <path d="M109 169 C109 164 134 160 165 160 C196 160 221 164 221 169 C221 174 196 178 165 178 C134 178 109 174 109 169 Z" fill="#3B271C" />
-    </g>
-    <g fill="#D8C7A8">
-      <path d="M151 75 C162 84 171 97 169 109 C167 122 157 132 149 143 C141 154 143 164 152 173 C138 168 131 156 137 143 C142 131 153 121 158 110 C164 97 159 85 151 75 Z" transform="translate(0 -41.825)" />
-      <path d="M181 99 C192 108 196 119 192 131 C188 142 180 151 179 161 C178 168 181 174 188 179 C176 176 168 167 169 156 C170 143 180 132 183 121 C185 113 183 105 181 99 Z" transform="translate(0 -47.825)" />
-    </g>
-    </g>
-    
-  </g>
-<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#approved-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></svg><svg viewBox="0 0 344 344" x="265.409" y="193.500" width="60.0" height="60.0" preserveAspectRatio="xMidYMid meet" aria-label="coffee_die.png" data-original-x="296.5" data-original-y="665.5" data-original-width="36" data-original-height="36" overflow="visible" data-vector-icon="coffee_die" data-vector-source="Heroes/Janeway/icons/coffee_die.svg" data-original-icon="../../icons/coffee_die.png" stroke="none" fill="#000000" text-anchor="start">
-  <title>Coffee die face</title>
-  <desc>Hand-drawn vector draft with a solid, color-matched die-face background.</desc>
   <defs>
     <clipPath id="face-clip">
       <rect x="0" y="0" width="344" height="344" rx="31" />
     </clipPath>
   </defs>
-  <g clip-path="url(#face-clip)">
-    <rect width="344" height="344" fill="#003085" />
-
-    <g transform="translate(0 3.7) translate(172 172) scale(0.8322 0.7245) translate(-172 -172)">
-    <g fill="#7A848B" transform="translate(0 -28)">
-      
-
-      <g transform="translate(16.5 -35.175) scale(0.9 1.15)">
-      
-      <g transform="translate(330 0) scale(-1 1)" fill="#111111">
-        <path d="M121 176 L88 176 C67 176 50 188 50 207 L50 256 C50 275 67 287 88 287 L121 287 L121 268 L91 268 C82 268 76 263 76 255 L76 208 C76 200 82 195 91 195 L121 195 Z" />
-      </g>
-
-      
-      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168 C217 176 192 181 165 181 C138 181 113 176 101 168 Z" />
-
-      
-      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169 C230 178 201 184 165 184 C129 184 100 178 100 169 Z" />
-      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-      </g>
-    </g>
-
-    <g transform="translate(16.5 -63.175) scale(0.9 1.15)">
-    
-
-    
-    <path d="M109 169 C109 164 134 160 165 160 C196 160 221 164 221 169 C221 174 196 178 165 178 C134 178 109 174 109 169 Z" fill="#3B271C" />
-    </g>
-    <g fill="#D8C7A8">
-      <path d="M151 75 C162 84 171 97 169 109 C167 122 157 132 149 143 C141 154 143 164 152 173 C138 168 131 156 137 143 C142 131 153 121 158 110 C164 97 159 85 151 75 Z" transform="translate(0 -41.825)" />
-      <path d="M181 99 C192 108 196 119 192 131 C188 142 180 151 179 161 C178 168 181 174 188 179 C176 176 168 167 169 156 C170 143 180 132 183 121 C185 113 183 105 181 99 Z" transform="translate(0 -47.825)" />
-    </g>
-    </g>
-    
-  </g>
-<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#approved-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></svg></g>
-<text x="333.409" y="235.5" text-anchor="start" xml:space="preserve" filter="url(#glass-rulesHalo)"> Deal </text>
-<g filter="url(#glass-iconHalo)"><svg viewBox="0 0 900 900" x="414.991" y="196.500" width="54.0" height="54.0" preserveAspectRatio="xMidYMid meet" aria-label="normal_damage_6.png" data-original-x="438.0" data-original-y="665.5" data-original-width="36" data-original-height="36" overflow="visible" data-vector-icon="normal_damage" data-vector-source="Shared/icons/normal_damage.svg" data-original-icon="../../../../Shared/icons/normal_damage_6.png" stroke="none" fill="#000000" text-anchor="start">
-  <title id="vi4-title">Normal damage burst</title>
-  <desc id="vi4-description">Clean vector redraw with editable text where applicable.</desc>
-  <g id="vi4-scaled-icon" transform="translate(13.5 13.5) scale(0.97)"><polygon id="vi4-outer-outline" points="450.00,13.00 485.09,93.72 535.25,21.40 553.92,107.42 617.23,46.26 618.76,134.27 692.78,86.65 677.11,173.26 759.01,140.99 726.74,222.89 813.35,207.22 765.73,281.24 853.74,282.77 792.58,346.08 878.60,364.75 806.28,414.91 887.00,450.00 806.28,485.09 878.60,535.25 792.58,553.92 853.74,617.23 765.73,618.76 813.35,692.78 726.74,677.11 759.01,759.01 677.11,726.74 692.78,813.35 618.76,765.73 617.23,853.74 553.92,792.58 535.25,878.60 485.09,806.28 450.00,887.00 414.91,806.28 364.75,878.60 346.08,792.58 282.77,853.74 281.24,765.73 207.22,813.35 222.89,726.74 140.99,759.01 173.26,677.11 86.65,692.78 134.27,618.76 46.26,617.23 107.42,553.92 21.40,535.25 93.72,485.09 13.00,450.00 93.72,414.91 21.40,364.75 107.42,346.08 46.26,282.77 134.27,281.24 86.65,207.22 173.26,222.89 140.99,140.99 222.89,173.26 207.22,86.65 281.24,134.27 282.77,46.26 346.08,107.42 364.75,21.40 414.91,93.72" fill="none" stroke="#FFFFFF" stroke-width="19" stroke-linejoin="miter" stroke-miterlimit="10" /><polygon id="vi4-burst" points="450.00,13.00 485.09,93.72 535.25,21.40 553.92,107.42 617.23,46.26 618.76,134.27 692.78,86.65 677.11,173.26 759.01,140.99 726.74,222.89 813.35,207.22 765.73,281.24 853.74,282.77 792.58,346.08 878.60,364.75 806.28,414.91 887.00,450.00 806.28,485.09 878.60,535.25 792.58,553.92 853.74,617.23 765.73,618.76 813.35,692.78 726.74,677.11 759.01,759.01 677.11,726.74 692.78,813.35 618.76,765.73 617.23,853.74 553.92,792.58 535.25,878.60 485.09,806.28 450.00,887.00 414.91,806.28 364.75,878.60 346.08,792.58 282.77,853.74 281.24,765.73 207.22,813.35 222.89,726.74 140.99,759.01 173.26,677.11 86.65,692.78 134.27,618.76 46.26,617.23 107.42,553.92 21.40,535.25 93.72,485.09 13.00,450.00 93.72,414.91 21.40,364.75 107.42,346.08 46.26,282.77 134.27,281.24 86.65,207.22 173.26,222.89 140.99,140.99 222.89,173.26 207.22,86.65 281.24,134.27 282.77,46.26 346.08,107.42 364.75,21.40 414.91,93.72" fill="#030304" stroke="#FFFFFF" stroke-width="9" stroke-linejoin="miter" stroke-miterlimit="10" />
-  <text id="vi4-editable-number" data-editable="number" x="438" y="663" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="561.11" font-weight="700" fill="#FFFFFF" data-vector-import="true">6</text>
-</g></svg></g>
-<text x="460.991" y="235.5" text-anchor="start" xml:space="preserve" filter="url(#glass-rulesHalo)"> dmg</text>
-<g filter="url(#glass-iconHalo)"><svg viewBox="0 0 344 344" x="115.409" y="285.500" width="60.0" height="60.0" preserveAspectRatio="xMidYMid meet" aria-label="coffee_die.png" data-original-x="196.5" data-original-y="709.5" data-original-width="36" data-original-height="36" overflow="visible" data-vector-icon="coffee_die" data-vector-source="Heroes/Janeway/icons/coffee_die.svg" data-original-icon="../../icons/coffee_die.png" stroke="none" fill="#000000" text-anchor="start">
-  <title>Coffee die face</title>
-  <desc>Hand-drawn vector draft with a solid, color-matched die-face background.</desc>
   <defs>
     <clipPath id="face-clip">
       <rect x="0" y="0" width="344" height="344" rx="31" />
     </clipPath>
   </defs>
-  <g clip-path="url(#face-clip)">
-    <rect width="344" height="344" fill="#003085" />
-
-    <g transform="translate(0 3.7) translate(172 172) scale(0.8322 0.7245) translate(-172 -172)">
-    <g fill="#7A848B" transform="translate(0 -28)">
-      
-
-      <g transform="translate(16.5 -35.175) scale(0.9 1.15)">
-      
-      <g transform="translate(330 0) scale(-1 1)" fill="#111111">
-        <path d="M121 176 L88 176 C67 176 50 188 50 207 L50 256 C50 275 67 287 88 287 L121 287 L121 268 L91 268 C82 268 76 263 76 255 L76 208 C76 200 82 195 91 195 L121 195 Z" />
-      </g>
-
-      
-      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168 C217 176 192 181 165 181 C138 181 113 176 101 168 Z" />
-
-      
-      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169 C230 178 201 184 165 184 C129 184 100 178 100 169 Z" />
-      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-      </g>
-    </g>
-
-    <g transform="translate(16.5 -63.175) scale(0.9 1.15)">
-    
-
-    
-    <path d="M109 169 C109 164 134 160 165 160 C196 160 221 164 221 169 C221 174 196 178 165 178 C134 178 109 174 109 169 Z" fill="#3B271C" />
-    </g>
-    <g fill="#D8C7A8">
-      <path d="M151 75 C162 84 171 97 169 109 C167 122 157 132 149 143 C141 154 143 164 152 173 C138 168 131 156 137 143 C142 131 153 121 158 110 C164 97 159 85 151 75 Z" transform="translate(0 -41.825)" />
-      <path d="M181 99 C192 108 196 119 192 131 C188 142 180 151 179 161 C178 168 181 174 188 179 C176 176 168 167 169 156 C170 143 180 132 183 121 C185 113 183 105 181 99 Z" transform="translate(0 -47.825)" />
-    </g>
-    </g>
-    
-  </g>
-<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#approved-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></svg><svg viewBox="0 0 344 344" x="175.409" y="285.500" width="60.0" height="60.0" preserveAspectRatio="xMidYMid meet" aria-label="coffee_die.png" data-original-x="236.5" data-original-y="709.5" data-original-width="36" data-original-height="36" overflow="visible" data-vector-icon="coffee_die" data-vector-source="Heroes/Janeway/icons/coffee_die.svg" data-original-icon="../../icons/coffee_die.png" stroke="none" fill="#000000" text-anchor="start">
-  <title>Coffee die face</title>
-  <desc>Hand-drawn vector draft with a solid, color-matched die-face background.</desc>
   <defs>
     <clipPath id="face-clip">
       <rect x="0" y="0" width="344" height="344" rx="31" />
     </clipPath>
   </defs>
-  <g clip-path="url(#face-clip)">
-    <rect width="344" height="344" fill="#003085" />
-
-    <g transform="translate(0 3.7) translate(172 172) scale(0.8322 0.7245) translate(-172 -172)">
-    <g fill="#7A848B" transform="translate(0 -28)">
-      
-
-      <g transform="translate(16.5 -35.175) scale(0.9 1.15)">
-      
-      <g transform="translate(330 0) scale(-1 1)" fill="#111111">
-        <path d="M121 176 L88 176 C67 176 50 188 50 207 L50 256 C50 275 67 287 88 287 L121 287 L121 268 L91 268 C82 268 76 263 76 255 L76 208 C76 200 82 195 91 195 L121 195 Z" />
-      </g>
-
-      
-      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168 C217 176 192 181 165 181 C138 181 113 176 101 168 Z" />
-
-      
-      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169 C230 178 201 184 165 184 C129 184 100 178 100 169 Z" />
-      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-      </g>
-    </g>
-
-    <g transform="translate(16.5 -63.175) scale(0.9 1.15)">
-    
-
-    
-    <path d="M109 169 C109 164 134 160 165 160 C196 160 221 164 221 169 C221 174 196 178 165 178 C134 178 109 174 109 169 Z" fill="#3B271C" />
-    </g>
-    <g fill="#D8C7A8">
-      <path d="M151 75 C162 84 171 97 169 109 C167 122 157 132 149 143 C141 154 143 164 152 173 C138 168 131 156 137 143 C142 131 153 121 158 110 C164 97 159 85 151 75 Z" transform="translate(0 -41.825)" />
-      <path d="M181 99 C192 108 196 119 192 131 C188 142 180 151 179 161 C178 168 181 174 188 179 C176 176 168 167 169 156 C170 143 180 132 183 121 C185 113 183 105 181 99 Z" transform="translate(0 -47.825)" />
-    </g>
-    </g>
-    
-  </g>
-<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#approved-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></svg><svg viewBox="0 0 344 344" x="235.409" y="285.500" width="60.0" height="60.0" preserveAspectRatio="xMidYMid meet" aria-label="coffee_die.png" data-original-x="276.5" data-original-y="709.5" data-original-width="36" data-original-height="36" overflow="visible" data-vector-icon="coffee_die" data-vector-source="Heroes/Janeway/icons/coffee_die.svg" data-original-icon="../../icons/coffee_die.png" stroke="none" fill="#000000" text-anchor="start">
-  <title>Coffee die face</title>
-  <desc>Hand-drawn vector draft with a solid, color-matched die-face background.</desc>
   <defs>
     <clipPath id="face-clip">
       <rect x="0" y="0" width="344" height="344" rx="31" />
     </clipPath>
   </defs>
-  <g clip-path="url(#face-clip)">
-    <rect width="344" height="344" fill="#003085" />
-
-    <g transform="translate(0 3.7) translate(172 172) scale(0.8322 0.7245) translate(-172 -172)">
-    <g fill="#7A848B" transform="translate(0 -28)">
-      
-
-      <g transform="translate(16.5 -35.175) scale(0.9 1.15)">
-      
-      <g transform="translate(330 0) scale(-1 1)" fill="#111111">
-        <path d="M121 176 L88 176 C67 176 50 188 50 207 L50 256 C50 275 67 287 88 287 L121 287 L121 268 L91 268 C82 268 76 263 76 255 L76 208 C76 200 82 195 91 195 L121 195 Z" />
-      </g>
-
-      
-      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168 C217 176 192 181 165 181 C138 181 113 176 101 168 Z" />
-
-      
-      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169 C230 178 201 184 165 184 C129 184 100 178 100 169 Z" />
-      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-      </g>
-    </g>
-
-    <g transform="translate(16.5 -63.175) scale(0.9 1.15)">
-    
-
-    
-    <path d="M109 169 C109 164 134 160 165 160 C196 160 221 164 221 169 C221 174 196 178 165 178 C134 178 109 174 109 169 Z" fill="#3B271C" />
-    </g>
-    <g fill="#D8C7A8">
-      <path d="M151 75 C162 84 171 97 169 109 C167 122 157 132 149 143 C141 154 143 164 152 173 C138 168 131 156 137 143 C142 131 153 121 158 110 C164 97 159 85 151 75 Z" transform="translate(0 -41.825)" />
-      <path d="M181 99 C192 108 196 119 192 131 C188 142 180 151 179 161 C178 168 181 174 188 179 C176 176 168 167 169 156 C170 143 180 132 183 121 C185 113 183 105 181 99 Z" transform="translate(0 -47.825)" />
-    </g>
-    </g>
-    
-  </g>
-<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#approved-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></svg><svg viewBox="0 0 344 344" x="295.409" y="285.500" width="60.0" height="60.0" preserveAspectRatio="xMidYMid meet" aria-label="coffee_die.png" data-original-x="316.5" data-original-y="709.5" data-original-width="36" data-original-height="36" overflow="visible" data-vector-icon="coffee_die" data-vector-source="Heroes/Janeway/icons/coffee_die.svg" data-original-icon="../../icons/coffee_die.png" stroke="none" fill="#000000" text-anchor="start">
-  <title>Coffee die face</title>
-  <desc>Hand-drawn vector draft with a solid, color-matched die-face background.</desc>
   <defs>
     <clipPath id="face-clip">
       <rect x="0" y="0" width="344" height="344" rx="31" />
     </clipPath>
   </defs>
-  <g clip-path="url(#face-clip)">
-    <rect width="344" height="344" fill="#003085" />
-
-    <g transform="translate(0 3.7) translate(172 172) scale(0.8322 0.7245) translate(-172 -172)">
-    <g fill="#7A848B" transform="translate(0 -28)">
-      
-
-      <g transform="translate(16.5 -35.175) scale(0.9 1.15)">
-      
-      <g transform="translate(330 0) scale(-1 1)" fill="#111111">
-        <path d="M121 176 L88 176 C67 176 50 188 50 207 L50 256 C50 275 67 287 88 287 L121 287 L121 268 L91 268 C82 268 76 263 76 255 L76 208 C76 200 82 195 91 195 L121 195 Z" />
-      </g>
-
-      
-      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168 C217 176 192 181 165 181 C138 181 113 176 101 168 Z" />
-
-      
-      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169 C230 178 201 184 165 184 C129 184 100 178 100 169 Z" />
-      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-      </g>
-    </g>
-
-    <g transform="translate(16.5 -63.175) scale(0.9 1.15)">
-    
-
-    
-    <path d="M109 169 C109 164 134 160 165 160 C196 160 221 164 221 169 C221 174 196 178 165 178 C134 178 109 174 109 169 Z" fill="#3B271C" />
-    </g>
-    <g fill="#D8C7A8">
-      <path d="M151 75 C162 84 171 97 169 109 C167 122 157 132 149 143 C141 154 143 164 152 173 C138 168 131 156 137 143 C142 131 153 121 158 110 C164 97 159 85 151 75 Z" transform="translate(0 -41.825)" />
-      <path d="M181 99 C192 108 196 119 192 131 C188 142 180 151 179 161 C178 168 181 174 188 179 C176 176 168 167 169 156 C170 143 180 132 183 121 C185 113 183 105 181 99 Z" transform="translate(0 -47.825)" />
-    </g>
-    </g>
-    
-  </g>
-<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#approved-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></svg></g>
-<text x="363.409" y="327.5" text-anchor="start" xml:space="preserve" filter="url(#glass-rulesHalo)"> Deal </text>
-<g filter="url(#glass-iconHalo)"><svg viewBox="0 0 900 900" x="444.991" y="288.500" width="54.0" height="54.0" preserveAspectRatio="xMidYMid meet" aria-label="normal_damage_7.png" data-original-x="458.0" data-original-y="709.5" data-original-width="36" data-original-height="36" overflow="visible" data-vector-icon="normal_damage" data-vector-source="Shared/icons/normal_damage.svg" data-original-icon="../../../../Shared/icons/normal_damage_7.png" stroke="none" fill="#000000" text-anchor="start">
-  <title id="vi9-title">Normal damage burst</title>
-  <desc id="vi9-description">Clean vector redraw with editable text where applicable.</desc>
-  <g id="vi9-scaled-icon" transform="translate(13.5 13.5) scale(0.97)"><polygon id="vi9-outer-outline" points="450.00,13.00 485.09,93.72 535.25,21.40 553.92,107.42 617.23,46.26 618.76,134.27 692.78,86.65 677.11,173.26 759.01,140.99 726.74,222.89 813.35,207.22 765.73,281.24 853.74,282.77 792.58,346.08 878.60,364.75 806.28,414.91 887.00,450.00 806.28,485.09 878.60,535.25 792.58,553.92 853.74,617.23 765.73,618.76 813.35,692.78 726.74,677.11 759.01,759.01 677.11,726.74 692.78,813.35 618.76,765.73 617.23,853.74 553.92,792.58 535.25,878.60 485.09,806.28 450.00,887.00 414.91,806.28 364.75,878.60 346.08,792.58 282.77,853.74 281.24,765.73 207.22,813.35 222.89,726.74 140.99,759.01 173.26,677.11 86.65,692.78 134.27,618.76 46.26,617.23 107.42,553.92 21.40,535.25 93.72,485.09 13.00,450.00 93.72,414.91 21.40,364.75 107.42,346.08 46.26,282.77 134.27,281.24 86.65,207.22 173.26,222.89 140.99,140.99 222.89,173.26 207.22,86.65 281.24,134.27 282.77,46.26 346.08,107.42 364.75,21.40 414.91,93.72" fill="none" stroke="#FFFFFF" stroke-width="19" stroke-linejoin="miter" stroke-miterlimit="10" /><polygon id="vi9-burst" points="450.00,13.00 485.09,93.72 535.25,21.40 553.92,107.42 617.23,46.26 618.76,134.27 692.78,86.65 677.11,173.26 759.01,140.99 726.74,222.89 813.35,207.22 765.73,281.24 853.74,282.77 792.58,346.08 878.60,364.75 806.28,414.91 887.00,450.00 806.28,485.09 878.60,535.25 792.58,553.92 853.74,617.23 765.73,618.76 813.35,692.78 726.74,677.11 759.01,759.01 677.11,726.74 692.78,813.35 618.76,765.73 617.23,853.74 553.92,792.58 535.25,878.60 485.09,806.28 450.00,887.00 414.91,806.28 364.75,878.60 346.08,792.58 282.77,853.74 281.24,765.73 207.22,813.35 222.89,726.74 140.99,759.01 173.26,677.11 86.65,692.78 134.27,618.76 46.26,617.23 107.42,553.92 21.40,535.25 93.72,485.09 13.00,450.00 93.72,414.91 21.40,364.75 107.42,346.08 46.26,282.77 134.27,281.24 86.65,207.22 173.26,222.89 140.99,140.99 222.89,173.26 207.22,86.65 281.24,134.27 282.77,46.26 346.08,107.42 364.75,21.40 414.91,93.72" fill="#030304" stroke="#FFFFFF" stroke-width="9" stroke-linejoin="miter" stroke-miterlimit="10" />
-  <text id="vi9-editable-number" data-editable="number" x="438" y="663" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="561.11" font-weight="700" fill="#FFFFFF" data-vector-import="true">7</text>
-</g></svg></g>
-<text x="490.991" y="327.5" text-anchor="start" xml:space="preserve" filter="url(#glass-rulesHalo)"> dmg</text>
-<g filter="url(#glass-iconHalo)"><svg viewBox="0 0 344 344" x="85.409" y="377.500" width="60.0" height="60.0" preserveAspectRatio="xMidYMid meet" aria-label="coffee_die.png" data-original-x="176.5" data-original-y="753.5" data-original-width="36" data-original-height="36" overflow="visible" data-vector-icon="coffee_die" data-vector-source="Heroes/Janeway/icons/coffee_die.svg" data-original-icon="../../icons/coffee_die.png" stroke="none" fill="#000000" text-anchor="start">
-  <title>Coffee die face</title>
-  <desc>Hand-drawn vector draft with a solid, color-matched die-face background.</desc>
   <defs>
     <clipPath id="face-clip">
       <rect x="0" y="0" width="344" height="344" rx="31" />
     </clipPath>
   </defs>
-  <g clip-path="url(#face-clip)">
-    <rect width="344" height="344" fill="#003085" />
-
-    <g transform="translate(0 3.7) translate(172 172) scale(0.8322 0.7245) translate(-172 -172)">
-    <g fill="#7A848B" transform="translate(0 -28)">
-      
-
-      <g transform="translate(16.5 -35.175) scale(0.9 1.15)">
-      
-      <g transform="translate(330 0) scale(-1 1)" fill="#111111">
-        <path d="M121 176 L88 176 C67 176 50 188 50 207 L50 256 C50 275 67 287 88 287 L121 287 L121 268 L91 268 C82 268 76 263 76 255 L76 208 C76 200 82 195 91 195 L121 195 Z" />
-      </g>
-
-      
-      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168 C217 176 192 181 165 181 C138 181 113 176 101 168 Z" />
-
-      
-      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169 C230 178 201 184 165 184 C129 184 100 178 100 169 Z" />
-      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-      </g>
-    </g>
-
-    <g transform="translate(16.5 -63.175) scale(0.9 1.15)">
-    
-
-    
-    <path d="M109 169 C109 164 134 160 165 160 C196 160 221 164 221 169 C221 174 196 178 165 178 C134 178 109 174 109 169 Z" fill="#3B271C" />
-    </g>
-    <g fill="#D8C7A8">
-      <path d="M151 75 C162 84 171 97 169 109 C167 122 157 132 149 143 C141 154 143 164 152 173 C138 168 131 156 137 143 C142 131 153 121 158 110 C164 97 159 85 151 75 Z" transform="translate(0 -41.825)" />
-      <path d="M181 99 C192 108 196 119 192 131 C188 142 180 151 179 161 C178 168 181 174 188 179 C176 176 168 167 169 156 C170 143 180 132 183 121 C185 113 183 105 181 99 Z" transform="translate(0 -47.825)" />
-    </g>
-    </g>
-    
-  </g>
-<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#approved-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></svg><svg viewBox="0 0 344 344" x="145.409" y="377.500" width="60.0" height="60.0" preserveAspectRatio="xMidYMid meet" aria-label="coffee_die.png" data-original-x="216.5" data-original-y="753.5" data-original-width="36" data-original-height="36" overflow="visible" data-vector-icon="coffee_die" data-vector-source="Heroes/Janeway/icons/coffee_die.svg" data-original-icon="../../icons/coffee_die.png" stroke="none" fill="#000000" text-anchor="start">
-  <title>Coffee die face</title>
-  <desc>Hand-drawn vector draft with a solid, color-matched die-face background.</desc>
   <defs>
     <clipPath id="face-clip">
       <rect x="0" y="0" width="344" height="344" rx="31" />
     </clipPath>
   </defs>
-  <g clip-path="url(#face-clip)">
-    <rect width="344" height="344" fill="#003085" />
-
-    <g transform="translate(0 3.7) translate(172 172) scale(0.8322 0.7245) translate(-172 -172)">
-    <g fill="#7A848B" transform="translate(0 -28)">
-      
-
-      <g transform="translate(16.5 -35.175) scale(0.9 1.15)">
-      
-      <g transform="translate(330 0) scale(-1 1)" fill="#111111">
-        <path d="M121 176 L88 176 C67 176 50 188 50 207 L50 256 C50 275 67 287 88 287 L121 287 L121 268 L91 268 C82 268 76 263 76 255 L76 208 C76 200 82 195 91 195 L121 195 Z" />
-      </g>
-
-      
-      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168 C217 176 192 181 165 181 C138 181 113 176 101 168 Z" />
-
-      
-      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169 C230 178 201 184 165 184 C129 184 100 178 100 169 Z" />
-      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-      </g>
-    </g>
-
-    <g transform="translate(16.5 -63.175) scale(0.9 1.15)">
-    
-
-    
-    <path d="M109 169 C109 164 134 160 165 160 C196 160 221 164 221 169 C221 174 196 178 165 178 C134 178 109 174 109 169 Z" fill="#3B271C" />
-    </g>
-    <g fill="#D8C7A8">
-      <path d="M151 75 C162 84 171 97 169 109 C167 122 157 132 149 143 C141 154 143 164 152 173 C138 168 131 156 137 143 C142 131 153 121 158 110 C164 97 159 85 151 75 Z" transform="translate(0 -41.825)" />
-      <path d="M181 99 C192 108 196 119 192 131 C188 142 180 151 179 161 C178 168 181 174 188 179 C176 176 168 167 169 156 C170 143 180 132 183 121 C185 113 183 105 181 99 Z" transform="translate(0 -47.825)" />
-    </g>
-    </g>
-    
-  </g>
-<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#approved-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></svg><svg viewBox="0 0 344 344" x="205.409" y="377.500" width="60.0" height="60.0" preserveAspectRatio="xMidYMid meet" aria-label="coffee_die.png" data-original-x="256.5" data-original-y="753.5" data-original-width="36" data-original-height="36" overflow="visible" data-vector-icon="coffee_die" data-vector-source="Heroes/Janeway/icons/coffee_die.svg" data-original-icon="../../icons/coffee_die.png" stroke="none" fill="#000000" text-anchor="start">
-  <title>Coffee die face</title>
-  <desc>Hand-drawn vector draft with a solid, color-matched die-face background.</desc>
   <defs>
     <clipPath id="face-clip">
       <rect x="0" y="0" width="344" height="344" rx="31" />
     </clipPath>
   </defs>
-  <g clip-path="url(#face-clip)">
-    <rect width="344" height="344" fill="#003085" />
-
-    <g transform="translate(0 3.7) translate(172 172) scale(0.8322 0.7245) translate(-172 -172)">
-    <g fill="#7A848B" transform="translate(0 -28)">
-      
-
-      <g transform="translate(16.5 -35.175) scale(0.9 1.15)">
-      
-      <g transform="translate(330 0) scale(-1 1)" fill="#111111">
-        <path d="M121 176 L88 176 C67 176 50 188 50 207 L50 256 C50 275 67 287 88 287 L121 287 L121 268 L91 268 C82 268 76 263 76 255 L76 208 C76 200 82 195 91 195 L121 195 Z" />
-      </g>
-
-      
-      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168 C217 176 192 181 165 181 C138 181 113 176 101 168 Z" />
-
-      
-      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169 C230 178 201 184 165 184 C129 184 100 178 100 169 Z" />
-      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-      </g>
-    </g>
-
-    <g transform="translate(16.5 -63.175) scale(0.9 1.15)">
-    
-
-    
-    <path d="M109 169 C109 164 134 160 165 160 C196 160 221 164 221 169 C221 174 196 178 165 178 C134 178 109 174 109 169 Z" fill="#3B271C" />
-    </g>
-    <g fill="#D8C7A8">
-      <path d="M151 75 C162 84 171 97 169 109 C167 122 157 132 149 143 C141 154 143 164 152 173 C138 168 131 156 137 143 C142 131 153 121 158 110 C164 97 159 85 151 75 Z" transform="translate(0 -41.825)" />
-      <path d="M181 99 C192 108 196 119 192 131 C188 142 180 151 179 161 C178 168 181 174 188 179 C176 176 168 167 169 156 C170 143 180 132 183 121 C185 113 183 105 181 99 Z" transform="translate(0 -47.825)" />
-    </g>
-    </g>
-    
-  </g>
-<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#approved-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></svg><svg viewBox="0 0 344 344" x="265.409" y="377.500" width="60.0" height="60.0" preserveAspectRatio="xMidYMid meet" aria-label="coffee_die.png" data-original-x="296.5" data-original-y="753.5" data-original-width="36" data-original-height="36" overflow="visible" data-vector-icon="coffee_die" data-vector-source="Heroes/Janeway/icons/coffee_die.svg" data-original-icon="../../icons/coffee_die.png" stroke="none" fill="#000000" text-anchor="start">
-  <title>Coffee die face</title>
-  <desc>Hand-drawn vector draft with a solid, color-matched die-face background.</desc>
   <defs>
     <clipPath id="face-clip">
       <rect x="0" y="0" width="344" height="344" rx="31" />
     </clipPath>
   </defs>
-  <g clip-path="url(#face-clip)">
-    <rect width="344" height="344" fill="#003085" />
-
-    <g transform="translate(0 3.7) translate(172 172) scale(0.8322 0.7245) translate(-172 -172)">
-    <g fill="#7A848B" transform="translate(0 -28)">
-      
-
-      <g transform="translate(16.5 -35.175) scale(0.9 1.15)">
-      
-      <g transform="translate(330 0) scale(-1 1)" fill="#111111">
-        <path d="M121 176 L88 176 C67 176 50 188 50 207 L50 256 C50 275 67 287 88 287 L121 287 L121 268 L91 268 C82 268 76 263 76 255 L76 208 C76 200 82 195 91 195 L121 195 Z" />
-      </g>
-
-      
-      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168 C217 176 192 181 165 181 C138 181 113 176 101 168 Z" />
-
-      
-      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169 C230 178 201 184 165 184 C129 184 100 178 100 169 Z" />
-      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-      </g>
-    </g>
-
-    <g transform="translate(16.5 -63.175) scale(0.9 1.15)">
-    
-
-    
-    <path d="M109 169 C109 164 134 160 165 160 C196 160 221 164 221 169 C221 174 196 178 165 178 C134 178 109 174 109 169 Z" fill="#3B271C" />
-    </g>
-    <g fill="#D8C7A8">
-      <path d="M151 75 C162 84 171 97 169 109 C167 122 157 132 149 143 C141 154 143 164 152 173 C138 168 131 156 137 143 C142 131 153 121 158 110 C164 97 159 85 151 75 Z" transform="translate(0 -41.825)" />
-      <path d="M181 99 C192 108 196 119 192 131 C188 142 180 151 179 161 C178 168 181 174 188 179 C176 176 168 167 169 156 C170 143 180 132 183 121 C185 113 183 105 181 99 Z" transform="translate(0 -47.825)" />
-    </g>
-    </g>
-    
-  </g>
-<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#approved-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></svg><svg viewBox="0 0 344 344" x="325.409" y="377.500" width="60.0" height="60.0" preserveAspectRatio="xMidYMid meet" aria-label="coffee_die.png" data-original-x="336.5" data-original-y="753.5" data-original-width="36" data-original-height="36" overflow="visible" data-vector-icon="coffee_die" data-vector-source="Heroes/Janeway/icons/coffee_die.svg" data-original-icon="../../icons/coffee_die.png" stroke="none" fill="#000000" text-anchor="start">
-  <title>Coffee die face</title>
-  <desc>Hand-drawn vector draft with a solid, color-matched die-face background.</desc>
-  <defs>
-    <clipPath id="face-clip">
-      <rect x="0" y="0" width="344" height="344" rx="31" />
-    </clipPath>
-  </defs>
-  <g clip-path="url(#face-clip)">
-    <rect width="344" height="344" fill="#003085" />
-
-    <g transform="translate(0 3.7) translate(172 172) scale(0.8322 0.7245) translate(-172 -172)">
-    <g fill="#7A848B" transform="translate(0 -28)">
-      
-
-      <g transform="translate(16.5 -35.175) scale(0.9 1.15)">
-      
-      <g transform="translate(330 0) scale(-1 1)" fill="#111111">
-        <path d="M121 176 L88 176 C67 176 50 188 50 207 L50 256 C50 275 67 287 88 287 L121 287 L121 268 L91 268 C82 268 76 263 76 255 L76 208 C76 200 82 195 91 195 L121 195 Z" />
-      </g>
-
-      
-      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168 C217 176 192 181 165 181 C138 181 113 176 101 168 Z" />
-
-      
-      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169 C230 178 201 184 165 184 C129 184 100 178 100 169 Z" />
-      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-      </g>
-    </g>
-
-    <g transform="translate(16.5 -63.175) scale(0.9 1.15)">
-    
-
-    
-    <path d="M109 169 C109 164 134 160 165 160 C196 160 221 164 221 169 C221 174 196 178 165 178 C134 178 109 174 109 169 Z" fill="#3B271C" />
-    </g>
-    <g fill="#D8C7A8">
-      <path d="M151 75 C162 84 171 97 169 109 C167 122 157 132 149 143 C141 154 143 164 152 173 C138 168 131 156 137 143 C142 131 153 121 158 110 C164 97 159 85 151 75 Z" transform="translate(0 -41.825)" />
-      <path d="M181 99 C192 108 196 119 192 131 C188 142 180 151 179 161 C178 168 181 174 188 179 C176 176 168 167 169 156 C170 143 180 132 183 121 C185 113 183 105 181 99 Z" transform="translate(0 -47.825)" />
-    </g>
-    </g>
-    
-  </g>
-<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#approved-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></svg></g>
-<text x="393.409" y="419.5" text-anchor="start" xml:space="preserve" filter="url(#glass-rulesHalo)"> Deal </text>
-<g filter="url(#glass-iconHalo)"><svg viewBox="0 0 900 900" x="474.991" y="380.500" width="54.0" height="54.0" preserveAspectRatio="xMidYMid meet" aria-label="normal_damage_8.png" data-original-x="478.0" data-original-y="753.5" data-original-width="36" data-original-height="36" overflow="visible" data-vector-icon="normal_damage" data-vector-source="Shared/icons/normal_damage.svg" data-original-icon="../../../../Shared/icons/normal_damage_8.png" stroke="none" fill="#000000" text-anchor="start">
-  <title id="vi15-title">Normal damage burst</title>
-  <desc id="vi15-description">Clean vector redraw with editable text where applicable.</desc>
-  <g id="vi15-scaled-icon" transform="translate(13.5 13.5) scale(0.97)"><polygon id="vi15-outer-outline" points="450.00,13.00 485.09,93.72 535.25,21.40 553.92,107.42 617.23,46.26 618.76,134.27 692.78,86.65 677.11,173.26 759.01,140.99 726.74,222.89 813.35,207.22 765.73,281.24 853.74,282.77 792.58,346.08 878.60,364.75 806.28,414.91 887.00,450.00 806.28,485.09 878.60,535.25 792.58,553.92 853.74,617.23 765.73,618.76 813.35,692.78 726.74,677.11 759.01,759.01 677.11,726.74 692.78,813.35 618.76,765.73 617.23,853.74 553.92,792.58 535.25,878.60 485.09,806.28 450.00,887.00 414.91,806.28 364.75,878.60 346.08,792.58 282.77,853.74 281.24,765.73 207.22,813.35 222.89,726.74 140.99,759.01 173.26,677.11 86.65,692.78 134.27,618.76 46.26,617.23 107.42,553.92 21.40,535.25 93.72,485.09 13.00,450.00 93.72,414.91 21.40,364.75 107.42,346.08 46.26,282.77 134.27,281.24 86.65,207.22 173.26,222.89 140.99,140.99 222.89,173.26 207.22,86.65 281.24,134.27 282.77,46.26 346.08,107.42 364.75,21.40 414.91,93.72" fill="none" stroke="#FFFFFF" stroke-width="19" stroke-linejoin="miter" stroke-miterlimit="10" /><polygon id="vi15-burst" points="450.00,13.00 485.09,93.72 535.25,21.40 553.92,107.42 617.23,46.26 618.76,134.27 692.78,86.65 677.11,173.26 759.01,140.99 726.74,222.89 813.35,207.22 765.73,281.24 853.74,282.77 792.58,346.08 878.60,364.75 806.28,414.91 887.00,450.00 806.28,485.09 878.60,535.25 792.58,553.92 853.74,617.23 765.73,618.76 813.35,692.78 726.74,677.11 759.01,759.01 677.11,726.74 692.78,813.35 618.76,765.73 617.23,853.74 553.92,792.58 535.25,878.60 485.09,806.28 450.00,887.00 414.91,806.28 364.75,878.60 346.08,792.58 282.77,853.74 281.24,765.73 207.22,813.35 222.89,726.74 140.99,759.01 173.26,677.11 86.65,692.78 134.27,618.76 46.26,617.23 107.42,553.92 21.40,535.25 93.72,485.09 13.00,450.00 93.72,414.91 21.40,364.75 107.42,346.08 46.26,282.77 134.27,281.24 86.65,207.22 173.26,222.89 140.99,140.99 222.89,173.26 207.22,86.65 281.24,134.27 282.77,46.26 346.08,107.42 364.75,21.40 414.91,93.72" fill="#030304" stroke="#FFFFFF" stroke-width="9" stroke-linejoin="miter" stroke-miterlimit="10" />
-  <text id="vi15-editable-number" data-editable="number" x="438" y="663" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="561.11" font-weight="700" fill="#FFFFFF" data-vector-import="true">8</text>
-</g></svg></g>
-<text x="520.991" y="419.5" text-anchor="start" xml:space="preserve" filter="url(#glass-rulesHalo)"> dmg</text>
-<text x="270.150" y="510" text-anchor="start" xml:space="preserve" filter="url(#glass-rulesHalo)">Inflict </text>
-<g filter="url(#glass-iconHalo)"><svg viewBox="-5 -5 354 354" x="350.850" y="471.000" width="54.0" height="54.0" preserveAspectRatio="xMidYMid meet" aria-label="reprimand_token.png" data-original-x="416.75" data-original-y="797.5" data-original-width="36" data-original-height="36" overflow="visible" data-vector-icon="reprimand" data-vector-source="Heroes/Janeway/icons/reprimand.svg" data-original-icon="../../icons/reprimand_token.png" stroke="none" fill="#000000" text-anchor="start">
-  <title>Reprimand token</title>
-  <desc>Flat vector capsule symbol.</desc>
   <defs>
     <clipPath id="vi16-face-clip">
       <circle cx="172" cy="172" r="172" />
     </clipPath>
   </defs>
-  <g clip-path="url(#vi16-face-clip)">
-    <rect width="344" height="344" fill="#8A040B" />
+  <g data-md-line="true" data-source-baseline="235.5" data-source-activation="true" data-source-text-start-x="340.2232360839844"><svg viewBox="0 0 344 344" width="60.0000" height="60.0000" role="img" aria-label="Coffee cup with rising steam on a dark blue die face" overflow="visible" x="145.4090" y="193.5000" preserveAspectRatio="xMidYMid meet" data-md-icon="coffee_die.svg" data-activation-shadow="none" data-vector-source="../icons/coffee_die.svg"><defs id="mdtest-straight-98-approved-reusable-die-lighting"><linearGradient id="mdtest-straight-98-reusable-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28" /><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02" /><stop offset="1" stop-color="#101018" stop-opacity="0.24" /></linearGradient><linearGradient id="mdtest-straight-98-reusable-defense-green" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#BAFFD7" /><stop offset="0.35" stop-color="#6AF2A8" /><stop offset="0.72" stop-color="#359963" /><stop offset="1" stop-color="#236D45" /></linearGradient><linearGradient id="mdtest-straight-98-reusable-straight-gold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFF0C6" /><stop offset="0.35" stop-color="#FFD27A" /><stop offset="1" stop-color="#97703B" /></linearGradient><filter id="mdtest-straight-98-reusable-dice-shared-shadow" x="-0.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="36" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="28" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><g id="mdtest-straight-98-approved-reusable-die-surface">
+  <title>Coffee die face</title>
+  <desc>Hand-drawn vector draft with a solid, color-matched die-face background.</desc>
+  <defs>
+    <clipPath id="mdtest-straight-98-face-clip">
+      <rect x="0" y="0" width="344" height="344" rx="31" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#mdtest-straight-98-face-clip)">
+    <rect width="344" height="344" fill="#003085" />
 
-    <g transform="scale(0.5733333333333333)" stroke-linecap="round" stroke-linejoin="round"><path d="M126 251 L474 251 C502 251 520 270 520 299 C520 328 502 348 474 348 L126 348 C98 348 80 328 80 299 C80 270 98 251 126 251 Z" fill="#FBEFD9" stroke="#000000" stroke-width="3.6627905" /></g><circle cx="172" cy="172" r="165.7" fill="none" stroke="#FFFFFF" stroke-width="12.6" />
+    <g transform="translate(0 3.7) translate(172 172) scale(0.8322 0.7245) translate(-172 -172)">
+    <g fill="#7A848B" transform="translate(0 -28)">
+      
+
+      <g transform="translate(16.5 -35.175) scale(0.9 1.15)">
+      
+      <g transform="translate(330 0) scale(-1 1)" fill="#111111">
+        <path d="M121 176 L88 176 C67 176 50 188 50 207 L50 256 C50 275 67 287 88 287 L121 287 L121 268 L91 268 C82 268 76 263 76 255 L76 208 C76 200 82 195 91 195 L121 195 Z" />
+      </g>
+
+      
+      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168 C217 176 192 181 165 181 C138 181 113 176 101 168 Z" />
+
+      
+      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169 C230 178 201 184 165 184 C129 184 100 178 100 169 Z" />
+      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+    </g>
+
+    <g transform="translate(16.5 -63.175) scale(0.9 1.15)">
+    
+
+    
+    <path d="M109 169 C109 164 134 160 165 160 C196 160 221 164 221 169 C221 174 196 178 165 178 C134 178 109 174 109 169 Z" fill="#3B271C" />
+    </g>
+    <g fill="#D8C7A8">
+      <path d="M151 75 C162 84 171 97 169 109 C167 122 157 132 149 143 C141 154 143 164 152 173 C138 168 131 156 137 143 C142 131 153 121 158 110 C164 97 159 85 151 75 Z" transform="translate(0 -41.825)" />
+      <path d="M181 99 C192 108 196 119 192 131 C188 142 180 151 179 161 C178 168 181 174 188 179 C176 176 168 167 169 156 C170 143 180 132 183 121 C185 113 183 105 181 99 Z" transform="translate(0 -47.825)" />
+    </g>
+    </g>
+    
   </g>
-<circle cx="172" cy="172" r="174.1" fill="none" stroke="#FFFFFF" stroke-width="4.2" />
-</svg></g>
-</g><g id="instant-action-cp-tag" aria-label="Editable Main Phase Action CP tag" transform="translate(0 169)">
+<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#mdtest-straight-98-reusable-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></g></svg><svg viewBox="0 0 344 344" width="60.0000" height="60.0000" role="img" aria-label="Coffee cup with rising steam on a dark blue die face" overflow="visible" x="205.4090" y="193.5000" preserveAspectRatio="xMidYMid meet" data-md-icon="coffee_die.svg" data-activation-shadow="none" data-vector-source="../icons/coffee_die.svg"><defs id="mdtest-straight-99-approved-reusable-die-lighting"><linearGradient id="mdtest-straight-99-reusable-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28" /><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02" /><stop offset="1" stop-color="#101018" stop-opacity="0.24" /></linearGradient><linearGradient id="mdtest-straight-99-reusable-defense-green" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#BAFFD7" /><stop offset="0.35" stop-color="#6AF2A8" /><stop offset="0.72" stop-color="#359963" /><stop offset="1" stop-color="#236D45" /></linearGradient><linearGradient id="mdtest-straight-99-reusable-straight-gold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFF0C6" /><stop offset="0.35" stop-color="#FFD27A" /><stop offset="1" stop-color="#97703B" /></linearGradient><filter id="mdtest-straight-99-reusable-dice-shared-shadow" x="-0.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="36" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="28" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><g id="mdtest-straight-99-approved-reusable-die-surface">
+  <title>Coffee die face</title>
+  <desc>Hand-drawn vector draft with a solid, color-matched die-face background.</desc>
+  <defs>
+    <clipPath id="mdtest-straight-99-face-clip">
+      <rect x="0" y="0" width="344" height="344" rx="31" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#mdtest-straight-99-face-clip)">
+    <rect width="344" height="344" fill="#003085" />
+
+    <g transform="translate(0 3.7) translate(172 172) scale(0.8322 0.7245) translate(-172 -172)">
+    <g fill="#7A848B" transform="translate(0 -28)">
+      
+
+      <g transform="translate(16.5 -35.175) scale(0.9 1.15)">
+      
+      <g transform="translate(330 0) scale(-1 1)" fill="#111111">
+        <path d="M121 176 L88 176 C67 176 50 188 50 207 L50 256 C50 275 67 287 88 287 L121 287 L121 268 L91 268 C82 268 76 263 76 255 L76 208 C76 200 82 195 91 195 L121 195 Z" />
+      </g>
+
+      
+      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168 C217 176 192 181 165 181 C138 181 113 176 101 168 Z" />
+
+      
+      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169 C230 178 201 184 165 184 C129 184 100 178 100 169 Z" />
+      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+    </g>
+
+    <g transform="translate(16.5 -63.175) scale(0.9 1.15)">
+    
+
+    
+    <path d="M109 169 C109 164 134 160 165 160 C196 160 221 164 221 169 C221 174 196 178 165 178 C134 178 109 174 109 169 Z" fill="#3B271C" />
+    </g>
+    <g fill="#D8C7A8">
+      <path d="M151 75 C162 84 171 97 169 109 C167 122 157 132 149 143 C141 154 143 164 152 173 C138 168 131 156 137 143 C142 131 153 121 158 110 C164 97 159 85 151 75 Z" transform="translate(0 -41.825)" />
+      <path d="M181 99 C192 108 196 119 192 131 C188 142 180 151 179 161 C178 168 181 174 188 179 C176 176 168 167 169 156 C170 143 180 132 183 121 C185 113 183 105 181 99 Z" transform="translate(0 -47.825)" />
+    </g>
+    </g>
+    
+  </g>
+<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#mdtest-straight-99-reusable-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></g></svg><svg viewBox="0 0 344 344" width="60.0000" height="60.0000" role="img" aria-label="Coffee cup with rising steam on a dark blue die face" overflow="visible" x="265.4090" y="193.5000" preserveAspectRatio="xMidYMid meet" data-md-icon="coffee_die.svg" data-activation-shadow="none" data-vector-source="../icons/coffee_die.svg"><defs id="mdtest-straight-100-approved-reusable-die-lighting"><linearGradient id="mdtest-straight-100-reusable-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28" /><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02" /><stop offset="1" stop-color="#101018" stop-opacity="0.24" /></linearGradient><linearGradient id="mdtest-straight-100-reusable-defense-green" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#BAFFD7" /><stop offset="0.35" stop-color="#6AF2A8" /><stop offset="0.72" stop-color="#359963" /><stop offset="1" stop-color="#236D45" /></linearGradient><linearGradient id="mdtest-straight-100-reusable-straight-gold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFF0C6" /><stop offset="0.35" stop-color="#FFD27A" /><stop offset="1" stop-color="#97703B" /></linearGradient><filter id="mdtest-straight-100-reusable-dice-shared-shadow" x="-0.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="36" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="28" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><g id="mdtest-straight-100-approved-reusable-die-surface">
+  <title>Coffee die face</title>
+  <desc>Hand-drawn vector draft with a solid, color-matched die-face background.</desc>
+  <defs>
+    <clipPath id="mdtest-straight-100-face-clip">
+      <rect x="0" y="0" width="344" height="344" rx="31" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#mdtest-straight-100-face-clip)">
+    <rect width="344" height="344" fill="#003085" />
+
+    <g transform="translate(0 3.7) translate(172 172) scale(0.8322 0.7245) translate(-172 -172)">
+    <g fill="#7A848B" transform="translate(0 -28)">
+      
+
+      <g transform="translate(16.5 -35.175) scale(0.9 1.15)">
+      
+      <g transform="translate(330 0) scale(-1 1)" fill="#111111">
+        <path d="M121 176 L88 176 C67 176 50 188 50 207 L50 256 C50 275 67 287 88 287 L121 287 L121 268 L91 268 C82 268 76 263 76 255 L76 208 C76 200 82 195 91 195 L121 195 Z" />
+      </g>
+
+      
+      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168 C217 176 192 181 165 181 C138 181 113 176 101 168 Z" />
+
+      
+      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169 C230 178 201 184 165 184 C129 184 100 178 100 169 Z" />
+      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+    </g>
+
+    <g transform="translate(16.5 -63.175) scale(0.9 1.15)">
+    
+
+    
+    <path d="M109 169 C109 164 134 160 165 160 C196 160 221 164 221 169 C221 174 196 178 165 178 C134 178 109 174 109 169 Z" fill="#3B271C" />
+    </g>
+    <g fill="#D8C7A8">
+      <path d="M151 75 C162 84 171 97 169 109 C167 122 157 132 149 143 C141 154 143 164 152 173 C138 168 131 156 137 143 C142 131 153 121 158 110 C164 97 159 85 151 75 Z" transform="translate(0 -41.825)" />
+      <path d="M181 99 C192 108 196 119 192 131 C188 142 180 151 179 161 C178 168 181 174 188 179 C176 176 168 167 169 156 C170 143 180 132 183 121 C185 113 183 105 181 99 Z" transform="translate(0 -47.825)" />
+    </g>
+    </g>
+    
+  </g>
+<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#mdtest-straight-100-reusable-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></g></svg><text x="325.4090" y="235.5000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)"> </text><text x="340.2232" y="235.5000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)">Deal</text><text x="398.7572" y="235.5000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)"> </text><g transform="translate(405.6022 193.6600)" data-md-icon="normal_damage.svg" data-md-value="6"><image width="60.0" height="60" href="../../../Shared/icons/normal_damage.svg" preserveAspectRatio="xMidYMid meet" /><rect x="17.099999999999998" y="13.5" width="24.0" height="31.8" fill="#030304" /><text x="29.220000000000002" y="31.200000000000003" text-anchor="middle" dominant-baseline="central" font-family="Arial,Helvetica,sans-serif" font-size="31.339" font-weight="700" fill="#FFFFFF">6</text></g><text x="465.6022" y="235.5000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)"> </text><text x="472.4472" y="235.5000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)">dmg</text></g><g data-md-line="true" data-source-baseline="327.5" data-source-activation="true" data-source-text-start-x="370.2232360839844"><svg viewBox="0 0 344 344" width="60.0000" height="60.0000" role="img" aria-label="Coffee cup with rising steam on a dark blue die face" overflow="visible" x="115.4090" y="285.5000" preserveAspectRatio="xMidYMid meet" data-md-icon="coffee_die.svg" data-activation-shadow="none" data-vector-source="../icons/coffee_die.svg"><defs id="mdtest-straight-102-approved-reusable-die-lighting"><linearGradient id="mdtest-straight-102-reusable-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28" /><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02" /><stop offset="1" stop-color="#101018" stop-opacity="0.24" /></linearGradient><linearGradient id="mdtest-straight-102-reusable-defense-green" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#BAFFD7" /><stop offset="0.35" stop-color="#6AF2A8" /><stop offset="0.72" stop-color="#359963" /><stop offset="1" stop-color="#236D45" /></linearGradient><linearGradient id="mdtest-straight-102-reusable-straight-gold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFF0C6" /><stop offset="0.35" stop-color="#FFD27A" /><stop offset="1" stop-color="#97703B" /></linearGradient><filter id="mdtest-straight-102-reusable-dice-shared-shadow" x="-0.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="36" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="28" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><g id="mdtest-straight-102-approved-reusable-die-surface">
+  <title>Coffee die face</title>
+  <desc>Hand-drawn vector draft with a solid, color-matched die-face background.</desc>
+  <defs>
+    <clipPath id="mdtest-straight-102-face-clip">
+      <rect x="0" y="0" width="344" height="344" rx="31" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#mdtest-straight-102-face-clip)">
+    <rect width="344" height="344" fill="#003085" />
+
+    <g transform="translate(0 3.7) translate(172 172) scale(0.8322 0.7245) translate(-172 -172)">
+    <g fill="#7A848B" transform="translate(0 -28)">
+      
+
+      <g transform="translate(16.5 -35.175) scale(0.9 1.15)">
+      
+      <g transform="translate(330 0) scale(-1 1)" fill="#111111">
+        <path d="M121 176 L88 176 C67 176 50 188 50 207 L50 256 C50 275 67 287 88 287 L121 287 L121 268 L91 268 C82 268 76 263 76 255 L76 208 C76 200 82 195 91 195 L121 195 Z" />
+      </g>
+
+      
+      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168 C217 176 192 181 165 181 C138 181 113 176 101 168 Z" />
+
+      
+      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169 C230 178 201 184 165 184 C129 184 100 178 100 169 Z" />
+      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+    </g>
+
+    <g transform="translate(16.5 -63.175) scale(0.9 1.15)">
+    
+
+    
+    <path d="M109 169 C109 164 134 160 165 160 C196 160 221 164 221 169 C221 174 196 178 165 178 C134 178 109 174 109 169 Z" fill="#3B271C" />
+    </g>
+    <g fill="#D8C7A8">
+      <path d="M151 75 C162 84 171 97 169 109 C167 122 157 132 149 143 C141 154 143 164 152 173 C138 168 131 156 137 143 C142 131 153 121 158 110 C164 97 159 85 151 75 Z" transform="translate(0 -41.825)" />
+      <path d="M181 99 C192 108 196 119 192 131 C188 142 180 151 179 161 C178 168 181 174 188 179 C176 176 168 167 169 156 C170 143 180 132 183 121 C185 113 183 105 181 99 Z" transform="translate(0 -47.825)" />
+    </g>
+    </g>
+    
+  </g>
+<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#mdtest-straight-102-reusable-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></g></svg><svg viewBox="0 0 344 344" width="60.0000" height="60.0000" role="img" aria-label="Coffee cup with rising steam on a dark blue die face" overflow="visible" x="175.4090" y="285.5000" preserveAspectRatio="xMidYMid meet" data-md-icon="coffee_die.svg" data-activation-shadow="none" data-vector-source="../icons/coffee_die.svg"><defs id="mdtest-straight-103-approved-reusable-die-lighting"><linearGradient id="mdtest-straight-103-reusable-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28" /><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02" /><stop offset="1" stop-color="#101018" stop-opacity="0.24" /></linearGradient><linearGradient id="mdtest-straight-103-reusable-defense-green" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#BAFFD7" /><stop offset="0.35" stop-color="#6AF2A8" /><stop offset="0.72" stop-color="#359963" /><stop offset="1" stop-color="#236D45" /></linearGradient><linearGradient id="mdtest-straight-103-reusable-straight-gold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFF0C6" /><stop offset="0.35" stop-color="#FFD27A" /><stop offset="1" stop-color="#97703B" /></linearGradient><filter id="mdtest-straight-103-reusable-dice-shared-shadow" x="-0.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="36" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="28" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><g id="mdtest-straight-103-approved-reusable-die-surface">
+  <title>Coffee die face</title>
+  <desc>Hand-drawn vector draft with a solid, color-matched die-face background.</desc>
+  <defs>
+    <clipPath id="mdtest-straight-103-face-clip">
+      <rect x="0" y="0" width="344" height="344" rx="31" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#mdtest-straight-103-face-clip)">
+    <rect width="344" height="344" fill="#003085" />
+
+    <g transform="translate(0 3.7) translate(172 172) scale(0.8322 0.7245) translate(-172 -172)">
+    <g fill="#7A848B" transform="translate(0 -28)">
+      
+
+      <g transform="translate(16.5 -35.175) scale(0.9 1.15)">
+      
+      <g transform="translate(330 0) scale(-1 1)" fill="#111111">
+        <path d="M121 176 L88 176 C67 176 50 188 50 207 L50 256 C50 275 67 287 88 287 L121 287 L121 268 L91 268 C82 268 76 263 76 255 L76 208 C76 200 82 195 91 195 L121 195 Z" />
+      </g>
+
+      
+      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168 C217 176 192 181 165 181 C138 181 113 176 101 168 Z" />
+
+      
+      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169 C230 178 201 184 165 184 C129 184 100 178 100 169 Z" />
+      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+    </g>
+
+    <g transform="translate(16.5 -63.175) scale(0.9 1.15)">
+    
+
+    
+    <path d="M109 169 C109 164 134 160 165 160 C196 160 221 164 221 169 C221 174 196 178 165 178 C134 178 109 174 109 169 Z" fill="#3B271C" />
+    </g>
+    <g fill="#D8C7A8">
+      <path d="M151 75 C162 84 171 97 169 109 C167 122 157 132 149 143 C141 154 143 164 152 173 C138 168 131 156 137 143 C142 131 153 121 158 110 C164 97 159 85 151 75 Z" transform="translate(0 -41.825)" />
+      <path d="M181 99 C192 108 196 119 192 131 C188 142 180 151 179 161 C178 168 181 174 188 179 C176 176 168 167 169 156 C170 143 180 132 183 121 C185 113 183 105 181 99 Z" transform="translate(0 -47.825)" />
+    </g>
+    </g>
+    
+  </g>
+<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#mdtest-straight-103-reusable-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></g></svg><svg viewBox="0 0 344 344" width="60.0000" height="60.0000" role="img" aria-label="Coffee cup with rising steam on a dark blue die face" overflow="visible" x="235.4090" y="285.5000" preserveAspectRatio="xMidYMid meet" data-md-icon="coffee_die.svg" data-activation-shadow="none" data-vector-source="../icons/coffee_die.svg"><defs id="mdtest-straight-104-approved-reusable-die-lighting"><linearGradient id="mdtest-straight-104-reusable-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28" /><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02" /><stop offset="1" stop-color="#101018" stop-opacity="0.24" /></linearGradient><linearGradient id="mdtest-straight-104-reusable-defense-green" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#BAFFD7" /><stop offset="0.35" stop-color="#6AF2A8" /><stop offset="0.72" stop-color="#359963" /><stop offset="1" stop-color="#236D45" /></linearGradient><linearGradient id="mdtest-straight-104-reusable-straight-gold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFF0C6" /><stop offset="0.35" stop-color="#FFD27A" /><stop offset="1" stop-color="#97703B" /></linearGradient><filter id="mdtest-straight-104-reusable-dice-shared-shadow" x="-0.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="36" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="28" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><g id="mdtest-straight-104-approved-reusable-die-surface">
+  <title>Coffee die face</title>
+  <desc>Hand-drawn vector draft with a solid, color-matched die-face background.</desc>
+  <defs>
+    <clipPath id="mdtest-straight-104-face-clip">
+      <rect x="0" y="0" width="344" height="344" rx="31" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#mdtest-straight-104-face-clip)">
+    <rect width="344" height="344" fill="#003085" />
+
+    <g transform="translate(0 3.7) translate(172 172) scale(0.8322 0.7245) translate(-172 -172)">
+    <g fill="#7A848B" transform="translate(0 -28)">
+      
+
+      <g transform="translate(16.5 -35.175) scale(0.9 1.15)">
+      
+      <g transform="translate(330 0) scale(-1 1)" fill="#111111">
+        <path d="M121 176 L88 176 C67 176 50 188 50 207 L50 256 C50 275 67 287 88 287 L121 287 L121 268 L91 268 C82 268 76 263 76 255 L76 208 C76 200 82 195 91 195 L121 195 Z" />
+      </g>
+
+      
+      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168 C217 176 192 181 165 181 C138 181 113 176 101 168 Z" />
+
+      
+      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169 C230 178 201 184 165 184 C129 184 100 178 100 169 Z" />
+      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+    </g>
+
+    <g transform="translate(16.5 -63.175) scale(0.9 1.15)">
+    
+
+    
+    <path d="M109 169 C109 164 134 160 165 160 C196 160 221 164 221 169 C221 174 196 178 165 178 C134 178 109 174 109 169 Z" fill="#3B271C" />
+    </g>
+    <g fill="#D8C7A8">
+      <path d="M151 75 C162 84 171 97 169 109 C167 122 157 132 149 143 C141 154 143 164 152 173 C138 168 131 156 137 143 C142 131 153 121 158 110 C164 97 159 85 151 75 Z" transform="translate(0 -41.825)" />
+      <path d="M181 99 C192 108 196 119 192 131 C188 142 180 151 179 161 C178 168 181 174 188 179 C176 176 168 167 169 156 C170 143 180 132 183 121 C185 113 183 105 181 99 Z" transform="translate(0 -47.825)" />
+    </g>
+    </g>
+    
+  </g>
+<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#mdtest-straight-104-reusable-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></g></svg><svg viewBox="0 0 344 344" width="60.0000" height="60.0000" role="img" aria-label="Coffee cup with rising steam on a dark blue die face" overflow="visible" x="295.4090" y="285.5000" preserveAspectRatio="xMidYMid meet" data-md-icon="coffee_die.svg" data-activation-shadow="none" data-vector-source="../icons/coffee_die.svg"><defs id="mdtest-straight-105-approved-reusable-die-lighting"><linearGradient id="mdtest-straight-105-reusable-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28" /><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02" /><stop offset="1" stop-color="#101018" stop-opacity="0.24" /></linearGradient><linearGradient id="mdtest-straight-105-reusable-defense-green" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#BAFFD7" /><stop offset="0.35" stop-color="#6AF2A8" /><stop offset="0.72" stop-color="#359963" /><stop offset="1" stop-color="#236D45" /></linearGradient><linearGradient id="mdtest-straight-105-reusable-straight-gold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFF0C6" /><stop offset="0.35" stop-color="#FFD27A" /><stop offset="1" stop-color="#97703B" /></linearGradient><filter id="mdtest-straight-105-reusable-dice-shared-shadow" x="-0.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="36" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="28" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><g id="mdtest-straight-105-approved-reusable-die-surface">
+  <title>Coffee die face</title>
+  <desc>Hand-drawn vector draft with a solid, color-matched die-face background.</desc>
+  <defs>
+    <clipPath id="mdtest-straight-105-face-clip">
+      <rect x="0" y="0" width="344" height="344" rx="31" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#mdtest-straight-105-face-clip)">
+    <rect width="344" height="344" fill="#003085" />
+
+    <g transform="translate(0 3.7) translate(172 172) scale(0.8322 0.7245) translate(-172 -172)">
+    <g fill="#7A848B" transform="translate(0 -28)">
+      
+
+      <g transform="translate(16.5 -35.175) scale(0.9 1.15)">
+      
+      <g transform="translate(330 0) scale(-1 1)" fill="#111111">
+        <path d="M121 176 L88 176 C67 176 50 188 50 207 L50 256 C50 275 67 287 88 287 L121 287 L121 268 L91 268 C82 268 76 263 76 255 L76 208 C76 200 82 195 91 195 L121 195 Z" />
+      </g>
+
+      
+      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168 C217 176 192 181 165 181 C138 181 113 176 101 168 Z" />
+
+      
+      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169 C230 178 201 184 165 184 C129 184 100 178 100 169 Z" />
+      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+    </g>
+
+    <g transform="translate(16.5 -63.175) scale(0.9 1.15)">
+    
+
+    
+    <path d="M109 169 C109 164 134 160 165 160 C196 160 221 164 221 169 C221 174 196 178 165 178 C134 178 109 174 109 169 Z" fill="#3B271C" />
+    </g>
+    <g fill="#D8C7A8">
+      <path d="M151 75 C162 84 171 97 169 109 C167 122 157 132 149 143 C141 154 143 164 152 173 C138 168 131 156 137 143 C142 131 153 121 158 110 C164 97 159 85 151 75 Z" transform="translate(0 -41.825)" />
+      <path d="M181 99 C192 108 196 119 192 131 C188 142 180 151 179 161 C178 168 181 174 188 179 C176 176 168 167 169 156 C170 143 180 132 183 121 C185 113 183 105 181 99 Z" transform="translate(0 -47.825)" />
+    </g>
+    </g>
+    
+  </g>
+<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#mdtest-straight-105-reusable-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></g></svg><text x="355.4090" y="327.5000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)"> </text><text x="370.2232" y="327.5000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)">Deal</text><text x="428.7572" y="327.5000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)"> </text><g transform="translate(435.6022 285.6600)" data-md-icon="normal_damage.svg" data-md-value="7"><image width="60.0" height="60" href="../../../Shared/icons/normal_damage.svg" preserveAspectRatio="xMidYMid meet" /><rect x="17.099999999999998" y="13.5" width="24.0" height="31.8" fill="#030304" /><text x="29.220000000000002" y="31.200000000000003" text-anchor="middle" dominant-baseline="central" font-family="Arial,Helvetica,sans-serif" font-size="31.339" font-weight="700" fill="#FFFFFF">7</text></g><text x="495.6022" y="327.5000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)"> </text><text x="502.4472" y="327.5000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)">dmg</text></g><g data-md-line="true" data-source-baseline="419.5" data-source-activation="true" data-source-text-start-x="400.2232360839844"><svg viewBox="0 0 344 344" width="60.0000" height="60.0000" role="img" aria-label="Coffee cup with rising steam on a dark blue die face" overflow="visible" x="85.4090" y="377.5000" preserveAspectRatio="xMidYMid meet" data-md-icon="coffee_die.svg" data-activation-shadow="none" data-vector-source="../icons/coffee_die.svg"><defs id="mdtest-straight-107-approved-reusable-die-lighting"><linearGradient id="mdtest-straight-107-reusable-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28" /><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02" /><stop offset="1" stop-color="#101018" stop-opacity="0.24" /></linearGradient><linearGradient id="mdtest-straight-107-reusable-defense-green" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#BAFFD7" /><stop offset="0.35" stop-color="#6AF2A8" /><stop offset="0.72" stop-color="#359963" /><stop offset="1" stop-color="#236D45" /></linearGradient><linearGradient id="mdtest-straight-107-reusable-straight-gold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFF0C6" /><stop offset="0.35" stop-color="#FFD27A" /><stop offset="1" stop-color="#97703B" /></linearGradient><filter id="mdtest-straight-107-reusable-dice-shared-shadow" x="-0.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="36" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="28" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><g id="mdtest-straight-107-approved-reusable-die-surface">
+  <title>Coffee die face</title>
+  <desc>Hand-drawn vector draft with a solid, color-matched die-face background.</desc>
+  <defs>
+    <clipPath id="mdtest-straight-107-face-clip">
+      <rect x="0" y="0" width="344" height="344" rx="31" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#mdtest-straight-107-face-clip)">
+    <rect width="344" height="344" fill="#003085" />
+
+    <g transform="translate(0 3.7) translate(172 172) scale(0.8322 0.7245) translate(-172 -172)">
+    <g fill="#7A848B" transform="translate(0 -28)">
+      
+
+      <g transform="translate(16.5 -35.175) scale(0.9 1.15)">
+      
+      <g transform="translate(330 0) scale(-1 1)" fill="#111111">
+        <path d="M121 176 L88 176 C67 176 50 188 50 207 L50 256 C50 275 67 287 88 287 L121 287 L121 268 L91 268 C82 268 76 263 76 255 L76 208 C76 200 82 195 91 195 L121 195 Z" />
+      </g>
+
+      
+      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168 C217 176 192 181 165 181 C138 181 113 176 101 168 Z" />
+
+      
+      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169 C230 178 201 184 165 184 C129 184 100 178 100 169 Z" />
+      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+    </g>
+
+    <g transform="translate(16.5 -63.175) scale(0.9 1.15)">
+    
+
+    
+    <path d="M109 169 C109 164 134 160 165 160 C196 160 221 164 221 169 C221 174 196 178 165 178 C134 178 109 174 109 169 Z" fill="#3B271C" />
+    </g>
+    <g fill="#D8C7A8">
+      <path d="M151 75 C162 84 171 97 169 109 C167 122 157 132 149 143 C141 154 143 164 152 173 C138 168 131 156 137 143 C142 131 153 121 158 110 C164 97 159 85 151 75 Z" transform="translate(0 -41.825)" />
+      <path d="M181 99 C192 108 196 119 192 131 C188 142 180 151 179 161 C178 168 181 174 188 179 C176 176 168 167 169 156 C170 143 180 132 183 121 C185 113 183 105 181 99 Z" transform="translate(0 -47.825)" />
+    </g>
+    </g>
+    
+  </g>
+<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#mdtest-straight-107-reusable-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></g></svg><svg viewBox="0 0 344 344" width="60.0000" height="60.0000" role="img" aria-label="Coffee cup with rising steam on a dark blue die face" overflow="visible" x="145.4090" y="377.5000" preserveAspectRatio="xMidYMid meet" data-md-icon="coffee_die.svg" data-activation-shadow="none" data-vector-source="../icons/coffee_die.svg"><defs id="mdtest-straight-108-approved-reusable-die-lighting"><linearGradient id="mdtest-straight-108-reusable-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28" /><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02" /><stop offset="1" stop-color="#101018" stop-opacity="0.24" /></linearGradient><linearGradient id="mdtest-straight-108-reusable-defense-green" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#BAFFD7" /><stop offset="0.35" stop-color="#6AF2A8" /><stop offset="0.72" stop-color="#359963" /><stop offset="1" stop-color="#236D45" /></linearGradient><linearGradient id="mdtest-straight-108-reusable-straight-gold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFF0C6" /><stop offset="0.35" stop-color="#FFD27A" /><stop offset="1" stop-color="#97703B" /></linearGradient><filter id="mdtest-straight-108-reusable-dice-shared-shadow" x="-0.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="36" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="28" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><g id="mdtest-straight-108-approved-reusable-die-surface">
+  <title>Coffee die face</title>
+  <desc>Hand-drawn vector draft with a solid, color-matched die-face background.</desc>
+  <defs>
+    <clipPath id="mdtest-straight-108-face-clip">
+      <rect x="0" y="0" width="344" height="344" rx="31" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#mdtest-straight-108-face-clip)">
+    <rect width="344" height="344" fill="#003085" />
+
+    <g transform="translate(0 3.7) translate(172 172) scale(0.8322 0.7245) translate(-172 -172)">
+    <g fill="#7A848B" transform="translate(0 -28)">
+      
+
+      <g transform="translate(16.5 -35.175) scale(0.9 1.15)">
+      
+      <g transform="translate(330 0) scale(-1 1)" fill="#111111">
+        <path d="M121 176 L88 176 C67 176 50 188 50 207 L50 256 C50 275 67 287 88 287 L121 287 L121 268 L91 268 C82 268 76 263 76 255 L76 208 C76 200 82 195 91 195 L121 195 Z" />
+      </g>
+
+      
+      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168 C217 176 192 181 165 181 C138 181 113 176 101 168 Z" />
+
+      
+      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169 C230 178 201 184 165 184 C129 184 100 178 100 169 Z" />
+      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+    </g>
+
+    <g transform="translate(16.5 -63.175) scale(0.9 1.15)">
+    
+
+    
+    <path d="M109 169 C109 164 134 160 165 160 C196 160 221 164 221 169 C221 174 196 178 165 178 C134 178 109 174 109 169 Z" fill="#3B271C" />
+    </g>
+    <g fill="#D8C7A8">
+      <path d="M151 75 C162 84 171 97 169 109 C167 122 157 132 149 143 C141 154 143 164 152 173 C138 168 131 156 137 143 C142 131 153 121 158 110 C164 97 159 85 151 75 Z" transform="translate(0 -41.825)" />
+      <path d="M181 99 C192 108 196 119 192 131 C188 142 180 151 179 161 C178 168 181 174 188 179 C176 176 168 167 169 156 C170 143 180 132 183 121 C185 113 183 105 181 99 Z" transform="translate(0 -47.825)" />
+    </g>
+    </g>
+    
+  </g>
+<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#mdtest-straight-108-reusable-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></g></svg><svg viewBox="0 0 344 344" width="60.0000" height="60.0000" role="img" aria-label="Coffee cup with rising steam on a dark blue die face" overflow="visible" x="205.4090" y="377.5000" preserveAspectRatio="xMidYMid meet" data-md-icon="coffee_die.svg" data-activation-shadow="none" data-vector-source="../icons/coffee_die.svg"><defs id="mdtest-straight-109-approved-reusable-die-lighting"><linearGradient id="mdtest-straight-109-reusable-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28" /><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02" /><stop offset="1" stop-color="#101018" stop-opacity="0.24" /></linearGradient><linearGradient id="mdtest-straight-109-reusable-defense-green" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#BAFFD7" /><stop offset="0.35" stop-color="#6AF2A8" /><stop offset="0.72" stop-color="#359963" /><stop offset="1" stop-color="#236D45" /></linearGradient><linearGradient id="mdtest-straight-109-reusable-straight-gold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFF0C6" /><stop offset="0.35" stop-color="#FFD27A" /><stop offset="1" stop-color="#97703B" /></linearGradient><filter id="mdtest-straight-109-reusable-dice-shared-shadow" x="-0.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="36" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="28" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><g id="mdtest-straight-109-approved-reusable-die-surface">
+  <title>Coffee die face</title>
+  <desc>Hand-drawn vector draft with a solid, color-matched die-face background.</desc>
+  <defs>
+    <clipPath id="mdtest-straight-109-face-clip">
+      <rect x="0" y="0" width="344" height="344" rx="31" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#mdtest-straight-109-face-clip)">
+    <rect width="344" height="344" fill="#003085" />
+
+    <g transform="translate(0 3.7) translate(172 172) scale(0.8322 0.7245) translate(-172 -172)">
+    <g fill="#7A848B" transform="translate(0 -28)">
+      
+
+      <g transform="translate(16.5 -35.175) scale(0.9 1.15)">
+      
+      <g transform="translate(330 0) scale(-1 1)" fill="#111111">
+        <path d="M121 176 L88 176 C67 176 50 188 50 207 L50 256 C50 275 67 287 88 287 L121 287 L121 268 L91 268 C82 268 76 263 76 255 L76 208 C76 200 82 195 91 195 L121 195 Z" />
+      </g>
+
+      
+      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168 C217 176 192 181 165 181 C138 181 113 176 101 168 Z" />
+
+      
+      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169 C230 178 201 184 165 184 C129 184 100 178 100 169 Z" />
+      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+    </g>
+
+    <g transform="translate(16.5 -63.175) scale(0.9 1.15)">
+    
+
+    
+    <path d="M109 169 C109 164 134 160 165 160 C196 160 221 164 221 169 C221 174 196 178 165 178 C134 178 109 174 109 169 Z" fill="#3B271C" />
+    </g>
+    <g fill="#D8C7A8">
+      <path d="M151 75 C162 84 171 97 169 109 C167 122 157 132 149 143 C141 154 143 164 152 173 C138 168 131 156 137 143 C142 131 153 121 158 110 C164 97 159 85 151 75 Z" transform="translate(0 -41.825)" />
+      <path d="M181 99 C192 108 196 119 192 131 C188 142 180 151 179 161 C178 168 181 174 188 179 C176 176 168 167 169 156 C170 143 180 132 183 121 C185 113 183 105 181 99 Z" transform="translate(0 -47.825)" />
+    </g>
+    </g>
+    
+  </g>
+<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#mdtest-straight-109-reusable-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></g></svg><svg viewBox="0 0 344 344" width="60.0000" height="60.0000" role="img" aria-label="Coffee cup with rising steam on a dark blue die face" overflow="visible" x="265.4090" y="377.5000" preserveAspectRatio="xMidYMid meet" data-md-icon="coffee_die.svg" data-activation-shadow="none" data-vector-source="../icons/coffee_die.svg"><defs id="mdtest-straight-110-approved-reusable-die-lighting"><linearGradient id="mdtest-straight-110-reusable-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28" /><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02" /><stop offset="1" stop-color="#101018" stop-opacity="0.24" /></linearGradient><linearGradient id="mdtest-straight-110-reusable-defense-green" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#BAFFD7" /><stop offset="0.35" stop-color="#6AF2A8" /><stop offset="0.72" stop-color="#359963" /><stop offset="1" stop-color="#236D45" /></linearGradient><linearGradient id="mdtest-straight-110-reusable-straight-gold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFF0C6" /><stop offset="0.35" stop-color="#FFD27A" /><stop offset="1" stop-color="#97703B" /></linearGradient><filter id="mdtest-straight-110-reusable-dice-shared-shadow" x="-0.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="36" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="28" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><g id="mdtest-straight-110-approved-reusable-die-surface">
+  <title>Coffee die face</title>
+  <desc>Hand-drawn vector draft with a solid, color-matched die-face background.</desc>
+  <defs>
+    <clipPath id="mdtest-straight-110-face-clip">
+      <rect x="0" y="0" width="344" height="344" rx="31" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#mdtest-straight-110-face-clip)">
+    <rect width="344" height="344" fill="#003085" />
+
+    <g transform="translate(0 3.7) translate(172 172) scale(0.8322 0.7245) translate(-172 -172)">
+    <g fill="#7A848B" transform="translate(0 -28)">
+      
+
+      <g transform="translate(16.5 -35.175) scale(0.9 1.15)">
+      
+      <g transform="translate(330 0) scale(-1 1)" fill="#111111">
+        <path d="M121 176 L88 176 C67 176 50 188 50 207 L50 256 C50 275 67 287 88 287 L121 287 L121 268 L91 268 C82 268 76 263 76 255 L76 208 C76 200 82 195 91 195 L121 195 Z" />
+      </g>
+
+      
+      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168 C217 176 192 181 165 181 C138 181 113 176 101 168 Z" />
+
+      
+      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169 C230 178 201 184 165 184 C129 184 100 178 100 169 Z" />
+      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+    </g>
+
+    <g transform="translate(16.5 -63.175) scale(0.9 1.15)">
+    
+
+    
+    <path d="M109 169 C109 164 134 160 165 160 C196 160 221 164 221 169 C221 174 196 178 165 178 C134 178 109 174 109 169 Z" fill="#3B271C" />
+    </g>
+    <g fill="#D8C7A8">
+      <path d="M151 75 C162 84 171 97 169 109 C167 122 157 132 149 143 C141 154 143 164 152 173 C138 168 131 156 137 143 C142 131 153 121 158 110 C164 97 159 85 151 75 Z" transform="translate(0 -41.825)" />
+      <path d="M181 99 C192 108 196 119 192 131 C188 142 180 151 179 161 C178 168 181 174 188 179 C176 176 168 167 169 156 C170 143 180 132 183 121 C185 113 183 105 181 99 Z" transform="translate(0 -47.825)" />
+    </g>
+    </g>
+    
+  </g>
+<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#mdtest-straight-110-reusable-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></g></svg><svg viewBox="0 0 344 344" width="60.0000" height="60.0000" role="img" aria-label="Coffee cup with rising steam on a dark blue die face" overflow="visible" x="325.4090" y="377.5000" preserveAspectRatio="xMidYMid meet" data-md-icon="coffee_die.svg" data-activation-shadow="none" data-vector-source="../icons/coffee_die.svg"><defs id="mdtest-straight-111-approved-reusable-die-lighting"><linearGradient id="mdtest-straight-111-reusable-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28" /><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02" /><stop offset="1" stop-color="#101018" stop-opacity="0.24" /></linearGradient><linearGradient id="mdtest-straight-111-reusable-defense-green" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#BAFFD7" /><stop offset="0.35" stop-color="#6AF2A8" /><stop offset="0.72" stop-color="#359963" /><stop offset="1" stop-color="#236D45" /></linearGradient><linearGradient id="mdtest-straight-111-reusable-straight-gold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFF0C6" /><stop offset="0.35" stop-color="#FFD27A" /><stop offset="1" stop-color="#97703B" /></linearGradient><filter id="mdtest-straight-111-reusable-dice-shared-shadow" x="-0.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="36" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="28" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><g id="mdtest-straight-111-approved-reusable-die-surface">
+  <title>Coffee die face</title>
+  <desc>Hand-drawn vector draft with a solid, color-matched die-face background.</desc>
+  <defs>
+    <clipPath id="mdtest-straight-111-face-clip">
+      <rect x="0" y="0" width="344" height="344" rx="31" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#mdtest-straight-111-face-clip)">
+    <rect width="344" height="344" fill="#003085" />
+
+    <g transform="translate(0 3.7) translate(172 172) scale(0.8322 0.7245) translate(-172 -172)">
+    <g fill="#7A848B" transform="translate(0 -28)">
+      
+
+      <g transform="translate(16.5 -35.175) scale(0.9 1.15)">
+      
+      <g transform="translate(330 0) scale(-1 1)" fill="#111111">
+        <path d="M121 176 L88 176 C67 176 50 188 50 207 L50 256 C50 275 67 287 88 287 L121 287 L121 268 L91 268 C82 268 76 263 76 255 L76 208 C76 200 82 195 91 195 L121 195 Z" />
+      </g>
+
+      
+      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168 C217 176 192 181 165 181 C138 181 113 176 101 168 Z" />
+
+      
+      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169 C230 178 201 184 165 184 C129 184 100 178 100 169 Z" />
+      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+    </g>
+
+    <g transform="translate(16.5 -63.175) scale(0.9 1.15)">
+    
+
+    
+    <path d="M109 169 C109 164 134 160 165 160 C196 160 221 164 221 169 C221 174 196 178 165 178 C134 178 109 174 109 169 Z" fill="#3B271C" />
+    </g>
+    <g fill="#D8C7A8">
+      <path d="M151 75 C162 84 171 97 169 109 C167 122 157 132 149 143 C141 154 143 164 152 173 C138 168 131 156 137 143 C142 131 153 121 158 110 C164 97 159 85 151 75 Z" transform="translate(0 -41.825)" />
+      <path d="M181 99 C192 108 196 119 192 131 C188 142 180 151 179 161 C178 168 181 174 188 179 C176 176 168 167 169 156 C170 143 180 132 183 121 C185 113 183 105 181 99 Z" transform="translate(0 -47.825)" />
+    </g>
+    </g>
+    
+  </g>
+<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#mdtest-straight-111-reusable-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></g></svg><text x="385.4090" y="419.5000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)"> </text><text x="400.2232" y="419.5000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)">Deal</text><text x="458.7572" y="419.5000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)"> </text><g transform="translate(465.6022 377.6600)" data-md-icon="normal_damage.svg" data-md-value="8"><image width="60.0" height="60" href="../../../Shared/icons/normal_damage.svg" preserveAspectRatio="xMidYMid meet" /><rect x="17.099999999999998" y="13.5" width="24.0" height="31.8" fill="#030304" /><text x="29.220000000000002" y="31.200000000000003" text-anchor="middle" dominant-baseline="central" font-family="Arial,Helvetica,sans-serif" font-size="31.339" font-weight="700" fill="#FFFFFF">8</text></g><text x="525.6022" y="419.5000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)"> </text><text x="532.4472" y="419.5000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)">dmg</text></g><g data-md-line="true" data-source-baseline="510"><text x="270.7250" y="510.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)">Inflict</text><text x="343.4300" y="510.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)"> </text><image x="350.2750" y="471.1600" width="54.0000" height="54.0000" href="../icons/reprimand.svg" preserveAspectRatio="xMidYMid meet" data-md-icon="reprimand.svg" /></g></g><g id="instant-action-cp-tag" aria-label="Editable Main Phase Action CP tag" transform="translate(0 169)">
     <defs>
       <linearGradient id="cp-badge-fill" x1="0" y1="0" x2="0" y2="1">
         <stop offset="0" stop-color="#FFFFFF" />

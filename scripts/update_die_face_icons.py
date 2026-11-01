@@ -1,15 +1,17 @@
 #!/usr/bin/env python3
 """Apply approved Tuvok/Janeway die-face colors and sync embedded SVG copies.
 
-The icon inventory's Update lookup table is the allowlist for die-face icon
-types. Only the active hero's hero_board.svg and cards/*.svg that embed one of
-those listed icons are updated. The script is idempotent.
+The current icon-inventory metadata in each hero's rules.md is the allowlist
+for die-face icon types. Only the active hero's board, leaflet, and card SVGs
+that embed one of those listed icons are updated. The script is idempotent.
 """
 from __future__ import annotations
 
 import argparse
 import re
 from pathlib import Path
+
+from rules_metadata import load_icon_inventory, refresh
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -33,19 +35,16 @@ PALETTES = {
 }
 
 
-def inventory_die_icons(inventory: Path) -> set[str]:
-    text = inventory.read_text(encoding="utf-8")
-    section = text.split("## Update lookup", 1)[-1]
-    icons: set[str] = set()
-    for line in section.splitlines():
-        match = re.match(r"\|\s*`([^`]+)`\s*\|\s*(.*?)\s*\|", line)
-        if not match:
-            continue
-        icon, references = match.groups()
-        if icon.endswith("_die.svg") and ("Board:" in references or "Card:" in references):
-            icons.add(icon)
+def inventory_die_icons(rules_path: Path) -> set[str]:
+    inventory = load_icon_inventory(rules_path)
+    icons = {
+        name
+        for name, uses in inventory["usage_by_icon"].items()
+        if name.endswith("_die.svg")
+        and any(use["section"] in {"hero_board", "cards"} for use in uses)
+    }
     if not icons:
-        raise RuntimeError(f"No die-face references found in {inventory}")
+        raise RuntimeError(f"No current die-face references found in {rules_path}")
     return icons
 
 
@@ -151,13 +150,15 @@ def main() -> None:
     heroes = tuple(PALETTES) if args.hero == "all" else (args.hero,)
     total_files = total_icons = 0
     for hero in heroes:
-        inventory = ROOT / "Heroes" / hero / "icon_inventory.md"
+        rules_path = ROOT / "Heroes" / hero / "rules.md"
         icon_dir = ROOT / "Heroes" / hero / "icons"
         # Shared die types may appear in the inventory, but only local hero
         # die-face masters are in scope for this color update.
-        allowed = {name for name in inventory_die_icons(inventory) if (icon_dir / name).is_file()}
+        allowed = {name for name in inventory_die_icons(rules_path) if (icon_dir / name).is_file()}
         updated_sources = apply_palette(hero, icon_dir, allowed, args.dry_run)
         files, icons = sync_hero(hero, allowed, updated_sources, args.dry_run)
+        if not args.dry_run:
+            refresh(rules_path)
         total_files += files
         total_icons += icons
         verb = "would update" if args.dry_run else "updated"

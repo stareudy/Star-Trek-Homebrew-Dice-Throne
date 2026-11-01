@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "units": "final SVG user units; board=4500-wide, card=675x1050, leaflet=1350x2550; scale uniformly once",
+  "existing_assets": "Measured source anchors override new-asset defaults. Never reposition saved assets merely to normalize them.",
+  "inline_icon_to_text_gap_em": 0.185,
+  "regular_line_spacing": {
+    "hero_board": {
+      "font_size": 41.625,
+      "min_line_height": 49.95,
+      "standard_inline_icon_height": 60.75,
+      "continuation_gap": 5.625,
+      "paragraph_gap": 13.5,
+      "baseline_below_line_center": 13.32
+    },
+    "upgrade_card": {
+      "font_size": 41.625,
+      "min_line_height": 49.95,
+      "standard_inline_icon_height": 60.75,
+      "continuation_gap": 5.625,
+      "paragraph_gap": 13.5,
+      "baseline_below_line_center": 13.32
+    },
+    "action_card": {
+      "font_size": 37.5,
+      "min_line_height": 45,
+      "standard_inline_icon_height": 54,
+      "continuation_gap": 5,
+      "paragraph_gap": 12,
+      "baseline_below_line_center": 12
+    }
+  },
+  "hero_board": {
+    "origin": "Transformed (0,0) of the regular ability *-vector-panel group, expressed in full-board units; translation only for new layouts.",
+    "single_activation": {
+      "top": 142.868,
+      "square_size": 95.625,
+      "first_rules_baseline": 323.933,
+      "baseline_after_activation_bottom": 85.441
+    },
+    "straight_activation": {
+      "top": 143.439,
+      "viewport_height": 128.436,
+      "largest_square_size": 95.625,
+      "first_rules_baseline": 357.315,
+      "baseline_after_activation_bottom": 85.441
+    },
+    "defense_activation": {
+      "top": 143.438,
+      "viewport_height": 94.485,
+      "largest_square_size": 95.625,
+      "first_rules_baseline": 323.364,
+      "baseline_after_activation_bottom": 85.441
+    },
+    "basic_three_rows": {
+      "dice_group_center_x": 230.6975,
+      "square_size": 67.5,
+      "rows": [
+        {
+          "dice": 3,
+          "top": 142.868,
+          "rules_baseline": 194.618,
+          "text_gap": 20.8125
+        },
+        {
+          "dice": 4,
+          "top": 247.493,
+          "rules_baseline": 299.243,
+          "text_gap": 18.5625
+        },
+        {
+          "dice": 5,
+          "top": 350.993,
+          "rules_baseline": 402.743,
+          "text_gap": 23.0625
+        }
+      ]
+    },
+    "ultimate_profiles": {
+      "Janeway": {
+        "origin": "punch-your-way-through-vector-panel (0,0)",
+        "activation_x": 799.37113,
+        "activation_top": 54.146,
+        "activation_square": 95.625,
+        "effects_x": 14,
+        "effects_baseline": 259.72844,
+        "effects_font_size": 49.95,
+        "disclaimer_font_size": 36.5,
+        "disclaimer_x": 297.346154,
+        "disclaimer_baselines": [
+          378.047547,
+          415.131865
+        ]
+      },
+      "Tuvok": {
+        "origin": "logical-outcome-vector-panel (0,0)",
+        "activation_x": 792.9375,
+        "activation_top": 70.1875,
+        "activation_square": 95.625,
+        "effects_x": 14,
+        "effects_baseline": 259.728444,
+        "effects_font_size": 49.950002,
+        "disclaimer_font_size": 30.375,
+        "disclaimer_x": 297,
+        "disclaimer_baselines": [
+          378,
+          415
+        ]
+      }
+    }
+  },
+  "cards": {
+    "origin": "Root viewBox 0 0 675 1050. Values already include approved 1.125 content scaling.",
+    "standard_upgrade": {
+      "activation_top": 145,
+      "activation_square": 95.625,
+      "first_rules_baseline": 347.5,
+      "baseline_after_activation_bottom": 106.875
+    },
+    "roll_resolution_upgrade": {
+      "activation_top": 145,
+      "activation_square": 95.625,
+      "first_rules_baseline": 362.125,
+      "baseline_after_activation_bottom": 121.5
+    },
+    "defense_upgrade": {
+      "activation_top": 145.57,
+      "activation_viewport_height": 94.485,
+      "activation_square": 95.625,
+      "first_rules_baseline": 343.5625,
+      "baseline_after_activation_bottom": 103.5075
+    },
+    "basic_upgrade": {
+      "dice_group_center_x": 222.647625,
+      "square_size": 67.5,
+      "text_gap": 16.667,
+      "rows": [
+        {
+          "dice": 3,
+          "top": 145,
+          "rules_baseline": 192.25
+        },
+        {
+          "dice": 4,
+          "top": 248.5,
+          "rules_baseline": 295.75
+        },
+        {
+          "dice": 5,
+          "top": 352,
+          "rules_baseline": 399.25
+        }
+      ]
+    },
+    "action_rules_panel": {
+      "x": 31,
+      "y": 643,
+      "width": 613,
+      "bottom": 1020,
+      "center_x": 337.5,
+      "center_y": 831.5,
+      "activation_row": false
+    }
+  },
+  "leaflet": {
+    "token_panel_v1": {
+      "coordinate_width": 1350,
+      "coordinate_height": 2550,
+      "header_to_first_rules_baseline": 113.82,
+      "reference": "Janeway Coffee; header baseline 201.5, first rules baseline 315.32",
+      "placement": "Measure root-coordinate baselines after transforms; translate complete rules block; never recenter afterward."
+    }
+  }
+}

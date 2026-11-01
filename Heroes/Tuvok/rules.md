@@ -113,8 +113,8 @@ SVG reference: [hero_board.svg](hero_board.svg)
 <div class="rule-title">MEDITATE</div>
 <div class="rule-line" data-source-line="rules" style="margin:.35em 0;"><span class="dice-group"><span class="icon" data-icon="salute_die.svg" style="width:1.650em;height:1.650em;"><img src="icons/salute_die.svg" alt="salute die" width="28" height="28" /></span><span class="icon" data-icon="salute_die.svg" style="width:1.650em;height:1.650em;"><img src="icons/salute_die.svg" alt="salute die" width="28" height="28" /></span><span class="icon" data-icon="salute_die.svg" style="width:1.650em;height:1.650em;"><img src="icons/salute_die.svg" alt="salute die" width="28" height="28" /></span></span></div>
 <div class="rule-line" data-source-line="rules" style="margin:.35em 0;">Roll 4 <span class="icon" data-icon="roll_die.svg" style="width:1.326em;height:1.400em;"><img src="../../Shared/icons/roll_die.svg" alt="roll die" width="28" height="28" /></span>:</div>
-<div class="rule-line" data-source-line="rules" style="margin:.35em 0;">For each <span class="icon" data-icon="phaser_die.svg" style="width:1.400em;height:1.400em;"><img src="icons/phaser_die.svg" alt="phaser die" width="28" height="28" /></span>, gain <span class="icon" data-icon="logic.svg" style="width:1.400em;height:1.400em;"><img src="icons/logic.svg" alt="logic" width="28" height="28" /></span></div>
-<div class="rule-line" data-source-line="rules" style="margin:.35em 0;">On <span class="dice-group"><span class="icon" data-icon="idic_die.svg" style="width:1.400em;height:1.400em;"><img src="icons/idic_die.svg" alt="idic die" width="28" height="28" /></span><span class="icon" data-icon="idic_die.svg" style="width:1.400em;height:1.400em;"><img src="icons/idic_die.svg" alt="idic die" width="28" height="28" /></span></span>, gain <span class="icon" data-icon="protect.svg" style="width:1.400em;height:1.400em;"><img src="icons/protect.svg" alt="protect" width="28" height="28" /></span></div>
+<div class="rule-line" data-source-line="rules" style="margin:.35em 0;">For each <span class="icon" data-icon="phaser_die.svg" style="width:1.400em;height:1.400em;"><img src="icons/phaser_die.svg" alt="phaser die" width="28" height="28" /></span> gain <span class="icon" data-icon="logic.svg" style="width:1.400em;height:1.400em;"><img src="icons/logic.svg" alt="logic" width="28" height="28" /></span></div>
+<div class="rule-line" data-source-line="rules" style="margin:.35em 0;">On <span class="dice-group"><span class="icon" data-icon="idic_die.svg" style="width:1.400em;height:1.400em;"><img src="icons/idic_die.svg" alt="idic die" width="28" height="28" /></span><span class="icon" data-icon="idic_die.svg" style="width:1.400em;height:1.400em;"><img src="icons/idic_die.svg" alt="idic die" width="28" height="28" /></span></span> gain <span class="icon" data-icon="protect.svg" style="width:1.400em;height:1.400em;"><img src="icons/protect.svg" alt="protect" width="28" height="28" /></span></div>
 </div>
 
 ### MEASURED RESPONSE
@@ -165,10 +165,10 @@ SVG reference: [hero_board.svg](hero_board.svg)
 <div class="rule-title">FINAL CALCULATION</div>
 <div class="rule-line" data-source-line="rules" style="margin:.35em 0;"><span class="icon" data-icon="largestraight.svg" style="width:5.102em;height:1.800em;"><img src="../../Shared/icons/largestraight.svg" alt="largestraight" width="28" height="28" /></span></div>
 <div class="rule-line" data-source-line="rules" style="margin:.35em 0;">Deal <span class="icon numbered normal_damage" data-icon="normal_damage.svg" data-value="8" style="width:1.400em;height:1.400em;"><img src="../../Shared/icons/normal_damage.svg" alt="normal damage 8" width="28" height="28" /><b aria-hidden="true">8</b></span>, then roll 2 <span class="icon" data-icon="roll_die.svg" style="width:1.326em;height:1.400em;"><img src="../../Shared/icons/roll_die.svg" alt="roll die" width="28" height="28" /></span></div>
-<div class="rule-line" data-source-line="rules" style="margin:.35em 0;">On <span class="icon" data-icon="phaser_die.svg" style="width:1.400em;height:1.400em;"><img src="icons/phaser_die.svg" alt="phaser die" width="28" height="28" /></span>, add <span class="icon numbered normal_damage" data-icon="normal_damage.svg" data-value="2" style="width:1.400em;height:1.400em;"><img src="../../Shared/icons/normal_damage.svg" alt="normal damage 2" width="28" height="28" /><b aria-hidden="true">2</b></span></div>
-<div class="rule-line" data-source-line="rules" style="margin:.35em 0;">On <span class="icon" data-icon="salute_die.svg" style="width:1.400em;height:1.400em;"><img src="icons/salute_die.svg" alt="salute die" width="28" height="28" /></span>, add <span class="icon numbered normal_damage" data-icon="normal_damage.svg" data-value="3" style="width:1.400em;height:1.400em;"><img src="../../Shared/icons/normal_damage.svg" alt="normal damage 3" width="28" height="28" /><b aria-hidden="true">3</b></span></div>
-<div class="rule-line" data-source-line="rules" style="margin:.35em 0;">On <span class="icon" data-icon="idic_die.svg" style="width:1.400em;height:1.400em;"><img src="icons/idic_die.svg" alt="idic die" width="28" height="28" /></span>, add <span class="icon numbered normal_damage" data-icon="normal_damage.svg" data-value="4" style="width:1.400em;height:1.400em;"><img src="../../Shared/icons/normal_damage.svg" alt="normal damage 4" width="28" height="28" /><b aria-hidden="true">4</b></span></div>
-<div class="rule-line" data-source-line="rules" style="margin:.35em 0;">On <span class="dice-group"><span class="icon" data-icon="idic_die.svg" style="width:1.400em;height:1.400em;"><img src="icons/idic_die.svg" alt="idic die" width="28" height="28" /></span><span class="icon" data-icon="idic_die.svg" style="width:1.400em;height:1.400em;"><img src="icons/idic_die.svg" alt="idic die" width="28" height="28" /></span></span>, make this attack<br />undefendable</div>
+<div class="rule-line" data-source-line="rules" style="margin:.35em 0;">On <span class="icon" data-icon="phaser_die.svg" style="width:1.400em;height:1.400em;"><img src="icons/phaser_die.svg" alt="phaser die" width="28" height="28" /></span> add <span class="icon numbered normal_damage" data-icon="normal_damage.svg" data-value="2" style="width:1.400em;height:1.400em;"><img src="../../Shared/icons/normal_damage.svg" alt="normal damage 2" width="28" height="28" /><b aria-hidden="true">2</b></span></div>
+<div class="rule-line" data-source-line="rules" style="margin:.35em 0;">On <span class="icon" data-icon="salute_die.svg" style="width:1.400em;height:1.400em;"><img src="icons/salute_die.svg" alt="salute die" width="28" height="28" /></span> add <span class="icon numbered normal_damage" data-icon="normal_damage.svg" data-value="3" style="width:1.400em;height:1.400em;"><img src="../../Shared/icons/normal_damage.svg" alt="normal damage 3" width="28" height="28" /><b aria-hidden="true">3</b></span></div>
+<div class="rule-line" data-source-line="rules" style="margin:.35em 0;">On <span class="icon" data-icon="idic_die.svg" style="width:1.400em;height:1.400em;"><img src="icons/idic_die.svg" alt="idic die" width="28" height="28" /></span> add <span class="icon numbered normal_damage" data-icon="normal_damage.svg" data-value="4" style="width:1.400em;height:1.400em;"><img src="../../Shared/icons/normal_damage.svg" alt="normal damage 4" width="28" height="28" /><b aria-hidden="true">4</b></span></div>
+<div class="rule-line" data-source-line="rules" style="margin:.35em 0;">On <span class="dice-group"><span class="icon" data-icon="idic_die.svg" style="width:1.400em;height:1.400em;"><img src="icons/idic_die.svg" alt="idic die" width="28" height="28" /></span><span class="icon" data-icon="idic_die.svg" style="width:1.400em;height:1.400em;"><img src="icons/idic_die.svg" alt="idic die" width="28" height="28" /></span></span> make this attack<br />undefendable</div>
 </div>
 
 ### KOLINAR (PASSIVE)
@@ -192,21 +192,22 @@ SVG reference: [hero_board.svg](hero_board.svg)
 <div class="rule-title">RETURN FIRE</div>
 <div class="rule-line" data-source-line="rules" style="margin:.35em 0;"><span class="icon" data-icon="defense_3_dice.svg" style="width:4.950em;height:1.650em;"><img src="../../Shared/icons/defense_3_dice.svg" alt="defense 3 dice" width="28" height="28" /></span></div>
 <div class="rule-line" data-source-line="rules" style="margin:.35em 0;">Roll 3 <span class="icon" data-icon="roll_die.svg" style="width:1.326em;height:1.400em;"><img src="../../Shared/icons/roll_die.svg" alt="roll die" width="28" height="28" /></span>:</div>
-<div class="rule-line" data-source-line="rules" style="margin:.35em 0;">For each <span class="icon" data-icon="phaser_die.svg" style="width:1.400em;height:1.400em;"><img src="icons/phaser_die.svg" alt="phaser die" width="28" height="28" /></span>, deal <span class="icon" data-icon="normal_damage.svg" data-value="1" style="width:1.400em;height:1.400em;"><img src="../../Shared/icons/normal_damage.svg" alt="normal damage 1" width="28" height="28" /></span></div>
-<div class="rule-line" data-source-line="rules" style="margin:.35em 0;">On <span class="dice-group"><span class="icon" data-icon="idic_die.svg" style="width:1.400em;height:1.400em;"><img src="icons/idic_die.svg" alt="idic die" width="28" height="28" /></span><span class="icon" data-icon="idic_die.svg" style="width:1.400em;height:1.400em;"><img src="icons/idic_die.svg" alt="idic die" width="28" height="28" /></span></span>, gain <span class="icon" data-icon="protect.svg" style="width:1.400em;height:1.400em;"><img src="icons/protect.svg" alt="protect" width="28" height="28" /></span></div>
+<div class="rule-line" data-source-line="rules" style="margin:.35em 0;">For each <span class="icon" data-icon="phaser_die.svg" style="width:1.400em;height:1.400em;"><img src="icons/phaser_die.svg" alt="phaser die" width="28" height="28" /></span> deal <span class="icon" data-icon="normal_damage.svg" data-value="1" style="width:1.400em;height:1.400em;"><img src="../../Shared/icons/normal_damage.svg" alt="normal damage 1" width="28" height="28" /></span></div>
+<div class="rule-line" data-source-line="rules" style="margin:.35em 0;">On <span class="dice-group"><span class="icon" data-icon="idic_die.svg" style="width:1.400em;height:1.400em;"><img src="icons/idic_die.svg" alt="idic die" width="28" height="28" /></span><span class="icon" data-icon="idic_die.svg" style="width:1.400em;height:1.400em;"><img src="icons/idic_die.svg" alt="idic die" width="28" height="28" /></span></span> gain <span class="icon" data-icon="protect.svg" style="width:1.400em;height:1.400em;"><img src="icons/protect.svg" alt="protect" width="28" height="28" /></span></div>
 </div>
 
 ### LOGICAL OUTCOME (ULTIMATE)
 
 SVG reference: [hero_board.svg](hero_board.svg)
 
-> **SVG difference:** rules.txt grants 4 Logic; the saved SVG shows 2. This document retains 4. The SVG also displays the standard Ultimate restriction note, which is not present in this rules.txt entry and has not been added to its rules.
+> **SVG difference:** rules.txt grants 4 Logic; the saved SVG shows 2. This document retains 4. The original SVG’s standard Ultimate restriction note is displayed separately as an asset note; it is not added to gameplay rules.
 
-<!-- SVG presentation: center-aligned rules; Avenir Next Condensed Regular; observed local text size 49.95 SVG units (before group transforms). HTML uses a readable 20px scale. -->
-<div class="rule" data-rule="LOGICAL OUTCOME (ULTIMATE)" style="text-align:center;">
+<!-- Ultimate presentation: left-aligned, single-line effects at 49.95 effective SVG units; left-aligned disclaimer at 30.375 effective SVG units. Preserve source transforms and disclaimer breaks; do not apply regular-panel defaults. -->
+<div class="rule ultimate-rule" data-rule="LOGICAL OUTCOME (ULTIMATE)" style="text-align:left;" data-layout="ultimate" data-source-effective-rules-size="49.950002" data-source-effective-disclaimer-size="30.375">
 <div class="rule-title">LOGICAL OUTCOME (ULTIMATE)</div>
-<div class="rule-line" data-source-line="rules" style="margin:.35em 0;"><span class="dice-group"><span class="icon" data-icon="idic_die.svg" style="width:1.650em;height:1.650em;"><img src="icons/idic_die.svg" alt="idic die" width="28" height="28" /></span><span class="icon" data-icon="idic_die.svg" style="width:1.650em;height:1.650em;"><img src="icons/idic_die.svg" alt="idic die" width="28" height="28" /></span><span class="icon" data-icon="idic_die.svg" style="width:1.650em;height:1.650em;"><img src="icons/idic_die.svg" alt="idic die" width="28" height="28" /></span><span class="icon" data-icon="idic_die.svg" style="width:1.650em;height:1.650em;"><img src="icons/idic_die.svg" alt="idic die" width="28" height="28" /></span><span class="icon" data-icon="idic_die.svg" style="width:1.650em;height:1.650em;"><img src="icons/idic_die.svg" alt="idic die" width="28" height="28" /></span></span></div>
-<div class="rule-line" data-source-line="rules" style="margin:.35em 0;">Increase Logic stack limit by 1, gain <span class="icon" data-icon="mind_meld.svg" style="width:1.400em;height:1.400em;"><img src="icons/mind_meld.svg" alt="mind meld" width="28" height="28" /></span> and 4 <span class="icon" data-icon="logic.svg" style="width:1.400em;height:1.400em;"><img src="icons/logic.svg" alt="logic" width="28" height="28" /></span>, then deal <span class="icon numbered undefendable_damage" data-icon="undefendable_damage.svg" data-value="12" style="width:1.400em;height:1.400em;"><img src="../../Shared/icons/undefendable_damage.svg" alt="undefendable damage 12" width="28" height="28" /><b aria-hidden="true">12</b></span></div>
+<div class="rule-line" data-source-line="rules" style="margin:.35em 0;" data-ultimate-role="activation"><span class="dice-group"><span class="icon" data-icon="idic_die.svg" style="width:1.650em;height:1.650em;"><img src="icons/idic_die.svg" alt="idic die" width="28" height="28" /></span><span class="icon" data-icon="idic_die.svg" style="width:1.650em;height:1.650em;"><img src="icons/idic_die.svg" alt="idic die" width="28" height="28" /></span><span class="icon" data-icon="idic_die.svg" style="width:1.650em;height:1.650em;"><img src="icons/idic_die.svg" alt="idic die" width="28" height="28" /></span><span class="icon" data-icon="idic_die.svg" style="width:1.650em;height:1.650em;"><img src="icons/idic_die.svg" alt="idic die" width="28" height="28" /></span><span class="icon" data-icon="idic_die.svg" style="width:1.650em;height:1.650em;"><img src="icons/idic_die.svg" alt="idic die" width="28" height="28" /></span></span></div>
+<div class="rule-line ultimate-effects" data-source-line="rules" data-ultimate-role="effects" style="margin:.35em 0;text-align:left;white-space:nowrap;font-size:1.2em;">Increase Logic stack limit by 1, gain <span class="icon" data-icon="mind_meld.svg" style="width:1.400em;height:1.400em;"><img src="icons/mind_meld.svg" alt="mind meld" width="28" height="28" /></span> and 4 <span class="icon" data-icon="logic.svg" style="width:1.400em;height:1.400em;"><img src="icons/logic.svg" alt="logic" width="28" height="28" /></span>, then deal <span class="icon numbered undefendable_damage" data-icon="undefendable_damage.svg" data-value="12" style="width:1.400em;height:1.400em;"><img src="../../Shared/icons/undefendable_damage.svg" alt="undefendable damage 12" width="28" height="28" /><b aria-hidden="true">12</b></span></div>
+<div class="rule-line ultimate-disclaimer" data-source-line="asset-note" data-ultimate-role="disclaimer" style="margin:.35em 0;text-align:left;font-size:0.729729730em;line-height:1.25;">Dice may be altered to prevent an Ultimate. Otherwise, no action<br />of any kind may be performed by an opponent until the ability fully completes.</div>
 </div>
 
 ## CARDS
@@ -336,7 +337,7 @@ SVG reference: [cards/kolinar_ii.svg](cards/kolinar_ii.svg)
 <div class="rule" data-rule="KOLINAR II" style="text-align:center;">
 <div class="rule-title">KOLINAR II</div>
 <div data-source-line="metadata" style="font-size:.95em;font-weight:700;color:#F4F6F9;margin-bottom:.7em;">Cost: <span class="icon numbered cp" data-icon="cp.svg" data-value="2" style="width:1.312em;height:1.400em;"><img src="../../Shared/icons/cp.svg" alt="cp 2" width="28" height="28" /><b aria-hidden="true">2</b></span> | Upgrade Card</div>
-<div class="rule-line" data-source-line="rules" style="margin:.35em 0;">During your Upkeep<br />Phase, roll 1 <span class="icon" data-icon="roll_die.svg" style="width:1.326em;height:1.400em;"><img src="../../Shared/icons/roll_die.svg" alt="roll die" width="28" height="28" /></span>.<br />On <span class="icon" data-icon="phaser_die.svg" style="width:1.400em;height:1.400em;"><img src="icons/phaser_die.svg" alt="phaser die" width="28" height="28" /></span>, gain <span class="icon" data-icon="logic.svg" style="width:1.400em;height:1.400em;"><img src="icons/logic.svg" alt="logic" width="28" height="28" /></span>.<br />On <span class="icon" data-icon="salute_die.svg" style="width:1.400em;height:1.400em;"><img src="icons/salute_die.svg" alt="salute die" width="28" height="28" /></span> or <span class="icon" data-icon="idic_die.svg" style="width:1.400em;height:1.400em;"><img src="icons/idic_die.svg" alt="idic die" width="28" height="28" /></span>, gain 2 <span class="icon" data-icon="logic.svg" style="width:1.400em;height:1.400em;"><img src="icons/logic.svg" alt="logic" width="28" height="28" /></span>.</div>
+<div class="rule-line" data-source-line="rules" style="margin:.35em 0;">During your Upkeep<br />Phase, roll 1 <span class="icon" data-icon="roll_die.svg" style="width:1.326em;height:1.400em;"><img src="../../Shared/icons/roll_die.svg" alt="roll die" width="28" height="28" /></span>.<br />On <span class="icon" data-icon="phaser_die.svg" style="width:1.400em;height:1.400em;"><img src="icons/phaser_die.svg" alt="phaser die" width="28" height="28" /></span> gain <span class="icon" data-icon="logic.svg" style="width:1.400em;height:1.400em;"><img src="icons/logic.svg" alt="logic" width="28" height="28" /></span>.<br />On <span class="icon" data-icon="salute_die.svg" style="width:1.400em;height:1.400em;"><img src="icons/salute_die.svg" alt="salute die" width="28" height="28" /></span> or <span class="icon" data-icon="idic_die.svg" style="width:1.400em;height:1.400em;"><img src="icons/idic_die.svg" alt="idic die" width="28" height="28" /></span> gain 2 <span class="icon" data-icon="logic.svg" style="width:1.400em;height:1.400em;"><img src="icons/logic.svg" alt="logic" width="28" height="28" /></span>.</div>
 </div>
 
 ### TACTICAL PRECISION II
@@ -368,8 +369,8 @@ SVG reference: [cards/return_fire_ii.svg](cards/return_fire_ii.svg)
 <div class="rule-title">RETURN FIRE II</div>
 <div data-source-line="metadata" style="font-size:.95em;font-weight:700;color:#F4F6F9;margin-bottom:.7em;">Cost: <span class="icon numbered cp" data-icon="cp.svg" data-value="3" style="width:1.312em;height:1.400em;"><img src="../../Shared/icons/cp.svg" alt="cp 3" width="28" height="28" /><b aria-hidden="true">3</b></span> | Upgrade Card</div>
 <div class="rule-line" data-source-line="rules" style="margin:.35em 0;">Roll 4 <span class="icon" data-icon="roll_die.svg" style="width:1.326em;height:1.400em;"><img src="../../Shared/icons/roll_die.svg" alt="roll die" width="28" height="28" /></span>:</div>
-<div class="rule-line" data-source-line="rules" style="margin:.35em 0;">For each <span class="icon" data-icon="phaser_die.svg" style="width:1.400em;height:1.400em;"><img src="icons/phaser_die.svg" alt="phaser die" width="28" height="28" /></span>, deal <span class="icon" data-icon="normal_damage.svg" data-value="1" style="width:1.400em;height:1.400em;"><img src="../../Shared/icons/normal_damage.svg" alt="normal damage 1" width="28" height="28" /></span></div>
-<div class="rule-line" data-source-line="rules" style="margin:.35em 0;">On <span class="dice-group"><span class="icon" data-icon="idic_die.svg" style="width:1.400em;height:1.400em;"><img src="icons/idic_die.svg" alt="idic die" width="28" height="28" /></span><span class="icon" data-icon="idic_die.svg" style="width:1.400em;height:1.400em;"><img src="icons/idic_die.svg" alt="idic die" width="28" height="28" /></span></span>, gain <span class="icon" data-icon="protect.svg" style="width:1.400em;height:1.400em;"><img src="icons/protect.svg" alt="protect" width="28" height="28" /></span></div>
+<div class="rule-line" data-source-line="rules" style="margin:.35em 0;">For each <span class="icon" data-icon="phaser_die.svg" style="width:1.400em;height:1.400em;"><img src="icons/phaser_die.svg" alt="phaser die" width="28" height="28" /></span> deal <span class="icon" data-icon="normal_damage.svg" data-value="1" style="width:1.400em;height:1.400em;"><img src="../../Shared/icons/normal_damage.svg" alt="normal damage 1" width="28" height="28" /></span></div>
+<div class="rule-line" data-source-line="rules" style="margin:.35em 0;">On <span class="dice-group"><span class="icon" data-icon="idic_die.svg" style="width:1.400em;height:1.400em;"><img src="icons/idic_die.svg" alt="idic die" width="28" height="28" /></span><span class="icon" data-icon="idic_die.svg" style="width:1.400em;height:1.400em;"><img src="icons/idic_die.svg" alt="idic die" width="28" height="28" /></span></span> gain <span class="icon" data-icon="protect.svg" style="width:1.400em;height:1.400em;"><img src="icons/protect.svg" alt="protect" width="28" height="28" /></span></div>
 </div>
 
 ### RETURN FIRE III
@@ -383,6 +384,1292 @@ SVG reference: [cards/return_fire_iii.svg](cards/return_fire_iii.svg)
 <div class="rule-title">RETURN FIRE III</div>
 <div data-source-line="metadata" style="font-size:.95em;font-weight:700;color:#F4F6F9;margin-bottom:.7em;">Cost: <span class="icon numbered cp" data-icon="cp.svg" data-value="5" style="width:1.312em;height:1.400em;"><img src="../../Shared/icons/cp.svg" alt="cp 5" width="28" height="28" /><b aria-hidden="true">5</b></span> | Upgrade Card</div>
 <div class="rule-line" data-source-line="rules" style="margin:.35em 0;">Roll 5 <span class="icon" data-icon="roll_die.svg" style="width:1.326em;height:1.400em;"><img src="../../Shared/icons/roll_die.svg" alt="roll die" width="28" height="28" /></span>:</div>
-<div class="rule-line" data-source-line="rules" style="margin:.35em 0;">For each <span class="icon" data-icon="phaser_die.svg" style="width:1.400em;height:1.400em;"><img src="icons/phaser_die.svg" alt="phaser die" width="28" height="28" /></span>, deal <span class="icon" data-icon="normal_damage.svg" data-value="1" style="width:1.400em;height:1.400em;"><img src="../../Shared/icons/normal_damage.svg" alt="normal damage 1" width="28" height="28" /></span></div>
-<div class="rule-line" data-source-line="rules" style="margin:.35em 0;">On <span class="dice-group"><span class="icon" data-icon="idic_die.svg" style="width:1.400em;height:1.400em;"><img src="icons/idic_die.svg" alt="idic die" width="28" height="28" /></span><span class="icon" data-icon="idic_die.svg" style="width:1.400em;height:1.400em;"><img src="icons/idic_die.svg" alt="idic die" width="28" height="28" /></span></span>, gain <span class="icon" data-icon="protect.svg" style="width:1.400em;height:1.400em;"><img src="icons/protect.svg" alt="protect" width="28" height="28" /></span></div>
+<div class="rule-line" data-source-line="rules" style="margin:.35em 0;">For each <span class="icon" data-icon="phaser_die.svg" style="width:1.400em;height:1.400em;"><img src="icons/phaser_die.svg" alt="phaser die" width="28" height="28" /></span> deal <span class="icon" data-icon="normal_damage.svg" data-value="1" style="width:1.400em;height:1.400em;"><img src="../../Shared/icons/normal_damage.svg" alt="normal damage 1" width="28" height="28" /></span></div>
+<div class="rule-line" data-source-line="rules" style="margin:.35em 0;">On <span class="dice-group"><span class="icon" data-icon="idic_die.svg" style="width:1.400em;height:1.400em;"><img src="icons/idic_die.svg" alt="idic die" width="28" height="28" /></span><span class="icon" data-icon="idic_die.svg" style="width:1.400em;height:1.400em;"><img src="icons/idic_die.svg" alt="idic die" width="28" height="28" /></span></span> gain <span class="icon" data-icon="protect.svg" style="width:1.400em;height:1.400em;"><img src="icons/protect.svg" alt="protect" width="28" height="28" /></span></div>
 </div>
+
+<!-- stdt-icon-inventory:v1
+{
+  "schema_version": 1,
+  "status": "current",
+  "source": "rules.md",
+  "content_sha256": "0f00321e5878a95e3b158fafe3da0f668bea65eae5648540dd0b98612f5bc51a",
+  "counting": {
+    "scope": "explicit gameplay icon references in rendered rules blocks",
+    "excludes": [
+      "CP cost/timing metadata",
+      "titles",
+      "design notes and brainstorming",
+      "shared Standard Cards",
+      "artwork-only icons"
+    ],
+    "number": "explicit data-value, or null for an unnumbered reference; excludes intrinsic die labels",
+    "references": "occurrences, not quantities of tokens gained, dice rolled, or damage dealt",
+    "asset_observations": "separate saved-artwork instances; never added to rules reference totals"
+  },
+  "coverage": {
+    "leaflet": {
+      "entries": 4,
+      "references": 6
+    },
+    "hero_board": {
+      "entries": 9,
+      "references": 73
+    },
+    "cards": {
+      "entries": 14,
+      "references": 66
+    }
+  },
+  "total_rules_references": 145,
+  "entries": [
+    {
+      "section": "leaflet",
+      "name": "MIND MELD",
+      "status": "written",
+      "icons": []
+    },
+    {
+      "section": "leaflet",
+      "name": "LOGIC",
+      "status": "written",
+      "icons": [
+        {
+          "file": "carddraw.svg",
+          "path": "../../Shared/icons/carddraw.svg",
+          "number": 1,
+          "references": 1
+        },
+        {
+          "file": "cp.svg",
+          "path": "../../Shared/icons/cp.svg",
+          "number": 1,
+          "references": 1
+        },
+        {
+          "file": "damage_prevention.svg",
+          "path": "../../Shared/icons/damage_prevention.svg",
+          "number": 1,
+          "references": 1
+        },
+        {
+          "file": "normal_damage.svg",
+          "path": "../../Shared/icons/normal_damage.svg",
+          "number": 1,
+          "references": 1
+        },
+        {
+          "file": "protect.svg",
+          "path": "icons/protect.svg",
+          "number": null,
+          "references": 1
+        },
+        {
+          "file": "targeted.svg",
+          "path": "icons/targeted.svg",
+          "number": null,
+          "references": 1
+        }
+      ]
+    },
+    {
+      "section": "leaflet",
+      "name": "TARGETED",
+      "status": "written",
+      "icons": []
+    },
+    {
+      "section": "leaflet",
+      "name": "PROTECT",
+      "status": "written",
+      "icons": []
+    },
+    {
+      "section": "hero_board",
+      "name": "NERVE PINCH",
+      "status": "written",
+      "icons": [
+        {
+          "file": "normal_damage.svg",
+          "path": "../../Shared/icons/normal_damage.svg",
+          "number": 5,
+          "references": 1
+        },
+        {
+          "file": "normal_damage.svg",
+          "path": "../../Shared/icons/normal_damage.svg",
+          "number": 6,
+          "references": 1
+        },
+        {
+          "file": "normal_damage.svg",
+          "path": "../../Shared/icons/normal_damage.svg",
+          "number": 7,
+          "references": 1
+        },
+        {
+          "file": "phaser_die.svg",
+          "path": "icons/phaser_die.svg",
+          "number": null,
+          "references": 12
+        }
+      ]
+    },
+    {
+      "section": "hero_board",
+      "name": "MEDITATE",
+      "status": "written",
+      "icons": [
+        {
+          "file": "idic_die.svg",
+          "path": "icons/idic_die.svg",
+          "number": null,
+          "references": 2
+        },
+        {
+          "file": "logic.svg",
+          "path": "icons/logic.svg",
+          "number": null,
+          "references": 1
+        },
+        {
+          "file": "phaser_die.svg",
+          "path": "icons/phaser_die.svg",
+          "number": null,
+          "references": 1
+        },
+        {
+          "file": "protect.svg",
+          "path": "icons/protect.svg",
+          "number": null,
+          "references": 1
+        },
+        {
+          "file": "roll_die.svg",
+          "path": "../../Shared/icons/roll_die.svg",
+          "number": null,
+          "references": 1
+        },
+        {
+          "file": "salute_die.svg",
+          "path": "icons/salute_die.svg",
+          "number": null,
+          "references": 3
+        }
+      ]
+    },
+    {
+      "section": "hero_board",
+      "name": "MEASURED RESPONSE",
+      "status": "written",
+      "icons": [
+        {
+          "file": "logic.svg",
+          "path": "icons/logic.svg",
+          "number": null,
+          "references": 1
+        },
+        {
+          "file": "normal_damage.svg",
+          "path": "../../Shared/icons/normal_damage.svg",
+          "number": 6,
+          "references": 1
+        },
+        {
+          "file": "phaser_die.svg",
+          "path": "icons/phaser_die.svg",
+          "number": null,
+          "references": 1
+        },
+        {
+          "file": "roll_die.svg",
+          "path": "../../Shared/icons/roll_die.svg",
+          "number": null,
+          "references": 1
+        },
+        {
+          "file": "smallstraight.svg",
+          "path": "../../Shared/icons/smallstraight.svg",
+          "number": null,
+          "references": 1
+        }
+      ]
+    },
+    {
+      "section": "hero_board",
+      "name": "TACTICAL PRECISION",
+      "status": "written",
+      "icons": [
+        {
+          "file": "idic_die.svg",
+          "path": "icons/idic_die.svg",
+          "number": null,
+          "references": 4
+        },
+        {
+          "file": "logic.svg",
+          "path": "icons/logic.svg",
+          "number": null,
+          "references": 1
+        },
+        {
+          "file": "targeted.svg",
+          "path": "icons/targeted.svg",
+          "number": null,
+          "references": 1
+        },
+        {
+          "file": "undefendable_damage.svg",
+          "path": "../../Shared/icons/undefendable_damage.svg",
+          "number": 8,
+          "references": 1
+        }
+      ]
+    },
+    {
+      "section": "hero_board",
+      "name": "COMBAT DRILL",
+      "status": "written",
+      "icons": [
+        {
+          "file": "logic.svg",
+          "path": "icons/logic.svg",
+          "number": null,
+          "references": 2
+        },
+        {
+          "file": "normal_damage.svg",
+          "path": "../../Shared/icons/normal_damage.svg",
+          "number": 1,
+          "references": 1
+        },
+        {
+          "file": "normal_damage.svg",
+          "path": "../../Shared/icons/normal_damage.svg",
+          "number": 2,
+          "references": 1
+        },
+        {
+          "file": "normal_damage.svg",
+          "path": "../../Shared/icons/normal_damage.svg",
+          "number": 4,
+          "references": 1
+        },
+        {
+          "file": "phaser_die.svg",
+          "path": "icons/phaser_die.svg",
+          "number": null,
+          "references": 3
+        },
+        {
+          "file": "salute_die.svg",
+          "path": "icons/salute_die.svg",
+          "number": null,
+          "references": 2
+        }
+      ]
+    },
+    {
+      "section": "hero_board",
+      "name": "FINAL CALCULATION",
+      "status": "written",
+      "icons": [
+        {
+          "file": "idic_die.svg",
+          "path": "icons/idic_die.svg",
+          "number": null,
+          "references": 3
+        },
+        {
+          "file": "largestraight.svg",
+          "path": "../../Shared/icons/largestraight.svg",
+          "number": null,
+          "references": 1
+        },
+        {
+          "file": "normal_damage.svg",
+          "path": "../../Shared/icons/normal_damage.svg",
+          "number": 2,
+          "references": 1
+        },
+        {
+          "file": "normal_damage.svg",
+          "path": "../../Shared/icons/normal_damage.svg",
+          "number": 3,
+          "references": 1
+        },
+        {
+          "file": "normal_damage.svg",
+          "path": "../../Shared/icons/normal_damage.svg",
+          "number": 4,
+          "references": 1
+        },
+        {
+          "file": "normal_damage.svg",
+          "path": "../../Shared/icons/normal_damage.svg",
+          "number": 8,
+          "references": 1
+        },
+        {
+          "file": "phaser_die.svg",
+          "path": "icons/phaser_die.svg",
+          "number": null,
+          "references": 1
+        },
+        {
+          "file": "roll_die.svg",
+          "path": "../../Shared/icons/roll_die.svg",
+          "number": null,
+          "references": 1
+        },
+        {
+          "file": "salute_die.svg",
+          "path": "icons/salute_die.svg",
+          "number": null,
+          "references": 1
+        }
+      ]
+    },
+    {
+      "section": "hero_board",
+      "name": "KOLINAR (PASSIVE)",
+      "status": "written",
+      "icons": [
+        {
+          "file": "logic.svg",
+          "path": "icons/logic.svg",
+          "number": null,
+          "references": 1
+        }
+      ]
+    },
+    {
+      "section": "hero_board",
+      "name": "RETURN FIRE",
+      "status": "written",
+      "icons": [
+        {
+          "file": "defense_3_dice.svg",
+          "path": "../../Shared/icons/defense_3_dice.svg",
+          "number": null,
+          "references": 1
+        },
+        {
+          "file": "idic_die.svg",
+          "path": "icons/idic_die.svg",
+          "number": null,
+          "references": 2
+        },
+        {
+          "file": "normal_damage.svg",
+          "path": "../../Shared/icons/normal_damage.svg",
+          "number": 1,
+          "references": 1
+        },
+        {
+          "file": "phaser_die.svg",
+          "path": "icons/phaser_die.svg",
+          "number": null,
+          "references": 1
+        },
+        {
+          "file": "protect.svg",
+          "path": "icons/protect.svg",
+          "number": null,
+          "references": 1
+        },
+        {
+          "file": "roll_die.svg",
+          "path": "../../Shared/icons/roll_die.svg",
+          "number": null,
+          "references": 1
+        }
+      ]
+    },
+    {
+      "section": "hero_board",
+      "name": "LOGICAL OUTCOME (ULTIMATE)",
+      "status": "written",
+      "icons": [
+        {
+          "file": "idic_die.svg",
+          "path": "icons/idic_die.svg",
+          "number": null,
+          "references": 5
+        },
+        {
+          "file": "logic.svg",
+          "path": "icons/logic.svg",
+          "number": null,
+          "references": 1
+        },
+        {
+          "file": "mind_meld.svg",
+          "path": "icons/mind_meld.svg",
+          "number": null,
+          "references": 1
+        },
+        {
+          "file": "undefendable_damage.svg",
+          "path": "../../Shared/icons/undefendable_damage.svg",
+          "number": 12,
+          "references": 1
+        }
+      ]
+    },
+    {
+      "section": "cards",
+      "name": "TACTICAL RECALIBRATION",
+      "status": "written",
+      "icons": []
+    },
+    {
+      "section": "cards",
+      "name": "VULCAN COMPOSURE",
+      "status": "written",
+      "icons": [
+        {
+          "file": "damage_prevention.svg",
+          "path": "../../Shared/icons/damage_prevention.svg",
+          "number": 2,
+          "references": 1
+        }
+      ]
+    },
+    {
+      "section": "cards",
+      "name": "CALCULATED OPENING",
+      "status": "written",
+      "icons": [
+        {
+          "file": "logic.svg",
+          "path": "icons/logic.svg",
+          "number": null,
+          "references": 1
+        }
+      ]
+    },
+    {
+      "section": "cards",
+      "name": "KAL-TOH",
+      "status": "written",
+      "icons": []
+    },
+    {
+      "section": "cards",
+      "name": "SECURITY PROTOCOLS",
+      "status": "written",
+      "icons": [
+        {
+          "file": "protect.svg",
+          "path": "icons/protect.svg",
+          "number": null,
+          "references": 2
+        }
+      ]
+    },
+    {
+      "section": "cards",
+      "name": "KOLINAHR DISCIPLINE",
+      "status": "written",
+      "icons": [
+        {
+          "file": "logic.svg",
+          "path": "icons/logic.svg",
+          "number": null,
+          "references": 1
+        }
+      ]
+    },
+    {
+      "section": "cards",
+      "name": "MY MIND TO YOUR MIND",
+      "status": "written",
+      "icons": [
+        {
+          "file": "mind_meld.svg",
+          "path": "icons/mind_meld.svg",
+          "number": null,
+          "references": 1
+        }
+      ]
+    },
+    {
+      "section": "cards",
+      "name": "MY THOUGHTS TO YOUR THOUGHTS",
+      "status": "written",
+      "icons": []
+    },
+    {
+      "section": "cards",
+      "name": "NERVE PINCH II",
+      "status": "written",
+      "icons": [
+        {
+          "file": "normal_damage.svg",
+          "path": "../../Shared/icons/normal_damage.svg",
+          "number": 6,
+          "references": 1
+        },
+        {
+          "file": "normal_damage.svg",
+          "path": "../../Shared/icons/normal_damage.svg",
+          "number": 7,
+          "references": 1
+        },
+        {
+          "file": "normal_damage.svg",
+          "path": "../../Shared/icons/normal_damage.svg",
+          "number": 8,
+          "references": 1
+        },
+        {
+          "file": "phaser_die.svg",
+          "path": "icons/phaser_die.svg",
+          "number": null,
+          "references": 12
+        }
+      ]
+    },
+    {
+      "section": "cards",
+      "name": "NERVE PINCH III",
+      "status": "written",
+      "icons": [
+        {
+          "file": "normal_damage.svg",
+          "path": "../../Shared/icons/normal_damage.svg",
+          "number": 7,
+          "references": 1
+        },
+        {
+          "file": "normal_damage.svg",
+          "path": "../../Shared/icons/normal_damage.svg",
+          "number": 8,
+          "references": 1
+        },
+        {
+          "file": "normal_damage.svg",
+          "path": "../../Shared/icons/normal_damage.svg",
+          "number": 9,
+          "references": 1
+        },
+        {
+          "file": "phaser_die.svg",
+          "path": "icons/phaser_die.svg",
+          "number": null,
+          "references": 12
+        }
+      ]
+    },
+    {
+      "section": "cards",
+      "name": "KOLINAR II",
+      "status": "written",
+      "icons": [
+        {
+          "file": "idic_die.svg",
+          "path": "icons/idic_die.svg",
+          "number": null,
+          "references": 1
+        },
+        {
+          "file": "logic.svg",
+          "path": "icons/logic.svg",
+          "number": null,
+          "references": 2
+        },
+        {
+          "file": "phaser_die.svg",
+          "path": "icons/phaser_die.svg",
+          "number": null,
+          "references": 1
+        },
+        {
+          "file": "roll_die.svg",
+          "path": "../../Shared/icons/roll_die.svg",
+          "number": null,
+          "references": 1
+        },
+        {
+          "file": "salute_die.svg",
+          "path": "icons/salute_die.svg",
+          "number": null,
+          "references": 1
+        }
+      ]
+    },
+    {
+      "section": "cards",
+      "name": "TACTICAL PRECISION II",
+      "status": "written",
+      "icons": [
+        {
+          "file": "idic_die.svg",
+          "path": "icons/idic_die.svg",
+          "number": null,
+          "references": 7
+        },
+        {
+          "file": "logic.svg",
+          "path": "icons/logic.svg",
+          "number": null,
+          "references": 2
+        },
+        {
+          "file": "targeted.svg",
+          "path": "icons/targeted.svg",
+          "number": null,
+          "references": 2
+        },
+        {
+          "file": "undefendable_damage.svg",
+          "path": "../../Shared/icons/undefendable_damage.svg",
+          "number": 9,
+          "references": 1
+        }
+      ]
+    },
+    {
+      "section": "cards",
+      "name": "RETURN FIRE II",
+      "status": "written",
+      "icons": [
+        {
+          "file": "idic_die.svg",
+          "path": "icons/idic_die.svg",
+          "number": null,
+          "references": 2
+        },
+        {
+          "file": "normal_damage.svg",
+          "path": "../../Shared/icons/normal_damage.svg",
+          "number": 1,
+          "references": 1
+        },
+        {
+          "file": "phaser_die.svg",
+          "path": "icons/phaser_die.svg",
+          "number": null,
+          "references": 1
+        },
+        {
+          "file": "protect.svg",
+          "path": "icons/protect.svg",
+          "number": null,
+          "references": 1
+        },
+        {
+          "file": "roll_die.svg",
+          "path": "../../Shared/icons/roll_die.svg",
+          "number": null,
+          "references": 1
+        }
+      ]
+    },
+    {
+      "section": "cards",
+      "name": "RETURN FIRE III",
+      "status": "written",
+      "icons": [
+        {
+          "file": "idic_die.svg",
+          "path": "icons/idic_die.svg",
+          "number": null,
+          "references": 2
+        },
+        {
+          "file": "normal_damage.svg",
+          "path": "../../Shared/icons/normal_damage.svg",
+          "number": 1,
+          "references": 1
+        },
+        {
+          "file": "phaser_die.svg",
+          "path": "icons/phaser_die.svg",
+          "number": null,
+          "references": 1
+        },
+        {
+          "file": "protect.svg",
+          "path": "icons/protect.svg",
+          "number": null,
+          "references": 1
+        },
+        {
+          "file": "roll_die.svg",
+          "path": "../../Shared/icons/roll_die.svg",
+          "number": null,
+          "references": 1
+        }
+      ]
+    }
+  ],
+  "usage_by_icon": {
+    "carddraw.svg": [
+      {
+        "section": "leaflet",
+        "entry": "LOGIC",
+        "number": 1,
+        "references": 1
+      }
+    ],
+    "cp.svg": [
+      {
+        "section": "leaflet",
+        "entry": "LOGIC",
+        "number": 1,
+        "references": 1
+      }
+    ],
+    "damage_prevention.svg": [
+      {
+        "section": "leaflet",
+        "entry": "LOGIC",
+        "number": 1,
+        "references": 1
+      },
+      {
+        "section": "cards",
+        "entry": "VULCAN COMPOSURE",
+        "number": 2,
+        "references": 1
+      }
+    ],
+    "defense_3_dice.svg": [
+      {
+        "section": "hero_board",
+        "entry": "RETURN FIRE",
+        "number": null,
+        "references": 1
+      }
+    ],
+    "idic_die.svg": [
+      {
+        "section": "hero_board",
+        "entry": "MEDITATE",
+        "number": null,
+        "references": 2
+      },
+      {
+        "section": "hero_board",
+        "entry": "TACTICAL PRECISION",
+        "number": null,
+        "references": 4
+      },
+      {
+        "section": "hero_board",
+        "entry": "FINAL CALCULATION",
+        "number": null,
+        "references": 3
+      },
+      {
+        "section": "hero_board",
+        "entry": "RETURN FIRE",
+        "number": null,
+        "references": 2
+      },
+      {
+        "section": "hero_board",
+        "entry": "LOGICAL OUTCOME (ULTIMATE)",
+        "number": null,
+        "references": 5
+      },
+      {
+        "section": "cards",
+        "entry": "KOLINAR II",
+        "number": null,
+        "references": 1
+      },
+      {
+        "section": "cards",
+        "entry": "TACTICAL PRECISION II",
+        "number": null,
+        "references": 7
+      },
+      {
+        "section": "cards",
+        "entry": "RETURN FIRE II",
+        "number": null,
+        "references": 2
+      },
+      {
+        "section": "cards",
+        "entry": "RETURN FIRE III",
+        "number": null,
+        "references": 2
+      }
+    ],
+    "largestraight.svg": [
+      {
+        "section": "hero_board",
+        "entry": "FINAL CALCULATION",
+        "number": null,
+        "references": 1
+      }
+    ],
+    "logic.svg": [
+      {
+        "section": "hero_board",
+        "entry": "MEDITATE",
+        "number": null,
+        "references": 1
+      },
+      {
+        "section": "hero_board",
+        "entry": "MEASURED RESPONSE",
+        "number": null,
+        "references": 1
+      },
+      {
+        "section": "hero_board",
+        "entry": "TACTICAL PRECISION",
+        "number": null,
+        "references": 1
+      },
+      {
+        "section": "hero_board",
+        "entry": "COMBAT DRILL",
+        "number": null,
+        "references": 2
+      },
+      {
+        "section": "hero_board",
+        "entry": "KOLINAR (PASSIVE)",
+        "number": null,
+        "references": 1
+      },
+      {
+        "section": "hero_board",
+        "entry": "LOGICAL OUTCOME (ULTIMATE)",
+        "number": null,
+        "references": 1
+      },
+      {
+        "section": "cards",
+        "entry": "CALCULATED OPENING",
+        "number": null,
+        "references": 1
+      },
+      {
+        "section": "cards",
+        "entry": "KOLINAHR DISCIPLINE",
+        "number": null,
+        "references": 1
+      },
+      {
+        "section": "cards",
+        "entry": "KOLINAR II",
+        "number": null,
+        "references": 2
+      },
+      {
+        "section": "cards",
+        "entry": "TACTICAL PRECISION II",
+        "number": null,
+        "references": 2
+      }
+    ],
+    "mind_meld.svg": [
+      {
+        "section": "hero_board",
+        "entry": "LOGICAL OUTCOME (ULTIMATE)",
+        "number": null,
+        "references": 1
+      },
+      {
+        "section": "cards",
+        "entry": "MY MIND TO YOUR MIND",
+        "number": null,
+        "references": 1
+      }
+    ],
+    "normal_damage.svg": [
+      {
+        "section": "leaflet",
+        "entry": "LOGIC",
+        "number": 1,
+        "references": 1
+      },
+      {
+        "section": "hero_board",
+        "entry": "NERVE PINCH",
+        "number": 5,
+        "references": 1
+      },
+      {
+        "section": "hero_board",
+        "entry": "NERVE PINCH",
+        "number": 6,
+        "references": 1
+      },
+      {
+        "section": "hero_board",
+        "entry": "NERVE PINCH",
+        "number": 7,
+        "references": 1
+      },
+      {
+        "section": "hero_board",
+        "entry": "MEASURED RESPONSE",
+        "number": 6,
+        "references": 1
+      },
+      {
+        "section": "hero_board",
+        "entry": "COMBAT DRILL",
+        "number": 1,
+        "references": 1
+      },
+      {
+        "section": "hero_board",
+        "entry": "COMBAT DRILL",
+        "number": 2,
+        "references": 1
+      },
+      {
+        "section": "hero_board",
+        "entry": "COMBAT DRILL",
+        "number": 4,
+        "references": 1
+      },
+      {
+        "section": "hero_board",
+        "entry": "FINAL CALCULATION",
+        "number": 2,
+        "references": 1
+      },
+      {
+        "section": "hero_board",
+        "entry": "FINAL CALCULATION",
+        "number": 3,
+        "references": 1
+      },
+      {
+        "section": "hero_board",
+        "entry": "FINAL CALCULATION",
+        "number": 4,
+        "references": 1
+      },
+      {
+        "section": "hero_board",
+        "entry": "FINAL CALCULATION",
+        "number": 8,
+        "references": 1
+      },
+      {
+        "section": "hero_board",
+        "entry": "RETURN FIRE",
+        "number": 1,
+        "references": 1
+      },
+      {
+        "section": "cards",
+        "entry": "NERVE PINCH II",
+        "number": 6,
+        "references": 1
+      },
+      {
+        "section": "cards",
+        "entry": "NERVE PINCH II",
+        "number": 7,
+        "references": 1
+      },
+      {
+        "section": "cards",
+        "entry": "NERVE PINCH II",
+        "number": 8,
+        "references": 1
+      },
+      {
+        "section": "cards",
+        "entry": "NERVE PINCH III",
+        "number": 7,
+        "references": 1
+      },
+      {
+        "section": "cards",
+        "entry": "NERVE PINCH III",
+        "number": 8,
+        "references": 1
+      },
+      {
+        "section": "cards",
+        "entry": "NERVE PINCH III",
+        "number": 9,
+        "references": 1
+      },
+      {
+        "section": "cards",
+        "entry": "RETURN FIRE II",
+        "number": 1,
+        "references": 1
+      },
+      {
+        "section": "cards",
+        "entry": "RETURN FIRE III",
+        "number": 1,
+        "references": 1
+      }
+    ],
+    "phaser_die.svg": [
+      {
+        "section": "hero_board",
+        "entry": "NERVE PINCH",
+        "number": null,
+        "references": 12
+      },
+      {
+        "section": "hero_board",
+        "entry": "MEDITATE",
+        "number": null,
+        "references": 1
+      },
+      {
+        "section": "hero_board",
+        "entry": "MEASURED RESPONSE",
+        "number": null,
+        "references": 1
+      },
+      {
+        "section": "hero_board",
+        "entry": "COMBAT DRILL",
+        "number": null,
+        "references": 3
+      },
+      {
+        "section": "hero_board",
+        "entry": "FINAL CALCULATION",
+        "number": null,
+        "references": 1
+      },
+      {
+        "section": "hero_board",
+        "entry": "RETURN FIRE",
+        "number": null,
+        "references": 1
+      },
+      {
+        "section": "cards",
+        "entry": "NERVE PINCH II",
+        "number": null,
+        "references": 12
+      },
+      {
+        "section": "cards",
+        "entry": "NERVE PINCH III",
+        "number": null,
+        "references": 12
+      },
+      {
+        "section": "cards",
+        "entry": "KOLINAR II",
+        "number": null,
+        "references": 1
+      },
+      {
+        "section": "cards",
+        "entry": "RETURN FIRE II",
+        "number": null,
+        "references": 1
+      },
+      {
+        "section": "cards",
+        "entry": "RETURN FIRE III",
+        "number": null,
+        "references": 1
+      }
+    ],
+    "protect.svg": [
+      {
+        "section": "leaflet",
+        "entry": "LOGIC",
+        "number": null,
+        "references": 1
+      },
+      {
+        "section": "hero_board",
+        "entry": "MEDITATE",
+        "number": null,
+        "references": 1
+      },
+      {
+        "section": "hero_board",
+        "entry": "RETURN FIRE",
+        "number": null,
+        "references": 1
+      },
+      {
+        "section": "cards",
+        "entry": "SECURITY PROTOCOLS",
+        "number": null,
+        "references": 2
+      },
+      {
+        "section": "cards",
+        "entry": "RETURN FIRE II",
+        "number": null,
+        "references": 1
+      },
+      {
+        "section": "cards",
+        "entry": "RETURN FIRE III",
+        "number": null,
+        "references": 1
+      }
+    ],
+    "roll_die.svg": [
+      {
+        "section": "hero_board",
+        "entry": "MEDITATE",
+        "number": null,
+        "references": 1
+      },
+      {
+        "section": "hero_board",
+        "entry": "MEASURED RESPONSE",
+        "number": null,
+        "references": 1
+      },
+      {
+        "section": "hero_board",
+        "entry": "FINAL CALCULATION",
+        "number": null,
+        "references": 1
+      },
+      {
+        "section": "hero_board",
+        "entry": "RETURN FIRE",
+        "number": null,
+        "references": 1
+      },
+      {
+        "section": "cards",
+        "entry": "KOLINAR II",
+        "number": null,
+        "references": 1
+      },
+      {
+        "section": "cards",
+        "entry": "RETURN FIRE II",
+        "number": null,
+        "references": 1
+      },
+      {
+        "section": "cards",
+        "entry": "RETURN FIRE III",
+        "number": null,
+        "references": 1
+      }
+    ],
+    "salute_die.svg": [
+      {
+        "section": "hero_board",
+        "entry": "MEDITATE",
+        "number": null,
+        "references": 3
+      },
+      {
+        "section": "hero_board",
+        "entry": "COMBAT DRILL",
+        "number": null,
+        "references": 2
+      },
+      {
+        "section": "hero_board",
+        "entry": "FINAL CALCULATION",
+        "number": null,
+        "references": 1
+      },
+      {
+        "section": "cards",
+        "entry": "KOLINAR II",
+        "number": null,
+        "references": 1
+      }
+    ],
+    "smallstraight.svg": [
+      {
+        "section": "hero_board",
+        "entry": "MEASURED RESPONSE",
+        "number": null,
+        "references": 1
+      }
+    ],
+    "targeted.svg": [
+      {
+        "section": "leaflet",
+        "entry": "LOGIC",
+        "number": null,
+        "references": 1
+      },
+      {
+        "section": "hero_board",
+        "entry": "TACTICAL PRECISION",
+        "number": null,
+        "references": 1
+      },
+      {
+        "section": "cards",
+        "entry": "TACTICAL PRECISION II",
+        "number": null,
+        "references": 2
+      }
+    ],
+    "undefendable_damage.svg": [
+      {
+        "section": "hero_board",
+        "entry": "TACTICAL PRECISION",
+        "number": 8,
+        "references": 1
+      },
+      {
+        "section": "hero_board",
+        "entry": "LOGICAL OUTCOME (ULTIMATE)",
+        "number": 12,
+        "references": 1
+      },
+      {
+        "section": "cards",
+        "entry": "TACTICAL PRECISION II",
+        "number": 9,
+        "references": 1
+      }
+    ]
+  },
+  "asset_observations": [
+    {
+      "file": "leaflet.svg",
+      "status": "observed",
+      "scope": "die_reference_legend",
+      "sha256": "59fa4de8271dfac48dd8ae7db582a5123af937423de42e102c3b7cce835fa0ea",
+      "icons": [
+        {
+          "path": "icons/die_1.svg",
+          "instances": 1
+        },
+        {
+          "path": "icons/die_2.svg",
+          "instances": 1
+        },
+        {
+          "path": "icons/die_3.svg",
+          "instances": 1
+        },
+        {
+          "path": "icons/die_4.svg",
+          "instances": 1
+        },
+        {
+          "path": "icons/die_5.svg",
+          "instances": 1
+        },
+        {
+          "path": "icons/die_6.svg",
+          "instances": 1
+        }
+      ]
+    }
+  ]
+}
+-->

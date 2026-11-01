@@ -8,7 +8,28 @@ const upgrades={Janeway:{fire_phasers_ii:'Fire Phasers',fire_phasers_iii:'Fire P
 const tokens={Janeway:{Coffee:0,'Command Codes':0,Reprimand:0},Tuvok:{Logic:0,'Mind Meld':0,Targeted:0,Protect:0}};
 const root=import.meta.env.BASE_URL+'assets/';
 const boardSlots={Janeway:['fire-phasers','shore-leave','tactical-exercises','command-protocol','do-it','red-alert','get-off-my-ship','shields-up','punch-your-way-through'],Tuvok:['nerve-pinch','meditate','kolinar','combat-drill','measured-response','tactical-precision','final-calculation','return-fire','logical-outcome']};
-async function inlineSvg(url,container,modify){try{const response=await fetch(url);if(!response.ok)throw Error('Asset '+response.status);const source=await response.text();const doc=new DOMParser().parseFromString(source,'image/svg+xml');const svg=doc.documentElement;if(svg.localName!=='svg')throw Error('Invalid SVG');svg.querySelectorAll('image').forEach(img=>{const href=img.getAttribute('href')||img.getAttribute('xlink:href');if(href&&!href.startsWith('data:')){const absolute=new URL(href,new URL(url,location.href)).pathname;img.setAttribute('href',absolute);img.setAttributeNS('http://www.w3.org/1999/xlink','href',absolute)}});svg.querySelectorAll('style').forEach(style=>{style.textContent=style.textContent.replace(/url\(["']?(\.\.\/[^)"']+|art\/[^)"']+)["']?\)/g,(match,p)=>'url('+new URL(p,new URL(url,location.href)).pathname+')')});svg.querySelectorAll('[font-family],style').forEach(node=>{if(node.tagName.toLowerCase()==='style'){node.textContent=node.textContent.replace(/Gardablack|Garda\s*Black/gi,'Arial Black');return}const family=node.getAttribute('font-family');if(family&&/garda\s*black/i.test(family))node.setAttribute('font-family','Arial Black, Arial, sans-serif')});svg.removeAttribute('width');svg.removeAttribute('height');container.replaceChildren(document.importNode(svg,true));if(modify)modify(container.firstChild)}catch(err){container.textContent='Unable to load art: '+err.message;console.error(err)}}const $=s=>document.querySelector(s);
+let assetInstance=0;
+function scopeSvgDefinitions(svg){
+ const prefix='asset-'+(++assetInstance)+'-';
+ const ids=new Map([...svg.querySelectorAll('defs [id]')].map(node=>[node.id,prefix+node.id]));
+ svg.querySelectorAll('[id]').forEach(node=>{if(ids.has(node.id))node.id=ids.get(node.id)});
+ const replaceUrls=value=>value.replace(/url\(\s*(["']?)#([^\s)"']+)\1\s*\)/g,(match,quote,id)=>ids.has(id)?'url(#'+ids.get(id)+')':match);
+ svg.querySelectorAll('*').forEach(node=>{
+  for(const attr of [...node.attributes]){
+   let value=replaceUrls(attr.value);
+   if(attr.localName==='href'&&value.startsWith('#')&&ids.has(value.slice(1)))value='#'+ids.get(value.slice(1));
+   if(value!==attr.value)node.setAttributeNS(attr.namespaceURI,attr.name,value);
+  }
+  if(node.localName==='style')node.textContent=replaceUrls(node.textContent);
+ });
+}
+async function inlineSvg(url,container,modify){try{const response=await fetch(url);if(!response.ok)throw Error('Asset '+response.status);const source=await response.text();const doc=new DOMParser().parseFromString(source,'image/svg+xml');const svg=doc.documentElement;if(svg.localName!=='svg')throw Error('Invalid SVG');svg.querySelectorAll('image').forEach(img=>{const href=img.getAttribute('href')||img.getAttribute('xlink:href');if(href&&!href.startsWith('data:')){const absolute=new URL(href,new URL(url,location.href)).pathname;img.setAttribute('href',absolute);img.setAttributeNS('http://www.w3.org/1999/xlink','href',absolute)}});svg.querySelectorAll('style').forEach(style=>{
+ style.textContent=style.textContent.replace(/url\(\s*(["']?)(.*?)\1\s*\)/g,(match,quote,value)=>{
+  const ref=value.trim();
+  if(!ref||/^(#|data:|https?:|blob:|\/)/i.test(ref))return match;
+  return 'url("'+new URL(ref,new URL(url,location.href)).href+'")';
+ });
+});scopeSvgDefinitions(svg);svg.removeAttribute('width');svg.removeAttribute('height');container.replaceChildren(document.importNode(svg,true));await document.fonts.ready;if(modify)modify(container.firstChild)}catch(err){container.textContent='Unable to load art: '+err.message;console.error(err)}}const $=s=>document.querySelector(s);
 function title(s){return s.replaceAll('_',' ').replace(/\b\w/g,c=>c.toUpperCase())}
 function img(card){return root+(card.hero==='Shared'?'Shared':'Heroes/'+card.hero)+'/cards/'+card.id+'.svg'}
 function face(hero,n){return root+'Heroes/'+hero+'/icons/die_'+n+'.svg'}
@@ -19,17 +40,12 @@ function save(){localStorage.setItem('voyager-playtest-v1',JSON.stringify(state)
 function action(fn){fn();save();render()}
 function button(label,fn,cls=''){const b=document.createElement('button');b.textContent=label;b.className=cls;b.onclick=fn;return b}
 function el(tag,cls,text){const x=document.createElement(tag);if(cls)x.className=cls;if(text!==undefined)x.textContent=text;return x}
-function compactCardText(svg){
- const t=svg.querySelector('#card-title-text');
- if(t){t.setAttribute('font-family','Arial Narrow, Arial, sans-serif');t.setAttribute('font-weight','900');t.setAttribute('font-size',String(Math.min(parseFloat(t.getAttribute('font-size'))*.75||50,50)));t.removeAttribute('textLength');try{if(t.getComputedTextLength()>530){t.setAttribute('textLength','530');t.setAttribute('lengthAdjust','spacingAndGlyphs')}}catch{}}
- svg.querySelectorAll('text').forEach(n=>{if(n===t||n.closest('defs')||n.hasAttribute('data-editable')||/editable-number|editable-cp-number/.test(n.id))return;const x=+n.getAttribute('x'),y=+n.getAttribute('y');if(!Number.isFinite(x)||!Number.isFinite(y)||y<230)return;n.setAttribute('transform',`translate(${x} ${y}) scale(.78) translate(${-x} ${-y}) ${n.getAttribute('transform')||''}`)});
-}
-function cardNode(c){const x=el('div','card');const pic=el('div','svg-art');x.append(pic);inlineSvg(img(c),pic,compactCardText);x.append(el('small','',title(c.id)));return x}
+function cardNode(c){const x=el('div','card');const pic=el('div','svg-art');x.append(pic);inlineSvg(img(c),pic);x.append(el('small','',title(c.id)));return x}
 function render(){const app=$('#app');app.replaceChildren();const header=el('header');header.append(el('h1','','Voyager Dice Throne'));const sel=el('select');for(const h of HEROES){const o=el('option','',h);o.value=h;sel.append(o)}sel.value=state.hero;sel.onchange=()=>{if(confirm('Start a new '+sel.value+' session?'))action(()=>state=newGame(sel.value));else sel.value=state.hero};header.append(sel,button('Inspect deck',()=>renderInspection()),button('Reset session',()=>{if(confirm('Reset all progress for '+state.hero+'?'))action(()=>state=newGame(state.hero))}));app.append(header);
 const main=el('main','play-layout');app.append(main);for(const [name,draw] of [['resources-pane',renderResources],['dice-pane',renderDice],['board-pane',renderBoard],['cards-pane',renderCards]]){const pane=el('section','play-pane '+name);main.append(pane);draw(pane)}
 }
 function renderInspection(){const app=$('#app');app.replaceChildren();const header=el('header','inspection-header');header.append(el('h1','','Deck inspection — '+state.hero),button('Back to play',render,'primary'));app.append(header);app.append(el('p','hint','Hero-specific card reference only (14 cards). Shared standard cards are excluded. Inspection does not change the game. Tap a card to enlarge it.'));const grid=el('div','inspection-grid');const all=heroCards[state.hero].map(id=>({id,hero:state.hero}));all.forEach(card=>{const tile=button('',()=>showCardDetail(card),'inspection-tile');tile.append(cardNode(card));grid.append(tile)});app.append(grid)}
-function showCardDetail(card){const overlay=el('div','card-overlay');overlay.setAttribute('role','dialog');overlay.setAttribute('aria-modal','true');overlay.setAttribute('aria-label',title(card.id));const panel=el('div','card-detail');panel.append(button('Close ×',()=>overlay.remove(),'detail-close'));const pic=el('div','detail-svg');inlineSvg(img(card),pic,compactCardText);panel.append(pic,el('h3','',title(card.id)));overlay.append(panel);overlay.onclick=e=>{if(e.target===overlay)overlay.remove()};document.body.append(overlay)}
+function showCardDetail(card){const overlay=el('div','card-overlay');overlay.setAttribute('role','dialog');overlay.setAttribute('aria-modal','true');overlay.setAttribute('aria-label',title(card.id));const panel=el('div','card-detail');panel.append(button('Close ×',()=>overlay.remove(),'detail-close'));const pic=el('div','detail-svg');inlineSvg(img(card),pic);panel.append(pic,el('h3','',title(card.id)));overlay.append(panel);overlay.onclick=e=>{if(e.target===overlay)overlay.remove()};document.body.append(overlay)}
 function renderDice(main){main.append(el('h2','','Dice tray'));const tray=el('div','dice-tray');state.dice.forEach((d,i)=>{const item=el('div','die '+(d.locked?'locked':''));const pic=el('div','die-face');inlineSvg(face(state.hero,d.value),pic);pic.onclick=()=>{const n=prompt('Set die '+(i+1)+' to a number (1–6)',d.value);if(n!==null&&Number.isInteger(+n)&&+n>=1&&+n<=6)action(()=>state.dice[i].value=+n)};item.append(pic,el('span','',String(d.value)),button(d.locked?'Unlock':'Keep',()=>action(()=>state.dice[i].locked=!d.locked)));tray.append(item)});main.append(tray);const controls=el('div','controls');controls.append(button('Roll unlocked dice',()=>action(()=>state.dice.forEach(d=>{if(!d.locked)d.value=1+Math.floor(Math.random()*6)}))),button('Unlock all',()=>action(()=>state.dice.forEach(d=>d.locked=false))));main.append(controls,el('p','hint','Tap any die face to set its number manually. The corresponding hero-specific icon changes with it.'))}
 function renderResources(main){const area=el('section','resources');for(const [label,key] of [['Health','health'],['Combat points','cp']]){const item=el('div','resource');item.append(el('h3','',label));const art=el('div','dial-art');inlineSvg(root+'Heroes/'+state.hero+'/'+(key==='health'?'health_dial.svg':'cp_dial.svg'),art);const number=el('span','dial-value',String(state[key]));item.append(art);item.append(number);const controls=el('div','controls dial-controls');controls.append(button('−',()=>action(()=>state[key]=Math.max(0,state[key]-1))),button('+',()=>action(()=>state[key]++)));item.append(controls);area.append(item)}main.append(area)}
 function showAbilityZoom(svg,id){
@@ -70,7 +86,7 @@ function renderBoard(main){
     const holder=document.createElement('div');holder.setAttribute('xmlns','http://www.w3.org/1999/xhtml');
     holder.className='installed-ability';
     holder.style.cssText='width:100%;height:100%;display:flex;align-items:center;justify-content:center;overflow:hidden;background:#111b2d;border-radius:10px';
-    const image=document.createElement('img');image.src=img(upgrade);image.alt=title(upgrade.id);
+    const image=document.createElement('div');image.className='installed-upgrade-art';image.setAttribute('aria-label',title(upgrade.id));inlineSvg(img(upgrade),image);
     image.style.cssText='display:block;width:100%;height:100%;object-fit:contain';
     holder.append(image);cardFrame.append(holder);
     g.replaceChildren(cardFrame);
@@ -84,4 +100,18 @@ function renderCards(main){const counts=el('p','counts','Deck: '+state.deck.leng
 if(state.peek){main.append(el('h3','','Top '+state.peek+' cards (leftmost is next)'));const peek=el('div','cards');state.deck.slice(0,state.peek).forEach((c,i)=>{const box=cardNode(c);const moves=el('div','controls');moves.append(button('To top',()=>action(()=>{state.deck.splice(i,1);state.deck.unshift(c);state.peek=Math.min(state.peek,state.deck.length)})),button('To bottom',()=>action(()=>{state.deck.splice(i,1);state.deck.push(c);state.peek=Math.min(state.peek,state.deck.length)})));if(i>0)moves.append(button('Move earlier',()=>action(()=>{[state.deck[i-1],state.deck[i]]=[state.deck[i],state.deck[i-1]]})));if(i<state.peek-1)moves.append(button('Move later',()=>action(()=>{[state.deck[i+1],state.deck[i]]=[state.deck[i],state.deck[i+1]]})));box.append(moves);peek.append(box)});main.append(peek,button('Finish peeking',()=>action(()=>state.peek=0)))}
 main.append(el('h3','','Hand'));const hand=el('div','cards');state.hand.forEach((c,i)=>{const box=cardNode(c);const actions=el('div','controls');const slot=upgrades[state.hero][c.id];if(slot){actions.append(button('Install on '+slot,()=>action(()=>{state.hand.splice(i,1);if(state.upgrades[slot])state.discard.push(state.upgrades[slot]);state.upgrades[slot]=c}),'primary'))}else actions.append(button('Play / discard',()=>action(()=>{state.discard.push(state.hand.splice(i,1)[0])}),'primary'));actions.append(button('Discard',()=>action(()=>{state.discard.push(state.hand.splice(i,1)[0])})));box.append(actions);hand.append(box)});main.append(hand);main.append(el('h3','','Discard pile'));const discard=el('div','cards');state.discard.slice().reverse().forEach(c=>discard.append(cardNode(c)));main.append(discard)}
 function renderTokens(main){main.append(el('h2','','Resources and status tokens'));for(const [name,value] of [['Health',state.health],['CP',state.cp],...Object.entries(state.tokens)]){const line=el('div','counter');line.append(el('strong','',name),button('−',()=>action(()=>{if(name==='Health')state.health=Math.max(0,state.health-1);else if(name==='CP')state.cp=Math.max(0,state.cp-1);else state.tokens[name]=Math.max(0,state.tokens[name]-1)})),el('output','',String(value)),button('+',()=>action(()=>{if(name==='Health')state.health++;else if(name==='CP')state.cp++;else state.tokens[name]++})));main.append(line)}main.append(el('p','hint','Values are intentionally manual. Status effect stack limits and card costs are not enforced.'))}
-render();
+async function start(){
+ try{
+  await Promise.all([
+   document.fonts.load('400 50px "Gardablack"'),
+   document.fonts.load('400 40px "Avenir Next Condensed"'),
+   document.fonts.load('italic 400 40px "Avenir Next Condensed"'),
+   document.fonts.load('600 40px "Avenir Next Condensed"'),
+   document.fonts.load('italic 600 40px "Avenir Next Condensed"'),
+   document.fonts.load('700 40px "Avenir Next Condensed"'),
+   document.fonts.load('italic 700 40px "Avenir Next Condensed"')
+  ]);
+ }catch(error){console.error('Unable to load bundled asset fonts:',error)}
+ render();
+}
+start();

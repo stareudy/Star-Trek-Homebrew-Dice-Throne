@@ -1,7 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 344 344" width="344" height="344" role="img" aria-label="EMH numbered die face 6"><title>EMH numbered die face 6</title><desc>Vector die face and symbol based on the approved icon, with placement and numeral color matched to the numbered PNG reference.</desc><defs>
-    <clipPath id="face-clip"><rect x="0" y="0" width="344" height="344" rx="31" /></clipPath>
-  </defs>
-  <g clip-path="url(#face-clip)"><rect x="0" y="0" width="344" height="344" fill="#F3EBD8" /><g transform="translate(22.675556 82.518018) scale(0.857778 0.86036)"><g fill="#B8860B">
+    </defs>
+  <g><rect x="0" y="0" width="344" height="344" fill="#F3EBD8" rx="31" /><g transform="translate(22.675556 82.518018) scale(0.857778 0.86036)"><g fill="#B8860B">
       <path d="M172 61 L182 161 L254 172 L182 183 L172 282 L161 183 L90 172 L161 161 Z" />
       <path d="M262 65 L266 92 L283 96 L266 99 L262 126 L259 99 L241 96 L259 92 Z" />
       <path d="M80 221 L83 244 L98 247 L83 250 L80 272 L77 250 L61 247 L77 244 Z" />

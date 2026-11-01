@@ -1,9 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 344 344" width="344" height="344" role="img" aria-label="Janeway numbered die face 3"><title>Janeway numbered die face 3</title><desc>Vector die face and symbol based on the approved icon, with placement and numeral color matched to the numbered PNG reference.</desc><defs>
-    <clipPath id="face-clip">
-      <rect x="0" y="0" width="344" height="344" rx="31" /></clipPath>
-  </defs>
-  <g clip-path="url(#face-clip)"><rect x="0" y="0" width="344" height="344" fill="#003085" /><g transform="translate(14.355975 17.792544) scale(1.080489 1.071449)"><g transform="translate(0 3.7) translate(172 172) scale(0.8322 0.7245) translate(-172 -172)">
+    </defs>
+  <g><rect x="0" y="0" width="344" height="344" fill="#003085" rx="31" /><g transform="translate(14.355975 17.792544) scale(1.080489 1.071449)"><g transform="translate(0 3.7) translate(172 172) scale(0.8322 0.7245) translate(-172 -172)">
     <g fill="#7A848B" transform="translate(0 -28)">
       
 

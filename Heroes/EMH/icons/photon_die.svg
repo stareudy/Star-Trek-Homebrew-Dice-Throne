@@ -1,10 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 344 344" width="344" height="344" role="img" aria-label="Three gold photon starbursts on a beige die face" overflow="visible">
   <defs id="approved-reusable-die-lighting"><linearGradient id="reusable-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28" /><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02" /><stop offset="1" stop-color="#101018" stop-opacity="0.24" /></linearGradient><filter id="reusable-dice-shared-shadow" x="-0.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="36" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="28" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><g id="approved-reusable-die-surface" filter="url(#reusable-dice-shared-shadow)"><title>Photon die face</title>
   <defs>
-    <clipPath id="face-clip"><rect x="0" y="0" width="344" height="344" rx="31" /></clipPath>
-  </defs>
-  <g clip-path="url(#face-clip)">
-    <rect width="344" height="344" fill="#F3EBD8" />
+    </defs>
+  <g>
+    <rect width="344" height="344" fill="#F3EBD8" rx="31" />
     <g fill="#B8860B">
       <path d="M172 61 L182 161 L254 172 L182 183 L172 282 L161 183 L90 172 L161 161 Z" />
       <path d="M262 65 L266 92 L283 96 L266 99 L262 126 L259 99 L241 96 L259 92 Z" />

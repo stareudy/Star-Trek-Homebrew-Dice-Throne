@@ -3,14 +3,9 @@
   <title>Coffee token</title>
   <desc>Vector coffee cup and steam on a full-bleed dark blue circular background.</desc>
   <defs>
-    <clipPath id="face-clip">
-      <circle cx="172" cy="172" r="172" />
-    </clipPath>
-  </defs>
-  <g clip-path="url(#face-clip)">
-    <rect width="344" height="344" fill="#4A3528" />
-
-    <g transform="translate(0 3.7) translate(172 172) scale(0.9986 0.8694) translate(-172 -172)">
+    </defs>
+  <g>
+    <circle fill="#4A3528" cx="172" cy="172" r="172" /><g transform="translate(0 3.7) translate(172 172) scale(0.9986 0.8694) translate(-172 -172)">
     <g fill="#7A848B" transform="translate(0 -28)">
       
 

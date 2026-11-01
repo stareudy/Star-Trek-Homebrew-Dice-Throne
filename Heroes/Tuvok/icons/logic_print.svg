@@ -1,13 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 344 344" width="344" height="344" role="img" aria-label="Logic token">
   <title>Logic token</title>
   <desc>Flat vector three-node logic symbol.</desc>
   <defs>
-    <clipPath id="face-clip">
-      <circle cx="172" cy="172" r="172" />
-    </clipPath>
-  </defs>
-  <g clip-path="url(#face-clip)">
-    <rect width="344" height="344" fill="#01164D" />
-
-    <g transform="scale(0.5733333333333333)" stroke-linecap="round" stroke-linejoin="round"><path d="M176 298 L400 174 M176 298 L396 420" fill="none" stroke="#000000" stroke-width="22.7" stroke-linecap="round" /><path d="M176 298 L400 174 M176 298 L396 420" fill="none" stroke="#FEFDFD" stroke-width="19" stroke-linecap="round" /><circle cx="176" cy="298" r="63" fill="#FEFDFD" stroke="#000000" stroke-width="3.7" /><circle cx="400" cy="174" r="62" fill="#FEFDFD" stroke="#000000" stroke-width="3.7" /><circle cx="396" cy="420" r="62" fill="#F3C322" stroke="#000000" stroke-width="3.7" /></g></g>
+    </defs>
+  <g>
+    <circle fill="#01164D" cx="172" cy="172" r="172" /><g transform="scale(0.5733333333333333)" stroke-linecap="round" stroke-linejoin="round"><path d="M176 298 L400 174 M176 298 L396 420" fill="none" stroke="#000000" stroke-width="22.7" stroke-linecap="round" /><path d="M176 298 L400 174 M176 298 L396 420" fill="none" stroke="#FEFDFD" stroke-width="19" stroke-linecap="round" /><circle cx="176" cy="298" r="63" fill="#FEFDFD" stroke="#000000" stroke-width="3.7" /><circle cx="400" cy="174" r="62" fill="#FEFDFD" stroke="#000000" stroke-width="3.7" /><circle cx="396" cy="420" r="62" fill="#F3C322" stroke="#000000" stroke-width="3.7" /></g></g>
 </svg>

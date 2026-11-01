@@ -1,13 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 344 344" width="344" height="344" role="img" aria-label="Reprimand token">
   <title>Reprimand token</title>
   <desc>Flat vector capsule symbol.</desc>
   <defs>
-    <clipPath id="face-clip">
-      <circle cx="172" cy="172" r="172" />
-    </clipPath>
-  </defs>
-  <g clip-path="url(#face-clip)">
-    <rect width="344" height="344" fill="#8A040B" />
-
-    <g transform="scale(0.5733333333333333)" stroke-linecap="round" stroke-linejoin="round"><path d="M126 251 L474 251 C502 251 520 270 520 299 C520 328 502 348 474 348 L126 348 C98 348 80 328 80 299 C80 270 98 251 126 251 Z" fill="#FBEFD9" stroke="#000000" stroke-width="3.6627905" /></g></g>
+    </defs>
+  <g>
+    <circle fill="#8A040B" cx="172" cy="172" r="172" /><g transform="scale(0.5733333333333333)" stroke-linecap="round" stroke-linejoin="round"><path d="M126 251 L474 251 C502 251 520 270 520 299 C520 328 502 348 474 348 L126 348 C98 348 80 328 80 299 C80 270 98 251 126 251 Z" fill="#FBEFD9" stroke="#000000" stroke-width="3.6627905" /></g></g>
 </svg>

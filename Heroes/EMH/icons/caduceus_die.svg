@@ -1,12 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 344 344" width="344" height="344" role="img" aria-label="EMH caduceus die-face vector draft" overflow="visible">
   <defs id="approved-reusable-die-lighting"><linearGradient id="reusable-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28" /><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02" /><stop offset="1" stop-color="#101018" stop-opacity="0.24" /></linearGradient><filter id="reusable-dice-shared-shadow" x="-0.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="36" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="28" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><g id="approved-reusable-die-surface" filter="url(#reusable-dice-shared-shadow)"><title>EMH caduceus die-face draft</title>
   <defs>
-    <clipPath id="face-clip">
-      <rect x="0" y="0" width="344" height="344" rx="31" />
-    </clipPath>
-  </defs>
-  <g clip-path="url(#face-clip)">
-    <rect width="344" height="344" fill="#F3EBD8" /><g transform="translate(172 172) scale(0.926744186047) translate(-172 -172)"><g fill="#287EAE">
+    </defs>
+  <g>
+    <rect width="344" height="344" fill="#F3EBD8" rx="31" /><g transform="translate(172 172) scale(0.926744186047) translate(-172 -172)"><g fill="#287EAE">
       <g id="caduceus-vector" transform="translate(32 37) scale(0.294426919 0.270000000)" fill="#287EAE">
         <g id="symmetrical-wings">
           <path fill="#287EAE" d="M 20 45 L 270 45 C 297 45 319 58 319 80 L 319 130 L 29 130 L 2 78 C -5 63 4 45 20 45 Z" />

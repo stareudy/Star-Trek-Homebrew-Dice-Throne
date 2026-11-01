@@ -1,10 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 354 354" width="344" height="344" role="img" aria-label="Mind Meld token with two facing profiles, pointed ears and cyan connection">
 <title>Mind Meld token</title>
-<defs><clipPath id="face"><circle cx="172" cy="172" r="172" /></clipPath></defs>
-<g clip-path="url(#face)">
-<rect width="344" height="344" fill="#021A46" />
-<g transform="translate(172 172) scale(.90) translate(-172 -172)"><g transform="scale(0.5733333333333333)"><g id="original-emblem">
+<defs />
+<g>
+<circle fill="#021A46" cx="172" cy="172" r="172" /><g transform="translate(172 172) scale(.90) translate(-172 -172)"><g transform="scale(0.5733333333333333)"><g id="original-emblem">
 <path id="right-profile" d="M 448 146 C 504 144 546 180 551 237 C 553 261 547 283 531 306 C 515 336 514 366 537 404 C 503 414 467 437 435 462 C 437 448 426 407 418 394 C 413 385 402 392 385 395 C 369 399 357 399 356 387 C 355 380 360 371 356 366 C 352 362 348 358 350 353 C 350 351 353 350 354 349 C 349 347 344 344 345 338 C 347 332 351 326 341 324 C 333 321 327 316 329 309 C 334 298 347 278 350 271 C 353 265 347 262 345 255 C 341 242 346 219 350 202 C 369 164 409 144 448 146 Z" fill="#FEFDFD" stroke="#000000" stroke-width="4.0697674419" stroke-linejoin="round" />
 <path id="left-profile" d="M 448 146 C 504 144 546 180 551 237 C 553 261 547 283 531 306 C 515 336 514 366 537 404 C 503 414 467 437 435 462 C 437 448 426 407 418 394 C 413 385 402 392 385 395 C 369 399 357 399 356 387 C 355 380 360 371 356 366 C 352 362 348 358 350 353 C 350 351 353 350 354 349 C 349 347 344 344 345 338 C 347 332 351 326 341 324 C 333 321 327 316 329 309 C 334 298 347 278 350 271 C 353 265 347 262 345 255 C 341 242 346 219 350 202 C 369 164 409 144 448 146 Z" transform="translate(600 0) scale(-1 1)" fill="#FEFDFD" stroke="#000000" stroke-width="4.0697674419" stroke-linejoin="round" />
 <path id="right-ear" d="M 514 214 C 522 214 523 260 514 280 C 505 309 492 320 479 330 C 474 334 471 338 470 343 C 469 336 471 329 477 324 C 492 314 501 298 506 280 C 513 256 515 238 513 225 C 506 237 496 248 482 258 C 470 267 462 276 459 287 C 458 272 462 265 470 258 C 484 247 500 239 509 219 C 511 216 513 212 514 214 Z" fill="#021A46" />

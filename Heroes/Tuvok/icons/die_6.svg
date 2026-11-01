@@ -1,8 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 344 344" width="344" height="344" role="img" aria-label="Tuvok numbered die face 6"><title>Tuvok numbered die face 6</title><desc>Vector die face and symbol based on the approved icon, with placement and numeral color matched to the numbered PNG reference.</desc><defs>
-    <clipPath id="face-clip"><rect x="0" y="0" width="344" height="344" rx="31" /></clipPath>
-  </defs>
-  <g clip-path="url(#face-clip)"><rect x="0" y="0" width="344" height="344" fill="#55286F" /><g transform="translate(13.121151 16.743704) scale(1.079869 1.074488)"><g transform="translate(172 172) scale(0.926744186047) translate(-172 -172)"><circle cx="168.5" cy="162.5" r="100.5" fill="#DDAE2F" stroke="#55595D" stroke-width="2" />
+    </defs>
+  <g><rect x="0" y="0" width="344" height="344" fill="#55286F" rx="31" /><g transform="translate(13.121151 16.743704) scale(1.079869 1.074488)"><g transform="translate(172 172) scale(0.926744186047) translate(-172 -172)"><circle cx="168.5" cy="162.5" r="100.5" fill="#DDAE2F" stroke="#55595D" stroke-width="2" />
     <circle cx="140" cy="137" r="45.5" fill="#55286F" stroke="#55595D" stroke-width="2" />
 
     <path d="M151 143 L188 282 L238 241 Z" fill="#D8D8D8" stroke="#55595D" stroke-width="2" stroke-linejoin="round" />

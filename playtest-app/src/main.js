@@ -41,8 +41,22 @@ function action(fn){fn();save();render()}
 function button(label,fn,cls=''){const b=document.createElement('button');b.textContent=label;b.className=cls;b.onclick=fn;return b}
 function el(tag,cls,text){const x=document.createElement(tag);if(cls)x.className=cls;if(text!==undefined)x.textContent=text;return x}
 function cardNode(c){const x=el('div','card');const pic=el('div','svg-art');x.append(pic);inlineSvg(img(c),pic);x.append(el('small','',title(c.id)));return x}
-function render(){const app=$('#app');app.replaceChildren();const header=el('header');header.append(el('h1','','Voyager Dice Throne'));const sel=el('select');for(const h of HEROES){const o=el('option','',h);o.value=h;sel.append(o)}sel.value=state.hero;sel.onchange=()=>{if(confirm('Start a new '+sel.value+' session?'))action(()=>state=newGame(sel.value));else sel.value=state.hero};header.append(sel,button('Inspect deck',()=>renderInspection()),button('Reset session',()=>{if(confirm('Reset all progress for '+state.hero+'?'))action(()=>state=newGame(state.hero))}));app.append(header);
+function render(){const app=$('#app');app.replaceChildren();const header=el('header');header.append(el('h1','','Voyager Dice Throne'));const sel=el('select');for(const h of HEROES){const o=el('option','',h);o.value=h;sel.append(o)}sel.value=state.hero;sel.onchange=()=>{if(confirm('Start a new '+sel.value+' session?'))action(()=>state=newGame(sel.value));else sel.value=state.hero};header.append(sel,button('View Leaflet',showLeaflet,'primary'),button('Inspect deck',()=>renderInspection()),button('Reset session',()=>{if(confirm('Reset all progress for '+state.hero+'?'))action(()=>state=newGame(state.hero))}));app.append(header);
 const main=el('main','play-layout');app.append(main);for(const [name,draw] of [['resources-pane',renderResources],['dice-pane',renderDice],['board-pane',renderBoard],['cards-pane',renderCards]]){const pane=el('section','play-pane '+name);main.append(pane);draw(pane)}
+}
+function showLeaflet(){
+ const overlay=el('div','card-overlay leaflet-overlay');
+ overlay.setAttribute('role','dialog');overlay.setAttribute('aria-modal','true');
+ overlay.setAttribute('aria-label',state.hero+' leaflet');
+ const panel=el('div','leaflet-detail');
+ const finish=()=>{overlay.remove();document.removeEventListener('keydown',onKeyDown)};
+ const close=button('Close ×',finish,'detail-close');
+ const picture=el('div','leaflet-svg');
+ panel.append(close,picture);overlay.append(panel);
+ inlineSvg(root+'Heroes/'+state.hero+'/leaflet.svg',picture);
+ overlay.onclick=e=>{if(e.target===overlay)finish()};
+ const onKeyDown=e=>{if(e.key==='Escape')finish()};
+ document.addEventListener('keydown',onKeyDown);document.body.append(overlay);close.focus();
 }
 function renderInspection(){const app=$('#app');app.replaceChildren();const header=el('header','inspection-header');header.append(el('h1','','Deck inspection — '+state.hero),button('Back to play',render,'primary'));app.append(header);app.append(el('p','hint','Hero-specific card reference only (14 cards). Shared standard cards are excluded. Inspection does not change the game. Tap a card to enlarge it.'));const grid=el('div','inspection-grid');const all=heroCards[state.hero].map(id=>({id,hero:state.hero}));all.forEach(card=>{const tile=button('',()=>showCardDetail(card),'inspection-tile');tile.append(cardNode(card));grid.append(tile)});app.append(grid)}
 function showCardDetail(card){const overlay=el('div','card-overlay');overlay.setAttribute('role','dialog');overlay.setAttribute('aria-modal','true');overlay.setAttribute('aria-label',title(card.id));const panel=el('div','card-detail');panel.append(button('Close ×',()=>overlay.remove(),'detail-close'));const pic=el('div','detail-svg');inlineSvg(img(card),pic);panel.append(pic,el('h3','',title(card.id)));overlay.append(panel);overlay.onclick=e=>{if(e.target===overlay)overlay.remove()};document.body.append(overlay)}

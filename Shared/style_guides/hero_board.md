@@ -147,3 +147,12 @@ Create the print kit from the hero's saved `hero_board.svg` using Google Chrome 
 9. Save the PDF in `STDT Outputs`, using the current hero's lowercase name in the filename: `<hero>_svg_hero_board _print_kit.pdf`.
 
 For physical printing, select **Actual Size / 100%**, rather than a setting that shrinks or fits the PDF to the printable area.
+
+## Matching passive and basic-power layouts across board and upgrades
+
+Use the explicit Markdown layout profiles and `matched_ability_layouts` in `layout_metrics.json`. These authorized corrections override preservation of a mismatched original anchor. Existing profiles without these markers retain their established positions.
+
+- `data-passive-layout="title_rules_v1"`: place the first rules baseline **79 effective SVG units below the ability/card title baseline**, matching Kolinar II. Apply on both the passive board panel and its Upgrade Card. Use `scripts/passive_layout.py`; keep subsequent Markdown line spacing, approved font sizes, title, artwork, and PASSIVE label unchanged. A passive ability has no activation row, so do not use an activation-to-text clearance.
+- `data-basic-layout="touching_deal_v1"`: for each three-, four-, and five-die damage row, leave **16.667 effective SVG units** from the final die's right border to the first visible character of **Deal**, on both board and Upgrade Cards. Use `set_standard_deal_anchor` in `scripts/basic_power_layout.py`. Consecutive dice still touch. Keep their original positions, sizes and vertical anchors. Remove colons between these activation groups and Deal in `rules.md`; never preserve a deleted colon's x position or insert a colon during conversion.
+
+Measure in final root SVG coordinates and compensate for nested transforms exactly once. Scale both constants uniformly if the whole asset coordinate scale changes. Apply the same selected profile to an ability and all its upgrades, including first-time generation, rather than inheriting incompatible legacy offsets. Verify the gaps and starting baselines numerically before saving; do not change unrelated abilities merely to normalize them.

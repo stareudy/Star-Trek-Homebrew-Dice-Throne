@@ -169,5 +169,14 @@
       "reference": "Janeway Coffee; header baseline 201.5, first rules baseline 315.32",
       "placement": "Measure root-coordinate baselines after transforms; translate complete rules block; never recenter afterward."
     }
+  },
+  "matched_ability_layouts": {
+    "passive_title_to_first_rules_baseline": 79.0,
+    "dice_to_deal_gap": 16.667,
+    "units": "Effective root SVG units at standard board/card coordinate scales; remove group scaling once when positioning locally.",
+    "profiles": {
+      "title_rules_v1": "Passive ability and matching upgrade share title-to-first-baseline clearance.",
+      "touching_deal_v1": "Touching activation dice, then clear dice_to_deal_gap before Deal; no colon."
+    }
   }
 }

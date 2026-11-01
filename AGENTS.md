@@ -156,6 +156,8 @@ Setting a new card's CP tag in step 5 is part of creating that card; the existin
 - If a CP cost differs between `rules.txt` and either asset version, report the mismatch and wait for the user's correction instructions; do not change any cost on your own.
 - Do not edit the large status-token emblems on the leaflet as part of a `rules.txt` or asset update. They are separate design elements and should remain as they are unless the user explicitly directs a change to them.
 
+- For matched passive and basic damage layouts, honor `data-passive-layout="title_rules_v1"` and `data-basic-layout="touching_deal_v1"` in `rules.md`. Use the shared `matched_ability_layouts` metrics and the helpers in `scripts/passive_layout.py` and `scripts/basic_power_layout.py`. Passive rules start 79 effective SVG units below the title baseline; marked basic damage rows leave 16.667 effective units between the last die border and Deal, with no colon. Apply the same profile across board and upgrades, compensate for transforms once, preserve activation geometry/vertical anchors and subsequent line spacing, and verify numerically. These explicit profiles supersede mismatched original anchors for authorized corrections and first-time generation.
+
 ### Comparison checklist
 
 - Compare each affected rules line with `rules.txt`, preserving the exact wording, capitalization, numerals, punctuation, and icon order.

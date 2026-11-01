@@ -22,6 +22,29 @@ def set_basic_text_anchor(row,texts,baseline):
     row['source_text_start_x']=basic_text_start(texts,baseline)
 
 
+def set_standard_deal_anchor(row, root, group, scale=1.0):
+    """Use the shared clear gap after dice; never preserve a colon's old x."""
+    import json
+    from pathlib import Path
+    from ultimate_rules import matrices
+    tokens = row['tokens']
+    first = next(t for t in tokens if t['kind'] == 'text' and t['text'].strip())
+    if first['text'] != 'Deal':
+        raise ValueError('Basic damage rows must start with Deal after dice, without a colon')
+    dice = [t for t in tokens if t['kind'] == 'icon' and t['name'].endswith('_die.svg')]
+    if not dice or any('source_x' not in t for t in dice):
+        raise ValueError('Basic damage rows need positioned activation dice')
+    metric = Path(__file__).resolve().parents[1] / 'Shared/style_guides/layout_metrics.json'
+    if scale <= 0:
+        raise ValueError('Layout scale must be positive')
+    gap = json.loads(metric.read_text())['matched_ability_layouts']['dice_to_deal_gap'] * scale
+    matrix = matrices(root)[group]
+    if matrix[0] <= 0 or abs(matrix[1])+abs(matrix[2]) > .00001:
+        raise ValueError('Rotated/skewed basic rows need a separate profile')
+    row['source_text_start_x'] = max(t['source_x']+t['width'] for t in dice) + gap/matrix[0]
+    return gap
+
+
 def new_basic_row(asset, dice_count, origin=(0, 0), scale=1.0, metrics_path=None):
     """Construct approved first-placement anchors without an original asset.
 

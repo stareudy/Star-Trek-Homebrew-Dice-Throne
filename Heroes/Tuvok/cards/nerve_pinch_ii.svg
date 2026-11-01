@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2.25in" height="3.5in" viewBox="0 0 675 1050">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:ns1="http://www.inkscape.org/namespaces/inkscape" xmlns:xlink="http://www.w3.org/1999/xlink" width="2.25in" height="3.5in" viewBox="0 0 675 1050">
   <defs id="glass-panel-definitions"><linearGradient id="nerve_pinch_ii-art-fade-gradient" gradientUnits="userSpaceOnUse" x1="0" y1="159" x2="0" y2="1021"><stop offset="0" stop-color="white" stop-opacity="0" /><stop offset="1" stop-color="white" stop-opacity="1" /></linearGradient><mask id="nerve_pinch_ii-art-fade-mask" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="30" y="159" width="615" height="862" style="mask-type:alpha"><rect x="30" y="159" width="615" height="862" fill="url(#nerve_pinch_ii-art-fade-gradient)" /></mask><linearGradient id="surface-study-continuous-light" gradientUnits="userSpaceOnUse" x1="0" y1="22" x2="0" y2="1027"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.38" /><stop offset="0.065" stop-color="#FFFFFF" stop-opacity="0.08" /><stop offset="0.1353233831" stop-color="#16151B" stop-opacity="0.23" /><stop offset="0.23" stop-color="#16151B" stop-opacity="0.02" /><stop offset="0.8" stop-color="#16151B" stop-opacity="0.03" /><stop offset="1" stop-color="#16151B" stop-opacity="0.16" /></linearGradient>
 <linearGradient id="surface-study-header" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.38" /><stop offset="0.48" stop-color="#FFFFFF" stop-opacity="0.08" /><stop offset="1" stop-color="#16151B" stop-opacity="0.23" /></linearGradient>
 <linearGradient id="surface-study-frame" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.14" /><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0" /><stop offset="1" stop-color="#101018" stop-opacity="0.12" /></linearGradient>
@@ -45,783 +45,90 @@
     </filter>
   </defs>
   <defs id="vector-icon-filters"><filter id="vectorIconHalo" x="-0.7" y="-0.7" width="2.4" height="2.4" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="6.272" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="4.9" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter><filter id="vectorIconHaloSmall" x="-0.7" y="-0.7" width="2.4" height="2.4" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="4.224" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="3.3" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter><filter id="vectorIconHaloLarge" x="-0.7" y="-0.7" width="2.4" height="2.4" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="8.96" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="7" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><g id="glass-card-content" clip-path="url(#glass-card-trim)"><g id="registered-board-background" transform="matrix(0.975000000000 0 0 0.975000000000 -49.575162946875 -518.421130752000)" data-source-ability="nerve-pinch" data-registration="physical-print-scale-panel-center"><image id="linked-tuvok-board-background" x="0" y="-89.4257064722" width="4500" height="2789.4257064722" preserveAspectRatio="none" href="../art/tuvokboardbackground.png" /></g><g id="glass-ability-panel">
-<defs><linearGradient xmlns="http://www.w3.org/2000/svg" id="board-match-red-alert-vertical-shading" gradientUnits="userSpaceOnUse" x1="0" y1="28" x2="0" y2="1021"><stop offset="0" stop-color="#02060c" stop-opacity=".78" /><stop offset=".24" stop-color="#02060c" stop-opacity=".62" /><stop offset=".52" stop-color="#02060c" stop-opacity=".30" /><stop offset=".80" stop-color="#02060c" stop-opacity=".08" /><stop offset="1" stop-color="#02060c" stop-opacity="0" /></linearGradient><linearGradient xmlns="http://www.w3.org/2000/svg" id="board-match-tuvok-glass" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0" stop-color="#180e2c" stop-opacity="0.91" /><stop offset="0.55" stop-color="#2a1745" stop-opacity="0.87" /><stop offset="1" stop-color="#140b2b" stop-opacity="0.83" /></linearGradient></defs>
-<path xmlns="http://www.w3.org/2000/svg" id="nerve-pinch-glass-surface" d="M 74,28 H 601 Q 645,28 645,72 V 977 Q 645,1021 601,1021 H 74 Q 30,1021 30,977 V 72 Q 30,28 74,28 Z" fill="url(#board-match-tuvok-glass)" opacity=".96" /><path xmlns="http://www.w3.org/2000/svg" d="M 74,28 H 601 Q 645,28 645,72 V 977 Q 645,1021 601,1021 H 74 Q 30,1021 30,977 V 72 Q 30,28 74,28 Z" fill="url(#board-match-red-alert-vertical-shading)" />
+<defs><linearGradient id="board-match-red-alert-vertical-shading" gradientUnits="userSpaceOnUse" x1="0" y1="28" x2="0" y2="1021"><stop offset="0" stop-color="#02060c" stop-opacity=".78" /><stop offset=".24" stop-color="#02060c" stop-opacity=".62" /><stop offset=".52" stop-color="#02060c" stop-opacity=".30" /><stop offset=".80" stop-color="#02060c" stop-opacity=".08" /><stop offset="1" stop-color="#02060c" stop-opacity="0" /></linearGradient><linearGradient id="board-match-tuvok-glass" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0" stop-color="#180e2c" stop-opacity="0.91" /><stop offset="0.55" stop-color="#2a1745" stop-opacity="0.87" /><stop offset="1" stop-color="#140b2b" stop-opacity="0.83" /></linearGradient></defs>
+<path id="nerve-pinch-glass-surface" d="M 74,28 H 601 Q 645,28 645,72 V 977 Q 645,1021 601,1021 H 74 Q 30,1021 30,977 V 72 Q 30,28 74,28 Z" fill="url(#board-match-tuvok-glass)" opacity=".96" /><path d="M 74,28 H 601 Q 645,28 645,72 V 977 Q 645,1021 601,1021 H 74 Q 30,1021 30,977 V 72 Q 30,28 74,28 Z" fill="url(#board-match-red-alert-vertical-shading)" />
 
-<image xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:xlink="http://www.w3.org/1999/xlink" id="ability-art-image" inkscape:label="Nerve Pinch panel art" x="30" y="28" width="615" height="993" preserveAspectRatio="xMidYMid slice" href="../art/nerve_pinch.png" xlink:href="../art/nerve_pinch.png" clip-path="url(#glass-art-clip)" opacity="1" />
+<image id="ability-art-image" ns1:label="Nerve Pinch panel art" x="30" y="28" width="615" height="993" preserveAspectRatio="xMidYMid slice" href="../art/nerve_pinch.png" xlink:href="../art/nerve_pinch.png" clip-path="url(#glass-art-clip)" opacity="1" />
 <path d="M74 28 H601 Q645 28 645 72 V977 Q645 1021 601 1021 H74 Q30 1021 30 977 V72 Q30 28 74 28 Z" fill="none" stroke="#b9a8e6" stroke-width="3" /><path d="M49 4 H626 Q671 4 671 49 V1001 Q671 1046 626 1046 H49 Q4 1046 4 1001 V49 Q4 4 49 4 Z" fill="none" stroke="url(#new-rim-huntress)" stroke-width="5" stroke-opacity=".82" filter="url(#glass-rim-outer-shadow)" /><text id="card-title-text" data-text="NERVE PINCH II" data-font="Gardablack" x="337.5" y="110" text-anchor="middle" font-family="Gardablack" font-size="50px" font-weight="400" fill="#f4faff" filter="url(#abilityTitleHalo)">NERVE PINCH II</text>
-  </g><g id="upgrade-rules" aria-label="Editable formatted card rules" font-family="Avenir Next Condensed, sans-serif" font-size="37.5px" font-weight="400" fill="#F7F7F7">
-<defs><filter id="cardRulesTextHalo" x="-100" y="-100" width="875" height="1250" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="4" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="3.4" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter><filter id="cardRulesIconHalo" x="-100" y="-100" width="875" height="1250" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="6" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="5" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs>
-<g filter="url(#cardRulesIconHalo)"><svg viewBox="0 0 344 344" x="149.000" y="189.778" width="60.0" height="60.0" preserveAspectRatio="xMidYMid meet" data-original-x="146.209" data-original-y="417.861" data-original-width="68.444" data-original-height="68.444" overflow="visible" data-vector-icon="phaser_die" data-vector-source="Heroes/Tuvok/icons/phaser_die.svg" data-original-icon="../../icons/phaser_die.png" stroke="none" fill="#000000" text-anchor="start">
-  <title>Tuvok Phaser die-face blank draft</title>
-  <defs>
+  </g><g id="upgrade-rules" aria-label="Editable formatted card rules" font-family="Avenir Next Condensed, sans-serif" font-size="37.5px" font-weight="400" fill="#F7F7F7" data-rules-source="../rules.md" data-md-rule="NERVE PINCH II"><defs><filter id="cardRulesTextHalo" x="-100" y="-100" width="875" height="1250" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="4" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="3.4" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter><filter id="cardRulesIconHalo" x="-100" y="-100" width="875" height="1250" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="6" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="5" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs>
+<defs>
     <clipPath id="glass-icon-0-die-clip"><rect x="0" y="0" width="344" height="344" rx="31" /></clipPath>
   </defs>
-  <g clip-path="url(#glass-icon-0-die-clip)">
-    <rect width="344" height="344" fill="#55286F" />
-
-    
-    <path d="M 72 233 C 83.5 188.7, 102.7 144.3, 172 100 L 178.7 93.6 L 226.9 87.8 L 249.7 106.4 L 250.1 124 L 245.5 125.9 L 245.7 130.6 L 221.5 144.5 C 219.5 149, 212 154, 207 154 C 192 154.1, 177 152.4, 162 161 L 151 152 C 120 178, 95 238.6, 95 243.6 C 95 245.5, 102 247, 104 248 C 108 250, 100 258, 96 258 C 90 258, 66.5 244, 72 233 Z" fill="#A5A8AD" stroke="#000000" stroke-width="1.6" stroke-linecap="butt" stroke-linejoin="round" />
-
-    
-    <g fill="none" stroke="#000000" stroke-width="2.45" stroke-linecap="round">
-      <path d="M 148.21,159.34 L 156.51,164.11" />
-      <path d="M 144.28,163.28 L 152.49,167.83" />
-      <path d="M 140.52,167.33 L 148.81,171.76" />
-      <path d="M 137.25,171.65 L 144.80,175.61" />
-      <path d="M 133.82,175.84 L 141.68,179.82" />
-      <path d="M 130.75,180.20 L 137.97,183.75" />
-      <path d="M 127.12,184.49 L 134.80,187.97" />
-      <path d="M 124.12,188.84 L 131.73,192.26" />
-      <path d="M 121.24,193.39 L 128.77,196.66" />
-      <path d="M 118.39,198.00 L 125.78,200.89" />
-      <path d="M 115.91,202.69 L 123.46,205.53" />
-      <path d="M 113.24,207.36 L 120.54,210.03" />
-      <path d="M 110.63,212.21 L 117.76,214.64" />
-      <path d="M 108.17,217.08 L 115.48,219.49" />
-      <path d="M 106.00,221.98 L 112.85,224.08" />
-      <path d="M 104.06,226.92 L 110.71,229.01" />
-      <path d="M 101.91,231.79 L 108.31,233.69" />
-      <path d="M 100.05,236.80 L 106.29,238.63" />
-      <path d="M 98.02,241.70 L 104.45,243.31" />
-    </g>
-
-    
-    <g fill="#2A2C2F" stroke="none">
-      <path d="M 226.9,87.8 L 253.0,93.0 L 259.8,102.2 L 249.7,106.4 Z" />
-      <path d="M 253.0,93.0 L 262.9,94.8 L 270.0,102.0 L 259.8,102.2 Z" />
-      <path d="M 249.7,106.4 L 259.8,102.2 L 256.3,119.7 L 250.1,124.0 Z" />
-      <path d="M 259.8,102.2 L 270.0,102.0 L 272.4,104.1 L 270.8,111.4 C 269.0,110.8 265.0,113.8 264.0,116.8 L 256.3,119.7 Z" />
-    </g>
-
-    
-    <g fill="none" stroke="#000000" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M 226.9,87.8 L 253.0,93.0 L 259.8,102.2 L 249.7,106.4" />
-      <path d="M 226.9,87.8 L 249.7,106.4 L 250.1,124.0" />
-      <path d="M 253.0,93.0 L 262.9,94.8 L 270.0,102.0 L 259.8,102.2" />
-      <path d="M 256.3,119.7 L 250.1,124.0" />
-      <path d="M 259.8,102.2 L 256.3,119.7" />
-      <path d="M 270.0,102.0 L 272.4,104.1 L 270.8,111.4 C 269.0,110.8 265.0,113.8 264.0,116.8 L 256.3,119.7" />
-    </g>
-
-    
-    <polygon points="174,102 196,120 196,127 171,138 149,120" fill="#000000" stroke="#000000" stroke-width="1.1" stroke-linejoin="round" />
-
-    
-    <polygon points="172.57569330,106.27100453 178.49069330,111.59600453 172.03069330,116.96100453 166.11569330,111.63600453" fill="#FFFFFF" />
-    <polygon points="181.40430670,114.21899547 187.31930670,119.54399547 180.85930670,124.90899547 174.94430670,119.58399547" fill="#FFFFFF" />
-    <polygon points="162.05,114.38 176.19,127.10 170.69,131.66 156.56,118.95" fill="#972727" transform="rotate(0.0237123014 169.12 120.74)" />
-
-    
-    <g fill="none" stroke="#000000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M 221.5 145 L 211.5 116 L 202 116 L 178 97" />
-      <path d="M 198.2 93.5 L 203.8 98.1 L 228.5 94.4" />
-      <path d="M 211.2 102.8 L 216.8 108.2 L 240.5 104.4" />
-    </g>
-    
-  </g>
-<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#card-face-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></svg><svg viewBox="0 0 344 344" x="209.000" y="189.778" width="60.0" height="60.0" preserveAspectRatio="xMidYMid meet" data-original-x="218.486" data-original-y="417.861" data-original-width="68.444" data-original-height="68.444" overflow="visible" data-vector-icon="phaser_die" data-vector-source="Heroes/Tuvok/icons/phaser_die.svg" data-original-icon="../../icons/phaser_die.png" stroke="none" fill="#000000" text-anchor="start">
-  <title>Tuvok Phaser die-face blank draft</title>
   <defs>
     <clipPath id="glass-icon-1-die-clip"><rect x="0" y="0" width="344" height="344" rx="31" /></clipPath>
   </defs>
-  <g clip-path="url(#glass-icon-1-die-clip)">
-    <rect width="344" height="344" fill="#55286F" />
-
-    
-    <path d="M 72 233 C 83.5 188.7, 102.7 144.3, 172 100 L 178.7 93.6 L 226.9 87.8 L 249.7 106.4 L 250.1 124 L 245.5 125.9 L 245.7 130.6 L 221.5 144.5 C 219.5 149, 212 154, 207 154 C 192 154.1, 177 152.4, 162 161 L 151 152 C 120 178, 95 238.6, 95 243.6 C 95 245.5, 102 247, 104 248 C 108 250, 100 258, 96 258 C 90 258, 66.5 244, 72 233 Z" fill="#A5A8AD" stroke="#000000" stroke-width="1.6" stroke-linecap="butt" stroke-linejoin="round" />
-
-    
-    <g fill="none" stroke="#000000" stroke-width="2.45" stroke-linecap="round">
-      <path d="M 148.21,159.34 L 156.51,164.11" />
-      <path d="M 144.28,163.28 L 152.49,167.83" />
-      <path d="M 140.52,167.33 L 148.81,171.76" />
-      <path d="M 137.25,171.65 L 144.80,175.61" />
-      <path d="M 133.82,175.84 L 141.68,179.82" />
-      <path d="M 130.75,180.20 L 137.97,183.75" />
-      <path d="M 127.12,184.49 L 134.80,187.97" />
-      <path d="M 124.12,188.84 L 131.73,192.26" />
-      <path d="M 121.24,193.39 L 128.77,196.66" />
-      <path d="M 118.39,198.00 L 125.78,200.89" />
-      <path d="M 115.91,202.69 L 123.46,205.53" />
-      <path d="M 113.24,207.36 L 120.54,210.03" />
-      <path d="M 110.63,212.21 L 117.76,214.64" />
-      <path d="M 108.17,217.08 L 115.48,219.49" />
-      <path d="M 106.00,221.98 L 112.85,224.08" />
-      <path d="M 104.06,226.92 L 110.71,229.01" />
-      <path d="M 101.91,231.79 L 108.31,233.69" />
-      <path d="M 100.05,236.80 L 106.29,238.63" />
-      <path d="M 98.02,241.70 L 104.45,243.31" />
-    </g>
-
-    
-    <g fill="#2A2C2F" stroke="none">
-      <path d="M 226.9,87.8 L 253.0,93.0 L 259.8,102.2 L 249.7,106.4 Z" />
-      <path d="M 253.0,93.0 L 262.9,94.8 L 270.0,102.0 L 259.8,102.2 Z" />
-      <path d="M 249.7,106.4 L 259.8,102.2 L 256.3,119.7 L 250.1,124.0 Z" />
-      <path d="M 259.8,102.2 L 270.0,102.0 L 272.4,104.1 L 270.8,111.4 C 269.0,110.8 265.0,113.8 264.0,116.8 L 256.3,119.7 Z" />
-    </g>
-
-    
-    <g fill="none" stroke="#000000" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M 226.9,87.8 L 253.0,93.0 L 259.8,102.2 L 249.7,106.4" />
-      <path d="M 226.9,87.8 L 249.7,106.4 L 250.1,124.0" />
-      <path d="M 253.0,93.0 L 262.9,94.8 L 270.0,102.0 L 259.8,102.2" />
-      <path d="M 256.3,119.7 L 250.1,124.0" />
-      <path d="M 259.8,102.2 L 256.3,119.7" />
-      <path d="M 270.0,102.0 L 272.4,104.1 L 270.8,111.4 C 269.0,110.8 265.0,113.8 264.0,116.8 L 256.3,119.7" />
-    </g>
-
-    
-    <polygon points="174,102 196,120 196,127 171,138 149,120" fill="#000000" stroke="#000000" stroke-width="1.1" stroke-linejoin="round" />
-
-    
-    <polygon points="172.57569330,106.27100453 178.49069330,111.59600453 172.03069330,116.96100453 166.11569330,111.63600453" fill="#FFFFFF" />
-    <polygon points="181.40430670,114.21899547 187.31930670,119.54399547 180.85930670,124.90899547 174.94430670,119.58399547" fill="#FFFFFF" />
-    <polygon points="162.05,114.38 176.19,127.10 170.69,131.66 156.56,118.95" fill="#972727" transform="rotate(0.0237123014 169.12 120.74)" />
-
-    
-    <g fill="none" stroke="#000000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M 221.5 145 L 211.5 116 L 202 116 L 178 97" />
-      <path d="M 198.2 93.5 L 203.8 98.1 L 228.5 94.4" />
-      <path d="M 211.2 102.8 L 216.8 108.2 L 240.5 104.4" />
-    </g>
-    
-  </g>
-<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#card-face-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></svg><svg viewBox="0 0 344 344" x="269.000" y="189.778" width="60.0" height="60.0" preserveAspectRatio="xMidYMid meet" data-original-x="290.763" data-original-y="417.861" data-original-width="68.444" data-original-height="68.444" overflow="visible" data-vector-icon="phaser_die" data-vector-source="Heroes/Tuvok/icons/phaser_die.svg" data-original-icon="../../icons/phaser_die.png" stroke="none" fill="#000000" text-anchor="start">
-  <title>Tuvok Phaser die-face blank draft</title>
   <defs>
     <clipPath id="glass-icon-2-die-clip"><rect x="0" y="0" width="344" height="344" rx="31" /></clipPath>
   </defs>
-  <g clip-path="url(#glass-icon-2-die-clip)">
-    <rect width="344" height="344" fill="#55286F" />
-
-    
-    <path d="M 72 233 C 83.5 188.7, 102.7 144.3, 172 100 L 178.7 93.6 L 226.9 87.8 L 249.7 106.4 L 250.1 124 L 245.5 125.9 L 245.7 130.6 L 221.5 144.5 C 219.5 149, 212 154, 207 154 C 192 154.1, 177 152.4, 162 161 L 151 152 C 120 178, 95 238.6, 95 243.6 C 95 245.5, 102 247, 104 248 C 108 250, 100 258, 96 258 C 90 258, 66.5 244, 72 233 Z" fill="#A5A8AD" stroke="#000000" stroke-width="1.6" stroke-linecap="butt" stroke-linejoin="round" />
-
-    
-    <g fill="none" stroke="#000000" stroke-width="2.45" stroke-linecap="round">
-      <path d="M 148.21,159.34 L 156.51,164.11" />
-      <path d="M 144.28,163.28 L 152.49,167.83" />
-      <path d="M 140.52,167.33 L 148.81,171.76" />
-      <path d="M 137.25,171.65 L 144.80,175.61" />
-      <path d="M 133.82,175.84 L 141.68,179.82" />
-      <path d="M 130.75,180.20 L 137.97,183.75" />
-      <path d="M 127.12,184.49 L 134.80,187.97" />
-      <path d="M 124.12,188.84 L 131.73,192.26" />
-      <path d="M 121.24,193.39 L 128.77,196.66" />
-      <path d="M 118.39,198.00 L 125.78,200.89" />
-      <path d="M 115.91,202.69 L 123.46,205.53" />
-      <path d="M 113.24,207.36 L 120.54,210.03" />
-      <path d="M 110.63,212.21 L 117.76,214.64" />
-      <path d="M 108.17,217.08 L 115.48,219.49" />
-      <path d="M 106.00,221.98 L 112.85,224.08" />
-      <path d="M 104.06,226.92 L 110.71,229.01" />
-      <path d="M 101.91,231.79 L 108.31,233.69" />
-      <path d="M 100.05,236.80 L 106.29,238.63" />
-      <path d="M 98.02,241.70 L 104.45,243.31" />
-    </g>
-
-    
-    <g fill="#2A2C2F" stroke="none">
-      <path d="M 226.9,87.8 L 253.0,93.0 L 259.8,102.2 L 249.7,106.4 Z" />
-      <path d="M 253.0,93.0 L 262.9,94.8 L 270.0,102.0 L 259.8,102.2 Z" />
-      <path d="M 249.7,106.4 L 259.8,102.2 L 256.3,119.7 L 250.1,124.0 Z" />
-      <path d="M 259.8,102.2 L 270.0,102.0 L 272.4,104.1 L 270.8,111.4 C 269.0,110.8 265.0,113.8 264.0,116.8 L 256.3,119.7 Z" />
-    </g>
-
-    
-    <g fill="none" stroke="#000000" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M 226.9,87.8 L 253.0,93.0 L 259.8,102.2 L 249.7,106.4" />
-      <path d="M 226.9,87.8 L 249.7,106.4 L 250.1,124.0" />
-      <path d="M 253.0,93.0 L 262.9,94.8 L 270.0,102.0 L 259.8,102.2" />
-      <path d="M 256.3,119.7 L 250.1,124.0" />
-      <path d="M 259.8,102.2 L 256.3,119.7" />
-      <path d="M 270.0,102.0 L 272.4,104.1 L 270.8,111.4 C 269.0,110.8 265.0,113.8 264.0,116.8 L 256.3,119.7" />
-    </g>
-
-    
-    <polygon points="174,102 196,120 196,127 171,138 149,120" fill="#000000" stroke="#000000" stroke-width="1.1" stroke-linejoin="round" />
-
-    
-    <polygon points="172.57569330,106.27100453 178.49069330,111.59600453 172.03069330,116.96100453 166.11569330,111.63600453" fill="#FFFFFF" />
-    <polygon points="181.40430670,114.21899547 187.31930670,119.54399547 180.85930670,124.90899547 174.94430670,119.58399547" fill="#FFFFFF" />
-    <polygon points="162.05,114.38 176.19,127.10 170.69,131.66 156.56,118.95" fill="#972727" transform="rotate(0.0237123014 169.12 120.74)" />
-
-    
-    <g fill="none" stroke="#000000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M 221.5 145 L 211.5 116 L 202 116 L 178 97" />
-      <path d="M 198.2 93.5 L 203.8 98.1 L 228.5 94.4" />
-      <path d="M 211.2 102.8 L 216.8 108.2 L 240.5 104.4" />
-    </g>
-    
-  </g>
-<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#card-face-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></svg></g>
-<text x="339.000" y="243" text-anchor="start" xml:space="preserve" filter="url(#cardRulesTextHalo)">: Deal</text>
-<g filter="url(#cardRulesIconHalo)"><svg viewBox="0 0 900 900" x="425.012" y="199.500" width="54.0" height="54.0" preserveAspectRatio="xMidYMid meet" data-original-x="473.791" data-original-y="431" data-original-width="55" data-original-height="55" overflow="visible" data-vector-icon="normal_damage" data-vector-source="Shared/icons/normal_damage.svg" data-original-icon="../../../../Shared/icons/normal_damage_7.png" stroke="none" fill="#000000" text-anchor="start">
-  <title id="glass-icon-3-vi4-title">Normal damage burst</title>
-  <desc id="glass-icon-3-vi4-description">Clean vector redraw with editable text where applicable.</desc>
-  <g id="glass-icon-3-vi4-scaled-icon" transform="translate(13.5 13.5) scale(0.97)"><polygon id="glass-icon-3-vi4-outer-outline" points="450.00,13.00 485.09,93.72 535.25,21.40 553.92,107.42 617.23,46.26 618.76,134.27 692.78,86.65 677.11,173.26 759.01,140.99 726.74,222.89 813.35,207.22 765.73,281.24 853.74,282.77 792.58,346.08 878.60,364.75 806.28,414.91 887.00,450.00 806.28,485.09 878.60,535.25 792.58,553.92 853.74,617.23 765.73,618.76 813.35,692.78 726.74,677.11 759.01,759.01 677.11,726.74 692.78,813.35 618.76,765.73 617.23,853.74 553.92,792.58 535.25,878.60 485.09,806.28 450.00,887.00 414.91,806.28 364.75,878.60 346.08,792.58 282.77,853.74 281.24,765.73 207.22,813.35 222.89,726.74 140.99,759.01 173.26,677.11 86.65,692.78 134.27,618.76 46.26,617.23 107.42,553.92 21.40,535.25 93.72,485.09 13.00,450.00 93.72,414.91 21.40,364.75 107.42,346.08 46.26,282.77 134.27,281.24 86.65,207.22 173.26,222.89 140.99,140.99 222.89,173.26 207.22,86.65 281.24,134.27 282.77,46.26 346.08,107.42 364.75,21.40 414.91,93.72" fill="none" stroke="#FFFFFF" stroke-width="19" stroke-linejoin="miter" stroke-miterlimit="10" /><polygon id="glass-icon-3-vi4-burst" points="450.00,13.00 485.09,93.72 535.25,21.40 553.92,107.42 617.23,46.26 618.76,134.27 692.78,86.65 677.11,173.26 759.01,140.99 726.74,222.89 813.35,207.22 765.73,281.24 853.74,282.77 792.58,346.08 878.60,364.75 806.28,414.91 887.00,450.00 806.28,485.09 878.60,535.25 792.58,553.92 853.74,617.23 765.73,618.76 813.35,692.78 726.74,677.11 759.01,759.01 677.11,726.74 692.78,813.35 618.76,765.73 617.23,853.74 553.92,792.58 535.25,878.60 485.09,806.28 450.00,887.00 414.91,806.28 364.75,878.60 346.08,792.58 282.77,853.74 281.24,765.73 207.22,813.35 222.89,726.74 140.99,759.01 173.26,677.11 86.65,692.78 134.27,618.76 46.26,617.23 107.42,553.92 21.40,535.25 93.72,485.09 13.00,450.00 93.72,414.91 21.40,364.75 107.42,346.08 46.26,282.77 134.27,281.24 86.65,207.22 173.26,222.89 140.99,140.99 222.89,173.26 207.22,86.65 281.24,134.27 282.77,46.26 346.08,107.42 364.75,21.40 414.91,93.72" fill="#030304" stroke="#FFFFFF" stroke-width="9" stroke-linejoin="miter" stroke-miterlimit="10" />
-  <text id="glass-icon-3-vi4-editable-number" data-editable="number" x="438" y="663" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="561.11" font-weight="700" fill="#FFFFFF" data-vector-import="true">6</text>
-</g></svg></g>
-<g filter="url(#cardRulesIconHalo)"><svg viewBox="0 0 344 344" x="119.000" y="291.778" width="60.0" height="60.0" preserveAspectRatio="xMidYMid meet" data-original-x="110.071" data-original-y="519.861" data-original-width="68.444" data-original-height="68.444" overflow="visible" data-vector-icon="phaser_die" data-vector-source="Heroes/Tuvok/icons/phaser_die.svg" data-original-icon="../../icons/phaser_die.png" stroke="none" fill="#000000" text-anchor="start">
-  <title>Tuvok Phaser die-face blank draft</title>
   <defs>
     <clipPath id="glass-icon-4-die-clip"><rect x="0" y="0" width="344" height="344" rx="31" /></clipPath>
   </defs>
-  <g clip-path="url(#glass-icon-4-die-clip)">
-    <rect width="344" height="344" fill="#55286F" />
-
-    
-    <path d="M 72 233 C 83.5 188.7, 102.7 144.3, 172 100 L 178.7 93.6 L 226.9 87.8 L 249.7 106.4 L 250.1 124 L 245.5 125.9 L 245.7 130.6 L 221.5 144.5 C 219.5 149, 212 154, 207 154 C 192 154.1, 177 152.4, 162 161 L 151 152 C 120 178, 95 238.6, 95 243.6 C 95 245.5, 102 247, 104 248 C 108 250, 100 258, 96 258 C 90 258, 66.5 244, 72 233 Z" fill="#A5A8AD" stroke="#000000" stroke-width="1.6" stroke-linecap="butt" stroke-linejoin="round" />
-
-    
-    <g fill="none" stroke="#000000" stroke-width="2.45" stroke-linecap="round">
-      <path d="M 148.21,159.34 L 156.51,164.11" />
-      <path d="M 144.28,163.28 L 152.49,167.83" />
-      <path d="M 140.52,167.33 L 148.81,171.76" />
-      <path d="M 137.25,171.65 L 144.80,175.61" />
-      <path d="M 133.82,175.84 L 141.68,179.82" />
-      <path d="M 130.75,180.20 L 137.97,183.75" />
-      <path d="M 127.12,184.49 L 134.80,187.97" />
-      <path d="M 124.12,188.84 L 131.73,192.26" />
-      <path d="M 121.24,193.39 L 128.77,196.66" />
-      <path d="M 118.39,198.00 L 125.78,200.89" />
-      <path d="M 115.91,202.69 L 123.46,205.53" />
-      <path d="M 113.24,207.36 L 120.54,210.03" />
-      <path d="M 110.63,212.21 L 117.76,214.64" />
-      <path d="M 108.17,217.08 L 115.48,219.49" />
-      <path d="M 106.00,221.98 L 112.85,224.08" />
-      <path d="M 104.06,226.92 L 110.71,229.01" />
-      <path d="M 101.91,231.79 L 108.31,233.69" />
-      <path d="M 100.05,236.80 L 106.29,238.63" />
-      <path d="M 98.02,241.70 L 104.45,243.31" />
-    </g>
-
-    
-    <g fill="#2A2C2F" stroke="none">
-      <path d="M 226.9,87.8 L 253.0,93.0 L 259.8,102.2 L 249.7,106.4 Z" />
-      <path d="M 253.0,93.0 L 262.9,94.8 L 270.0,102.0 L 259.8,102.2 Z" />
-      <path d="M 249.7,106.4 L 259.8,102.2 L 256.3,119.7 L 250.1,124.0 Z" />
-      <path d="M 259.8,102.2 L 270.0,102.0 L 272.4,104.1 L 270.8,111.4 C 269.0,110.8 265.0,113.8 264.0,116.8 L 256.3,119.7 Z" />
-    </g>
-
-    
-    <g fill="none" stroke="#000000" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M 226.9,87.8 L 253.0,93.0 L 259.8,102.2 L 249.7,106.4" />
-      <path d="M 226.9,87.8 L 249.7,106.4 L 250.1,124.0" />
-      <path d="M 253.0,93.0 L 262.9,94.8 L 270.0,102.0 L 259.8,102.2" />
-      <path d="M 256.3,119.7 L 250.1,124.0" />
-      <path d="M 259.8,102.2 L 256.3,119.7" />
-      <path d="M 270.0,102.0 L 272.4,104.1 L 270.8,111.4 C 269.0,110.8 265.0,113.8 264.0,116.8 L 256.3,119.7" />
-    </g>
-
-    
-    <polygon points="174,102 196,120 196,127 171,138 149,120" fill="#000000" stroke="#000000" stroke-width="1.1" stroke-linejoin="round" />
-
-    
-    <polygon points="172.57569330,106.27100453 178.49069330,111.59600453 172.03069330,116.96100453 166.11569330,111.63600453" fill="#FFFFFF" />
-    <polygon points="181.40430670,114.21899547 187.31930670,119.54399547 180.85930670,124.90899547 174.94430670,119.58399547" fill="#FFFFFF" />
-    <polygon points="162.05,114.38 176.19,127.10 170.69,131.66 156.56,118.95" fill="#972727" transform="rotate(0.0237123014 169.12 120.74)" />
-
-    
-    <g fill="none" stroke="#000000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M 221.5 145 L 211.5 116 L 202 116 L 178 97" />
-      <path d="M 198.2 93.5 L 203.8 98.1 L 228.5 94.4" />
-      <path d="M 211.2 102.8 L 216.8 108.2 L 240.5 104.4" />
-    </g>
-    
-  </g>
-<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#card-face-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></svg><svg viewBox="0 0 344 344" x="179.000" y="291.778" width="60.0" height="60.0" preserveAspectRatio="xMidYMid meet" data-original-x="182.348" data-original-y="519.861" data-original-width="68.444" data-original-height="68.444" overflow="visible" data-vector-icon="phaser_die" data-vector-source="Heroes/Tuvok/icons/phaser_die.svg" data-original-icon="../../icons/phaser_die.png" stroke="none" fill="#000000" text-anchor="start">
-  <title>Tuvok Phaser die-face blank draft</title>
   <defs>
     <clipPath id="glass-icon-5-die-clip"><rect x="0" y="0" width="344" height="344" rx="31" /></clipPath>
   </defs>
-  <g clip-path="url(#glass-icon-5-die-clip)">
-    <rect width="344" height="344" fill="#55286F" />
-
-    
-    <path d="M 72 233 C 83.5 188.7, 102.7 144.3, 172 100 L 178.7 93.6 L 226.9 87.8 L 249.7 106.4 L 250.1 124 L 245.5 125.9 L 245.7 130.6 L 221.5 144.5 C 219.5 149, 212 154, 207 154 C 192 154.1, 177 152.4, 162 161 L 151 152 C 120 178, 95 238.6, 95 243.6 C 95 245.5, 102 247, 104 248 C 108 250, 100 258, 96 258 C 90 258, 66.5 244, 72 233 Z" fill="#A5A8AD" stroke="#000000" stroke-width="1.6" stroke-linecap="butt" stroke-linejoin="round" />
-
-    
-    <g fill="none" stroke="#000000" stroke-width="2.45" stroke-linecap="round">
-      <path d="M 148.21,159.34 L 156.51,164.11" />
-      <path d="M 144.28,163.28 L 152.49,167.83" />
-      <path d="M 140.52,167.33 L 148.81,171.76" />
-      <path d="M 137.25,171.65 L 144.80,175.61" />
-      <path d="M 133.82,175.84 L 141.68,179.82" />
-      <path d="M 130.75,180.20 L 137.97,183.75" />
-      <path d="M 127.12,184.49 L 134.80,187.97" />
-      <path d="M 124.12,188.84 L 131.73,192.26" />
-      <path d="M 121.24,193.39 L 128.77,196.66" />
-      <path d="M 118.39,198.00 L 125.78,200.89" />
-      <path d="M 115.91,202.69 L 123.46,205.53" />
-      <path d="M 113.24,207.36 L 120.54,210.03" />
-      <path d="M 110.63,212.21 L 117.76,214.64" />
-      <path d="M 108.17,217.08 L 115.48,219.49" />
-      <path d="M 106.00,221.98 L 112.85,224.08" />
-      <path d="M 104.06,226.92 L 110.71,229.01" />
-      <path d="M 101.91,231.79 L 108.31,233.69" />
-      <path d="M 100.05,236.80 L 106.29,238.63" />
-      <path d="M 98.02,241.70 L 104.45,243.31" />
-    </g>
-
-    
-    <g fill="#2A2C2F" stroke="none">
-      <path d="M 226.9,87.8 L 253.0,93.0 L 259.8,102.2 L 249.7,106.4 Z" />
-      <path d="M 253.0,93.0 L 262.9,94.8 L 270.0,102.0 L 259.8,102.2 Z" />
-      <path d="M 249.7,106.4 L 259.8,102.2 L 256.3,119.7 L 250.1,124.0 Z" />
-      <path d="M 259.8,102.2 L 270.0,102.0 L 272.4,104.1 L 270.8,111.4 C 269.0,110.8 265.0,113.8 264.0,116.8 L 256.3,119.7 Z" />
-    </g>
-
-    
-    <g fill="none" stroke="#000000" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M 226.9,87.8 L 253.0,93.0 L 259.8,102.2 L 249.7,106.4" />
-      <path d="M 226.9,87.8 L 249.7,106.4 L 250.1,124.0" />
-      <path d="M 253.0,93.0 L 262.9,94.8 L 270.0,102.0 L 259.8,102.2" />
-      <path d="M 256.3,119.7 L 250.1,124.0" />
-      <path d="M 259.8,102.2 L 256.3,119.7" />
-      <path d="M 270.0,102.0 L 272.4,104.1 L 270.8,111.4 C 269.0,110.8 265.0,113.8 264.0,116.8 L 256.3,119.7" />
-    </g>
-
-    
-    <polygon points="174,102 196,120 196,127 171,138 149,120" fill="#000000" stroke="#000000" stroke-width="1.1" stroke-linejoin="round" />
-
-    
-    <polygon points="172.57569330,106.27100453 178.49069330,111.59600453 172.03069330,116.96100453 166.11569330,111.63600453" fill="#FFFFFF" />
-    <polygon points="181.40430670,114.21899547 187.31930670,119.54399547 180.85930670,124.90899547 174.94430670,119.58399547" fill="#FFFFFF" />
-    <polygon points="162.05,114.38 176.19,127.10 170.69,131.66 156.56,118.95" fill="#972727" transform="rotate(0.0237123014 169.12 120.74)" />
-
-    
-    <g fill="none" stroke="#000000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M 221.5 145 L 211.5 116 L 202 116 L 178 97" />
-      <path d="M 198.2 93.5 L 203.8 98.1 L 228.5 94.4" />
-      <path d="M 211.2 102.8 L 216.8 108.2 L 240.5 104.4" />
-    </g>
-    
-  </g>
-<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#card-face-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></svg><svg viewBox="0 0 344 344" x="239.000" y="291.778" width="60.0" height="60.0" preserveAspectRatio="xMidYMid meet" data-original-x="254.625" data-original-y="519.861" data-original-width="68.444" data-original-height="68.444" overflow="visible" data-vector-icon="phaser_die" data-vector-source="Heroes/Tuvok/icons/phaser_die.svg" data-original-icon="../../icons/phaser_die.png" stroke="none" fill="#000000" text-anchor="start">
-  <title>Tuvok Phaser die-face blank draft</title>
   <defs>
     <clipPath id="glass-icon-6-die-clip"><rect x="0" y="0" width="344" height="344" rx="31" /></clipPath>
   </defs>
-  <g clip-path="url(#glass-icon-6-die-clip)">
-    <rect width="344" height="344" fill="#55286F" />
-
-    
-    <path d="M 72 233 C 83.5 188.7, 102.7 144.3, 172 100 L 178.7 93.6 L 226.9 87.8 L 249.7 106.4 L 250.1 124 L 245.5 125.9 L 245.7 130.6 L 221.5 144.5 C 219.5 149, 212 154, 207 154 C 192 154.1, 177 152.4, 162 161 L 151 152 C 120 178, 95 238.6, 95 243.6 C 95 245.5, 102 247, 104 248 C 108 250, 100 258, 96 258 C 90 258, 66.5 244, 72 233 Z" fill="#A5A8AD" stroke="#000000" stroke-width="1.6" stroke-linecap="butt" stroke-linejoin="round" />
-
-    
-    <g fill="none" stroke="#000000" stroke-width="2.45" stroke-linecap="round">
-      <path d="M 148.21,159.34 L 156.51,164.11" />
-      <path d="M 144.28,163.28 L 152.49,167.83" />
-      <path d="M 140.52,167.33 L 148.81,171.76" />
-      <path d="M 137.25,171.65 L 144.80,175.61" />
-      <path d="M 133.82,175.84 L 141.68,179.82" />
-      <path d="M 130.75,180.20 L 137.97,183.75" />
-      <path d="M 127.12,184.49 L 134.80,187.97" />
-      <path d="M 124.12,188.84 L 131.73,192.26" />
-      <path d="M 121.24,193.39 L 128.77,196.66" />
-      <path d="M 118.39,198.00 L 125.78,200.89" />
-      <path d="M 115.91,202.69 L 123.46,205.53" />
-      <path d="M 113.24,207.36 L 120.54,210.03" />
-      <path d="M 110.63,212.21 L 117.76,214.64" />
-      <path d="M 108.17,217.08 L 115.48,219.49" />
-      <path d="M 106.00,221.98 L 112.85,224.08" />
-      <path d="M 104.06,226.92 L 110.71,229.01" />
-      <path d="M 101.91,231.79 L 108.31,233.69" />
-      <path d="M 100.05,236.80 L 106.29,238.63" />
-      <path d="M 98.02,241.70 L 104.45,243.31" />
-    </g>
-
-    
-    <g fill="#2A2C2F" stroke="none">
-      <path d="M 226.9,87.8 L 253.0,93.0 L 259.8,102.2 L 249.7,106.4 Z" />
-      <path d="M 253.0,93.0 L 262.9,94.8 L 270.0,102.0 L 259.8,102.2 Z" />
-      <path d="M 249.7,106.4 L 259.8,102.2 L 256.3,119.7 L 250.1,124.0 Z" />
-      <path d="M 259.8,102.2 L 270.0,102.0 L 272.4,104.1 L 270.8,111.4 C 269.0,110.8 265.0,113.8 264.0,116.8 L 256.3,119.7 Z" />
-    </g>
-
-    
-    <g fill="none" stroke="#000000" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M 226.9,87.8 L 253.0,93.0 L 259.8,102.2 L 249.7,106.4" />
-      <path d="M 226.9,87.8 L 249.7,106.4 L 250.1,124.0" />
-      <path d="M 253.0,93.0 L 262.9,94.8 L 270.0,102.0 L 259.8,102.2" />
-      <path d="M 256.3,119.7 L 250.1,124.0" />
-      <path d="M 259.8,102.2 L 256.3,119.7" />
-      <path d="M 270.0,102.0 L 272.4,104.1 L 270.8,111.4 C 269.0,110.8 265.0,113.8 264.0,116.8 L 256.3,119.7" />
-    </g>
-
-    
-    <polygon points="174,102 196,120 196,127 171,138 149,120" fill="#000000" stroke="#000000" stroke-width="1.1" stroke-linejoin="round" />
-
-    
-    <polygon points="172.57569330,106.27100453 178.49069330,111.59600453 172.03069330,116.96100453 166.11569330,111.63600453" fill="#FFFFFF" />
-    <polygon points="181.40430670,114.21899547 187.31930670,119.54399547 180.85930670,124.90899547 174.94430670,119.58399547" fill="#FFFFFF" />
-    <polygon points="162.05,114.38 176.19,127.10 170.69,131.66 156.56,118.95" fill="#972727" transform="rotate(0.0237123014 169.12 120.74)" />
-
-    
-    <g fill="none" stroke="#000000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M 221.5 145 L 211.5 116 L 202 116 L 178 97" />
-      <path d="M 198.2 93.5 L 203.8 98.1 L 228.5 94.4" />
-      <path d="M 211.2 102.8 L 216.8 108.2 L 240.5 104.4" />
-    </g>
-    
-  </g>
-<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#card-face-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></svg><svg viewBox="0 0 344 344" x="299.000" y="291.778" width="60.0" height="60.0" preserveAspectRatio="xMidYMid meet" data-original-x="326.902" data-original-y="519.861" data-original-width="68.444" data-original-height="68.444" overflow="visible" data-vector-icon="phaser_die" data-vector-source="Heroes/Tuvok/icons/phaser_die.svg" data-original-icon="../../icons/phaser_die.png" stroke="none" fill="#000000" text-anchor="start">
-  <title>Tuvok Phaser die-face blank draft</title>
   <defs>
     <clipPath id="glass-icon-7-die-clip"><rect x="0" y="0" width="344" height="344" rx="31" /></clipPath>
   </defs>
-  <g clip-path="url(#glass-icon-7-die-clip)">
-    <rect width="344" height="344" fill="#55286F" />
-
-    
-    <path d="M 72 233 C 83.5 188.7, 102.7 144.3, 172 100 L 178.7 93.6 L 226.9 87.8 L 249.7 106.4 L 250.1 124 L 245.5 125.9 L 245.7 130.6 L 221.5 144.5 C 219.5 149, 212 154, 207 154 C 192 154.1, 177 152.4, 162 161 L 151 152 C 120 178, 95 238.6, 95 243.6 C 95 245.5, 102 247, 104 248 C 108 250, 100 258, 96 258 C 90 258, 66.5 244, 72 233 Z" fill="#A5A8AD" stroke="#000000" stroke-width="1.6" stroke-linecap="butt" stroke-linejoin="round" />
-
-    
-    <g fill="none" stroke="#000000" stroke-width="2.45" stroke-linecap="round">
-      <path d="M 148.21,159.34 L 156.51,164.11" />
-      <path d="M 144.28,163.28 L 152.49,167.83" />
-      <path d="M 140.52,167.33 L 148.81,171.76" />
-      <path d="M 137.25,171.65 L 144.80,175.61" />
-      <path d="M 133.82,175.84 L 141.68,179.82" />
-      <path d="M 130.75,180.20 L 137.97,183.75" />
-      <path d="M 127.12,184.49 L 134.80,187.97" />
-      <path d="M 124.12,188.84 L 131.73,192.26" />
-      <path d="M 121.24,193.39 L 128.77,196.66" />
-      <path d="M 118.39,198.00 L 125.78,200.89" />
-      <path d="M 115.91,202.69 L 123.46,205.53" />
-      <path d="M 113.24,207.36 L 120.54,210.03" />
-      <path d="M 110.63,212.21 L 117.76,214.64" />
-      <path d="M 108.17,217.08 L 115.48,219.49" />
-      <path d="M 106.00,221.98 L 112.85,224.08" />
-      <path d="M 104.06,226.92 L 110.71,229.01" />
-      <path d="M 101.91,231.79 L 108.31,233.69" />
-      <path d="M 100.05,236.80 L 106.29,238.63" />
-      <path d="M 98.02,241.70 L 104.45,243.31" />
-    </g>
-
-    
-    <g fill="#2A2C2F" stroke="none">
-      <path d="M 226.9,87.8 L 253.0,93.0 L 259.8,102.2 L 249.7,106.4 Z" />
-      <path d="M 253.0,93.0 L 262.9,94.8 L 270.0,102.0 L 259.8,102.2 Z" />
-      <path d="M 249.7,106.4 L 259.8,102.2 L 256.3,119.7 L 250.1,124.0 Z" />
-      <path d="M 259.8,102.2 L 270.0,102.0 L 272.4,104.1 L 270.8,111.4 C 269.0,110.8 265.0,113.8 264.0,116.8 L 256.3,119.7 Z" />
-    </g>
-
-    
-    <g fill="none" stroke="#000000" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M 226.9,87.8 L 253.0,93.0 L 259.8,102.2 L 249.7,106.4" />
-      <path d="M 226.9,87.8 L 249.7,106.4 L 250.1,124.0" />
-      <path d="M 253.0,93.0 L 262.9,94.8 L 270.0,102.0 L 259.8,102.2" />
-      <path d="M 256.3,119.7 L 250.1,124.0" />
-      <path d="M 259.8,102.2 L 256.3,119.7" />
-      <path d="M 270.0,102.0 L 272.4,104.1 L 270.8,111.4 C 269.0,110.8 265.0,113.8 264.0,116.8 L 256.3,119.7" />
-    </g>
-
-    
-    <polygon points="174,102 196,120 196,127 171,138 149,120" fill="#000000" stroke="#000000" stroke-width="1.1" stroke-linejoin="round" />
-
-    
-    <polygon points="172.57569330,106.27100453 178.49069330,111.59600453 172.03069330,116.96100453 166.11569330,111.63600453" fill="#FFFFFF" />
-    <polygon points="181.40430670,114.21899547 187.31930670,119.54399547 180.85930670,124.90899547 174.94430670,119.58399547" fill="#FFFFFF" />
-    <polygon points="162.05,114.38 176.19,127.10 170.69,131.66 156.56,118.95" fill="#972727" transform="rotate(0.0237123014 169.12 120.74)" />
-
-    
-    <g fill="none" stroke="#000000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M 221.5 145 L 211.5 116 L 202 116 L 178 97" />
-      <path d="M 198.2 93.5 L 203.8 98.1 L 228.5 94.4" />
-      <path d="M 211.2 102.8 L 216.8 108.2 L 240.5 104.4" />
-    </g>
-    
-  </g>
-<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#card-face-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></svg></g>
-<text x="369.000" y="345" text-anchor="start" xml:space="preserve" filter="url(#cardRulesTextHalo)">: Deal</text>
-<g filter="url(#cardRulesIconHalo)"><svg viewBox="0 0 900 900" x="455.012" y="301.500" width="54.0" height="54.0" preserveAspectRatio="xMidYMid meet" data-original-x="509.929" data-original-y="533" data-original-width="55" data-original-height="55" overflow="visible" data-vector-icon="normal_damage" data-vector-source="Shared/icons/normal_damage.svg" data-original-icon="../../../../Shared/icons/normal_damage_8.png" stroke="none" fill="#000000" text-anchor="start">
-  <title id="glass-icon-8-vi9-title">Normal damage burst</title>
-  <desc id="glass-icon-8-vi9-description">Clean vector redraw with editable text where applicable.</desc>
-  <g id="glass-icon-8-vi9-scaled-icon" transform="translate(13.5 13.5) scale(0.97)"><polygon id="glass-icon-8-vi9-outer-outline" points="450.00,13.00 485.09,93.72 535.25,21.40 553.92,107.42 617.23,46.26 618.76,134.27 692.78,86.65 677.11,173.26 759.01,140.99 726.74,222.89 813.35,207.22 765.73,281.24 853.74,282.77 792.58,346.08 878.60,364.75 806.28,414.91 887.00,450.00 806.28,485.09 878.60,535.25 792.58,553.92 853.74,617.23 765.73,618.76 813.35,692.78 726.74,677.11 759.01,759.01 677.11,726.74 692.78,813.35 618.76,765.73 617.23,853.74 553.92,792.58 535.25,878.60 485.09,806.28 450.00,887.00 414.91,806.28 364.75,878.60 346.08,792.58 282.77,853.74 281.24,765.73 207.22,813.35 222.89,726.74 140.99,759.01 173.26,677.11 86.65,692.78 134.27,618.76 46.26,617.23 107.42,553.92 21.40,535.25 93.72,485.09 13.00,450.00 93.72,414.91 21.40,364.75 107.42,346.08 46.26,282.77 134.27,281.24 86.65,207.22 173.26,222.89 140.99,140.99 222.89,173.26 207.22,86.65 281.24,134.27 282.77,46.26 346.08,107.42 364.75,21.40 414.91,93.72" fill="none" stroke="#FFFFFF" stroke-width="19" stroke-linejoin="miter" stroke-miterlimit="10" /><polygon id="glass-icon-8-vi9-burst" points="450.00,13.00 485.09,93.72 535.25,21.40 553.92,107.42 617.23,46.26 618.76,134.27 692.78,86.65 677.11,173.26 759.01,140.99 726.74,222.89 813.35,207.22 765.73,281.24 853.74,282.77 792.58,346.08 878.60,364.75 806.28,414.91 887.00,450.00 806.28,485.09 878.60,535.25 792.58,553.92 853.74,617.23 765.73,618.76 813.35,692.78 726.74,677.11 759.01,759.01 677.11,726.74 692.78,813.35 618.76,765.73 617.23,853.74 553.92,792.58 535.25,878.60 485.09,806.28 450.00,887.00 414.91,806.28 364.75,878.60 346.08,792.58 282.77,853.74 281.24,765.73 207.22,813.35 222.89,726.74 140.99,759.01 173.26,677.11 86.65,692.78 134.27,618.76 46.26,617.23 107.42,553.92 21.40,535.25 93.72,485.09 13.00,450.00 93.72,414.91 21.40,364.75 107.42,346.08 46.26,282.77 134.27,281.24 86.65,207.22 173.26,222.89 140.99,140.99 222.89,173.26 207.22,86.65 281.24,134.27 282.77,46.26 346.08,107.42 364.75,21.40 414.91,93.72" fill="#030304" stroke="#FFFFFF" stroke-width="9" stroke-linejoin="miter" stroke-miterlimit="10" />
-  <text id="glass-icon-8-vi9-editable-number" data-editable="number" x="438" y="663" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="561.11" font-weight="700" fill="#FFFFFF" data-vector-import="true">7</text>
-</g></svg></g>
-<g filter="url(#cardRulesIconHalo)"><svg viewBox="0 0 344 344" x="89.000" y="393.778" width="60.0" height="60.0" preserveAspectRatio="xMidYMid meet" data-original-x="73.932" data-original-y="621.861" data-original-width="68.444" data-original-height="68.444" overflow="visible" data-vector-icon="phaser_die" data-vector-source="Heroes/Tuvok/icons/phaser_die.svg" data-original-icon="../../icons/phaser_die.png" stroke="none" fill="#000000" text-anchor="start">
-  <title>Tuvok Phaser die-face blank draft</title>
   <defs>
     <clipPath id="glass-icon-9-die-clip"><rect x="0" y="0" width="344" height="344" rx="31" /></clipPath>
   </defs>
-  <g clip-path="url(#glass-icon-9-die-clip)">
-    <rect width="344" height="344" fill="#55286F" />
-
-    
-    <path d="M 72 233 C 83.5 188.7, 102.7 144.3, 172 100 L 178.7 93.6 L 226.9 87.8 L 249.7 106.4 L 250.1 124 L 245.5 125.9 L 245.7 130.6 L 221.5 144.5 C 219.5 149, 212 154, 207 154 C 192 154.1, 177 152.4, 162 161 L 151 152 C 120 178, 95 238.6, 95 243.6 C 95 245.5, 102 247, 104 248 C 108 250, 100 258, 96 258 C 90 258, 66.5 244, 72 233 Z" fill="#A5A8AD" stroke="#000000" stroke-width="1.6" stroke-linecap="butt" stroke-linejoin="round" />
-
-    
-    <g fill="none" stroke="#000000" stroke-width="2.45" stroke-linecap="round">
-      <path d="M 148.21,159.34 L 156.51,164.11" />
-      <path d="M 144.28,163.28 L 152.49,167.83" />
-      <path d="M 140.52,167.33 L 148.81,171.76" />
-      <path d="M 137.25,171.65 L 144.80,175.61" />
-      <path d="M 133.82,175.84 L 141.68,179.82" />
-      <path d="M 130.75,180.20 L 137.97,183.75" />
-      <path d="M 127.12,184.49 L 134.80,187.97" />
-      <path d="M 124.12,188.84 L 131.73,192.26" />
-      <path d="M 121.24,193.39 L 128.77,196.66" />
-      <path d="M 118.39,198.00 L 125.78,200.89" />
-      <path d="M 115.91,202.69 L 123.46,205.53" />
-      <path d="M 113.24,207.36 L 120.54,210.03" />
-      <path d="M 110.63,212.21 L 117.76,214.64" />
-      <path d="M 108.17,217.08 L 115.48,219.49" />
-      <path d="M 106.00,221.98 L 112.85,224.08" />
-      <path d="M 104.06,226.92 L 110.71,229.01" />
-      <path d="M 101.91,231.79 L 108.31,233.69" />
-      <path d="M 100.05,236.80 L 106.29,238.63" />
-      <path d="M 98.02,241.70 L 104.45,243.31" />
-    </g>
-
-    
-    <g fill="#2A2C2F" stroke="none">
-      <path d="M 226.9,87.8 L 253.0,93.0 L 259.8,102.2 L 249.7,106.4 Z" />
-      <path d="M 253.0,93.0 L 262.9,94.8 L 270.0,102.0 L 259.8,102.2 Z" />
-      <path d="M 249.7,106.4 L 259.8,102.2 L 256.3,119.7 L 250.1,124.0 Z" />
-      <path d="M 259.8,102.2 L 270.0,102.0 L 272.4,104.1 L 270.8,111.4 C 269.0,110.8 265.0,113.8 264.0,116.8 L 256.3,119.7 Z" />
-    </g>
-
-    
-    <g fill="none" stroke="#000000" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M 226.9,87.8 L 253.0,93.0 L 259.8,102.2 L 249.7,106.4" />
-      <path d="M 226.9,87.8 L 249.7,106.4 L 250.1,124.0" />
-      <path d="M 253.0,93.0 L 262.9,94.8 L 270.0,102.0 L 259.8,102.2" />
-      <path d="M 256.3,119.7 L 250.1,124.0" />
-      <path d="M 259.8,102.2 L 256.3,119.7" />
-      <path d="M 270.0,102.0 L 272.4,104.1 L 270.8,111.4 C 269.0,110.8 265.0,113.8 264.0,116.8 L 256.3,119.7" />
-    </g>
-
-    
-    <polygon points="174,102 196,120 196,127 171,138 149,120" fill="#000000" stroke="#000000" stroke-width="1.1" stroke-linejoin="round" />
-
-    
-    <polygon points="172.57569330,106.27100453 178.49069330,111.59600453 172.03069330,116.96100453 166.11569330,111.63600453" fill="#FFFFFF" />
-    <polygon points="181.40430670,114.21899547 187.31930670,119.54399547 180.85930670,124.90899547 174.94430670,119.58399547" fill="#FFFFFF" />
-    <polygon points="162.05,114.38 176.19,127.10 170.69,131.66 156.56,118.95" fill="#972727" transform="rotate(0.0237123014 169.12 120.74)" />
-
-    
-    <g fill="none" stroke="#000000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M 221.5 145 L 211.5 116 L 202 116 L 178 97" />
-      <path d="M 198.2 93.5 L 203.8 98.1 L 228.5 94.4" />
-      <path d="M 211.2 102.8 L 216.8 108.2 L 240.5 104.4" />
-    </g>
-    
-  </g>
-<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#card-face-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></svg><svg viewBox="0 0 344 344" x="149.000" y="393.778" width="60.0" height="60.0" preserveAspectRatio="xMidYMid meet" data-original-x="146.209" data-original-y="621.861" data-original-width="68.444" data-original-height="68.444" overflow="visible" data-vector-icon="phaser_die" data-vector-source="Heroes/Tuvok/icons/phaser_die.svg" data-original-icon="../../icons/phaser_die.png" stroke="none" fill="#000000" text-anchor="start">
-  <title>Tuvok Phaser die-face blank draft</title>
   <defs>
     <clipPath id="glass-icon-10-die-clip"><rect x="0" y="0" width="344" height="344" rx="31" /></clipPath>
   </defs>
-  <g clip-path="url(#glass-icon-10-die-clip)">
-    <rect width="344" height="344" fill="#55286F" />
-
-    
-    <path d="M 72 233 C 83.5 188.7, 102.7 144.3, 172 100 L 178.7 93.6 L 226.9 87.8 L 249.7 106.4 L 250.1 124 L 245.5 125.9 L 245.7 130.6 L 221.5 144.5 C 219.5 149, 212 154, 207 154 C 192 154.1, 177 152.4, 162 161 L 151 152 C 120 178, 95 238.6, 95 243.6 C 95 245.5, 102 247, 104 248 C 108 250, 100 258, 96 258 C 90 258, 66.5 244, 72 233 Z" fill="#A5A8AD" stroke="#000000" stroke-width="1.6" stroke-linecap="butt" stroke-linejoin="round" />
-
-    
-    <g fill="none" stroke="#000000" stroke-width="2.45" stroke-linecap="round">
-      <path d="M 148.21,159.34 L 156.51,164.11" />
-      <path d="M 144.28,163.28 L 152.49,167.83" />
-      <path d="M 140.52,167.33 L 148.81,171.76" />
-      <path d="M 137.25,171.65 L 144.80,175.61" />
-      <path d="M 133.82,175.84 L 141.68,179.82" />
-      <path d="M 130.75,180.20 L 137.97,183.75" />
-      <path d="M 127.12,184.49 L 134.80,187.97" />
-      <path d="M 124.12,188.84 L 131.73,192.26" />
-      <path d="M 121.24,193.39 L 128.77,196.66" />
-      <path d="M 118.39,198.00 L 125.78,200.89" />
-      <path d="M 115.91,202.69 L 123.46,205.53" />
-      <path d="M 113.24,207.36 L 120.54,210.03" />
-      <path d="M 110.63,212.21 L 117.76,214.64" />
-      <path d="M 108.17,217.08 L 115.48,219.49" />
-      <path d="M 106.00,221.98 L 112.85,224.08" />
-      <path d="M 104.06,226.92 L 110.71,229.01" />
-      <path d="M 101.91,231.79 L 108.31,233.69" />
-      <path d="M 100.05,236.80 L 106.29,238.63" />
-      <path d="M 98.02,241.70 L 104.45,243.31" />
-    </g>
-
-    
-    <g fill="#2A2C2F" stroke="none">
-      <path d="M 226.9,87.8 L 253.0,93.0 L 259.8,102.2 L 249.7,106.4 Z" />
-      <path d="M 253.0,93.0 L 262.9,94.8 L 270.0,102.0 L 259.8,102.2 Z" />
-      <path d="M 249.7,106.4 L 259.8,102.2 L 256.3,119.7 L 250.1,124.0 Z" />
-      <path d="M 259.8,102.2 L 270.0,102.0 L 272.4,104.1 L 270.8,111.4 C 269.0,110.8 265.0,113.8 264.0,116.8 L 256.3,119.7 Z" />
-    </g>
-
-    
-    <g fill="none" stroke="#000000" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M 226.9,87.8 L 253.0,93.0 L 259.8,102.2 L 249.7,106.4" />
-      <path d="M 226.9,87.8 L 249.7,106.4 L 250.1,124.0" />
-      <path d="M 253.0,93.0 L 262.9,94.8 L 270.0,102.0 L 259.8,102.2" />
-      <path d="M 256.3,119.7 L 250.1,124.0" />
-      <path d="M 259.8,102.2 L 256.3,119.7" />
-      <path d="M 270.0,102.0 L 272.4,104.1 L 270.8,111.4 C 269.0,110.8 265.0,113.8 264.0,116.8 L 256.3,119.7" />
-    </g>
-
-    
-    <polygon points="174,102 196,120 196,127 171,138 149,120" fill="#000000" stroke="#000000" stroke-width="1.1" stroke-linejoin="round" />
-
-    
-    <polygon points="172.57569330,106.27100453 178.49069330,111.59600453 172.03069330,116.96100453 166.11569330,111.63600453" fill="#FFFFFF" />
-    <polygon points="181.40430670,114.21899547 187.31930670,119.54399547 180.85930670,124.90899547 174.94430670,119.58399547" fill="#FFFFFF" />
-    <polygon points="162.05,114.38 176.19,127.10 170.69,131.66 156.56,118.95" fill="#972727" transform="rotate(0.0237123014 169.12 120.74)" />
-
-    
-    <g fill="none" stroke="#000000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M 221.5 145 L 211.5 116 L 202 116 L 178 97" />
-      <path d="M 198.2 93.5 L 203.8 98.1 L 228.5 94.4" />
-      <path d="M 211.2 102.8 L 216.8 108.2 L 240.5 104.4" />
-    </g>
-    
-  </g>
-<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#card-face-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></svg><svg viewBox="0 0 344 344" x="209.000" y="393.778" width="60.0" height="60.0" preserveAspectRatio="xMidYMid meet" data-original-x="218.486" data-original-y="621.861" data-original-width="68.444" data-original-height="68.444" overflow="visible" data-vector-icon="phaser_die" data-vector-source="Heroes/Tuvok/icons/phaser_die.svg" data-original-icon="../../icons/phaser_die.png" stroke="none" fill="#000000" text-anchor="start">
-  <title>Tuvok Phaser die-face blank draft</title>
   <defs>
     <clipPath id="glass-icon-11-die-clip"><rect x="0" y="0" width="344" height="344" rx="31" /></clipPath>
   </defs>
-  <g clip-path="url(#glass-icon-11-die-clip)">
-    <rect width="344" height="344" fill="#55286F" />
-
-    
-    <path d="M 72 233 C 83.5 188.7, 102.7 144.3, 172 100 L 178.7 93.6 L 226.9 87.8 L 249.7 106.4 L 250.1 124 L 245.5 125.9 L 245.7 130.6 L 221.5 144.5 C 219.5 149, 212 154, 207 154 C 192 154.1, 177 152.4, 162 161 L 151 152 C 120 178, 95 238.6, 95 243.6 C 95 245.5, 102 247, 104 248 C 108 250, 100 258, 96 258 C 90 258, 66.5 244, 72 233 Z" fill="#A5A8AD" stroke="#000000" stroke-width="1.6" stroke-linecap="butt" stroke-linejoin="round" />
-
-    
-    <g fill="none" stroke="#000000" stroke-width="2.45" stroke-linecap="round">
-      <path d="M 148.21,159.34 L 156.51,164.11" />
-      <path d="M 144.28,163.28 L 152.49,167.83" />
-      <path d="M 140.52,167.33 L 148.81,171.76" />
-      <path d="M 137.25,171.65 L 144.80,175.61" />
-      <path d="M 133.82,175.84 L 141.68,179.82" />
-      <path d="M 130.75,180.20 L 137.97,183.75" />
-      <path d="M 127.12,184.49 L 134.80,187.97" />
-      <path d="M 124.12,188.84 L 131.73,192.26" />
-      <path d="M 121.24,193.39 L 128.77,196.66" />
-      <path d="M 118.39,198.00 L 125.78,200.89" />
-      <path d="M 115.91,202.69 L 123.46,205.53" />
-      <path d="M 113.24,207.36 L 120.54,210.03" />
-      <path d="M 110.63,212.21 L 117.76,214.64" />
-      <path d="M 108.17,217.08 L 115.48,219.49" />
-      <path d="M 106.00,221.98 L 112.85,224.08" />
-      <path d="M 104.06,226.92 L 110.71,229.01" />
-      <path d="M 101.91,231.79 L 108.31,233.69" />
-      <path d="M 100.05,236.80 L 106.29,238.63" />
-      <path d="M 98.02,241.70 L 104.45,243.31" />
-    </g>
-
-    
-    <g fill="#2A2C2F" stroke="none">
-      <path d="M 226.9,87.8 L 253.0,93.0 L 259.8,102.2 L 249.7,106.4 Z" />
-      <path d="M 253.0,93.0 L 262.9,94.8 L 270.0,102.0 L 259.8,102.2 Z" />
-      <path d="M 249.7,106.4 L 259.8,102.2 L 256.3,119.7 L 250.1,124.0 Z" />
-      <path d="M 259.8,102.2 L 270.0,102.0 L 272.4,104.1 L 270.8,111.4 C 269.0,110.8 265.0,113.8 264.0,116.8 L 256.3,119.7 Z" />
-    </g>
-
-    
-    <g fill="none" stroke="#000000" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M 226.9,87.8 L 253.0,93.0 L 259.8,102.2 L 249.7,106.4" />
-      <path d="M 226.9,87.8 L 249.7,106.4 L 250.1,124.0" />
-      <path d="M 253.0,93.0 L 262.9,94.8 L 270.0,102.0 L 259.8,102.2" />
-      <path d="M 256.3,119.7 L 250.1,124.0" />
-      <path d="M 259.8,102.2 L 256.3,119.7" />
-      <path d="M 270.0,102.0 L 272.4,104.1 L 270.8,111.4 C 269.0,110.8 265.0,113.8 264.0,116.8 L 256.3,119.7" />
-    </g>
-
-    
-    <polygon points="174,102 196,120 196,127 171,138 149,120" fill="#000000" stroke="#000000" stroke-width="1.1" stroke-linejoin="round" />
-
-    
-    <polygon points="172.57569330,106.27100453 178.49069330,111.59600453 172.03069330,116.96100453 166.11569330,111.63600453" fill="#FFFFFF" />
-    <polygon points="181.40430670,114.21899547 187.31930670,119.54399547 180.85930670,124.90899547 174.94430670,119.58399547" fill="#FFFFFF" />
-    <polygon points="162.05,114.38 176.19,127.10 170.69,131.66 156.56,118.95" fill="#972727" transform="rotate(0.0237123014 169.12 120.74)" />
-
-    
-    <g fill="none" stroke="#000000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M 221.5 145 L 211.5 116 L 202 116 L 178 97" />
-      <path d="M 198.2 93.5 L 203.8 98.1 L 228.5 94.4" />
-      <path d="M 211.2 102.8 L 216.8 108.2 L 240.5 104.4" />
-    </g>
-    
-  </g>
-<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#card-face-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></svg><svg viewBox="0 0 344 344" x="269.000" y="393.778" width="60.0" height="60.0" preserveAspectRatio="xMidYMid meet" data-original-x="290.763" data-original-y="621.861" data-original-width="68.444" data-original-height="68.444" overflow="visible" data-vector-icon="phaser_die" data-vector-source="Heroes/Tuvok/icons/phaser_die.svg" data-original-icon="../../icons/phaser_die.png" stroke="none" fill="#000000" text-anchor="start">
-  <title>Tuvok Phaser die-face blank draft</title>
   <defs>
     <clipPath id="glass-icon-12-die-clip"><rect x="0" y="0" width="344" height="344" rx="31" /></clipPath>
   </defs>
-  <g clip-path="url(#glass-icon-12-die-clip)">
-    <rect width="344" height="344" fill="#55286F" />
-
-    
-    <path d="M 72 233 C 83.5 188.7, 102.7 144.3, 172 100 L 178.7 93.6 L 226.9 87.8 L 249.7 106.4 L 250.1 124 L 245.5 125.9 L 245.7 130.6 L 221.5 144.5 C 219.5 149, 212 154, 207 154 C 192 154.1, 177 152.4, 162 161 L 151 152 C 120 178, 95 238.6, 95 243.6 C 95 245.5, 102 247, 104 248 C 108 250, 100 258, 96 258 C 90 258, 66.5 244, 72 233 Z" fill="#A5A8AD" stroke="#000000" stroke-width="1.6" stroke-linecap="butt" stroke-linejoin="round" />
-
-    
-    <g fill="none" stroke="#000000" stroke-width="2.45" stroke-linecap="round">
-      <path d="M 148.21,159.34 L 156.51,164.11" />
-      <path d="M 144.28,163.28 L 152.49,167.83" />
-      <path d="M 140.52,167.33 L 148.81,171.76" />
-      <path d="M 137.25,171.65 L 144.80,175.61" />
-      <path d="M 133.82,175.84 L 141.68,179.82" />
-      <path d="M 130.75,180.20 L 137.97,183.75" />
-      <path d="M 127.12,184.49 L 134.80,187.97" />
-      <path d="M 124.12,188.84 L 131.73,192.26" />
-      <path d="M 121.24,193.39 L 128.77,196.66" />
-      <path d="M 118.39,198.00 L 125.78,200.89" />
-      <path d="M 115.91,202.69 L 123.46,205.53" />
-      <path d="M 113.24,207.36 L 120.54,210.03" />
-      <path d="M 110.63,212.21 L 117.76,214.64" />
-      <path d="M 108.17,217.08 L 115.48,219.49" />
-      <path d="M 106.00,221.98 L 112.85,224.08" />
-      <path d="M 104.06,226.92 L 110.71,229.01" />
-      <path d="M 101.91,231.79 L 108.31,233.69" />
-      <path d="M 100.05,236.80 L 106.29,238.63" />
-      <path d="M 98.02,241.70 L 104.45,243.31" />
-    </g>
-
-    
-    <g fill="#2A2C2F" stroke="none">
-      <path d="M 226.9,87.8 L 253.0,93.0 L 259.8,102.2 L 249.7,106.4 Z" />
-      <path d="M 253.0,93.0 L 262.9,94.8 L 270.0,102.0 L 259.8,102.2 Z" />
-      <path d="M 249.7,106.4 L 259.8,102.2 L 256.3,119.7 L 250.1,124.0 Z" />
-      <path d="M 259.8,102.2 L 270.0,102.0 L 272.4,104.1 L 270.8,111.4 C 269.0,110.8 265.0,113.8 264.0,116.8 L 256.3,119.7 Z" />
-    </g>
-
-    
-    <g fill="none" stroke="#000000" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M 226.9,87.8 L 253.0,93.0 L 259.8,102.2 L 249.7,106.4" />
-      <path d="M 226.9,87.8 L 249.7,106.4 L 250.1,124.0" />
-      <path d="M 253.0,93.0 L 262.9,94.8 L 270.0,102.0 L 259.8,102.2" />
-      <path d="M 256.3,119.7 L 250.1,124.0" />
-      <path d="M 259.8,102.2 L 256.3,119.7" />
-      <path d="M 270.0,102.0 L 272.4,104.1 L 270.8,111.4 C 269.0,110.8 265.0,113.8 264.0,116.8 L 256.3,119.7" />
-    </g>
-
-    
-    <polygon points="174,102 196,120 196,127 171,138 149,120" fill="#000000" stroke="#000000" stroke-width="1.1" stroke-linejoin="round" />
-
-    
-    <polygon points="172.57569330,106.27100453 178.49069330,111.59600453 172.03069330,116.96100453 166.11569330,111.63600453" fill="#FFFFFF" />
-    <polygon points="181.40430670,114.21899547 187.31930670,119.54399547 180.85930670,124.90899547 174.94430670,119.58399547" fill="#FFFFFF" />
-    <polygon points="162.05,114.38 176.19,127.10 170.69,131.66 156.56,118.95" fill="#972727" transform="rotate(0.0237123014 169.12 120.74)" />
-
-    
-    <g fill="none" stroke="#000000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M 221.5 145 L 211.5 116 L 202 116 L 178 97" />
-      <path d="M 198.2 93.5 L 203.8 98.1 L 228.5 94.4" />
-      <path d="M 211.2 102.8 L 216.8 108.2 L 240.5 104.4" />
-    </g>
-    
-  </g>
-<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#card-face-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></svg><svg viewBox="0 0 344 344" x="329.000" y="393.778" width="60.0" height="60.0" preserveAspectRatio="xMidYMid meet" data-original-x="363.04" data-original-y="621.861" data-original-width="68.444" data-original-height="68.444" overflow="visible" data-vector-icon="phaser_die" data-vector-source="Heroes/Tuvok/icons/phaser_die.svg" data-original-icon="../../icons/phaser_die.png" stroke="none" fill="#000000" text-anchor="start">
-  <title>Tuvok Phaser die-face blank draft</title>
   <defs>
     <clipPath id="glass-icon-13-die-clip"><rect x="0" y="0" width="344" height="344" rx="31" /></clipPath>
   </defs>
-  <g clip-path="url(#glass-icon-13-die-clip)">
+  <defs id="mdtest-straight-81-approved-reusable-die-lighting"><linearGradient id="mdtest-straight-81-reusable-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28" /><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02" /><stop offset="1" stop-color="#101018" stop-opacity="0.24" /></linearGradient><linearGradient id="mdtest-straight-81-reusable-defense-green" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#BAFFD7" /><stop offset="0.35" stop-color="#6AF2A8" /><stop offset="0.72" stop-color="#359963" /><stop offset="1" stop-color="#236D45" /></linearGradient><linearGradient id="mdtest-straight-81-reusable-straight-gold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFF0C6" /><stop offset="0.35" stop-color="#FFD27A" /><stop offset="1" stop-color="#97703B" /></linearGradient><filter id="mdtest-straight-81-reusable-dice-shared-shadow" x="-0.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="36" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="28" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><defs>
+    <clipPath id="mdtest-straight-81-die-clip"><rect x="0" y="0" width="344" height="344" rx="31" /></clipPath>
+  </defs>
+  <defs id="mdtest-straight-82-approved-reusable-die-lighting"><linearGradient id="mdtest-straight-82-reusable-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28" /><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02" /><stop offset="1" stop-color="#101018" stop-opacity="0.24" /></linearGradient><linearGradient id="mdtest-straight-82-reusable-defense-green" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#BAFFD7" /><stop offset="0.35" stop-color="#6AF2A8" /><stop offset="0.72" stop-color="#359963" /><stop offset="1" stop-color="#236D45" /></linearGradient><linearGradient id="mdtest-straight-82-reusable-straight-gold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFF0C6" /><stop offset="0.35" stop-color="#FFD27A" /><stop offset="1" stop-color="#97703B" /></linearGradient><filter id="mdtest-straight-82-reusable-dice-shared-shadow" x="-0.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="36" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="28" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><defs>
+    <clipPath id="mdtest-straight-82-die-clip"><rect x="0" y="0" width="344" height="344" rx="31" /></clipPath>
+  </defs>
+  <defs id="mdtest-straight-83-approved-reusable-die-lighting"><linearGradient id="mdtest-straight-83-reusable-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28" /><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02" /><stop offset="1" stop-color="#101018" stop-opacity="0.24" /></linearGradient><linearGradient id="mdtest-straight-83-reusable-defense-green" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#BAFFD7" /><stop offset="0.35" stop-color="#6AF2A8" /><stop offset="0.72" stop-color="#359963" /><stop offset="1" stop-color="#236D45" /></linearGradient><linearGradient id="mdtest-straight-83-reusable-straight-gold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFF0C6" /><stop offset="0.35" stop-color="#FFD27A" /><stop offset="1" stop-color="#97703B" /></linearGradient><filter id="mdtest-straight-83-reusable-dice-shared-shadow" x="-0.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="36" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="28" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><defs>
+    <clipPath id="mdtest-straight-83-die-clip"><rect x="0" y="0" width="344" height="344" rx="31" /></clipPath>
+  </defs>
+  <defs id="mdtest-straight-85-approved-reusable-die-lighting"><linearGradient id="mdtest-straight-85-reusable-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28" /><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02" /><stop offset="1" stop-color="#101018" stop-opacity="0.24" /></linearGradient><linearGradient id="mdtest-straight-85-reusable-defense-green" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#BAFFD7" /><stop offset="0.35" stop-color="#6AF2A8" /><stop offset="0.72" stop-color="#359963" /><stop offset="1" stop-color="#236D45" /></linearGradient><linearGradient id="mdtest-straight-85-reusable-straight-gold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFF0C6" /><stop offset="0.35" stop-color="#FFD27A" /><stop offset="1" stop-color="#97703B" /></linearGradient><filter id="mdtest-straight-85-reusable-dice-shared-shadow" x="-0.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="36" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="28" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><defs>
+    <clipPath id="mdtest-straight-85-die-clip"><rect x="0" y="0" width="344" height="344" rx="31" /></clipPath>
+  </defs>
+  <defs id="mdtest-straight-86-approved-reusable-die-lighting"><linearGradient id="mdtest-straight-86-reusable-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28" /><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02" /><stop offset="1" stop-color="#101018" stop-opacity="0.24" /></linearGradient><linearGradient id="mdtest-straight-86-reusable-defense-green" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#BAFFD7" /><stop offset="0.35" stop-color="#6AF2A8" /><stop offset="0.72" stop-color="#359963" /><stop offset="1" stop-color="#236D45" /></linearGradient><linearGradient id="mdtest-straight-86-reusable-straight-gold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFF0C6" /><stop offset="0.35" stop-color="#FFD27A" /><stop offset="1" stop-color="#97703B" /></linearGradient><filter id="mdtest-straight-86-reusable-dice-shared-shadow" x="-0.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="36" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="28" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><defs>
+    <clipPath id="mdtest-straight-86-die-clip"><rect x="0" y="0" width="344" height="344" rx="31" /></clipPath>
+  </defs>
+  <defs id="mdtest-straight-87-approved-reusable-die-lighting"><linearGradient id="mdtest-straight-87-reusable-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28" /><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02" /><stop offset="1" stop-color="#101018" stop-opacity="0.24" /></linearGradient><linearGradient id="mdtest-straight-87-reusable-defense-green" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#BAFFD7" /><stop offset="0.35" stop-color="#6AF2A8" /><stop offset="0.72" stop-color="#359963" /><stop offset="1" stop-color="#236D45" /></linearGradient><linearGradient id="mdtest-straight-87-reusable-straight-gold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFF0C6" /><stop offset="0.35" stop-color="#FFD27A" /><stop offset="1" stop-color="#97703B" /></linearGradient><filter id="mdtest-straight-87-reusable-dice-shared-shadow" x="-0.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="36" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="28" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><defs>
+    <clipPath id="mdtest-straight-87-die-clip"><rect x="0" y="0" width="344" height="344" rx="31" /></clipPath>
+  </defs>
+  <defs id="mdtest-straight-88-approved-reusable-die-lighting"><linearGradient id="mdtest-straight-88-reusable-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28" /><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02" /><stop offset="1" stop-color="#101018" stop-opacity="0.24" /></linearGradient><linearGradient id="mdtest-straight-88-reusable-defense-green" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#BAFFD7" /><stop offset="0.35" stop-color="#6AF2A8" /><stop offset="0.72" stop-color="#359963" /><stop offset="1" stop-color="#236D45" /></linearGradient><linearGradient id="mdtest-straight-88-reusable-straight-gold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFF0C6" /><stop offset="0.35" stop-color="#FFD27A" /><stop offset="1" stop-color="#97703B" /></linearGradient><filter id="mdtest-straight-88-reusable-dice-shared-shadow" x="-0.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="36" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="28" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><defs>
+    <clipPath id="mdtest-straight-88-die-clip"><rect x="0" y="0" width="344" height="344" rx="31" /></clipPath>
+  </defs>
+  <defs id="mdtest-straight-90-approved-reusable-die-lighting"><linearGradient id="mdtest-straight-90-reusable-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28" /><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02" /><stop offset="1" stop-color="#101018" stop-opacity="0.24" /></linearGradient><linearGradient id="mdtest-straight-90-reusable-defense-green" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#BAFFD7" /><stop offset="0.35" stop-color="#6AF2A8" /><stop offset="0.72" stop-color="#359963" /><stop offset="1" stop-color="#236D45" /></linearGradient><linearGradient id="mdtest-straight-90-reusable-straight-gold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFF0C6" /><stop offset="0.35" stop-color="#FFD27A" /><stop offset="1" stop-color="#97703B" /></linearGradient><filter id="mdtest-straight-90-reusable-dice-shared-shadow" x="-0.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="36" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="28" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><defs>
+    <clipPath id="mdtest-straight-90-die-clip"><rect x="0" y="0" width="344" height="344" rx="31" /></clipPath>
+  </defs>
+  <defs id="mdtest-straight-91-approved-reusable-die-lighting"><linearGradient id="mdtest-straight-91-reusable-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28" /><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02" /><stop offset="1" stop-color="#101018" stop-opacity="0.24" /></linearGradient><linearGradient id="mdtest-straight-91-reusable-defense-green" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#BAFFD7" /><stop offset="0.35" stop-color="#6AF2A8" /><stop offset="0.72" stop-color="#359963" /><stop offset="1" stop-color="#236D45" /></linearGradient><linearGradient id="mdtest-straight-91-reusable-straight-gold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFF0C6" /><stop offset="0.35" stop-color="#FFD27A" /><stop offset="1" stop-color="#97703B" /></linearGradient><filter id="mdtest-straight-91-reusable-dice-shared-shadow" x="-0.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="36" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="28" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><defs>
+    <clipPath id="mdtest-straight-91-die-clip"><rect x="0" y="0" width="344" height="344" rx="31" /></clipPath>
+  </defs>
+  <defs id="mdtest-straight-92-approved-reusable-die-lighting"><linearGradient id="mdtest-straight-92-reusable-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28" /><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02" /><stop offset="1" stop-color="#101018" stop-opacity="0.24" /></linearGradient><linearGradient id="mdtest-straight-92-reusable-defense-green" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#BAFFD7" /><stop offset="0.35" stop-color="#6AF2A8" /><stop offset="0.72" stop-color="#359963" /><stop offset="1" stop-color="#236D45" /></linearGradient><linearGradient id="mdtest-straight-92-reusable-straight-gold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFF0C6" /><stop offset="0.35" stop-color="#FFD27A" /><stop offset="1" stop-color="#97703B" /></linearGradient><filter id="mdtest-straight-92-reusable-dice-shared-shadow" x="-0.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="36" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="28" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><defs>
+    <clipPath id="mdtest-straight-92-die-clip"><rect x="0" y="0" width="344" height="344" rx="31" /></clipPath>
+  </defs>
+  <defs id="mdtest-straight-93-approved-reusable-die-lighting"><linearGradient id="mdtest-straight-93-reusable-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28" /><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02" /><stop offset="1" stop-color="#101018" stop-opacity="0.24" /></linearGradient><linearGradient id="mdtest-straight-93-reusable-defense-green" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#BAFFD7" /><stop offset="0.35" stop-color="#6AF2A8" /><stop offset="0.72" stop-color="#359963" /><stop offset="1" stop-color="#236D45" /></linearGradient><linearGradient id="mdtest-straight-93-reusable-straight-gold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFF0C6" /><stop offset="0.35" stop-color="#FFD27A" /><stop offset="1" stop-color="#97703B" /></linearGradient><filter id="mdtest-straight-93-reusable-dice-shared-shadow" x="-0.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="36" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="28" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><defs>
+    <clipPath id="mdtest-straight-93-die-clip"><rect x="0" y="0" width="344" height="344" rx="31" /></clipPath>
+  </defs>
+  <defs id="mdtest-straight-94-approved-reusable-die-lighting"><linearGradient id="mdtest-straight-94-reusable-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28" /><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02" /><stop offset="1" stop-color="#101018" stop-opacity="0.24" /></linearGradient><linearGradient id="mdtest-straight-94-reusable-defense-green" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#BAFFD7" /><stop offset="0.35" stop-color="#6AF2A8" /><stop offset="0.72" stop-color="#359963" /><stop offset="1" stop-color="#236D45" /></linearGradient><linearGradient id="mdtest-straight-94-reusable-straight-gold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFF0C6" /><stop offset="0.35" stop-color="#FFD27A" /><stop offset="1" stop-color="#97703B" /></linearGradient><filter id="mdtest-straight-94-reusable-dice-shared-shadow" x="-0.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="36" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="28" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><defs>
+    <clipPath id="mdtest-straight-94-die-clip"><rect x="0" y="0" width="344" height="344" rx="31" /></clipPath>
+  </defs>
+  <g data-md-line="true" data-source-baseline="243.0" data-source-activation="true" data-source-text-start-x="345.66700000000003"><svg viewBox="0 0 344 344" width="60.0000" height="60.0000" role="img" aria-label="Tuvok Phaser die-face blank draft" overflow="visible" x="149.0000" y="189.7780" preserveAspectRatio="xMidYMid meet" data-md-icon="phaser_die.svg" data-activation-shadow="none" data-vector-source="../icons/phaser_die.svg"><defs id="mdtest-straight-17-approved-reusable-die-lighting"><linearGradient id="mdtest-straight-17-reusable-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28" /><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02" /><stop offset="1" stop-color="#101018" stop-opacity="0.24" /></linearGradient><linearGradient id="mdtest-straight-17-reusable-defense-green" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#BAFFD7" /><stop offset="0.35" stop-color="#6AF2A8" /><stop offset="0.72" stop-color="#359963" /><stop offset="1" stop-color="#236D45" /></linearGradient><linearGradient id="mdtest-straight-17-reusable-straight-gold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFF0C6" /><stop offset="0.35" stop-color="#FFD27A" /><stop offset="1" stop-color="#97703B" /></linearGradient><filter id="mdtest-straight-17-reusable-dice-shared-shadow" x="-0.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="36" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="28" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><g id="mdtest-straight-17-approved-reusable-die-surface">
+  <title>Tuvok Phaser die-face blank draft</title>
+  <defs>
+    <clipPath id="mdtest-straight-17-die-clip"><rect x="0" y="0" width="344" height="344" rx="31" /></clipPath>
+  </defs>
+  <g clip-path="url(#mdtest-straight-17-die-clip)">
     <rect width="344" height="344" fill="#55286F" />
 
     
@@ -884,15 +191,755 @@
     </g>
     
   </g>
-<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#card-face-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></svg></g>
-<text x="399.000" y="447" text-anchor="start" xml:space="preserve" filter="url(#cardRulesTextHalo)">: Deal</text>
-<g filter="url(#cardRulesIconHalo)"><svg viewBox="0 0 900 900" x="485.012" y="403.500" width="54.0" height="54.0" preserveAspectRatio="xMidYMid meet" data-original-x="546.068" data-original-y="635" data-original-width="55" data-original-height="55" overflow="visible" data-vector-icon="normal_damage" data-vector-source="Shared/icons/normal_damage.svg" data-original-icon="../../../../Shared/icons/normal_damage_9.png" stroke="none" fill="#000000" text-anchor="start">
-  <title id="glass-icon-14-vi15-title">Normal damage burst</title>
-  <desc id="glass-icon-14-vi15-description">Clean vector redraw with editable text where applicable.</desc>
-  <g id="glass-icon-14-vi15-scaled-icon" transform="translate(13.5 13.5) scale(0.97)"><polygon id="glass-icon-14-vi15-outer-outline" points="450.00,13.00 485.09,93.72 535.25,21.40 553.92,107.42 617.23,46.26 618.76,134.27 692.78,86.65 677.11,173.26 759.01,140.99 726.74,222.89 813.35,207.22 765.73,281.24 853.74,282.77 792.58,346.08 878.60,364.75 806.28,414.91 887.00,450.00 806.28,485.09 878.60,535.25 792.58,553.92 853.74,617.23 765.73,618.76 813.35,692.78 726.74,677.11 759.01,759.01 677.11,726.74 692.78,813.35 618.76,765.73 617.23,853.74 553.92,792.58 535.25,878.60 485.09,806.28 450.00,887.00 414.91,806.28 364.75,878.60 346.08,792.58 282.77,853.74 281.24,765.73 207.22,813.35 222.89,726.74 140.99,759.01 173.26,677.11 86.65,692.78 134.27,618.76 46.26,617.23 107.42,553.92 21.40,535.25 93.72,485.09 13.00,450.00 93.72,414.91 21.40,364.75 107.42,346.08 46.26,282.77 134.27,281.24 86.65,207.22 173.26,222.89 140.99,140.99 222.89,173.26 207.22,86.65 281.24,134.27 282.77,46.26 346.08,107.42 364.75,21.40 414.91,93.72" fill="none" stroke="#FFFFFF" stroke-width="19" stroke-linejoin="miter" stroke-miterlimit="10" /><polygon id="glass-icon-14-vi15-burst" points="450.00,13.00 485.09,93.72 535.25,21.40 553.92,107.42 617.23,46.26 618.76,134.27 692.78,86.65 677.11,173.26 759.01,140.99 726.74,222.89 813.35,207.22 765.73,281.24 853.74,282.77 792.58,346.08 878.60,364.75 806.28,414.91 887.00,450.00 806.28,485.09 878.60,535.25 792.58,553.92 853.74,617.23 765.73,618.76 813.35,692.78 726.74,677.11 759.01,759.01 677.11,726.74 692.78,813.35 618.76,765.73 617.23,853.74 553.92,792.58 535.25,878.60 485.09,806.28 450.00,887.00 414.91,806.28 364.75,878.60 346.08,792.58 282.77,853.74 281.24,765.73 207.22,813.35 222.89,726.74 140.99,759.01 173.26,677.11 86.65,692.78 134.27,618.76 46.26,617.23 107.42,553.92 21.40,535.25 93.72,485.09 13.00,450.00 93.72,414.91 21.40,364.75 107.42,346.08 46.26,282.77 134.27,281.24 86.65,207.22 173.26,222.89 140.99,140.99 222.89,173.26 207.22,86.65 281.24,134.27 282.77,46.26 346.08,107.42 364.75,21.40 414.91,93.72" fill="#030304" stroke="#FFFFFF" stroke-width="9" stroke-linejoin="miter" stroke-miterlimit="10" />
-  <text id="glass-icon-14-vi15-editable-number" data-editable="number" x="438" y="663" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="561.11" font-weight="700" fill="#FFFFFF" data-vector-import="true">8</text>
-</g></svg></g>
-</g>
+<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#mdtest-straight-17-reusable-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></g></svg><svg viewBox="0 0 344 344" width="60.0000" height="60.0000" role="img" aria-label="Tuvok Phaser die-face blank draft" overflow="visible" x="209.0000" y="189.7780" preserveAspectRatio="xMidYMid meet" data-md-icon="phaser_die.svg" data-activation-shadow="none" data-vector-source="../icons/phaser_die.svg"><defs id="mdtest-straight-18-approved-reusable-die-lighting"><linearGradient id="mdtest-straight-18-reusable-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28" /><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02" /><stop offset="1" stop-color="#101018" stop-opacity="0.24" /></linearGradient><linearGradient id="mdtest-straight-18-reusable-defense-green" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#BAFFD7" /><stop offset="0.35" stop-color="#6AF2A8" /><stop offset="0.72" stop-color="#359963" /><stop offset="1" stop-color="#236D45" /></linearGradient><linearGradient id="mdtest-straight-18-reusable-straight-gold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFF0C6" /><stop offset="0.35" stop-color="#FFD27A" /><stop offset="1" stop-color="#97703B" /></linearGradient><filter id="mdtest-straight-18-reusable-dice-shared-shadow" x="-0.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="36" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="28" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><g id="mdtest-straight-18-approved-reusable-die-surface">
+  <title>Tuvok Phaser die-face blank draft</title>
+  <defs>
+    <clipPath id="mdtest-straight-18-die-clip"><rect x="0" y="0" width="344" height="344" rx="31" /></clipPath>
+  </defs>
+  <g clip-path="url(#mdtest-straight-18-die-clip)">
+    <rect width="344" height="344" fill="#55286F" />
+
+    
+    <path d="M 72 233 C 83.5 188.7, 102.7 144.3, 172 100 L 178.7 93.6 L 226.9 87.8 L 249.7 106.4 L 250.1 124 L 245.5 125.9 L 245.7 130.6 L 221.5 144.5 C 219.5 149, 212 154, 207 154 C 192 154.1, 177 152.4, 162 161 L 151 152 C 120 178, 95 238.6, 95 243.6 C 95 245.5, 102 247, 104 248 C 108 250, 100 258, 96 258 C 90 258, 66.5 244, 72 233 Z" fill="#A5A8AD" stroke="#000000" stroke-width="1.6" stroke-linecap="butt" stroke-linejoin="round" />
+
+    
+    <g fill="none" stroke="#000000" stroke-width="2.45" stroke-linecap="round">
+      <path d="M 148.21,159.34 L 156.51,164.11" />
+      <path d="M 144.28,163.28 L 152.49,167.83" />
+      <path d="M 140.52,167.33 L 148.81,171.76" />
+      <path d="M 137.25,171.65 L 144.80,175.61" />
+      <path d="M 133.82,175.84 L 141.68,179.82" />
+      <path d="M 130.75,180.20 L 137.97,183.75" />
+      <path d="M 127.12,184.49 L 134.80,187.97" />
+      <path d="M 124.12,188.84 L 131.73,192.26" />
+      <path d="M 121.24,193.39 L 128.77,196.66" />
+      <path d="M 118.39,198.00 L 125.78,200.89" />
+      <path d="M 115.91,202.69 L 123.46,205.53" />
+      <path d="M 113.24,207.36 L 120.54,210.03" />
+      <path d="M 110.63,212.21 L 117.76,214.64" />
+      <path d="M 108.17,217.08 L 115.48,219.49" />
+      <path d="M 106.00,221.98 L 112.85,224.08" />
+      <path d="M 104.06,226.92 L 110.71,229.01" />
+      <path d="M 101.91,231.79 L 108.31,233.69" />
+      <path d="M 100.05,236.80 L 106.29,238.63" />
+      <path d="M 98.02,241.70 L 104.45,243.31" />
+    </g>
+
+    
+    <g fill="#2A2C2F" stroke="none">
+      <path d="M 226.9,87.8 L 253.0,93.0 L 259.8,102.2 L 249.7,106.4 Z" />
+      <path d="M 253.0,93.0 L 262.9,94.8 L 270.0,102.0 L 259.8,102.2 Z" />
+      <path d="M 249.7,106.4 L 259.8,102.2 L 256.3,119.7 L 250.1,124.0 Z" />
+      <path d="M 259.8,102.2 L 270.0,102.0 L 272.4,104.1 L 270.8,111.4 C 269.0,110.8 265.0,113.8 264.0,116.8 L 256.3,119.7 Z" />
+    </g>
+
+    
+    <g fill="none" stroke="#000000" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 226.9,87.8 L 253.0,93.0 L 259.8,102.2 L 249.7,106.4" />
+      <path d="M 226.9,87.8 L 249.7,106.4 L 250.1,124.0" />
+      <path d="M 253.0,93.0 L 262.9,94.8 L 270.0,102.0 L 259.8,102.2" />
+      <path d="M 256.3,119.7 L 250.1,124.0" />
+      <path d="M 259.8,102.2 L 256.3,119.7" />
+      <path d="M 270.0,102.0 L 272.4,104.1 L 270.8,111.4 C 269.0,110.8 265.0,113.8 264.0,116.8 L 256.3,119.7" />
+    </g>
+
+    
+    <polygon points="174,102 196,120 196,127 171,138 149,120" fill="#000000" stroke="#000000" stroke-width="1.1" stroke-linejoin="round" />
+
+    
+    <polygon points="172.57569330,106.27100453 178.49069330,111.59600453 172.03069330,116.96100453 166.11569330,111.63600453" fill="#FFFFFF" />
+    <polygon points="181.40430670,114.21899547 187.31930670,119.54399547 180.85930670,124.90899547 174.94430670,119.58399547" fill="#FFFFFF" />
+    <polygon points="162.05,114.38 176.19,127.10 170.69,131.66 156.56,118.95" fill="#972727" transform="rotate(0.0237123014 169.12 120.74)" />
+
+    
+    <g fill="none" stroke="#000000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 221.5 145 L 211.5 116 L 202 116 L 178 97" />
+      <path d="M 198.2 93.5 L 203.8 98.1 L 228.5 94.4" />
+      <path d="M 211.2 102.8 L 216.8 108.2 L 240.5 104.4" />
+    </g>
+    
+  </g>
+<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#mdtest-straight-18-reusable-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></g></svg><svg viewBox="0 0 344 344" width="60.0000" height="60.0000" role="img" aria-label="Tuvok Phaser die-face blank draft" overflow="visible" x="269.0000" y="189.7780" preserveAspectRatio="xMidYMid meet" data-md-icon="phaser_die.svg" data-activation-shadow="none" data-vector-source="../icons/phaser_die.svg"><defs id="mdtest-straight-19-approved-reusable-die-lighting"><linearGradient id="mdtest-straight-19-reusable-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28" /><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02" /><stop offset="1" stop-color="#101018" stop-opacity="0.24" /></linearGradient><linearGradient id="mdtest-straight-19-reusable-defense-green" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#BAFFD7" /><stop offset="0.35" stop-color="#6AF2A8" /><stop offset="0.72" stop-color="#359963" /><stop offset="1" stop-color="#236D45" /></linearGradient><linearGradient id="mdtest-straight-19-reusable-straight-gold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFF0C6" /><stop offset="0.35" stop-color="#FFD27A" /><stop offset="1" stop-color="#97703B" /></linearGradient><filter id="mdtest-straight-19-reusable-dice-shared-shadow" x="-0.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="36" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="28" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><g id="mdtest-straight-19-approved-reusable-die-surface">
+  <title>Tuvok Phaser die-face blank draft</title>
+  <defs>
+    <clipPath id="mdtest-straight-19-die-clip"><rect x="0" y="0" width="344" height="344" rx="31" /></clipPath>
+  </defs>
+  <g clip-path="url(#mdtest-straight-19-die-clip)">
+    <rect width="344" height="344" fill="#55286F" />
+
+    
+    <path d="M 72 233 C 83.5 188.7, 102.7 144.3, 172 100 L 178.7 93.6 L 226.9 87.8 L 249.7 106.4 L 250.1 124 L 245.5 125.9 L 245.7 130.6 L 221.5 144.5 C 219.5 149, 212 154, 207 154 C 192 154.1, 177 152.4, 162 161 L 151 152 C 120 178, 95 238.6, 95 243.6 C 95 245.5, 102 247, 104 248 C 108 250, 100 258, 96 258 C 90 258, 66.5 244, 72 233 Z" fill="#A5A8AD" stroke="#000000" stroke-width="1.6" stroke-linecap="butt" stroke-linejoin="round" />
+
+    
+    <g fill="none" stroke="#000000" stroke-width="2.45" stroke-linecap="round">
+      <path d="M 148.21,159.34 L 156.51,164.11" />
+      <path d="M 144.28,163.28 L 152.49,167.83" />
+      <path d="M 140.52,167.33 L 148.81,171.76" />
+      <path d="M 137.25,171.65 L 144.80,175.61" />
+      <path d="M 133.82,175.84 L 141.68,179.82" />
+      <path d="M 130.75,180.20 L 137.97,183.75" />
+      <path d="M 127.12,184.49 L 134.80,187.97" />
+      <path d="M 124.12,188.84 L 131.73,192.26" />
+      <path d="M 121.24,193.39 L 128.77,196.66" />
+      <path d="M 118.39,198.00 L 125.78,200.89" />
+      <path d="M 115.91,202.69 L 123.46,205.53" />
+      <path d="M 113.24,207.36 L 120.54,210.03" />
+      <path d="M 110.63,212.21 L 117.76,214.64" />
+      <path d="M 108.17,217.08 L 115.48,219.49" />
+      <path d="M 106.00,221.98 L 112.85,224.08" />
+      <path d="M 104.06,226.92 L 110.71,229.01" />
+      <path d="M 101.91,231.79 L 108.31,233.69" />
+      <path d="M 100.05,236.80 L 106.29,238.63" />
+      <path d="M 98.02,241.70 L 104.45,243.31" />
+    </g>
+
+    
+    <g fill="#2A2C2F" stroke="none">
+      <path d="M 226.9,87.8 L 253.0,93.0 L 259.8,102.2 L 249.7,106.4 Z" />
+      <path d="M 253.0,93.0 L 262.9,94.8 L 270.0,102.0 L 259.8,102.2 Z" />
+      <path d="M 249.7,106.4 L 259.8,102.2 L 256.3,119.7 L 250.1,124.0 Z" />
+      <path d="M 259.8,102.2 L 270.0,102.0 L 272.4,104.1 L 270.8,111.4 C 269.0,110.8 265.0,113.8 264.0,116.8 L 256.3,119.7 Z" />
+    </g>
+
+    
+    <g fill="none" stroke="#000000" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 226.9,87.8 L 253.0,93.0 L 259.8,102.2 L 249.7,106.4" />
+      <path d="M 226.9,87.8 L 249.7,106.4 L 250.1,124.0" />
+      <path d="M 253.0,93.0 L 262.9,94.8 L 270.0,102.0 L 259.8,102.2" />
+      <path d="M 256.3,119.7 L 250.1,124.0" />
+      <path d="M 259.8,102.2 L 256.3,119.7" />
+      <path d="M 270.0,102.0 L 272.4,104.1 L 270.8,111.4 C 269.0,110.8 265.0,113.8 264.0,116.8 L 256.3,119.7" />
+    </g>
+
+    
+    <polygon points="174,102 196,120 196,127 171,138 149,120" fill="#000000" stroke="#000000" stroke-width="1.1" stroke-linejoin="round" />
+
+    
+    <polygon points="172.57569330,106.27100453 178.49069330,111.59600453 172.03069330,116.96100453 166.11569330,111.63600453" fill="#FFFFFF" />
+    <polygon points="181.40430670,114.21899547 187.31930670,119.54399547 180.85930670,124.90899547 174.94430670,119.58399547" fill="#FFFFFF" />
+    <polygon points="162.05,114.38 176.19,127.10 170.69,131.66 156.56,118.95" fill="#972727" transform="rotate(0.0237123014 169.12 120.74)" />
+
+    
+    <g fill="none" stroke="#000000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 221.5 145 L 211.5 116 L 202 116 L 178 97" />
+      <path d="M 198.2 93.5 L 203.8 98.1 L 228.5 94.4" />
+      <path d="M 211.2 102.8 L 216.8 108.2 L 240.5 104.4" />
+    </g>
+    
+  </g>
+<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#mdtest-straight-19-reusable-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></g></svg><text x="329.0000" y="243.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#rulesHalo)"> </text><text x="345.6670" y="243.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#rulesHalo)">Deal</text><text x="404.9920" y="243.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#rulesHalo)"> </text><g transform="translate(411.9295 204.0000)" data-md-icon="normal_damage.svg" data-md-value="6"><image width="54.0" height="54" href="../../../Shared/icons/normal_damage.svg" preserveAspectRatio="xMidYMid meet" /><rect x="15.389999999999999" y="12.15" width="21.6" height="28.62" fill="#030304" /><text x="26.298000000000002" y="28.080000000000002" text-anchor="middle" dominant-baseline="central" font-family="Arial,Helvetica,sans-serif" font-size="31.7625" font-weight="700" fill="#FFFFFF">6</text></g></g><g data-md-line="true" data-source-baseline="345.0" data-source-activation="true" data-source-text-start-x="375.66700000000003"><svg viewBox="0 0 344 344" width="60.0000" height="60.0000" role="img" aria-label="Tuvok Phaser die-face blank draft" overflow="visible" x="119.0000" y="291.7780" preserveAspectRatio="xMidYMid meet" data-md-icon="phaser_die.svg" data-activation-shadow="none" data-vector-source="../icons/phaser_die.svg"><defs id="mdtest-straight-21-approved-reusable-die-lighting"><linearGradient id="mdtest-straight-21-reusable-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28" /><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02" /><stop offset="1" stop-color="#101018" stop-opacity="0.24" /></linearGradient><linearGradient id="mdtest-straight-21-reusable-defense-green" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#BAFFD7" /><stop offset="0.35" stop-color="#6AF2A8" /><stop offset="0.72" stop-color="#359963" /><stop offset="1" stop-color="#236D45" /></linearGradient><linearGradient id="mdtest-straight-21-reusable-straight-gold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFF0C6" /><stop offset="0.35" stop-color="#FFD27A" /><stop offset="1" stop-color="#97703B" /></linearGradient><filter id="mdtest-straight-21-reusable-dice-shared-shadow" x="-0.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="36" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="28" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><g id="mdtest-straight-21-approved-reusable-die-surface">
+  <title>Tuvok Phaser die-face blank draft</title>
+  <defs>
+    <clipPath id="mdtest-straight-21-die-clip"><rect x="0" y="0" width="344" height="344" rx="31" /></clipPath>
+  </defs>
+  <g clip-path="url(#mdtest-straight-21-die-clip)">
+    <rect width="344" height="344" fill="#55286F" />
+
+    
+    <path d="M 72 233 C 83.5 188.7, 102.7 144.3, 172 100 L 178.7 93.6 L 226.9 87.8 L 249.7 106.4 L 250.1 124 L 245.5 125.9 L 245.7 130.6 L 221.5 144.5 C 219.5 149, 212 154, 207 154 C 192 154.1, 177 152.4, 162 161 L 151 152 C 120 178, 95 238.6, 95 243.6 C 95 245.5, 102 247, 104 248 C 108 250, 100 258, 96 258 C 90 258, 66.5 244, 72 233 Z" fill="#A5A8AD" stroke="#000000" stroke-width="1.6" stroke-linecap="butt" stroke-linejoin="round" />
+
+    
+    <g fill="none" stroke="#000000" stroke-width="2.45" stroke-linecap="round">
+      <path d="M 148.21,159.34 L 156.51,164.11" />
+      <path d="M 144.28,163.28 L 152.49,167.83" />
+      <path d="M 140.52,167.33 L 148.81,171.76" />
+      <path d="M 137.25,171.65 L 144.80,175.61" />
+      <path d="M 133.82,175.84 L 141.68,179.82" />
+      <path d="M 130.75,180.20 L 137.97,183.75" />
+      <path d="M 127.12,184.49 L 134.80,187.97" />
+      <path d="M 124.12,188.84 L 131.73,192.26" />
+      <path d="M 121.24,193.39 L 128.77,196.66" />
+      <path d="M 118.39,198.00 L 125.78,200.89" />
+      <path d="M 115.91,202.69 L 123.46,205.53" />
+      <path d="M 113.24,207.36 L 120.54,210.03" />
+      <path d="M 110.63,212.21 L 117.76,214.64" />
+      <path d="M 108.17,217.08 L 115.48,219.49" />
+      <path d="M 106.00,221.98 L 112.85,224.08" />
+      <path d="M 104.06,226.92 L 110.71,229.01" />
+      <path d="M 101.91,231.79 L 108.31,233.69" />
+      <path d="M 100.05,236.80 L 106.29,238.63" />
+      <path d="M 98.02,241.70 L 104.45,243.31" />
+    </g>
+
+    
+    <g fill="#2A2C2F" stroke="none">
+      <path d="M 226.9,87.8 L 253.0,93.0 L 259.8,102.2 L 249.7,106.4 Z" />
+      <path d="M 253.0,93.0 L 262.9,94.8 L 270.0,102.0 L 259.8,102.2 Z" />
+      <path d="M 249.7,106.4 L 259.8,102.2 L 256.3,119.7 L 250.1,124.0 Z" />
+      <path d="M 259.8,102.2 L 270.0,102.0 L 272.4,104.1 L 270.8,111.4 C 269.0,110.8 265.0,113.8 264.0,116.8 L 256.3,119.7 Z" />
+    </g>
+
+    
+    <g fill="none" stroke="#000000" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 226.9,87.8 L 253.0,93.0 L 259.8,102.2 L 249.7,106.4" />
+      <path d="M 226.9,87.8 L 249.7,106.4 L 250.1,124.0" />
+      <path d="M 253.0,93.0 L 262.9,94.8 L 270.0,102.0 L 259.8,102.2" />
+      <path d="M 256.3,119.7 L 250.1,124.0" />
+      <path d="M 259.8,102.2 L 256.3,119.7" />
+      <path d="M 270.0,102.0 L 272.4,104.1 L 270.8,111.4 C 269.0,110.8 265.0,113.8 264.0,116.8 L 256.3,119.7" />
+    </g>
+
+    
+    <polygon points="174,102 196,120 196,127 171,138 149,120" fill="#000000" stroke="#000000" stroke-width="1.1" stroke-linejoin="round" />
+
+    
+    <polygon points="172.57569330,106.27100453 178.49069330,111.59600453 172.03069330,116.96100453 166.11569330,111.63600453" fill="#FFFFFF" />
+    <polygon points="181.40430670,114.21899547 187.31930670,119.54399547 180.85930670,124.90899547 174.94430670,119.58399547" fill="#FFFFFF" />
+    <polygon points="162.05,114.38 176.19,127.10 170.69,131.66 156.56,118.95" fill="#972727" transform="rotate(0.0237123014 169.12 120.74)" />
+
+    
+    <g fill="none" stroke="#000000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 221.5 145 L 211.5 116 L 202 116 L 178 97" />
+      <path d="M 198.2 93.5 L 203.8 98.1 L 228.5 94.4" />
+      <path d="M 211.2 102.8 L 216.8 108.2 L 240.5 104.4" />
+    </g>
+    
+  </g>
+<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#mdtest-straight-21-reusable-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></g></svg><svg viewBox="0 0 344 344" width="60.0000" height="60.0000" role="img" aria-label="Tuvok Phaser die-face blank draft" overflow="visible" x="179.0000" y="291.7780" preserveAspectRatio="xMidYMid meet" data-md-icon="phaser_die.svg" data-activation-shadow="none" data-vector-source="../icons/phaser_die.svg"><defs id="mdtest-straight-22-approved-reusable-die-lighting"><linearGradient id="mdtest-straight-22-reusable-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28" /><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02" /><stop offset="1" stop-color="#101018" stop-opacity="0.24" /></linearGradient><linearGradient id="mdtest-straight-22-reusable-defense-green" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#BAFFD7" /><stop offset="0.35" stop-color="#6AF2A8" /><stop offset="0.72" stop-color="#359963" /><stop offset="1" stop-color="#236D45" /></linearGradient><linearGradient id="mdtest-straight-22-reusable-straight-gold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFF0C6" /><stop offset="0.35" stop-color="#FFD27A" /><stop offset="1" stop-color="#97703B" /></linearGradient><filter id="mdtest-straight-22-reusable-dice-shared-shadow" x="-0.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="36" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="28" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><g id="mdtest-straight-22-approved-reusable-die-surface">
+  <title>Tuvok Phaser die-face blank draft</title>
+  <defs>
+    <clipPath id="mdtest-straight-22-die-clip"><rect x="0" y="0" width="344" height="344" rx="31" /></clipPath>
+  </defs>
+  <g clip-path="url(#mdtest-straight-22-die-clip)">
+    <rect width="344" height="344" fill="#55286F" />
+
+    
+    <path d="M 72 233 C 83.5 188.7, 102.7 144.3, 172 100 L 178.7 93.6 L 226.9 87.8 L 249.7 106.4 L 250.1 124 L 245.5 125.9 L 245.7 130.6 L 221.5 144.5 C 219.5 149, 212 154, 207 154 C 192 154.1, 177 152.4, 162 161 L 151 152 C 120 178, 95 238.6, 95 243.6 C 95 245.5, 102 247, 104 248 C 108 250, 100 258, 96 258 C 90 258, 66.5 244, 72 233 Z" fill="#A5A8AD" stroke="#000000" stroke-width="1.6" stroke-linecap="butt" stroke-linejoin="round" />
+
+    
+    <g fill="none" stroke="#000000" stroke-width="2.45" stroke-linecap="round">
+      <path d="M 148.21,159.34 L 156.51,164.11" />
+      <path d="M 144.28,163.28 L 152.49,167.83" />
+      <path d="M 140.52,167.33 L 148.81,171.76" />
+      <path d="M 137.25,171.65 L 144.80,175.61" />
+      <path d="M 133.82,175.84 L 141.68,179.82" />
+      <path d="M 130.75,180.20 L 137.97,183.75" />
+      <path d="M 127.12,184.49 L 134.80,187.97" />
+      <path d="M 124.12,188.84 L 131.73,192.26" />
+      <path d="M 121.24,193.39 L 128.77,196.66" />
+      <path d="M 118.39,198.00 L 125.78,200.89" />
+      <path d="M 115.91,202.69 L 123.46,205.53" />
+      <path d="M 113.24,207.36 L 120.54,210.03" />
+      <path d="M 110.63,212.21 L 117.76,214.64" />
+      <path d="M 108.17,217.08 L 115.48,219.49" />
+      <path d="M 106.00,221.98 L 112.85,224.08" />
+      <path d="M 104.06,226.92 L 110.71,229.01" />
+      <path d="M 101.91,231.79 L 108.31,233.69" />
+      <path d="M 100.05,236.80 L 106.29,238.63" />
+      <path d="M 98.02,241.70 L 104.45,243.31" />
+    </g>
+
+    
+    <g fill="#2A2C2F" stroke="none">
+      <path d="M 226.9,87.8 L 253.0,93.0 L 259.8,102.2 L 249.7,106.4 Z" />
+      <path d="M 253.0,93.0 L 262.9,94.8 L 270.0,102.0 L 259.8,102.2 Z" />
+      <path d="M 249.7,106.4 L 259.8,102.2 L 256.3,119.7 L 250.1,124.0 Z" />
+      <path d="M 259.8,102.2 L 270.0,102.0 L 272.4,104.1 L 270.8,111.4 C 269.0,110.8 265.0,113.8 264.0,116.8 L 256.3,119.7 Z" />
+    </g>
+
+    
+    <g fill="none" stroke="#000000" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 226.9,87.8 L 253.0,93.0 L 259.8,102.2 L 249.7,106.4" />
+      <path d="M 226.9,87.8 L 249.7,106.4 L 250.1,124.0" />
+      <path d="M 253.0,93.0 L 262.9,94.8 L 270.0,102.0 L 259.8,102.2" />
+      <path d="M 256.3,119.7 L 250.1,124.0" />
+      <path d="M 259.8,102.2 L 256.3,119.7" />
+      <path d="M 270.0,102.0 L 272.4,104.1 L 270.8,111.4 C 269.0,110.8 265.0,113.8 264.0,116.8 L 256.3,119.7" />
+    </g>
+
+    
+    <polygon points="174,102 196,120 196,127 171,138 149,120" fill="#000000" stroke="#000000" stroke-width="1.1" stroke-linejoin="round" />
+
+    
+    <polygon points="172.57569330,106.27100453 178.49069330,111.59600453 172.03069330,116.96100453 166.11569330,111.63600453" fill="#FFFFFF" />
+    <polygon points="181.40430670,114.21899547 187.31930670,119.54399547 180.85930670,124.90899547 174.94430670,119.58399547" fill="#FFFFFF" />
+    <polygon points="162.05,114.38 176.19,127.10 170.69,131.66 156.56,118.95" fill="#972727" transform="rotate(0.0237123014 169.12 120.74)" />
+
+    
+    <g fill="none" stroke="#000000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 221.5 145 L 211.5 116 L 202 116 L 178 97" />
+      <path d="M 198.2 93.5 L 203.8 98.1 L 228.5 94.4" />
+      <path d="M 211.2 102.8 L 216.8 108.2 L 240.5 104.4" />
+    </g>
+    
+  </g>
+<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#mdtest-straight-22-reusable-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></g></svg><svg viewBox="0 0 344 344" width="60.0000" height="60.0000" role="img" aria-label="Tuvok Phaser die-face blank draft" overflow="visible" x="239.0000" y="291.7780" preserveAspectRatio="xMidYMid meet" data-md-icon="phaser_die.svg" data-activation-shadow="none" data-vector-source="../icons/phaser_die.svg"><defs id="mdtest-straight-23-approved-reusable-die-lighting"><linearGradient id="mdtest-straight-23-reusable-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28" /><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02" /><stop offset="1" stop-color="#101018" stop-opacity="0.24" /></linearGradient><linearGradient id="mdtest-straight-23-reusable-defense-green" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#BAFFD7" /><stop offset="0.35" stop-color="#6AF2A8" /><stop offset="0.72" stop-color="#359963" /><stop offset="1" stop-color="#236D45" /></linearGradient><linearGradient id="mdtest-straight-23-reusable-straight-gold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFF0C6" /><stop offset="0.35" stop-color="#FFD27A" /><stop offset="1" stop-color="#97703B" /></linearGradient><filter id="mdtest-straight-23-reusable-dice-shared-shadow" x="-0.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="36" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="28" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><g id="mdtest-straight-23-approved-reusable-die-surface">
+  <title>Tuvok Phaser die-face blank draft</title>
+  <defs>
+    <clipPath id="mdtest-straight-23-die-clip"><rect x="0" y="0" width="344" height="344" rx="31" /></clipPath>
+  </defs>
+  <g clip-path="url(#mdtest-straight-23-die-clip)">
+    <rect width="344" height="344" fill="#55286F" />
+
+    
+    <path d="M 72 233 C 83.5 188.7, 102.7 144.3, 172 100 L 178.7 93.6 L 226.9 87.8 L 249.7 106.4 L 250.1 124 L 245.5 125.9 L 245.7 130.6 L 221.5 144.5 C 219.5 149, 212 154, 207 154 C 192 154.1, 177 152.4, 162 161 L 151 152 C 120 178, 95 238.6, 95 243.6 C 95 245.5, 102 247, 104 248 C 108 250, 100 258, 96 258 C 90 258, 66.5 244, 72 233 Z" fill="#A5A8AD" stroke="#000000" stroke-width="1.6" stroke-linecap="butt" stroke-linejoin="round" />
+
+    
+    <g fill="none" stroke="#000000" stroke-width="2.45" stroke-linecap="round">
+      <path d="M 148.21,159.34 L 156.51,164.11" />
+      <path d="M 144.28,163.28 L 152.49,167.83" />
+      <path d="M 140.52,167.33 L 148.81,171.76" />
+      <path d="M 137.25,171.65 L 144.80,175.61" />
+      <path d="M 133.82,175.84 L 141.68,179.82" />
+      <path d="M 130.75,180.20 L 137.97,183.75" />
+      <path d="M 127.12,184.49 L 134.80,187.97" />
+      <path d="M 124.12,188.84 L 131.73,192.26" />
+      <path d="M 121.24,193.39 L 128.77,196.66" />
+      <path d="M 118.39,198.00 L 125.78,200.89" />
+      <path d="M 115.91,202.69 L 123.46,205.53" />
+      <path d="M 113.24,207.36 L 120.54,210.03" />
+      <path d="M 110.63,212.21 L 117.76,214.64" />
+      <path d="M 108.17,217.08 L 115.48,219.49" />
+      <path d="M 106.00,221.98 L 112.85,224.08" />
+      <path d="M 104.06,226.92 L 110.71,229.01" />
+      <path d="M 101.91,231.79 L 108.31,233.69" />
+      <path d="M 100.05,236.80 L 106.29,238.63" />
+      <path d="M 98.02,241.70 L 104.45,243.31" />
+    </g>
+
+    
+    <g fill="#2A2C2F" stroke="none">
+      <path d="M 226.9,87.8 L 253.0,93.0 L 259.8,102.2 L 249.7,106.4 Z" />
+      <path d="M 253.0,93.0 L 262.9,94.8 L 270.0,102.0 L 259.8,102.2 Z" />
+      <path d="M 249.7,106.4 L 259.8,102.2 L 256.3,119.7 L 250.1,124.0 Z" />
+      <path d="M 259.8,102.2 L 270.0,102.0 L 272.4,104.1 L 270.8,111.4 C 269.0,110.8 265.0,113.8 264.0,116.8 L 256.3,119.7 Z" />
+    </g>
+
+    
+    <g fill="none" stroke="#000000" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 226.9,87.8 L 253.0,93.0 L 259.8,102.2 L 249.7,106.4" />
+      <path d="M 226.9,87.8 L 249.7,106.4 L 250.1,124.0" />
+      <path d="M 253.0,93.0 L 262.9,94.8 L 270.0,102.0 L 259.8,102.2" />
+      <path d="M 256.3,119.7 L 250.1,124.0" />
+      <path d="M 259.8,102.2 L 256.3,119.7" />
+      <path d="M 270.0,102.0 L 272.4,104.1 L 270.8,111.4 C 269.0,110.8 265.0,113.8 264.0,116.8 L 256.3,119.7" />
+    </g>
+
+    
+    <polygon points="174,102 196,120 196,127 171,138 149,120" fill="#000000" stroke="#000000" stroke-width="1.1" stroke-linejoin="round" />
+
+    
+    <polygon points="172.57569330,106.27100453 178.49069330,111.59600453 172.03069330,116.96100453 166.11569330,111.63600453" fill="#FFFFFF" />
+    <polygon points="181.40430670,114.21899547 187.31930670,119.54399547 180.85930670,124.90899547 174.94430670,119.58399547" fill="#FFFFFF" />
+    <polygon points="162.05,114.38 176.19,127.10 170.69,131.66 156.56,118.95" fill="#972727" transform="rotate(0.0237123014 169.12 120.74)" />
+
+    
+    <g fill="none" stroke="#000000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 221.5 145 L 211.5 116 L 202 116 L 178 97" />
+      <path d="M 198.2 93.5 L 203.8 98.1 L 228.5 94.4" />
+      <path d="M 211.2 102.8 L 216.8 108.2 L 240.5 104.4" />
+    </g>
+    
+  </g>
+<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#mdtest-straight-23-reusable-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></g></svg><svg viewBox="0 0 344 344" width="60.0000" height="60.0000" role="img" aria-label="Tuvok Phaser die-face blank draft" overflow="visible" x="299.0000" y="291.7780" preserveAspectRatio="xMidYMid meet" data-md-icon="phaser_die.svg" data-activation-shadow="none" data-vector-source="../icons/phaser_die.svg"><defs id="mdtest-straight-24-approved-reusable-die-lighting"><linearGradient id="mdtest-straight-24-reusable-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28" /><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02" /><stop offset="1" stop-color="#101018" stop-opacity="0.24" /></linearGradient><linearGradient id="mdtest-straight-24-reusable-defense-green" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#BAFFD7" /><stop offset="0.35" stop-color="#6AF2A8" /><stop offset="0.72" stop-color="#359963" /><stop offset="1" stop-color="#236D45" /></linearGradient><linearGradient id="mdtest-straight-24-reusable-straight-gold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFF0C6" /><stop offset="0.35" stop-color="#FFD27A" /><stop offset="1" stop-color="#97703B" /></linearGradient><filter id="mdtest-straight-24-reusable-dice-shared-shadow" x="-0.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="36" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="28" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><g id="mdtest-straight-24-approved-reusable-die-surface">
+  <title>Tuvok Phaser die-face blank draft</title>
+  <defs>
+    <clipPath id="mdtest-straight-24-die-clip"><rect x="0" y="0" width="344" height="344" rx="31" /></clipPath>
+  </defs>
+  <g clip-path="url(#mdtest-straight-24-die-clip)">
+    <rect width="344" height="344" fill="#55286F" />
+
+    
+    <path d="M 72 233 C 83.5 188.7, 102.7 144.3, 172 100 L 178.7 93.6 L 226.9 87.8 L 249.7 106.4 L 250.1 124 L 245.5 125.9 L 245.7 130.6 L 221.5 144.5 C 219.5 149, 212 154, 207 154 C 192 154.1, 177 152.4, 162 161 L 151 152 C 120 178, 95 238.6, 95 243.6 C 95 245.5, 102 247, 104 248 C 108 250, 100 258, 96 258 C 90 258, 66.5 244, 72 233 Z" fill="#A5A8AD" stroke="#000000" stroke-width="1.6" stroke-linecap="butt" stroke-linejoin="round" />
+
+    
+    <g fill="none" stroke="#000000" stroke-width="2.45" stroke-linecap="round">
+      <path d="M 148.21,159.34 L 156.51,164.11" />
+      <path d="M 144.28,163.28 L 152.49,167.83" />
+      <path d="M 140.52,167.33 L 148.81,171.76" />
+      <path d="M 137.25,171.65 L 144.80,175.61" />
+      <path d="M 133.82,175.84 L 141.68,179.82" />
+      <path d="M 130.75,180.20 L 137.97,183.75" />
+      <path d="M 127.12,184.49 L 134.80,187.97" />
+      <path d="M 124.12,188.84 L 131.73,192.26" />
+      <path d="M 121.24,193.39 L 128.77,196.66" />
+      <path d="M 118.39,198.00 L 125.78,200.89" />
+      <path d="M 115.91,202.69 L 123.46,205.53" />
+      <path d="M 113.24,207.36 L 120.54,210.03" />
+      <path d="M 110.63,212.21 L 117.76,214.64" />
+      <path d="M 108.17,217.08 L 115.48,219.49" />
+      <path d="M 106.00,221.98 L 112.85,224.08" />
+      <path d="M 104.06,226.92 L 110.71,229.01" />
+      <path d="M 101.91,231.79 L 108.31,233.69" />
+      <path d="M 100.05,236.80 L 106.29,238.63" />
+      <path d="M 98.02,241.70 L 104.45,243.31" />
+    </g>
+
+    
+    <g fill="#2A2C2F" stroke="none">
+      <path d="M 226.9,87.8 L 253.0,93.0 L 259.8,102.2 L 249.7,106.4 Z" />
+      <path d="M 253.0,93.0 L 262.9,94.8 L 270.0,102.0 L 259.8,102.2 Z" />
+      <path d="M 249.7,106.4 L 259.8,102.2 L 256.3,119.7 L 250.1,124.0 Z" />
+      <path d="M 259.8,102.2 L 270.0,102.0 L 272.4,104.1 L 270.8,111.4 C 269.0,110.8 265.0,113.8 264.0,116.8 L 256.3,119.7 Z" />
+    </g>
+
+    
+    <g fill="none" stroke="#000000" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 226.9,87.8 L 253.0,93.0 L 259.8,102.2 L 249.7,106.4" />
+      <path d="M 226.9,87.8 L 249.7,106.4 L 250.1,124.0" />
+      <path d="M 253.0,93.0 L 262.9,94.8 L 270.0,102.0 L 259.8,102.2" />
+      <path d="M 256.3,119.7 L 250.1,124.0" />
+      <path d="M 259.8,102.2 L 256.3,119.7" />
+      <path d="M 270.0,102.0 L 272.4,104.1 L 270.8,111.4 C 269.0,110.8 265.0,113.8 264.0,116.8 L 256.3,119.7" />
+    </g>
+
+    
+    <polygon points="174,102 196,120 196,127 171,138 149,120" fill="#000000" stroke="#000000" stroke-width="1.1" stroke-linejoin="round" />
+
+    
+    <polygon points="172.57569330,106.27100453 178.49069330,111.59600453 172.03069330,116.96100453 166.11569330,111.63600453" fill="#FFFFFF" />
+    <polygon points="181.40430670,114.21899547 187.31930670,119.54399547 180.85930670,124.90899547 174.94430670,119.58399547" fill="#FFFFFF" />
+    <polygon points="162.05,114.38 176.19,127.10 170.69,131.66 156.56,118.95" fill="#972727" transform="rotate(0.0237123014 169.12 120.74)" />
+
+    
+    <g fill="none" stroke="#000000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 221.5 145 L 211.5 116 L 202 116 L 178 97" />
+      <path d="M 198.2 93.5 L 203.8 98.1 L 228.5 94.4" />
+      <path d="M 211.2 102.8 L 216.8 108.2 L 240.5 104.4" />
+    </g>
+    
+  </g>
+<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#mdtest-straight-24-reusable-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></g></svg><text x="359.0000" y="345.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#rulesHalo)"> </text><text x="375.6670" y="345.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#rulesHalo)">Deal</text><text x="434.9920" y="345.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#rulesHalo)"> </text><g transform="translate(441.9295 306.0000)" data-md-icon="normal_damage.svg" data-md-value="7"><image width="54.0" height="54" href="../../../Shared/icons/normal_damage.svg" preserveAspectRatio="xMidYMid meet" /><rect x="15.389999999999999" y="12.15" width="21.6" height="28.62" fill="#030304" /><text x="26.298000000000002" y="28.080000000000002" text-anchor="middle" dominant-baseline="central" font-family="Arial,Helvetica,sans-serif" font-size="31.7625" font-weight="700" fill="#FFFFFF">7</text></g></g><g data-md-line="true" data-source-baseline="447.0" data-source-activation="true" data-source-text-start-x="405.66700000000003"><svg viewBox="0 0 344 344" width="60.0000" height="60.0000" role="img" aria-label="Tuvok Phaser die-face blank draft" overflow="visible" x="89.0000" y="393.7780" preserveAspectRatio="xMidYMid meet" data-md-icon="phaser_die.svg" data-activation-shadow="none" data-vector-source="../icons/phaser_die.svg"><defs id="mdtest-straight-26-approved-reusable-die-lighting"><linearGradient id="mdtest-straight-26-reusable-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28" /><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02" /><stop offset="1" stop-color="#101018" stop-opacity="0.24" /></linearGradient><linearGradient id="mdtest-straight-26-reusable-defense-green" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#BAFFD7" /><stop offset="0.35" stop-color="#6AF2A8" /><stop offset="0.72" stop-color="#359963" /><stop offset="1" stop-color="#236D45" /></linearGradient><linearGradient id="mdtest-straight-26-reusable-straight-gold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFF0C6" /><stop offset="0.35" stop-color="#FFD27A" /><stop offset="1" stop-color="#97703B" /></linearGradient><filter id="mdtest-straight-26-reusable-dice-shared-shadow" x="-0.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="36" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="28" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><g id="mdtest-straight-26-approved-reusable-die-surface">
+  <title>Tuvok Phaser die-face blank draft</title>
+  <defs>
+    <clipPath id="mdtest-straight-26-die-clip"><rect x="0" y="0" width="344" height="344" rx="31" /></clipPath>
+  </defs>
+  <g clip-path="url(#mdtest-straight-26-die-clip)">
+    <rect width="344" height="344" fill="#55286F" />
+
+    
+    <path d="M 72 233 C 83.5 188.7, 102.7 144.3, 172 100 L 178.7 93.6 L 226.9 87.8 L 249.7 106.4 L 250.1 124 L 245.5 125.9 L 245.7 130.6 L 221.5 144.5 C 219.5 149, 212 154, 207 154 C 192 154.1, 177 152.4, 162 161 L 151 152 C 120 178, 95 238.6, 95 243.6 C 95 245.5, 102 247, 104 248 C 108 250, 100 258, 96 258 C 90 258, 66.5 244, 72 233 Z" fill="#A5A8AD" stroke="#000000" stroke-width="1.6" stroke-linecap="butt" stroke-linejoin="round" />
+
+    
+    <g fill="none" stroke="#000000" stroke-width="2.45" stroke-linecap="round">
+      <path d="M 148.21,159.34 L 156.51,164.11" />
+      <path d="M 144.28,163.28 L 152.49,167.83" />
+      <path d="M 140.52,167.33 L 148.81,171.76" />
+      <path d="M 137.25,171.65 L 144.80,175.61" />
+      <path d="M 133.82,175.84 L 141.68,179.82" />
+      <path d="M 130.75,180.20 L 137.97,183.75" />
+      <path d="M 127.12,184.49 L 134.80,187.97" />
+      <path d="M 124.12,188.84 L 131.73,192.26" />
+      <path d="M 121.24,193.39 L 128.77,196.66" />
+      <path d="M 118.39,198.00 L 125.78,200.89" />
+      <path d="M 115.91,202.69 L 123.46,205.53" />
+      <path d="M 113.24,207.36 L 120.54,210.03" />
+      <path d="M 110.63,212.21 L 117.76,214.64" />
+      <path d="M 108.17,217.08 L 115.48,219.49" />
+      <path d="M 106.00,221.98 L 112.85,224.08" />
+      <path d="M 104.06,226.92 L 110.71,229.01" />
+      <path d="M 101.91,231.79 L 108.31,233.69" />
+      <path d="M 100.05,236.80 L 106.29,238.63" />
+      <path d="M 98.02,241.70 L 104.45,243.31" />
+    </g>
+
+    
+    <g fill="#2A2C2F" stroke="none">
+      <path d="M 226.9,87.8 L 253.0,93.0 L 259.8,102.2 L 249.7,106.4 Z" />
+      <path d="M 253.0,93.0 L 262.9,94.8 L 270.0,102.0 L 259.8,102.2 Z" />
+      <path d="M 249.7,106.4 L 259.8,102.2 L 256.3,119.7 L 250.1,124.0 Z" />
+      <path d="M 259.8,102.2 L 270.0,102.0 L 272.4,104.1 L 270.8,111.4 C 269.0,110.8 265.0,113.8 264.0,116.8 L 256.3,119.7 Z" />
+    </g>
+
+    
+    <g fill="none" stroke="#000000" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 226.9,87.8 L 253.0,93.0 L 259.8,102.2 L 249.7,106.4" />
+      <path d="M 226.9,87.8 L 249.7,106.4 L 250.1,124.0" />
+      <path d="M 253.0,93.0 L 262.9,94.8 L 270.0,102.0 L 259.8,102.2" />
+      <path d="M 256.3,119.7 L 250.1,124.0" />
+      <path d="M 259.8,102.2 L 256.3,119.7" />
+      <path d="M 270.0,102.0 L 272.4,104.1 L 270.8,111.4 C 269.0,110.8 265.0,113.8 264.0,116.8 L 256.3,119.7" />
+    </g>
+
+    
+    <polygon points="174,102 196,120 196,127 171,138 149,120" fill="#000000" stroke="#000000" stroke-width="1.1" stroke-linejoin="round" />
+
+    
+    <polygon points="172.57569330,106.27100453 178.49069330,111.59600453 172.03069330,116.96100453 166.11569330,111.63600453" fill="#FFFFFF" />
+    <polygon points="181.40430670,114.21899547 187.31930670,119.54399547 180.85930670,124.90899547 174.94430670,119.58399547" fill="#FFFFFF" />
+    <polygon points="162.05,114.38 176.19,127.10 170.69,131.66 156.56,118.95" fill="#972727" transform="rotate(0.0237123014 169.12 120.74)" />
+
+    
+    <g fill="none" stroke="#000000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 221.5 145 L 211.5 116 L 202 116 L 178 97" />
+      <path d="M 198.2 93.5 L 203.8 98.1 L 228.5 94.4" />
+      <path d="M 211.2 102.8 L 216.8 108.2 L 240.5 104.4" />
+    </g>
+    
+  </g>
+<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#mdtest-straight-26-reusable-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></g></svg><svg viewBox="0 0 344 344" width="60.0000" height="60.0000" role="img" aria-label="Tuvok Phaser die-face blank draft" overflow="visible" x="149.0000" y="393.7780" preserveAspectRatio="xMidYMid meet" data-md-icon="phaser_die.svg" data-activation-shadow="none" data-vector-source="../icons/phaser_die.svg"><defs id="mdtest-straight-27-approved-reusable-die-lighting"><linearGradient id="mdtest-straight-27-reusable-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28" /><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02" /><stop offset="1" stop-color="#101018" stop-opacity="0.24" /></linearGradient><linearGradient id="mdtest-straight-27-reusable-defense-green" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#BAFFD7" /><stop offset="0.35" stop-color="#6AF2A8" /><stop offset="0.72" stop-color="#359963" /><stop offset="1" stop-color="#236D45" /></linearGradient><linearGradient id="mdtest-straight-27-reusable-straight-gold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFF0C6" /><stop offset="0.35" stop-color="#FFD27A" /><stop offset="1" stop-color="#97703B" /></linearGradient><filter id="mdtest-straight-27-reusable-dice-shared-shadow" x="-0.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="36" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="28" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><g id="mdtest-straight-27-approved-reusable-die-surface">
+  <title>Tuvok Phaser die-face blank draft</title>
+  <defs>
+    <clipPath id="mdtest-straight-27-die-clip"><rect x="0" y="0" width="344" height="344" rx="31" /></clipPath>
+  </defs>
+  <g clip-path="url(#mdtest-straight-27-die-clip)">
+    <rect width="344" height="344" fill="#55286F" />
+
+    
+    <path d="M 72 233 C 83.5 188.7, 102.7 144.3, 172 100 L 178.7 93.6 L 226.9 87.8 L 249.7 106.4 L 250.1 124 L 245.5 125.9 L 245.7 130.6 L 221.5 144.5 C 219.5 149, 212 154, 207 154 C 192 154.1, 177 152.4, 162 161 L 151 152 C 120 178, 95 238.6, 95 243.6 C 95 245.5, 102 247, 104 248 C 108 250, 100 258, 96 258 C 90 258, 66.5 244, 72 233 Z" fill="#A5A8AD" stroke="#000000" stroke-width="1.6" stroke-linecap="butt" stroke-linejoin="round" />
+
+    
+    <g fill="none" stroke="#000000" stroke-width="2.45" stroke-linecap="round">
+      <path d="M 148.21,159.34 L 156.51,164.11" />
+      <path d="M 144.28,163.28 L 152.49,167.83" />
+      <path d="M 140.52,167.33 L 148.81,171.76" />
+      <path d="M 137.25,171.65 L 144.80,175.61" />
+      <path d="M 133.82,175.84 L 141.68,179.82" />
+      <path d="M 130.75,180.20 L 137.97,183.75" />
+      <path d="M 127.12,184.49 L 134.80,187.97" />
+      <path d="M 124.12,188.84 L 131.73,192.26" />
+      <path d="M 121.24,193.39 L 128.77,196.66" />
+      <path d="M 118.39,198.00 L 125.78,200.89" />
+      <path d="M 115.91,202.69 L 123.46,205.53" />
+      <path d="M 113.24,207.36 L 120.54,210.03" />
+      <path d="M 110.63,212.21 L 117.76,214.64" />
+      <path d="M 108.17,217.08 L 115.48,219.49" />
+      <path d="M 106.00,221.98 L 112.85,224.08" />
+      <path d="M 104.06,226.92 L 110.71,229.01" />
+      <path d="M 101.91,231.79 L 108.31,233.69" />
+      <path d="M 100.05,236.80 L 106.29,238.63" />
+      <path d="M 98.02,241.70 L 104.45,243.31" />
+    </g>
+
+    
+    <g fill="#2A2C2F" stroke="none">
+      <path d="M 226.9,87.8 L 253.0,93.0 L 259.8,102.2 L 249.7,106.4 Z" />
+      <path d="M 253.0,93.0 L 262.9,94.8 L 270.0,102.0 L 259.8,102.2 Z" />
+      <path d="M 249.7,106.4 L 259.8,102.2 L 256.3,119.7 L 250.1,124.0 Z" />
+      <path d="M 259.8,102.2 L 270.0,102.0 L 272.4,104.1 L 270.8,111.4 C 269.0,110.8 265.0,113.8 264.0,116.8 L 256.3,119.7 Z" />
+    </g>
+
+    
+    <g fill="none" stroke="#000000" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 226.9,87.8 L 253.0,93.0 L 259.8,102.2 L 249.7,106.4" />
+      <path d="M 226.9,87.8 L 249.7,106.4 L 250.1,124.0" />
+      <path d="M 253.0,93.0 L 262.9,94.8 L 270.0,102.0 L 259.8,102.2" />
+      <path d="M 256.3,119.7 L 250.1,124.0" />
+      <path d="M 259.8,102.2 L 256.3,119.7" />
+      <path d="M 270.0,102.0 L 272.4,104.1 L 270.8,111.4 C 269.0,110.8 265.0,113.8 264.0,116.8 L 256.3,119.7" />
+    </g>
+
+    
+    <polygon points="174,102 196,120 196,127 171,138 149,120" fill="#000000" stroke="#000000" stroke-width="1.1" stroke-linejoin="round" />
+
+    
+    <polygon points="172.57569330,106.27100453 178.49069330,111.59600453 172.03069330,116.96100453 166.11569330,111.63600453" fill="#FFFFFF" />
+    <polygon points="181.40430670,114.21899547 187.31930670,119.54399547 180.85930670,124.90899547 174.94430670,119.58399547" fill="#FFFFFF" />
+    <polygon points="162.05,114.38 176.19,127.10 170.69,131.66 156.56,118.95" fill="#972727" transform="rotate(0.0237123014 169.12 120.74)" />
+
+    
+    <g fill="none" stroke="#000000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 221.5 145 L 211.5 116 L 202 116 L 178 97" />
+      <path d="M 198.2 93.5 L 203.8 98.1 L 228.5 94.4" />
+      <path d="M 211.2 102.8 L 216.8 108.2 L 240.5 104.4" />
+    </g>
+    
+  </g>
+<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#mdtest-straight-27-reusable-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></g></svg><svg viewBox="0 0 344 344" width="60.0000" height="60.0000" role="img" aria-label="Tuvok Phaser die-face blank draft" overflow="visible" x="209.0000" y="393.7780" preserveAspectRatio="xMidYMid meet" data-md-icon="phaser_die.svg" data-activation-shadow="none" data-vector-source="../icons/phaser_die.svg"><defs id="mdtest-straight-28-approved-reusable-die-lighting"><linearGradient id="mdtest-straight-28-reusable-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28" /><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02" /><stop offset="1" stop-color="#101018" stop-opacity="0.24" /></linearGradient><linearGradient id="mdtest-straight-28-reusable-defense-green" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#BAFFD7" /><stop offset="0.35" stop-color="#6AF2A8" /><stop offset="0.72" stop-color="#359963" /><stop offset="1" stop-color="#236D45" /></linearGradient><linearGradient id="mdtest-straight-28-reusable-straight-gold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFF0C6" /><stop offset="0.35" stop-color="#FFD27A" /><stop offset="1" stop-color="#97703B" /></linearGradient><filter id="mdtest-straight-28-reusable-dice-shared-shadow" x="-0.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="36" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="28" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><g id="mdtest-straight-28-approved-reusable-die-surface">
+  <title>Tuvok Phaser die-face blank draft</title>
+  <defs>
+    <clipPath id="mdtest-straight-28-die-clip"><rect x="0" y="0" width="344" height="344" rx="31" /></clipPath>
+  </defs>
+  <g clip-path="url(#mdtest-straight-28-die-clip)">
+    <rect width="344" height="344" fill="#55286F" />
+
+    
+    <path d="M 72 233 C 83.5 188.7, 102.7 144.3, 172 100 L 178.7 93.6 L 226.9 87.8 L 249.7 106.4 L 250.1 124 L 245.5 125.9 L 245.7 130.6 L 221.5 144.5 C 219.5 149, 212 154, 207 154 C 192 154.1, 177 152.4, 162 161 L 151 152 C 120 178, 95 238.6, 95 243.6 C 95 245.5, 102 247, 104 248 C 108 250, 100 258, 96 258 C 90 258, 66.5 244, 72 233 Z" fill="#A5A8AD" stroke="#000000" stroke-width="1.6" stroke-linecap="butt" stroke-linejoin="round" />
+
+    
+    <g fill="none" stroke="#000000" stroke-width="2.45" stroke-linecap="round">
+      <path d="M 148.21,159.34 L 156.51,164.11" />
+      <path d="M 144.28,163.28 L 152.49,167.83" />
+      <path d="M 140.52,167.33 L 148.81,171.76" />
+      <path d="M 137.25,171.65 L 144.80,175.61" />
+      <path d="M 133.82,175.84 L 141.68,179.82" />
+      <path d="M 130.75,180.20 L 137.97,183.75" />
+      <path d="M 127.12,184.49 L 134.80,187.97" />
+      <path d="M 124.12,188.84 L 131.73,192.26" />
+      <path d="M 121.24,193.39 L 128.77,196.66" />
+      <path d="M 118.39,198.00 L 125.78,200.89" />
+      <path d="M 115.91,202.69 L 123.46,205.53" />
+      <path d="M 113.24,207.36 L 120.54,210.03" />
+      <path d="M 110.63,212.21 L 117.76,214.64" />
+      <path d="M 108.17,217.08 L 115.48,219.49" />
+      <path d="M 106.00,221.98 L 112.85,224.08" />
+      <path d="M 104.06,226.92 L 110.71,229.01" />
+      <path d="M 101.91,231.79 L 108.31,233.69" />
+      <path d="M 100.05,236.80 L 106.29,238.63" />
+      <path d="M 98.02,241.70 L 104.45,243.31" />
+    </g>
+
+    
+    <g fill="#2A2C2F" stroke="none">
+      <path d="M 226.9,87.8 L 253.0,93.0 L 259.8,102.2 L 249.7,106.4 Z" />
+      <path d="M 253.0,93.0 L 262.9,94.8 L 270.0,102.0 L 259.8,102.2 Z" />
+      <path d="M 249.7,106.4 L 259.8,102.2 L 256.3,119.7 L 250.1,124.0 Z" />
+      <path d="M 259.8,102.2 L 270.0,102.0 L 272.4,104.1 L 270.8,111.4 C 269.0,110.8 265.0,113.8 264.0,116.8 L 256.3,119.7 Z" />
+    </g>
+
+    
+    <g fill="none" stroke="#000000" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 226.9,87.8 L 253.0,93.0 L 259.8,102.2 L 249.7,106.4" />
+      <path d="M 226.9,87.8 L 249.7,106.4 L 250.1,124.0" />
+      <path d="M 253.0,93.0 L 262.9,94.8 L 270.0,102.0 L 259.8,102.2" />
+      <path d="M 256.3,119.7 L 250.1,124.0" />
+      <path d="M 259.8,102.2 L 256.3,119.7" />
+      <path d="M 270.0,102.0 L 272.4,104.1 L 270.8,111.4 C 269.0,110.8 265.0,113.8 264.0,116.8 L 256.3,119.7" />
+    </g>
+
+    
+    <polygon points="174,102 196,120 196,127 171,138 149,120" fill="#000000" stroke="#000000" stroke-width="1.1" stroke-linejoin="round" />
+
+    
+    <polygon points="172.57569330,106.27100453 178.49069330,111.59600453 172.03069330,116.96100453 166.11569330,111.63600453" fill="#FFFFFF" />
+    <polygon points="181.40430670,114.21899547 187.31930670,119.54399547 180.85930670,124.90899547 174.94430670,119.58399547" fill="#FFFFFF" />
+    <polygon points="162.05,114.38 176.19,127.10 170.69,131.66 156.56,118.95" fill="#972727" transform="rotate(0.0237123014 169.12 120.74)" />
+
+    
+    <g fill="none" stroke="#000000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 221.5 145 L 211.5 116 L 202 116 L 178 97" />
+      <path d="M 198.2 93.5 L 203.8 98.1 L 228.5 94.4" />
+      <path d="M 211.2 102.8 L 216.8 108.2 L 240.5 104.4" />
+    </g>
+    
+  </g>
+<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#mdtest-straight-28-reusable-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></g></svg><svg viewBox="0 0 344 344" width="60.0000" height="60.0000" role="img" aria-label="Tuvok Phaser die-face blank draft" overflow="visible" x="269.0000" y="393.7780" preserveAspectRatio="xMidYMid meet" data-md-icon="phaser_die.svg" data-activation-shadow="none" data-vector-source="../icons/phaser_die.svg"><defs id="mdtest-straight-29-approved-reusable-die-lighting"><linearGradient id="mdtest-straight-29-reusable-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28" /><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02" /><stop offset="1" stop-color="#101018" stop-opacity="0.24" /></linearGradient><linearGradient id="mdtest-straight-29-reusable-defense-green" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#BAFFD7" /><stop offset="0.35" stop-color="#6AF2A8" /><stop offset="0.72" stop-color="#359963" /><stop offset="1" stop-color="#236D45" /></linearGradient><linearGradient id="mdtest-straight-29-reusable-straight-gold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFF0C6" /><stop offset="0.35" stop-color="#FFD27A" /><stop offset="1" stop-color="#97703B" /></linearGradient><filter id="mdtest-straight-29-reusable-dice-shared-shadow" x="-0.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="36" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="28" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><g id="mdtest-straight-29-approved-reusable-die-surface">
+  <title>Tuvok Phaser die-face blank draft</title>
+  <defs>
+    <clipPath id="mdtest-straight-29-die-clip"><rect x="0" y="0" width="344" height="344" rx="31" /></clipPath>
+  </defs>
+  <g clip-path="url(#mdtest-straight-29-die-clip)">
+    <rect width="344" height="344" fill="#55286F" />
+
+    
+    <path d="M 72 233 C 83.5 188.7, 102.7 144.3, 172 100 L 178.7 93.6 L 226.9 87.8 L 249.7 106.4 L 250.1 124 L 245.5 125.9 L 245.7 130.6 L 221.5 144.5 C 219.5 149, 212 154, 207 154 C 192 154.1, 177 152.4, 162 161 L 151 152 C 120 178, 95 238.6, 95 243.6 C 95 245.5, 102 247, 104 248 C 108 250, 100 258, 96 258 C 90 258, 66.5 244, 72 233 Z" fill="#A5A8AD" stroke="#000000" stroke-width="1.6" stroke-linecap="butt" stroke-linejoin="round" />
+
+    
+    <g fill="none" stroke="#000000" stroke-width="2.45" stroke-linecap="round">
+      <path d="M 148.21,159.34 L 156.51,164.11" />
+      <path d="M 144.28,163.28 L 152.49,167.83" />
+      <path d="M 140.52,167.33 L 148.81,171.76" />
+      <path d="M 137.25,171.65 L 144.80,175.61" />
+      <path d="M 133.82,175.84 L 141.68,179.82" />
+      <path d="M 130.75,180.20 L 137.97,183.75" />
+      <path d="M 127.12,184.49 L 134.80,187.97" />
+      <path d="M 124.12,188.84 L 131.73,192.26" />
+      <path d="M 121.24,193.39 L 128.77,196.66" />
+      <path d="M 118.39,198.00 L 125.78,200.89" />
+      <path d="M 115.91,202.69 L 123.46,205.53" />
+      <path d="M 113.24,207.36 L 120.54,210.03" />
+      <path d="M 110.63,212.21 L 117.76,214.64" />
+      <path d="M 108.17,217.08 L 115.48,219.49" />
+      <path d="M 106.00,221.98 L 112.85,224.08" />
+      <path d="M 104.06,226.92 L 110.71,229.01" />
+      <path d="M 101.91,231.79 L 108.31,233.69" />
+      <path d="M 100.05,236.80 L 106.29,238.63" />
+      <path d="M 98.02,241.70 L 104.45,243.31" />
+    </g>
+
+    
+    <g fill="#2A2C2F" stroke="none">
+      <path d="M 226.9,87.8 L 253.0,93.0 L 259.8,102.2 L 249.7,106.4 Z" />
+      <path d="M 253.0,93.0 L 262.9,94.8 L 270.0,102.0 L 259.8,102.2 Z" />
+      <path d="M 249.7,106.4 L 259.8,102.2 L 256.3,119.7 L 250.1,124.0 Z" />
+      <path d="M 259.8,102.2 L 270.0,102.0 L 272.4,104.1 L 270.8,111.4 C 269.0,110.8 265.0,113.8 264.0,116.8 L 256.3,119.7 Z" />
+    </g>
+
+    
+    <g fill="none" stroke="#000000" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 226.9,87.8 L 253.0,93.0 L 259.8,102.2 L 249.7,106.4" />
+      <path d="M 226.9,87.8 L 249.7,106.4 L 250.1,124.0" />
+      <path d="M 253.0,93.0 L 262.9,94.8 L 270.0,102.0 L 259.8,102.2" />
+      <path d="M 256.3,119.7 L 250.1,124.0" />
+      <path d="M 259.8,102.2 L 256.3,119.7" />
+      <path d="M 270.0,102.0 L 272.4,104.1 L 270.8,111.4 C 269.0,110.8 265.0,113.8 264.0,116.8 L 256.3,119.7" />
+    </g>
+
+    
+    <polygon points="174,102 196,120 196,127 171,138 149,120" fill="#000000" stroke="#000000" stroke-width="1.1" stroke-linejoin="round" />
+
+    
+    <polygon points="172.57569330,106.27100453 178.49069330,111.59600453 172.03069330,116.96100453 166.11569330,111.63600453" fill="#FFFFFF" />
+    <polygon points="181.40430670,114.21899547 187.31930670,119.54399547 180.85930670,124.90899547 174.94430670,119.58399547" fill="#FFFFFF" />
+    <polygon points="162.05,114.38 176.19,127.10 170.69,131.66 156.56,118.95" fill="#972727" transform="rotate(0.0237123014 169.12 120.74)" />
+
+    
+    <g fill="none" stroke="#000000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 221.5 145 L 211.5 116 L 202 116 L 178 97" />
+      <path d="M 198.2 93.5 L 203.8 98.1 L 228.5 94.4" />
+      <path d="M 211.2 102.8 L 216.8 108.2 L 240.5 104.4" />
+    </g>
+    
+  </g>
+<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#mdtest-straight-29-reusable-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></g></svg><svg viewBox="0 0 344 344" width="60.0000" height="60.0000" role="img" aria-label="Tuvok Phaser die-face blank draft" overflow="visible" x="329.0000" y="393.7780" preserveAspectRatio="xMidYMid meet" data-md-icon="phaser_die.svg" data-activation-shadow="none" data-vector-source="../icons/phaser_die.svg"><defs id="mdtest-straight-30-approved-reusable-die-lighting"><linearGradient id="mdtest-straight-30-reusable-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28" /><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02" /><stop offset="1" stop-color="#101018" stop-opacity="0.24" /></linearGradient><linearGradient id="mdtest-straight-30-reusable-defense-green" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#BAFFD7" /><stop offset="0.35" stop-color="#6AF2A8" /><stop offset="0.72" stop-color="#359963" /><stop offset="1" stop-color="#236D45" /></linearGradient><linearGradient id="mdtest-straight-30-reusable-straight-gold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFF0C6" /><stop offset="0.35" stop-color="#FFD27A" /><stop offset="1" stop-color="#97703B" /></linearGradient><filter id="mdtest-straight-30-reusable-dice-shared-shadow" x="-0.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="36" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="28" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><g id="mdtest-straight-30-approved-reusable-die-surface">
+  <title>Tuvok Phaser die-face blank draft</title>
+  <defs>
+    <clipPath id="mdtest-straight-30-die-clip"><rect x="0" y="0" width="344" height="344" rx="31" /></clipPath>
+  </defs>
+  <g clip-path="url(#mdtest-straight-30-die-clip)">
+    <rect width="344" height="344" fill="#55286F" />
+
+    
+    <path d="M 72 233 C 83.5 188.7, 102.7 144.3, 172 100 L 178.7 93.6 L 226.9 87.8 L 249.7 106.4 L 250.1 124 L 245.5 125.9 L 245.7 130.6 L 221.5 144.5 C 219.5 149, 212 154, 207 154 C 192 154.1, 177 152.4, 162 161 L 151 152 C 120 178, 95 238.6, 95 243.6 C 95 245.5, 102 247, 104 248 C 108 250, 100 258, 96 258 C 90 258, 66.5 244, 72 233 Z" fill="#A5A8AD" stroke="#000000" stroke-width="1.6" stroke-linecap="butt" stroke-linejoin="round" />
+
+    
+    <g fill="none" stroke="#000000" stroke-width="2.45" stroke-linecap="round">
+      <path d="M 148.21,159.34 L 156.51,164.11" />
+      <path d="M 144.28,163.28 L 152.49,167.83" />
+      <path d="M 140.52,167.33 L 148.81,171.76" />
+      <path d="M 137.25,171.65 L 144.80,175.61" />
+      <path d="M 133.82,175.84 L 141.68,179.82" />
+      <path d="M 130.75,180.20 L 137.97,183.75" />
+      <path d="M 127.12,184.49 L 134.80,187.97" />
+      <path d="M 124.12,188.84 L 131.73,192.26" />
+      <path d="M 121.24,193.39 L 128.77,196.66" />
+      <path d="M 118.39,198.00 L 125.78,200.89" />
+      <path d="M 115.91,202.69 L 123.46,205.53" />
+      <path d="M 113.24,207.36 L 120.54,210.03" />
+      <path d="M 110.63,212.21 L 117.76,214.64" />
+      <path d="M 108.17,217.08 L 115.48,219.49" />
+      <path d="M 106.00,221.98 L 112.85,224.08" />
+      <path d="M 104.06,226.92 L 110.71,229.01" />
+      <path d="M 101.91,231.79 L 108.31,233.69" />
+      <path d="M 100.05,236.80 L 106.29,238.63" />
+      <path d="M 98.02,241.70 L 104.45,243.31" />
+    </g>
+
+    
+    <g fill="#2A2C2F" stroke="none">
+      <path d="M 226.9,87.8 L 253.0,93.0 L 259.8,102.2 L 249.7,106.4 Z" />
+      <path d="M 253.0,93.0 L 262.9,94.8 L 270.0,102.0 L 259.8,102.2 Z" />
+      <path d="M 249.7,106.4 L 259.8,102.2 L 256.3,119.7 L 250.1,124.0 Z" />
+      <path d="M 259.8,102.2 L 270.0,102.0 L 272.4,104.1 L 270.8,111.4 C 269.0,110.8 265.0,113.8 264.0,116.8 L 256.3,119.7 Z" />
+    </g>
+
+    
+    <g fill="none" stroke="#000000" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 226.9,87.8 L 253.0,93.0 L 259.8,102.2 L 249.7,106.4" />
+      <path d="M 226.9,87.8 L 249.7,106.4 L 250.1,124.0" />
+      <path d="M 253.0,93.0 L 262.9,94.8 L 270.0,102.0 L 259.8,102.2" />
+      <path d="M 256.3,119.7 L 250.1,124.0" />
+      <path d="M 259.8,102.2 L 256.3,119.7" />
+      <path d="M 270.0,102.0 L 272.4,104.1 L 270.8,111.4 C 269.0,110.8 265.0,113.8 264.0,116.8 L 256.3,119.7" />
+    </g>
+
+    
+    <polygon points="174,102 196,120 196,127 171,138 149,120" fill="#000000" stroke="#000000" stroke-width="1.1" stroke-linejoin="round" />
+
+    
+    <polygon points="172.57569330,106.27100453 178.49069330,111.59600453 172.03069330,116.96100453 166.11569330,111.63600453" fill="#FFFFFF" />
+    <polygon points="181.40430670,114.21899547 187.31930670,119.54399547 180.85930670,124.90899547 174.94430670,119.58399547" fill="#FFFFFF" />
+    <polygon points="162.05,114.38 176.19,127.10 170.69,131.66 156.56,118.95" fill="#972727" transform="rotate(0.0237123014 169.12 120.74)" />
+
+    
+    <g fill="none" stroke="#000000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M 221.5 145 L 211.5 116 L 202 116 L 178 97" />
+      <path d="M 198.2 93.5 L 203.8 98.1 L 228.5 94.4" />
+      <path d="M 211.2 102.8 L 216.8 108.2 L 240.5 104.4" />
+    </g>
+    
+  </g>
+<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#mdtest-straight-30-reusable-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></g></svg><text x="389.0000" y="447.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#rulesHalo)"> </text><text x="405.6670" y="447.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#rulesHalo)">Deal</text><text x="464.9920" y="447.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#rulesHalo)"> </text><g transform="translate(471.9295 408.0000)" data-md-icon="normal_damage.svg" data-md-value="8"><image width="54.0" height="54" href="../../../Shared/icons/normal_damage.svg" preserveAspectRatio="xMidYMid meet" /><rect x="15.389999999999999" y="12.15" width="21.6" height="28.62" fill="#030304" /><text x="26.298000000000002" y="28.080000000000002" text-anchor="middle" dominant-baseline="central" font-family="Arial,Helvetica,sans-serif" font-size="31.7625" font-weight="700" fill="#FFFFFF">8</text></g></g></g>
 <g id="instant-action-cp-tag" aria-label="Editable Main Phase Action CP tag" transform="translate(0 169)">
     <defs>
       <linearGradient id="cp-badge-fill" x1="0" y1="0" x2="0" y2="1">

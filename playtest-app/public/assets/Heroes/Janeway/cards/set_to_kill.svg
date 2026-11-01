@@ -98,71 +98,30 @@
     <path id="cp-tag-outer-outline" d="M0 0.5 H51.5 C55.4 0.5 58.5 3.6 58.5 7.5 V174.5 C58.5 178.4 55.4 181.5 51.5 181.5 H43 V375 C43 379.4 39.9 382.5 35.5 382.5 H0 Z" fill="none" stroke="#3A3A3A" stroke-width="1.2" stroke-linejoin="round" pointer-events="none" />
   </g>
   <g id="card-title" aria-label="Counterpoint"><text id="card-title-text" data-text="SET TO KILL" data-font="Gardablack" x="337.5" y="103.5" text-anchor="middle" font-family="Gardablack" font-size="50px" font-weight="400" fill="#FFFFFF" filter="url(#neutral-title-halo)">SET TO KILL</text></g>
-<g id="editable-rules" filter="url(#action-rules-halo)" aria-label="Editable formatted card rules" font-family="Avenir Next Condensed, sans-serif" font-size="37.5px" font-weight="400" fill="#F7F7F7">
-<text x="147.866" y="710" text-anchor="start" xml:space="preserve">You may remove up to 2 </text>
-<g><svg viewBox="-5 -5 354 354" x="473.134" y="671" width="54.0" height="54.0" preserveAspectRatio="xMidYMid meet" aria-label="coffee_token.webp" data-original-x="473.5" data-original-y="722.0" data-original-width="36" data-original-height="36" overflow="visible" data-vector-icon="coffee_token" data-vector-source="Heroes/Janeway/icons/coffee_token.svg" data-original-icon="../../icons/coffee_token.webp" stroke="none" fill="#000000" text-anchor="start">
-  <title>Coffee token</title>
-  <desc>Vector coffee cup and steam on a full-bleed dark blue circular background.</desc>
-  <defs>
+<g id="editable-rules" aria-label="Editable formatted card rules" font-family="Avenir Next Condensed, sans-serif" font-size="37.5px" font-weight="400" fill="#F7F7F7" data-rules-source="project:Heroes/Janeway/rules.md" data-md-rule="SET TO KILL"><defs>
     <clipPath id="vi1-face-clip">
       <circle cx="172" cy="172" r="172" />
     </clipPath>
   </defs>
-  <g clip-path="url(#vi1-face-clip)">
-    <rect width="344" height="344" fill="#4A3528" />
-
-    <g transform="translate(0 3.7) translate(172 172) scale(0.9986 0.8694) translate(-172 -172)">
-    <g fill="#7A848B" transform="translate(0 -28)">
-      
-
-      <g transform="translate(16.5 -35.175) scale(0.9 1.15)">
-      
-      <g transform="translate(330 0) scale(-1 1)" fill="#111111">
-        <path d="M121 176 L88 176 C67 176 50 188 50 207 L50 256 C50 275 67 287 88 287 L121 287 L121 268 L91 268 C82 268 76 263 76 255 L76 208 C76 200 82 195 91 195 L121 195 Z" />
-      </g>
-
-      
-      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168 C217 176 192 181 165 181 C138 181 113 176 101 168 Z" />
-
-      
-      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169 C230 178 201 184 165 184 C129 184 100 178 100 169 Z" />
-      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-      </g>
-    </g>
-
-    <g transform="translate(16.5 -63.175) scale(0.9 1.15)">
-    
-
-    
-    <path d="M109 169 C109 164 134 160 165 160 C196 160 221 164 221 169 C221 174 196 178 165 178 C134 178 109 174 109 169 Z" fill="#3B271C" />
-    </g>
-    <g fill="#D8C7A8">
-      <path d="M151 75 C162 84 171 97 169 109 C167 122 157 132 149 143 C141 154 143 164 152 173 C138 168 131 156 137 143 C142 131 153 121 158 110 C164 97 159 85 151 75 Z" transform="translate(0 -41.825)" />
-      <path d="M181 99 C192 108 196 119 192 131 C188 142 180 151 179 161 C178 168 181 174 188 179 C176 176 168 167 169 156 C170 143 180 132 183 121 C185 113 183 105 181 99 Z" transform="translate(0 -47.825)" />
-    </g>
-    </g>
-    <circle cx="172" cy="172" r="165.7" fill="none" stroke="#FFFFFF" stroke-width="12.6" />
-  </g>
-<circle cx="172" cy="172" r="174.1" fill="none" stroke="#FFFFFF" stroke-width="4.2" />
-</svg></g>
-<text x="113.600" y="775" text-anchor="start" xml:space="preserve">to add </text>
-<g><svg viewBox="0 0 900 900" x="203.500" y="736" width="54.0" height="54.0" preserveAspectRatio="xMidYMid meet" aria-label="normal_damage_3.webp" data-original-x="217.75" data-original-y="766.0" data-original-width="36" data-original-height="36" overflow="visible" data-vector-icon="normal_damage" data-vector-source="Shared/icons/normal_damage.svg" data-original-icon="../../../../Shared/icons/normal_damage_3.webp" stroke="none" fill="#000000" text-anchor="start">
-  <title id="vi2-title">Normal damage burst</title>
-  <desc id="vi2-description">Clean vector redraw with editable text where applicable.</desc>
-  <g id="vi2-scaled-icon" transform="translate(13.5 13.5) scale(0.97)"><polygon id="vi2-outer-outline" points="450.00,13.00 485.09,93.72 535.25,21.40 553.92,107.42 617.23,46.26 618.76,134.27 692.78,86.65 677.11,173.26 759.01,140.99 726.74,222.89 813.35,207.22 765.73,281.24 853.74,282.77 792.58,346.08 878.60,364.75 806.28,414.91 887.00,450.00 806.28,485.09 878.60,535.25 792.58,553.92 853.74,617.23 765.73,618.76 813.35,692.78 726.74,677.11 759.01,759.01 677.11,726.74 692.78,813.35 618.76,765.73 617.23,853.74 553.92,792.58 535.25,878.60 485.09,806.28 450.00,887.00 414.91,806.28 364.75,878.60 346.08,792.58 282.77,853.74 281.24,765.73 207.22,813.35 222.89,726.74 140.99,759.01 173.26,677.11 86.65,692.78 134.27,618.76 46.26,617.23 107.42,553.92 21.40,535.25 93.72,485.09 13.00,450.00 93.72,414.91 21.40,364.75 107.42,346.08 46.26,282.77 134.27,281.24 86.65,207.22 173.26,222.89 140.99,140.99 222.89,173.26 207.22,86.65 281.24,134.27 282.77,46.26 346.08,107.42 364.75,21.40 414.91,93.72" fill="none" stroke="#FFFFFF" stroke-width="19" stroke-linejoin="miter" stroke-miterlimit="10" /><polygon id="vi2-burst" points="450.00,13.00 485.09,93.72 535.25,21.40 553.92,107.42 617.23,46.26 618.76,134.27 692.78,86.65 677.11,173.26 759.01,140.99 726.74,222.89 813.35,207.22 765.73,281.24 853.74,282.77 792.58,346.08 878.60,364.75 806.28,414.91 887.00,450.00 806.28,485.09 878.60,535.25 792.58,553.92 853.74,617.23 765.73,618.76 813.35,692.78 726.74,677.11 759.01,759.01 677.11,726.74 692.78,813.35 618.76,765.73 617.23,853.74 553.92,792.58 535.25,878.60 485.09,806.28 450.00,887.00 414.91,806.28 364.75,878.60 346.08,792.58 282.77,853.74 281.24,765.73 207.22,813.35 222.89,726.74 140.99,759.01 173.26,677.11 86.65,692.78 134.27,618.76 46.26,617.23 107.42,553.92 21.40,535.25 93.72,485.09 13.00,450.00 93.72,414.91 21.40,364.75 107.42,346.08 46.26,282.77 134.27,281.24 86.65,207.22 173.26,222.89 140.99,140.99 222.89,173.26 207.22,86.65 281.24,134.27 282.77,46.26 346.08,107.42 364.75,21.40 414.91,93.72" fill="#030304" stroke="#FFFFFF" stroke-width="9" stroke-linejoin="miter" stroke-miterlimit="10" />
-  <text id="vi2-editable-number" data-editable="number" x="438" y="663" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="561.11" font-weight="700" fill="#FFFFFF" data-vector-import="true">3</text>
-</g></svg></g>
-<text x="257.500" y="775" text-anchor="start" xml:space="preserve"> dmg per </text>
-<g><svg viewBox="-5 -5 354 354" x="383.600" y="736" width="54.0" height="54.0" preserveAspectRatio="xMidYMid meet" aria-label="coffee_token.webp" data-original-x="374.75" data-original-y="766.0" data-original-width="36" data-original-height="36" overflow="visible" data-vector-icon="coffee_token" data-vector-source="Heroes/Janeway/icons/coffee_token.svg" data-original-icon="../../icons/coffee_token.webp" stroke="none" fill="#000000" text-anchor="start">
-  <title>Coffee token</title>
-  <desc>Vector coffee cup and steam on a full-bleed dark blue circular background.</desc>
   <defs>
     <clipPath id="vi3-face-clip">
       <circle cx="172" cy="172" r="172" />
     </clipPath>
   </defs>
-  <g clip-path="url(#vi3-face-clip)">
+  <defs>
+    <clipPath id="vi4-face-clip">
+      <circle cx="172" cy="172" r="172" />
+    </clipPath>
+  </defs>
+  <g data-md-line="true"><text x="148.9125" y="733.5000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true">You</text><text x="196.8375" y="733.5000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true"> </text><text x="203.7750" y="733.5000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true">may</text><text x="259.7250" y="733.5000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true"> </text><text x="266.6625" y="733.5000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true">remove</text><text x="365.7375" y="733.5000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true"> </text><text x="372.6750" y="733.5000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true">up</text><text x="407.7750" y="733.5000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true"> </text><text x="414.7125" y="733.5000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true">to</text><text x="440.5875" y="733.5000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true"> </text><text x="447.5250" y="733.5000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true">2</text><text x="465.1500" y="733.5000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true"> </text><svg viewBox="-5 -5 354 354" width="54.0000" height="54.0000" role="img" aria-label="Coffee cup with rising steam on a dark blue circular token" x="472.0875" y="694.5000" preserveAspectRatio="xMidYMid meet" data-md-icon="coffee_token.svg">
+  <title>Coffee token</title>
+  <desc>Vector coffee cup and steam on a full-bleed dark blue circular background.</desc>
+  <defs>
+    <clipPath id="app-md-1-face-clip">
+      <circle cx="172" cy="172" r="172" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#app-md-1-face-clip)">
     <rect width="344" height="344" fill="#4A3528" />
 
     <g transform="translate(0 3.7) translate(172 172) scale(0.9986 0.8694) translate(-172 -172)">
@@ -199,24 +158,68 @@
     <circle cx="172" cy="172" r="165.7" fill="none" stroke="#FFFFFF" stroke-width="12.6" />
   </g>
 <circle cx="172" cy="172" r="174.1" fill="none" stroke="#FFFFFF" stroke-width="4.2" />
-</svg></g>
-<text x="437.600" y="775" text-anchor="start" xml:space="preserve"> removed</text>
-<text x="185.266" y="840" text-anchor="start" xml:space="preserve">You may remove 3 </text>
-<g><svg viewBox="-5 -5 354 354" x="435.734" y="801" width="54.0" height="54.0" preserveAspectRatio="xMidYMid meet" aria-label="command_codes_token.webp" data-original-x="385.75" data-original-y="810.0" data-original-width="36" data-original-height="36" overflow="visible" data-vector-icon="command_codes" data-vector-source="Heroes/Janeway/icons/command_codes.svg" data-original-icon="../../icons/command_codes_token.webp" stroke="none" fill="#000000" text-anchor="start">
-  <title>Command codes token</title>
-  <desc>Flat vector pi glyph in gold.</desc>
+</svg></g><g data-md-line="true"><text x="113.7750" y="792.5000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true">to</text><text x="139.6500" y="792.5000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true"> </text><text x="146.5875" y="792.5000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true">add</text><text x="196.6875" y="792.5000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true"> </text><g transform="translate(203.6250 753.5000)" data-md-icon="normal_damage.svg" data-md-value="3"><svg width="54.0" height="54" viewBox="0 0 900 900" role="img" aria-labelledby="app-md-3-title app-md-3-description" preserveAspectRatio="xMidYMid meet">
+  <title id="app-md-3-title">Normal damage burst</title>
+  <desc id="app-md-3-description">Clean vector redraw with editable text where applicable.</desc>
+  <g id="app-md-3-scaled-icon" transform="translate(13.5 13.5) scale(0.97)"><polygon id="app-md-3-outer-outline" points="450.00,13.00 485.09,93.72 535.25,21.40 553.92,107.42 617.23,46.26 618.76,134.27 692.78,86.65 677.11,173.26 759.01,140.99 726.74,222.89 813.35,207.22 765.73,281.24 853.74,282.77 792.58,346.08 878.60,364.75 806.28,414.91 887.00,450.00 806.28,485.09 878.60,535.25 792.58,553.92 853.74,617.23 765.73,618.76 813.35,692.78 726.74,677.11 759.01,759.01 677.11,726.74 692.78,813.35 618.76,765.73 617.23,853.74 553.92,792.58 535.25,878.60 485.09,806.28 450.00,887.00 414.91,806.28 364.75,878.60 346.08,792.58 282.77,853.74 281.24,765.73 207.22,813.35 222.89,726.74 140.99,759.01 173.26,677.11 86.65,692.78 134.27,618.76 46.26,617.23 107.42,553.92 21.40,535.25 93.72,485.09 13.00,450.00 93.72,414.91 21.40,364.75 107.42,346.08 46.26,282.77 134.27,281.24 86.65,207.22 173.26,222.89 140.99,140.99 222.89,173.26 207.22,86.65 281.24,134.27 282.77,46.26 346.08,107.42 364.75,21.40 414.91,93.72" fill="none" stroke="#FFFFFF" stroke-width="19" stroke-linejoin="miter" stroke-miterlimit="10" /><polygon id="app-md-3-burst" points="450.00,13.00 485.09,93.72 535.25,21.40 553.92,107.42 617.23,46.26 618.76,134.27 692.78,86.65 677.11,173.26 759.01,140.99 726.74,222.89 813.35,207.22 765.73,281.24 853.74,282.77 792.58,346.08 878.60,364.75 806.28,414.91 887.00,450.00 806.28,485.09 878.60,535.25 792.58,553.92 853.74,617.23 765.73,618.76 813.35,692.78 726.74,677.11 759.01,759.01 677.11,726.74 692.78,813.35 618.76,765.73 617.23,853.74 553.92,792.58 535.25,878.60 485.09,806.28 450.00,887.00 414.91,806.28 364.75,878.60 346.08,792.58 282.77,853.74 281.24,765.73 207.22,813.35 222.89,726.74 140.99,759.01 173.26,677.11 86.65,692.78 134.27,618.76 46.26,617.23 107.42,553.92 21.40,535.25 93.72,485.09 13.00,450.00 93.72,414.91 21.40,364.75 107.42,346.08 46.26,282.77 134.27,281.24 86.65,207.22 173.26,222.89 140.99,140.99 222.89,173.26 207.22,86.65 281.24,134.27 282.77,46.26 346.08,107.42 364.75,21.40 414.91,93.72" fill="#030304" stroke="#FFFFFF" stroke-width="9" stroke-linejoin="miter" stroke-miterlimit="10" />
+  <text id="app-md-3-editable-number" data-editable="number" x="438" y="663" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="561.11" font-weight="700" fill="#FFFFFF">1</text>
+</g></svg><rect x="15.389999999999999" y="12.15" width="21.6" height="28.62" fill="#030304" /><text x="26.298000000000002" y="28.080000000000002" text-anchor="middle" dominant-baseline="central" font-family="Arial,Helvetica,sans-serif" font-size="31.7625" font-weight="700" fill="#FFFFFF">3</text></g><text x="257.6250" y="792.5000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true"> </text><text x="264.5625" y="792.5000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true">dmg</text><text x="326.2500" y="792.5000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true"> </text><text x="333.1875" y="792.5000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true">per</text><text x="376.8000" y="792.5000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true"> </text><svg viewBox="-5 -5 354 354" width="54.0000" height="54.0000" role="img" aria-label="Coffee cup with rising steam on a dark blue circular token" x="383.7375" y="753.5000" preserveAspectRatio="xMidYMid meet" data-md-icon="coffee_token.svg">
+  <title>Coffee token</title>
+  <desc>Vector coffee cup and steam on a full-bleed dark blue circular background.</desc>
   <defs>
-    <clipPath id="vi4-face-clip">
+    <clipPath id="app-md-2-face-clip">
       <circle cx="172" cy="172" r="172" />
     </clipPath>
   </defs>
-  <g clip-path="url(#vi4-face-clip)">
+  <g clip-path="url(#app-md-2-face-clip)">
+    <rect width="344" height="344" fill="#4A3528" />
+
+    <g transform="translate(0 3.7) translate(172 172) scale(0.9986 0.8694) translate(-172 -172)">
+    <g fill="#7A848B" transform="translate(0 -28)">
+      
+
+      <g transform="translate(16.5 -35.175) scale(0.9 1.15)">
+      
+      <g transform="translate(330 0) scale(-1 1)" fill="#111111">
+        <path d="M121 176 L88 176 C67 176 50 188 50 207 L50 256 C50 275 67 287 88 287 L121 287 L121 268 L91 268 C82 268 76 263 76 255 L76 208 C76 200 82 195 91 195 L121 195 Z" />
+      </g>
+
+      
+      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168 C217 176 192 181 165 181 C138 181 113 176 101 168 Z" />
+
+      
+      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169 C230 178 201 184 165 184 C129 184 100 178 100 169 Z" />
+      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+    </g>
+
+    <g transform="translate(16.5 -63.175) scale(0.9 1.15)">
+    
+
+    
+    <path d="M109 169 C109 164 134 160 165 160 C196 160 221 164 221 169 C221 174 196 178 165 178 C134 178 109 174 109 169 Z" fill="#3B271C" />
+    </g>
+    <g fill="#D8C7A8">
+      <path d="M151 75 C162 84 171 97 169 109 C167 122 157 132 149 143 C141 154 143 164 152 173 C138 168 131 156 137 143 C142 131 153 121 158 110 C164 97 159 85 151 75 Z" transform="translate(0 -41.825)" />
+      <path d="M181 99 C192 108 196 119 192 131 C188 142 180 151 179 161 C178 168 181 174 188 179 C176 176 168 167 169 156 C170 143 180 132 183 121 C185 113 183 105 181 99 Z" transform="translate(0 -47.825)" />
+    </g>
+    </g>
+    <circle cx="172" cy="172" r="165.7" fill="none" stroke="#FFFFFF" stroke-width="12.6" />
+  </g>
+<circle cx="172" cy="172" r="174.1" fill="none" stroke="#FFFFFF" stroke-width="4.2" />
+</svg><text x="437.7375" y="792.5000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true"> </text><text x="444.6750" y="792.5000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true">removed</text></g><g data-md-line="true"><text x="186.3375" y="858.5000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true">You</text><text x="234.2625" y="858.5000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true"> </text><text x="241.2000" y="858.5000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true">may</text><text x="297.1500" y="858.5000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true"> </text><text x="304.0875" y="858.5000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true">remove</text><text x="403.1625" y="858.5000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true"> </text><text x="410.1000" y="858.5000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true">3</text><text x="427.7250" y="858.5000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true"> </text><svg viewBox="-5 -5 354 354" width="54.0000" height="54.0000" role="img" aria-label="Command codes token" x="434.6625" y="819.5000" preserveAspectRatio="xMidYMid meet" data-md-icon="command_codes.svg">
+  <title>Command codes token</title>
+  <desc>Flat vector pi glyph in gold.</desc>
+  <defs>
+    <clipPath id="app-md-4-face-clip">
+      <circle cx="172" cy="172" r="172" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#app-md-4-face-clip)">
     <rect width="344" height="344" fill="#2F2C59" />
 
     <g transform="scale(0.5733333333333333)" stroke-linecap="round" stroke-linejoin="round"><path d="M119 260 C127 222 148 187 181 166 C198 154 219 150 239 150 L490 150 L478 207 L397 207 L376 375 C378 394 395 416 410 416 C427 416 451 404 467 364 L476 369 C466 411 441 442 409 457 C380 470 351 461 335 440 C320 421 316 398 319 369 L352 207 L273 207 L232 379 C223 423 205 451 177 457 C154 462 137 452 138 431 C139 412 151 394 168 375 C199 338 217 282 228 207 C183 207 151 224 134 263 Z" fill="#FAC447" stroke="#000000" stroke-width="3.6627905" stroke-linejoin="round" /></g><circle cx="172" cy="172" r="165.7" fill="none" stroke="#FFFFFF" stroke-width="12.6" />
   </g>
 <circle cx="172" cy="172" r="174.1" fill="none" stroke="#FFFFFF" stroke-width="4.2" />
-</svg></g>
-<text x="119.256" y="905" text-anchor="start" xml:space="preserve">to make this attack undefendable</text>
-<text x="228.953" y="970" text-anchor="start" xml:space="preserve">(Attack modifier)</text>
-</g><defs id="vector-icon-filters"><filter id="vectorIconHalo" x="-0.7" y="-0.7" width="2.4" height="2.4" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="6.272" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="4.9" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter><filter id="vectorIconHaloSmall" x="-0.7" y="-0.7" width="2.4" height="2.4" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="4.224" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="3.3" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter><filter id="vectorIconHaloLarge" x="-0.7" y="-0.7" width="2.4" height="2.4" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="8.96" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="7" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs></svg>
+</svg></g><g data-md-line="true"><text x="119.9063" y="913.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true">to</text><text x="145.7813" y="913.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true"> </text><text x="152.7188" y="913.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true">make</text><text x="225.0188" y="913.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true"> </text><text x="231.9563" y="913.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true">this</text><text x="279.8438" y="913.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true"> </text><text x="286.7813" y="913.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true">attack</text><text x="362.9813" y="913.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true"> </text><text x="369.9188" y="913.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true">undefendable</text></g><g data-md-line="true"><text x="229.3125" y="963.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true">(Attack</text><text x="317.1375" y="963.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true"> </text><text x="324.0750" y="963.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37.5" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true">modifier)</text></g></g><defs id="vector-icon-filters"><filter id="vectorIconHalo" x="-0.7" y="-0.7" width="2.4" height="2.4" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="6.272" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="4.9" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter><filter id="vectorIconHaloSmall" x="-0.7" y="-0.7" width="2.4" height="2.4" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="4.224" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="3.3" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter><filter id="vectorIconHaloLarge" x="-0.7" y="-0.7" width="2.4" height="2.4" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="8.96" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="7" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs></svg>

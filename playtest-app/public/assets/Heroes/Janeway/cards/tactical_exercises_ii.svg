@@ -5,7 +5,7 @@
 @font-face{font-family:"Avenir Next Condensed";src:url("../../../Shared/fonts/AvenirNextCondensed/AvenirNextCondensed-DemiBold.otf") format("opentype");font-weight:600;font-style:normal;font-display:block;}
 @font-face{font-family:"Avenir Next Condensed";src:url("../../../Shared/fonts/AvenirNextCondensed/AvenirNextCondensed-DemiBoldItalic.otf") format("opentype");font-weight:600;font-style:italic;font-display:block;}
 @font-face{font-family:"Avenir Next Condensed";src:url("../../../Shared/fonts/AvenirNextCondensed/AvenirNextCondensed-Bold.otf") format("opentype");font-weight:700;font-style:normal;font-display:block;}
-@font-face{font-family:"Avenir Next Condensed";src:url("../../../Shared/fonts/AvenirNextCondensed/AvenirNextCondensed-BoldItalic.otf") format("opentype");font-weight:700;font-style:italic;font-display:block;}</style><defs id="glass-panel-definitions"><filter id="glass-glass-rim-outer-shadow" x="-0.3" y="-0.3" width="1.6" height="1.6" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="10" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="12" result="soft" /><feOffset in="soft" dx="0" dy="8" result="offsetShadow" /><feFlood flood-color="#000000" flood-opacity="1" result="black" /><feComposite in="black" in2="offsetShadow" operator="in" result="shadow" /><feMerge><feMergeNode in="shadow" /><feMergeNode in="SourceGraphic" /></feMerge></filter><linearGradient id="glass-new-rim-huntress" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#dffaff" stop-opacity=".7" /><stop offset=".22" stop-color="#4c9bd7" stop-opacity=".34" /><stop offset=".5" stop-color="#b9efff" stop-opacity=".38" /><stop offset=".76" stop-color="#166da0" stop-opacity=".3" /><stop offset="1" stop-color="#e2fcff" stop-opacity=".6" /></linearGradient><clipPath id="glass-tactical-exercises-art-clip" clipPathUnits="userSpaceOnUse"><path d="M 74,28 H 601 Q 645,28 645,72 V 977 Q 645,1021 601,1021 H 74 Q 30,1021 30,977 V 72 Q 30,28 74,28 Z" /></clipPath><linearGradient id="glass-red-alert-vertical-shading" gradientUnits="userSpaceOnUse" x1="0" y1="28" x2="0" y2="1021"><stop offset="0" stop-color="#02060c" stop-opacity=".78" /><stop offset=".24" stop-color="#02060c" stop-opacity=".62" /><stop offset=".52" stop-color="#02060c" stop-opacity=".30" /><stop offset=".80" stop-color="#02060c" stop-opacity=".08" /><stop offset="1" stop-color="#02060c" stop-opacity="0" /></linearGradient><linearGradient id="glass-new-alert-huntress" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#081c39" stop-opacity=".91" /><stop offset=".55" stop-color="#0b3154" stop-opacity=".87" /><stop offset="1" stop-color="#071c3a" stop-opacity=".83" /></linearGradient><filter id="glass-iconHalo" x="-0.4" y="-0.8" width="1.8" height="2.6" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="5" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="4" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.85" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter><filter id="glass-rulesHalo" x="-0.4" y="-0.8" width="1.8" height="2.6" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="4.2" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="3.4" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.85" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter><style id="gardablack-card-font"></style><clipPath id="glass-card-trim"><rect x="0" y="0" width="675" height="1050" rx="54" /></clipPath><linearGradient id="approved-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28" /><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02" /><stop offset="1" stop-color="#101018" stop-opacity="0.24" /></linearGradient></defs><defs><filter id="abilityTitleHalo" x="-0.3" y="-1" width="1.6" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="5.25" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="4.2" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter><clipPath id="vector-upgrade-art-clip"><path d="M31 159 H644 V970 C644 998 622 1020 594 1020 H81 C53 1020 31 998 31 970 Z" /></clipPath></defs>
+@font-face{font-family:"Avenir Next Condensed";src:url("../../../Shared/fonts/AvenirNextCondensed/AvenirNextCondensed-BoldItalic.otf") format("opentype");font-weight:700;font-style:italic;font-display:block;}</style><defs id="glass-panel-definitions"><filter id="glass-glass-rim-outer-shadow" x="-0.3" y="-0.3" width="1.6" height="1.6" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="10" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="12" result="soft" /><feOffset in="soft" dx="0" dy="8" result="offsetShadow" /><feFlood flood-color="#000000" flood-opacity="1" result="black" /><feComposite in="black" in2="offsetShadow" operator="in" result="shadow" /><feMerge><feMergeNode in="shadow" /><feMergeNode in="SourceGraphic" /></feMerge></filter><linearGradient id="glass-new-rim-huntress" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#dffaff" stop-opacity=".7" /><stop offset=".22" stop-color="#4c9bd7" stop-opacity=".34" /><stop offset=".5" stop-color="#b9efff" stop-opacity=".38" /><stop offset=".76" stop-color="#166da0" stop-opacity=".3" /><stop offset="1" stop-color="#e2fcff" stop-opacity=".6" /></linearGradient><clipPath id="glass-tactical-exercises-art-clip" clipPathUnits="userSpaceOnUse"><path d="M 74,28 H 601 Q 645,28 645,72 V 977 Q 645,1021 601,1021 H 74 Q 30,1021 30,977 V 72 Q 30,28 74,28 Z" /></clipPath><linearGradient id="glass-red-alert-vertical-shading" gradientUnits="userSpaceOnUse" x1="0" y1="28" x2="0" y2="1021"><stop offset="0" stop-color="#02060c" stop-opacity=".78" /><stop offset=".24" stop-color="#02060c" stop-opacity=".62" /><stop offset=".52" stop-color="#02060c" stop-opacity=".30" /><stop offset=".80" stop-color="#02060c" stop-opacity=".08" /><stop offset="1" stop-color="#02060c" stop-opacity="0" /></linearGradient><linearGradient id="glass-new-alert-huntress" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#081c39" stop-opacity=".91" /><stop offset=".55" stop-color="#0b3154" stop-opacity=".87" /><stop offset="1" stop-color="#071c3a" stop-opacity=".83" /></linearGradient><filter id="glass-iconHalo" x="-0.4" y="-0.8" width="1.8" height="2.6" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="5" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="4" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.85" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter><filter id="glass-rulesHalo" x="-0.4" y="-0.8" width="1.8" height="2.6" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="4.2" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="3.4" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.85" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter><style id="gardablack-card-font" /><clipPath id="glass-card-trim"><rect x="0" y="0" width="675" height="1050" rx="54" /></clipPath><linearGradient id="approved-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28" /><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02" /><stop offset="1" stop-color="#101018" stop-opacity="0.24" /></linearGradient></defs><defs><filter id="abilityTitleHalo" x="-0.3" y="-1" width="1.6" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="5.25" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="4.2" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter><clipPath id="vector-upgrade-art-clip"><path d="M31 159 H644 V970 C644 998 622 1020 594 1020 H81 C53 1020 31 998 31 970 Z" /></clipPath></defs>
   <title>Tactical Exercises II — editable SVG card</title>
   <desc>Editable vector card layout. Artwork and inline symbols are linked raster assets; title and rules are editable SVG text. Raster icon instances replaced with embedded SVG vector shapes; original text preserved.</desc>
   <defs id="rules-layout-defaults">
@@ -18,188 +18,234 @@
   <clipPath id="tactical_exercises_ii-clip" clipPathUnits="userSpaceOnUse"><rect x="31" y="159" width="613" height="350" /></clipPath></defs>
   <defs id="vector-icon-filters"><filter id="vectorIconHalo" x="-0.7" y="-0.7" width="2.4" height="2.4" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="6.272" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="4.9" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter><filter id="vectorIconHaloSmall" x="-0.7" y="-0.7" width="2.4" height="2.4" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="4.224" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="3.3" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter><filter id="vectorIconHaloLarge" x="-0.7" y="-0.7" width="2.4" height="2.4" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="8.96" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="7" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><g id="glass-card-content" clip-path="url(#glass-card-trim)"><g id="registered-board-background" transform="matrix(0.975000000000 0 0 0.975000000000 -49.575162946875 -1542.171130752000)" data-source-ability="tactical-exercises" data-registration="physical-print-scale-panel-center"><image id="linked-janeway-board-background" x="0" y="-89.4257064722" width="4500" height="2789.4257064722" preserveAspectRatio="xMidYMid meet" href="../art/janewayboardbackground.webp" xlink:href="../art/janewayboardbackground.webp" /></g><g id="rules-content-guide" aria-label="Default sizing for future editable rules content" data-rules-font="Avenir Next Condensed" data-rules-font-size="45.833333px" data-inline-die-icon-height="50" data-inline-damage-token-icon-height="55" data-rule-row-baseline-step="70" data-rules-text-alignment="center" data-activation-die-sizing="match-source-power-per-face" data-activation-die-row-spacing="match-source-power" data-inline-die-face-height="50" />
 
-  <g id="glass-glass-ability-panel" ns2:label="Vector panel framing and editable title"><path id="glass-tactical-exercises-glass-surface" d="M 74,28 H 601 Q 645,28 645,72 V 977 Q 645,1021 601,1021 H 74 Q 30,1021 30,977 V 72 Q 30,28 74,28 Z" fill="url(#glass-new-alert-huntress)" opacity=".96" /><image id="glass-tactical-exercises-art" class="panel-art" x="30" y="28" width="615" height="993" preserveAspectRatio="none" clip-path="url(#glass-tactical-exercises-art-clip)" href="../art/tactical_exercises.webp" xlink:href="../art/tactical_exercises.webp" opacity="1" /><path id="glass-tactical-exercises-top-shading" d="M 74,28 H 601 Q 645,28 645,72 V 977 Q 645,1021 601,1021 H 74 Q 30,1021 30,977 V 72 Q 30,28 74,28 Z" fill="url(#glass-red-alert-vertical-shading)" pointer-events="none" /><path id="glass-tactical-exercises-inner-panel-outline" d="M 74,28 H 601 Q 645,28 645,72 V 977 Q 645,1021 601,1021 H 74 Q 30,1021 30,977 V 72 Q 30,28 74,28 Z" fill="none" stroke="#78b8ef" stroke-width="3" stroke-linejoin="round" /><path id="glass-tactical-exercises-glass-rim" d="M 49,4 H 626 Q 671,4 671,49 V 1001 Q 671,1046 626,1046 H 49 Q 4,1046 4,1001 V 49 Q 4,4 49,4 Z" fill="none" stroke="url(#glass-new-rim-huntress)" stroke-width="5" stroke-linejoin="round" stroke-opacity=".82" filter="url(#glass-glass-rim-outer-shadow)" /><text id="card-title-text" ns2:label="Editable title" x="337.5" y="110" text-anchor="middle" font-family="Gardablack" font-size="50px" font-weight="400" fill="#f4faff" class="panel-title" data-text="TACTICAL EXERCISES II" filter="url(#abilityTitleHalo)">TACTICAL EXERCISES II</text></g><g id="editable-rules" aria-label="Editable formatted card rules" font-family="Avenir Next Condensed, sans-serif" font-size="37px" font-weight="400" fill="#F7F7F7" transform="translate(0 -50) translate(337.5 195) scale(1.125) translate(-337.5 -195)">
-<defs><filter id="cardRulesTextHalo" x="-100" y="-100" width="875" height="1250" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="4" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="3.4" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter><filter id="cardRulesIconHalo" x="-100" y="-100" width="875" height="1250" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="6" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="5" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs>
-<g filter="url(#glass-iconHalo)"><svg viewBox="0 0 344 344" x="125.000" y="195.000" width="85.0" height="85.0" preserveAspectRatio="xMidYMid meet" aria-label="coffee_die.webp" data-original-x="276.5" data-original-y="555.5" data-original-width="36" data-original-height="36" overflow="visible" data-vector-icon="coffee_die" data-vector-source="Heroes/Janeway/icons/coffee_die.svg" data-original-icon="../../icons/coffee_die.webp" stroke="none" fill="#000000" text-anchor="start">
-  <title>Coffee die face</title>
-  <desc>Hand-drawn vector draft with a solid, color-matched die-face background.</desc>
+  <g id="glass-glass-ability-panel" ns2:label="Vector panel framing and editable title"><path id="glass-tactical-exercises-glass-surface" d="M 74,28 H 601 Q 645,28 645,72 V 977 Q 645,1021 601,1021 H 74 Q 30,1021 30,977 V 72 Q 30,28 74,28 Z" fill="url(#glass-new-alert-huntress)" opacity=".96" /><image id="glass-tactical-exercises-art" class="panel-art" x="30" y="28" width="615" height="993" preserveAspectRatio="none" clip-path="url(#glass-tactical-exercises-art-clip)" href="../art/tactical_exercises.webp" xlink:href="../art/tactical_exercises.webp" opacity="1" /><path id="glass-tactical-exercises-top-shading" d="M 74,28 H 601 Q 645,28 645,72 V 977 Q 645,1021 601,1021 H 74 Q 30,1021 30,977 V 72 Q 30,28 74,28 Z" fill="url(#glass-red-alert-vertical-shading)" pointer-events="none" /><path id="glass-tactical-exercises-inner-panel-outline" d="M 74,28 H 601 Q 645,28 645,72 V 977 Q 645,1021 601,1021 H 74 Q 30,1021 30,977 V 72 Q 30,28 74,28 Z" fill="none" stroke="#78b8ef" stroke-width="3" stroke-linejoin="round" /><path id="glass-tactical-exercises-glass-rim" d="M 49,4 H 626 Q 671,4 671,49 V 1001 Q 671,1046 626,1046 H 49 Q 4,1046 4,1001 V 49 Q 4,4 49,4 Z" fill="none" stroke="url(#glass-new-rim-huntress)" stroke-width="5" stroke-linejoin="round" stroke-opacity=".82" filter="url(#glass-glass-rim-outer-shadow)" /><text id="card-title-text" ns2:label="Editable title" x="337.5" y="110" text-anchor="middle" font-family="Gardablack" font-size="50px" font-weight="400" fill="#f4faff" class="panel-title" data-text="TACTICAL EXERCISES II" filter="url(#abilityTitleHalo)">TACTICAL EXERCISES II</text></g><g id="editable-rules" aria-label="Editable formatted card rules" font-family="Avenir Next Condensed, sans-serif" font-size="37px" font-weight="400" fill="#F7F7F7" transform="translate(0 -50) translate(337.5 195) scale(1.125) translate(-337.5 -195)" data-rules-source="project:Heroes/Janeway/rules.md" data-md-rule="TACTICAL EXERCISES II"><defs><filter id="cardRulesTextHalo" x="-100" y="-100" width="875" height="1250" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="4" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="3.4" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter><filter id="cardRulesIconHalo" x="-100" y="-100" width="875" height="1250" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="6" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="5" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs>
+<defs>
+    <clipPath id="face-clip">
+      <rect x="0" y="0" width="344" height="344" rx="31" />
+    </clipPath>
+  </defs>
   <defs>
     <clipPath id="face-clip">
       <rect x="0" y="0" width="344" height="344" rx="31" />
     </clipPath>
   </defs>
-  <g clip-path="url(#face-clip)">
-    <rect width="344" height="344" fill="#003085" />
-
-    <g transform="translate(0 3.7) translate(172 172) scale(0.8322 0.7245) translate(-172 -172)">
-    <g fill="#7A848B" transform="translate(0 -28)">
-      
-
-      <g transform="translate(16.5 -35.175) scale(0.9 1.15)">
-      
-      <g transform="translate(330 0) scale(-1 1)" fill="#111111">
-        <path d="M121 176 L88 176 C67 176 50 188 50 207 L50 256 C50 275 67 287 88 287 L121 287 L121 268 L91 268 C82 268 76 263 76 255 L76 208 C76 200 82 195 91 195 L121 195 Z" />
-      </g>
-
-      
-      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168 C217 176 192 181 165 181 C138 181 113 176 101 168 Z" />
-
-      
-      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169 C230 178 201 184 165 184 C129 184 100 178 100 169 Z" />
-      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-      </g>
-    </g>
-
-    <g transform="translate(16.5 -63.175) scale(0.9 1.15)">
-    
-
-    
-    <path d="M109 169 C109 164 134 160 165 160 C196 160 221 164 221 169 C221 174 196 178 165 178 C134 178 109 174 109 169 Z" fill="#3B271C" />
-    </g>
-    <g fill="#D8C7A8">
-      <path d="M151 75 C162 84 171 97 169 109 C167 122 157 132 149 143 C141 154 143 164 152 173 C138 168 131 156 137 143 C142 131 153 121 158 110 C164 97 159 85 151 75 Z" transform="translate(0 -41.825)" />
-      <path d="M181 99 C192 108 196 119 192 131 C188 142 180 151 179 161 C178 168 181 174 188 179 C176 176 168 167 169 156 C170 143 180 132 183 121 C185 113 183 105 181 99 Z" transform="translate(0 -47.825)" />
-    </g>
-    </g>
-    
-  </g>
-<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#approved-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></svg><svg viewBox="0 0 344 344" x="210.000" y="195.000" width="85.0" height="85.0" preserveAspectRatio="xMidYMid meet" aria-label="coffee_die.webp" data-original-x="316.5" data-original-y="555.5" data-original-width="36" data-original-height="36" overflow="visible" data-vector-icon="coffee_die" data-vector-source="Heroes/Janeway/icons/coffee_die.svg" data-original-icon="../../icons/coffee_die.webp" stroke="none" fill="#000000" text-anchor="start">
-  <title>Coffee die face</title>
-  <desc>Hand-drawn vector draft with a solid, color-matched die-face background.</desc>
   <defs>
     <clipPath id="face-clip">
       <rect x="0" y="0" width="344" height="344" rx="31" />
     </clipPath>
   </defs>
-  <g clip-path="url(#face-clip)">
-    <rect width="344" height="344" fill="#003085" />
-
-    <g transform="translate(0 3.7) translate(172 172) scale(0.8322 0.7245) translate(-172 -172)">
-    <g fill="#7A848B" transform="translate(0 -28)">
-      
-
-      <g transform="translate(16.5 -35.175) scale(0.9 1.15)">
-      
-      <g transform="translate(330 0) scale(-1 1)" fill="#111111">
-        <path d="M121 176 L88 176 C67 176 50 188 50 207 L50 256 C50 275 67 287 88 287 L121 287 L121 268 L91 268 C82 268 76 263 76 255 L76 208 C76 200 82 195 91 195 L121 195 Z" />
-      </g>
-
-      
-      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168 C217 176 192 181 165 181 C138 181 113 176 101 168 Z" />
-
-      
-      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169 C230 178 201 184 165 184 C129 184 100 178 100 169 Z" />
-      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-      </g>
-    </g>
-
-    <g transform="translate(16.5 -63.175) scale(0.9 1.15)">
-    
-
-    
-    <path d="M109 169 C109 164 134 160 165 160 C196 160 221 164 221 169 C221 174 196 178 165 178 C134 178 109 174 109 169 Z" fill="#3B271C" />
-    </g>
-    <g fill="#D8C7A8">
-      <path d="M151 75 C162 84 171 97 169 109 C167 122 157 132 149 143 C141 154 143 164 152 173 C138 168 131 156 137 143 C142 131 153 121 158 110 C164 97 159 85 151 75 Z" transform="translate(0 -41.825)" />
-      <path d="M181 99 C192 108 196 119 192 131 C188 142 180 151 179 161 C178 168 181 174 188 179 C176 176 168 167 169 156 C170 143 180 132 183 121 C185 113 183 105 181 99 Z" transform="translate(0 -47.825)" />
-    </g>
-    </g>
-    
-  </g>
-<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#approved-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></svg><svg viewBox="0 0 344 344" x="295.000" y="195.000" width="85.0" height="85.0" preserveAspectRatio="xMidYMid meet" aria-label="coffee_die.webp" data-original-x="356.5" data-original-y="555.5" data-original-width="36" data-original-height="36" overflow="visible" data-vector-icon="coffee_die" data-vector-source="Heroes/Janeway/icons/coffee_die.svg" data-original-icon="../../icons/coffee_die.webp" stroke="none" fill="#000000" text-anchor="start">
-  <title>Coffee die face</title>
-  <desc>Hand-drawn vector draft with a solid, color-matched die-face background.</desc>
   <defs>
     <clipPath id="face-clip">
       <rect x="0" y="0" width="344" height="344" rx="31" />
     </clipPath>
   </defs>
-  <g clip-path="url(#face-clip)">
-    <rect width="344" height="344" fill="#003085" />
-
-    <g transform="translate(0 3.7) translate(172 172) scale(0.8322 0.7245) translate(-172 -172)">
-    <g fill="#7A848B" transform="translate(0 -28)">
-      
-
-      <g transform="translate(16.5 -35.175) scale(0.9 1.15)">
-      
-      <g transform="translate(330 0) scale(-1 1)" fill="#111111">
-        <path d="M121 176 L88 176 C67 176 50 188 50 207 L50 256 C50 275 67 287 88 287 L121 287 L121 268 L91 268 C82 268 76 263 76 255 L76 208 C76 200 82 195 91 195 L121 195 Z" />
-      </g>
-
-      
-      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168 C217 176 192 181 165 181 C138 181 113 176 101 168 Z" />
-
-      
-      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169 C230 178 201 184 165 184 C129 184 100 178 100 169 Z" />
-      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-      </g>
-    </g>
-
-    <g transform="translate(16.5 -63.175) scale(0.9 1.15)">
-    
-
-    
-    <path d="M109 169 C109 164 134 160 165 160 C196 160 221 164 221 169 C221 174 196 178 165 178 C134 178 109 174 109 169 Z" fill="#3B271C" />
-    </g>
-    <g fill="#D8C7A8">
-      <path d="M151 75 C162 84 171 97 169 109 C167 122 157 132 149 143 C141 154 143 164 152 173 C138 168 131 156 137 143 C142 131 153 121 158 110 C164 97 159 85 151 75 Z" transform="translate(0 -41.825)" />
-      <path d="M181 99 C192 108 196 119 192 131 C188 142 180 151 179 161 C178 168 181 174 188 179 C176 176 168 167 169 156 C170 143 180 132 183 121 C185 113 183 105 181 99 Z" transform="translate(0 -47.825)" />
-    </g>
-    </g>
-    
-  </g>
-<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#approved-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></svg><svg viewBox="0 0 344 344" x="380.000" y="195.000" width="85.0" height="85.0" preserveAspectRatio="xMidYMid meet" aria-label="coffee_die.webp" data-original-x="396.5" data-original-y="555.5" data-original-width="36" data-original-height="36" overflow="visible" data-vector-icon="coffee_die" data-vector-source="Heroes/Janeway/icons/coffee_die.svg" data-original-icon="../../icons/coffee_die.webp" stroke="none" fill="#000000" text-anchor="start">
-  <title>Coffee die face</title>
-  <desc>Hand-drawn vector draft with a solid, color-matched die-face background.</desc>
-  <defs>
-    <clipPath id="face-clip">
-      <rect x="0" y="0" width="344" height="344" rx="31" />
-    </clipPath>
-  </defs>
-  <g clip-path="url(#face-clip)">
-    <rect width="344" height="344" fill="#003085" />
-
-    <g transform="translate(0 3.7) translate(172 172) scale(0.8322 0.7245) translate(-172 -172)">
-    <g fill="#7A848B" transform="translate(0 -28)">
-      
-
-      <g transform="translate(16.5 -35.175) scale(0.9 1.15)">
-      
-      <g transform="translate(330 0) scale(-1 1)" fill="#111111">
-        <path d="M121 176 L88 176 C67 176 50 188 50 207 L50 256 C50 275 67 287 88 287 L121 287 L121 268 L91 268 C82 268 76 263 76 255 L76 208 C76 200 82 195 91 195 L121 195 Z" />
-      </g>
-
-      
-      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168 C217 176 192 181 165 181 C138 181 113 176 101 168 Z" />
-
-      
-      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169 C230 178 201 184 165 184 C129 184 100 178 100 169 Z" />
-      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-      </g>
-    </g>
-
-    <g transform="translate(16.5 -63.175) scale(0.9 1.15)">
-    
-
-    
-    <path d="M109 169 C109 164 134 160 165 160 C196 160 221 164 221 169 C221 174 196 178 165 178 C134 178 109 174 109 169 Z" fill="#3B271C" />
-    </g>
-    <g fill="#D8C7A8">
-      <path d="M151 75 C162 84 171 97 169 109 C167 122 157 132 149 143 C141 154 143 164 152 173 C138 168 131 156 137 143 C142 131 153 121 158 110 C164 97 159 85 151 75 Z" transform="translate(0 -41.825)" />
-      <path d="M181 99 C192 108 196 119 192 131 C188 142 180 151 179 161 C178 168 181 174 188 179 C176 176 168 167 169 156 C170 143 180 132 183 121 C185 113 183 105 181 99 Z" transform="translate(0 -47.825)" />
-    </g>
-    </g>
-    
-  </g>
-<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#approved-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></svg><svg viewBox="0 0 344 344" x="465.000" y="195.000" width="85.0" height="85.0" preserveAspectRatio="xMidYMid meet" aria-label="earth_die.webp" data-original-x="436.5" data-original-y="555.5" data-original-width="36" data-original-height="36" overflow="visible" data-vector-icon="earth_die" data-vector-source="Heroes/Janeway/icons/earth_die.svg" data-original-icon="../../icons/earth_die.webp" stroke="none" fill="#000000" text-anchor="start">
-  <title>Earth die face</title>
   <defs><clipPath id="die-clip"><rect width="344" height="344" rx="31" x="0" y="0" /></clipPath></defs>
-  <g clip-path="url(#die-clip)">
+  <defs><clipPath id="vi6-rounded-cube-clip" clipPathUnits="userSpaceOnUse"><path d="M496.483 105.000 Q519.000 92.000 541.517 105.000 L873.204 296.500 Q895.721 309.500 895.721 335.500 L895.721 718.500 Q895.721 744.500 873.204 757.500 L541.517 949.000 Q519.000 962.000 496.483 949.000 L164.796 757.500 Q142.279 744.500 142.279 718.500 L142.279 335.500 Q142.279 309.500 164.796 296.500 Z" /></clipPath></defs><defs>
+    <clipPath id="face-clip">
+      <rect x="0" y="0" width="344" height="344" rx="31" />
+    </clipPath>
+  </defs>
+  <defs>
+    <clipPath id="face-clip">
+      <rect x="0" y="0" width="344" height="344" rx="31" />
+    </clipPath>
+    <clipPath id="clip-gold-bars" clipPathUnits="userSpaceOnUse">
+      <path d="m 232.70572,218.03132 -154.417074,18.3161 c -9.57147,1.026 -18.70758,5.7031 -25.1416,12.8633 -4.36725,4.8604 -7.49726,10.8156 -9.01979,17.1699 l -26.95373,153.101 c -1.66364,5.5463 -0.37652,11.888 3.31541,16.3489 2.65658,3.2098 6.48302,5.4291 10.58808,6.1435 l 115.209424,14.4156 379.61907,0 115.20946,-14.4156 c 4.10506,-0.7144 7.93149,-2.9337 10.58808,-6.1435 3.69193,-4.4609 4.9709,-10.8026 3.30729,-16.3489 l -26.95373,-153.101 c -1.52253,-6.3543 -4.65254,-12.3095 -9.01979,-17.1699 -6.43401,-7.1602 -15.57017,-11.8373 -25.14163,-12.8633 l -154.41704,-18.3161 z m -121.70133,103.1852 450.18321,0 c 9.97628,0 18.00767,8.0314 18.00767,18.0078 0,9.976 -8.03139,18.0074 -18.00767,18.0074 l -450.18321,0 c -9.97629,0 -18.007674,-8.0314 -18.007674,-18.0074 0,-9.9764 8.031384,-18.0078 18.007674,-18.0078 z" transform="translate(81.57205 74.27132) scale(0.26905653)" clip-rule="evenodd" />
+    </clipPath>
+  </defs>
+  <defs>
+    <clipPath id="vi10-face-clip">
+      <circle cx="172" cy="172" r="172" />
+    </clipPath>
+  </defs>
+  <defs>
+    <clipPath id="vi11-face-clip">
+      <circle cx="172" cy="172" r="172" />
+    </clipPath>
+  </defs>
+  <defs><clipPath id="die-clip"><rect width="344" height="344" rx="31" x="0" y="0" /></clipPath></defs>
+  <defs><clipPath id="die-clip"><rect width="344" height="344" rx="31" x="0" y="0" /></clipPath></defs>
+  <defs><clipPath id="die-clip"><rect width="344" height="344" rx="31" x="0" y="0" /></clipPath></defs>
+  <g data-md-line="true" data-source-activation="true"><svg viewBox="0 0 344 344" width="85.0000" height="85.0000" role="img" aria-label="Coffee cup with rising steam on a dark blue die face" overflow="visible" x="125.0000" y="195.0000" preserveAspectRatio="xMidYMid meet" data-md-icon="coffee_die.svg" data-activation-shadow="none" data-vector-source="../../../../../../Heroes/Janeway/icons/coffee_die.svg"><defs id="mdtest-straight-162-approved-reusable-die-lighting"><linearGradient id="mdtest-straight-162-reusable-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28" /><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02" /><stop offset="1" stop-color="#101018" stop-opacity="0.24" /></linearGradient><linearGradient id="mdtest-straight-162-reusable-defense-green" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#BAFFD7" /><stop offset="0.35" stop-color="#6AF2A8" /><stop offset="0.72" stop-color="#359963" /><stop offset="1" stop-color="#236D45" /></linearGradient><linearGradient id="mdtest-straight-162-reusable-straight-gold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFF0C6" /><stop offset="0.35" stop-color="#FFD27A" /><stop offset="1" stop-color="#97703B" /></linearGradient><filter id="mdtest-straight-162-reusable-dice-shared-shadow" x="-0.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="36" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="28" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><g id="mdtest-straight-162-approved-reusable-die-surface">
+  <title>Coffee die face</title>
+  <desc>Hand-drawn vector draft with a solid, color-matched die-face background.</desc>
+  <defs>
+    <clipPath id="mdtest-straight-162-face-clip">
+      <rect x="0" y="0" width="344" height="344" rx="31" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#mdtest-straight-162-face-clip)">
+    <rect width="344" height="344" fill="#003085" />
+
+    <g transform="translate(0 3.7) translate(172 172) scale(0.8322 0.7245) translate(-172 -172)">
+    <g fill="#7A848B" transform="translate(0 -28)">
+      
+
+      <g transform="translate(16.5 -35.175) scale(0.9 1.15)">
+      
+      <g transform="translate(330 0) scale(-1 1)" fill="#111111">
+        <path d="M121 176 L88 176 C67 176 50 188 50 207 L50 256 C50 275 67 287 88 287 L121 287 L121 268 L91 268 C82 268 76 263 76 255 L76 208 C76 200 82 195 91 195 L121 195 Z" />
+      </g>
+
+      
+      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168 C217 176 192 181 165 181 C138 181 113 176 101 168 Z" />
+
+      
+      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169 C230 178 201 184 165 184 C129 184 100 178 100 169 Z" />
+      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+    </g>
+
+    <g transform="translate(16.5 -63.175) scale(0.9 1.15)">
+    
+
+    
+    <path d="M109 169 C109 164 134 160 165 160 C196 160 221 164 221 169 C221 174 196 178 165 178 C134 178 109 174 109 169 Z" fill="#3B271C" />
+    </g>
+    <g fill="#D8C7A8">
+      <path d="M151 75 C162 84 171 97 169 109 C167 122 157 132 149 143 C141 154 143 164 152 173 C138 168 131 156 137 143 C142 131 153 121 158 110 C164 97 159 85 151 75 Z" transform="translate(0 -41.825)" />
+      <path d="M181 99 C192 108 196 119 192 131 C188 142 180 151 179 161 C178 168 181 174 188 179 C176 176 168 167 169 156 C170 143 180 132 183 121 C185 113 183 105 181 99 Z" transform="translate(0 -47.825)" />
+    </g>
+    </g>
+    
+  </g>
+<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#mdtest-straight-162-reusable-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></g></svg><svg viewBox="0 0 344 344" width="85.0000" height="85.0000" role="img" aria-label="Coffee cup with rising steam on a dark blue die face" overflow="visible" x="210.0000" y="195.0000" preserveAspectRatio="xMidYMid meet" data-md-icon="coffee_die.svg" data-activation-shadow="none" data-vector-source="../../../../../../Heroes/Janeway/icons/coffee_die.svg"><defs id="mdtest-straight-163-approved-reusable-die-lighting"><linearGradient id="mdtest-straight-163-reusable-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28" /><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02" /><stop offset="1" stop-color="#101018" stop-opacity="0.24" /></linearGradient><linearGradient id="mdtest-straight-163-reusable-defense-green" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#BAFFD7" /><stop offset="0.35" stop-color="#6AF2A8" /><stop offset="0.72" stop-color="#359963" /><stop offset="1" stop-color="#236D45" /></linearGradient><linearGradient id="mdtest-straight-163-reusable-straight-gold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFF0C6" /><stop offset="0.35" stop-color="#FFD27A" /><stop offset="1" stop-color="#97703B" /></linearGradient><filter id="mdtest-straight-163-reusable-dice-shared-shadow" x="-0.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="36" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="28" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><g id="mdtest-straight-163-approved-reusable-die-surface">
+  <title>Coffee die face</title>
+  <desc>Hand-drawn vector draft with a solid, color-matched die-face background.</desc>
+  <defs>
+    <clipPath id="mdtest-straight-163-face-clip">
+      <rect x="0" y="0" width="344" height="344" rx="31" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#mdtest-straight-163-face-clip)">
+    <rect width="344" height="344" fill="#003085" />
+
+    <g transform="translate(0 3.7) translate(172 172) scale(0.8322 0.7245) translate(-172 -172)">
+    <g fill="#7A848B" transform="translate(0 -28)">
+      
+
+      <g transform="translate(16.5 -35.175) scale(0.9 1.15)">
+      
+      <g transform="translate(330 0) scale(-1 1)" fill="#111111">
+        <path d="M121 176 L88 176 C67 176 50 188 50 207 L50 256 C50 275 67 287 88 287 L121 287 L121 268 L91 268 C82 268 76 263 76 255 L76 208 C76 200 82 195 91 195 L121 195 Z" />
+      </g>
+
+      
+      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168 C217 176 192 181 165 181 C138 181 113 176 101 168 Z" />
+
+      
+      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169 C230 178 201 184 165 184 C129 184 100 178 100 169 Z" />
+      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+    </g>
+
+    <g transform="translate(16.5 -63.175) scale(0.9 1.15)">
+    
+
+    
+    <path d="M109 169 C109 164 134 160 165 160 C196 160 221 164 221 169 C221 174 196 178 165 178 C134 178 109 174 109 169 Z" fill="#3B271C" />
+    </g>
+    <g fill="#D8C7A8">
+      <path d="M151 75 C162 84 171 97 169 109 C167 122 157 132 149 143 C141 154 143 164 152 173 C138 168 131 156 137 143 C142 131 153 121 158 110 C164 97 159 85 151 75 Z" transform="translate(0 -41.825)" />
+      <path d="M181 99 C192 108 196 119 192 131 C188 142 180 151 179 161 C178 168 181 174 188 179 C176 176 168 167 169 156 C170 143 180 132 183 121 C185 113 183 105 181 99 Z" transform="translate(0 -47.825)" />
+    </g>
+    </g>
+    
+  </g>
+<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#mdtest-straight-163-reusable-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></g></svg><svg viewBox="0 0 344 344" width="85.0000" height="85.0000" role="img" aria-label="Coffee cup with rising steam on a dark blue die face" overflow="visible" x="295.0000" y="195.0000" preserveAspectRatio="xMidYMid meet" data-md-icon="coffee_die.svg" data-activation-shadow="none" data-vector-source="../../../../../../Heroes/Janeway/icons/coffee_die.svg"><defs id="mdtest-straight-164-approved-reusable-die-lighting"><linearGradient id="mdtest-straight-164-reusable-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28" /><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02" /><stop offset="1" stop-color="#101018" stop-opacity="0.24" /></linearGradient><linearGradient id="mdtest-straight-164-reusable-defense-green" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#BAFFD7" /><stop offset="0.35" stop-color="#6AF2A8" /><stop offset="0.72" stop-color="#359963" /><stop offset="1" stop-color="#236D45" /></linearGradient><linearGradient id="mdtest-straight-164-reusable-straight-gold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFF0C6" /><stop offset="0.35" stop-color="#FFD27A" /><stop offset="1" stop-color="#97703B" /></linearGradient><filter id="mdtest-straight-164-reusable-dice-shared-shadow" x="-0.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="36" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="28" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><g id="mdtest-straight-164-approved-reusable-die-surface">
+  <title>Coffee die face</title>
+  <desc>Hand-drawn vector draft with a solid, color-matched die-face background.</desc>
+  <defs>
+    <clipPath id="mdtest-straight-164-face-clip">
+      <rect x="0" y="0" width="344" height="344" rx="31" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#mdtest-straight-164-face-clip)">
+    <rect width="344" height="344" fill="#003085" />
+
+    <g transform="translate(0 3.7) translate(172 172) scale(0.8322 0.7245) translate(-172 -172)">
+    <g fill="#7A848B" transform="translate(0 -28)">
+      
+
+      <g transform="translate(16.5 -35.175) scale(0.9 1.15)">
+      
+      <g transform="translate(330 0) scale(-1 1)" fill="#111111">
+        <path d="M121 176 L88 176 C67 176 50 188 50 207 L50 256 C50 275 67 287 88 287 L121 287 L121 268 L91 268 C82 268 76 263 76 255 L76 208 C76 200 82 195 91 195 L121 195 Z" />
+      </g>
+
+      
+      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168 C217 176 192 181 165 181 C138 181 113 176 101 168 Z" />
+
+      
+      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169 C230 178 201 184 165 184 C129 184 100 178 100 169 Z" />
+      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+    </g>
+
+    <g transform="translate(16.5 -63.175) scale(0.9 1.15)">
+    
+
+    
+    <path d="M109 169 C109 164 134 160 165 160 C196 160 221 164 221 169 C221 174 196 178 165 178 C134 178 109 174 109 169 Z" fill="#3B271C" />
+    </g>
+    <g fill="#D8C7A8">
+      <path d="M151 75 C162 84 171 97 169 109 C167 122 157 132 149 143 C141 154 143 164 152 173 C138 168 131 156 137 143 C142 131 153 121 158 110 C164 97 159 85 151 75 Z" transform="translate(0 -41.825)" />
+      <path d="M181 99 C192 108 196 119 192 131 C188 142 180 151 179 161 C178 168 181 174 188 179 C176 176 168 167 169 156 C170 143 180 132 183 121 C185 113 183 105 181 99 Z" transform="translate(0 -47.825)" />
+    </g>
+    </g>
+    
+  </g>
+<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#mdtest-straight-164-reusable-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></g></svg><svg viewBox="0 0 344 344" width="85.0000" height="85.0000" role="img" aria-label="Coffee cup with rising steam on a dark blue die face" overflow="visible" x="380.0000" y="195.0000" preserveAspectRatio="xMidYMid meet" data-md-icon="coffee_die.svg" data-activation-shadow="none" data-vector-source="../../../../../../Heroes/Janeway/icons/coffee_die.svg"><defs id="mdtest-straight-165-approved-reusable-die-lighting"><linearGradient id="mdtest-straight-165-reusable-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28" /><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02" /><stop offset="1" stop-color="#101018" stop-opacity="0.24" /></linearGradient><linearGradient id="mdtest-straight-165-reusable-defense-green" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#BAFFD7" /><stop offset="0.35" stop-color="#6AF2A8" /><stop offset="0.72" stop-color="#359963" /><stop offset="1" stop-color="#236D45" /></linearGradient><linearGradient id="mdtest-straight-165-reusable-straight-gold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFF0C6" /><stop offset="0.35" stop-color="#FFD27A" /><stop offset="1" stop-color="#97703B" /></linearGradient><filter id="mdtest-straight-165-reusable-dice-shared-shadow" x="-0.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="36" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="28" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><g id="mdtest-straight-165-approved-reusable-die-surface">
+  <title>Coffee die face</title>
+  <desc>Hand-drawn vector draft with a solid, color-matched die-face background.</desc>
+  <defs>
+    <clipPath id="mdtest-straight-165-face-clip">
+      <rect x="0" y="0" width="344" height="344" rx="31" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#mdtest-straight-165-face-clip)">
+    <rect width="344" height="344" fill="#003085" />
+
+    <g transform="translate(0 3.7) translate(172 172) scale(0.8322 0.7245) translate(-172 -172)">
+    <g fill="#7A848B" transform="translate(0 -28)">
+      
+
+      <g transform="translate(16.5 -35.175) scale(0.9 1.15)">
+      
+      <g transform="translate(330 0) scale(-1 1)" fill="#111111">
+        <path d="M121 176 L88 176 C67 176 50 188 50 207 L50 256 C50 275 67 287 88 287 L121 287 L121 268 L91 268 C82 268 76 263 76 255 L76 208 C76 200 82 195 91 195 L121 195 Z" />
+      </g>
+
+      
+      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168 C217 176 192 181 165 181 C138 181 113 176 101 168 Z" />
+
+      
+      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169 C230 178 201 184 165 184 C129 184 100 178 100 169 Z" />
+      <path d="M101 168 L101 294 C101 309 123 315 165 315 C207 315 229 309 229 294 L229 168" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M100 169 C100 160 129 154 165 154 C201 154 230 160 230 169" fill="none" stroke="#000000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+    </g>
+
+    <g transform="translate(16.5 -63.175) scale(0.9 1.15)">
+    
+
+    
+    <path d="M109 169 C109 164 134 160 165 160 C196 160 221 164 221 169 C221 174 196 178 165 178 C134 178 109 174 109 169 Z" fill="#3B271C" />
+    </g>
+    <g fill="#D8C7A8">
+      <path d="M151 75 C162 84 171 97 169 109 C167 122 157 132 149 143 C141 154 143 164 152 173 C138 168 131 156 137 143 C142 131 153 121 158 110 C164 97 159 85 151 75 Z" transform="translate(0 -41.825)" />
+      <path d="M181 99 C192 108 196 119 192 131 C188 142 180 151 179 161 C178 168 181 174 188 179 C176 176 168 167 169 156 C170 143 180 132 183 121 C185 113 183 105 181 99 Z" transform="translate(0 -47.825)" />
+    </g>
+    </g>
+    
+  </g>
+<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#mdtest-straight-165-reusable-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></g></svg><svg viewBox="0 0 344 344" width="85.0000" height="85.0000" role="img" aria-label="Earth die face showing a centered world map" overflow="visible" x="465.0000" y="195.0000" preserveAspectRatio="xMidYMid meet" data-md-icon="earth_die.svg" data-activation-shadow="none" data-vector-source="../../../../../../Heroes/Janeway/icons/earth_die.svg"><defs id="mdtest-straight-166-approved-reusable-die-lighting"><linearGradient id="mdtest-straight-166-reusable-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28" /><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02" /><stop offset="1" stop-color="#101018" stop-opacity="0.24" /></linearGradient><linearGradient id="mdtest-straight-166-reusable-defense-green" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#BAFFD7" /><stop offset="0.35" stop-color="#6AF2A8" /><stop offset="0.72" stop-color="#359963" /><stop offset="1" stop-color="#236D45" /></linearGradient><linearGradient id="mdtest-straight-166-reusable-straight-gold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFF0C6" /><stop offset="0.35" stop-color="#FFD27A" /><stop offset="1" stop-color="#97703B" /></linearGradient><filter id="mdtest-straight-166-reusable-dice-shared-shadow" x="-0.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="36" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="28" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><g id="mdtest-straight-166-approved-reusable-die-surface">
+  <title>Earth die face</title>
+  <defs><clipPath id="mdtest-straight-166-die-clip"><rect width="344" height="344" rx="31" x="0" y="0" /></clipPath></defs>
+  <g clip-path="url(#mdtest-straight-166-die-clip)">
     <rect width="344" height="344" fill="#003085" />
     <g transform="translate(78.1875 78.1875) scale(3.86)" fill="#F3EBD8">
       <polygon points="35.432,10.815 35.479,11.176 34.938,11.288 34.866,12.057 35.514,12.057 36.376,11.974 36.821,11.445     36.348,11.261 36.089,10.963 35.7,10.333 35.514,9.442 34.783,9.591 34.578,9.905 34.578,10.259 34.93,10.5   " />
@@ -211,30 +257,25 @@
     </g>
     
   </g>
-<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#approved-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></svg></g>
-<text x="107.403" y="388" text-anchor="start" xml:space="preserve" filter="url(#glass-rulesHalo)">Roll 3 </text>
-<g filter="url(#glass-iconHalo)"><svg viewBox="0 0 998 1054" x="189.803" y="349.000" width="54.0" height="54.0" preserveAspectRatio="xMidYMid meet" aria-label="roll_die.webp" data-original-x="273.0" data-original-y="599.5" data-original-width="36" data-original-height="36" overflow="visible" data-vector-icon="roll_die" data-vector-source="Shared/icons/roll_die.svg" data-original-icon="../../../../Shared/icons/roll_die.webp" stroke="none" fill="#000000" text-anchor="start">
-  <title id="vi6-title">Roll die icon</title>
-  <desc id="vi6-description">Color-coded isometric cube geometry with separate face shapes.</desc>
-  <g id="vi6-centered-artwork" transform="translate(19.96 21.08) scale(0.96)"><g id="vi6-die" stroke="none" stroke-width="22" stroke-linejoin="round" stroke-linecap="round">
-    <g id="vi6-die-faces-and-edges" clip-path="url(#vi6-rounded-cube-clip)"><path id="vi6-top-face" fill="#FFFFFF" stroke="none" d="M519 92 L895.721 309.5 L519 527 L142.279 309.5 Z" />
-    <path id="vi6-left-face" fill="#FFFFFF" stroke="none" d="M142.279 309.5 L519 527 L519 962 L142.279 744.5 Z" />
-    <path id="vi6-right-face" fill="#FFFFFF" stroke="none" d="M519 527 L895.721 309.5 L895.721 744.5 L519 962 Z" />
-    <path id="vi6-inner-edge-left" d="M142.279 309.5 L519 527" fill="none" stroke="#000000" stroke-width="22" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" /><path id="vi6-inner-edge-right" d="M519 527 L895.721 309.5" fill="none" stroke="#000000" stroke-width="22" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" /><path id="vi6-inner-edge-front" d="M519 527 L519 962" fill="none" stroke="#000000" stroke-width="22" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" /></g></g>
-  <path id="vi6-die-silhouette" d="M496.483 105.000 Q519.000 92.000 541.517 105.000 L873.204 296.500 Q895.721 309.500 895.721 335.500 L895.721 718.500 Q895.721 744.500 873.204 757.500 L541.517 949.000 Q519.000 962.000 496.483 949.000 L164.796 757.500 Q142.279 744.500 142.279 718.500 L142.279 335.500 Q142.279 309.500 164.796 296.500 Z" fill="none" stroke="#000000" stroke-width="22" stroke-linejoin="round" stroke-linecap="round" /><g id="vi6-pips" fill="#000000">
-    <g id="vi6-top-six-pips" transform="matrix(376.721 217.5 -376.721 217.5 519 92)"><circle id="vi6-top-six-pips-pip-1" cx="0.25" cy="0.3" r="0.085" fill="#000000" /><circle id="vi6-top-six-pips-pip-2" cx="0.5" cy="0.3" r="0.085" fill="#000000" /><circle id="vi6-top-six-pips-pip-3" cx="0.75" cy="0.3" r="0.085" fill="#000000" /><circle id="vi6-top-six-pips-pip-4" cx="0.25" cy="0.7" r="0.085" fill="#000000" /><circle id="vi6-top-six-pips-pip-5" cx="0.5" cy="0.7" r="0.085" fill="#000000" /><circle id="vi6-top-six-pips-pip-6" cx="0.75" cy="0.7" r="0.085" fill="#000000" /></g><g id="vi6-left-five-pips" transform="matrix(376.721 217.5 0 435 142.279 309.5)"><circle id="vi6-left-five-pips-pip-1" cx="0.25" cy="0.25" r="0.085" fill="#000000" /><circle id="vi6-left-five-pips-pip-2" cx="0.75" cy="0.25" r="0.085" fill="#000000" /><circle id="vi6-left-five-pips-pip-3" cx="0.5" cy="0.5" r="0.085" fill="#000000" /><circle id="vi6-left-five-pips-pip-4" cx="0.25" cy="0.75" r="0.085" fill="#000000" /><circle id="vi6-left-five-pips-pip-5" cx="0.75" cy="0.75" r="0.085" fill="#000000" /></g><g id="vi6-right-four-pips" transform="matrix(376.721 -217.5 0 435 519 527)"><circle id="vi6-right-four-pips-pip-1" cx="0.25" cy="0.25" r="0.085" fill="#000000" /><circle id="vi6-right-four-pips-pip-2" cx="0.75" cy="0.25" r="0.085" fill="#000000" /><circle id="vi6-right-four-pips-pip-3" cx="0.25" cy="0.75" r="0.085" fill="#000000" /><circle id="vi6-right-four-pips-pip-4" cx="0.75" cy="0.75" r="0.085" fill="#000000" /></g></g>
-</g><defs><clipPath id="vi6-rounded-cube-clip" clipPathUnits="userSpaceOnUse"><path d="M496.483 105.000 Q519.000 92.000 541.517 105.000 L873.204 296.500 Q895.721 309.500 895.721 335.500 L895.721 718.500 Q895.721 744.500 873.204 757.500 L541.517 949.000 Q519.000 962.000 496.483 949.000 L164.796 757.500 Q142.279 744.500 142.279 718.500 L142.279 335.500 Q142.279 309.500 164.796 296.500 Z" /></clipPath></defs></svg></g>
-<text x="243.803" y="388" text-anchor="start" xml:space="preserve" filter="url(#glass-rulesHalo)"> for the following effects:</text>
-<text x="150.066" y="447" text-anchor="start" xml:space="preserve" filter="url(#glass-rulesHalo)">For each </text>
-<g filter="url(#glass-iconHalo)"><svg viewBox="0 0 344 344" x="266.752" y="408.000" width="54.0" height="54.0" preserveAspectRatio="xMidYMid meet" aria-label="coffee_die.webp" data-original-x="322.75" data-original-y="687.5" data-original-width="36" data-original-height="36" overflow="visible" data-vector-icon="coffee_die" data-vector-source="Heroes/Janeway/icons/coffee_die.svg" data-original-icon="../../icons/coffee_die.webp" stroke="none" fill="#000000" text-anchor="start">
+<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#mdtest-straight-166-reusable-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></g></svg></g><g data-md-line="true" data-source-baseline="388"><text x="112.0791" y="388.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)">Roll</text><text x="162.0290" y="388.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)"> </text><text x="168.8740" y="388.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)">3</text><text x="186.2640" y="388.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)"> </text><svg width="51.1309" height="54.0000" viewBox="0 0 998 1054" role="img" aria-labelledby="app-md-1-title app-md-1-description" x="193.1090" y="349.1600" preserveAspectRatio="xMidYMid meet" data-md-icon="roll_die.svg">
+  <title id="app-md-1-title">Roll die icon</title>
+  <desc id="app-md-1-description">Color-coded isometric cube geometry with separate face shapes.</desc>
+  <g id="app-md-1-centered-artwork" transform="translate(19.96 21.08) scale(0.96)"><g id="app-md-1-die" stroke="none" stroke-width="22" stroke-linejoin="round" stroke-linecap="round">
+    <g id="app-md-1-die-faces-and-edges" clip-path="url(#app-md-1-rounded-cube-clip)"><path id="app-md-1-top-face" fill="#FFFFFF" stroke="none" d="M519 92 L895.721 309.5 L519 527 L142.279 309.5 Z" />
+    <path id="app-md-1-left-face" fill="#FFFFFF" stroke="none" d="M142.279 309.5 L519 527 L519 962 L142.279 744.5 Z" />
+    <path id="app-md-1-right-face" fill="#FFFFFF" stroke="none" d="M519 527 L895.721 309.5 L895.721 744.5 L519 962 Z" />
+    <path id="app-md-1-inner-edge-left" d="M142.279 309.5 L519 527" fill="none" stroke="#000000" stroke-width="22" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" /><path id="app-md-1-inner-edge-right" d="M519 527 L895.721 309.5" fill="none" stroke="#000000" stroke-width="22" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" /><path id="app-md-1-inner-edge-front" d="M519 527 L519 962" fill="none" stroke="#000000" stroke-width="22" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" /></g></g>
+  <path id="app-md-1-die-silhouette" d="M496.483 105.000 Q519.000 92.000 541.517 105.000 L873.204 296.500 Q895.721 309.500 895.721 335.500 L895.721 718.500 Q895.721 744.500 873.204 757.500 L541.517 949.000 Q519.000 962.000 496.483 949.000 L164.796 757.500 Q142.279 744.500 142.279 718.500 L142.279 335.500 Q142.279 309.500 164.796 296.500 Z" fill="none" stroke="#000000" stroke-width="22" stroke-linejoin="round" stroke-linecap="round" /><g id="app-md-1-pips" fill="#000000">
+    <g id="app-md-1-top-six-pips" transform="matrix(376.721 217.5 -376.721 217.5 519 92)"><circle id="app-md-1-top-six-pips-pip-1" cx="0.25" cy="0.3" r="0.085" fill="#000000" /><circle id="app-md-1-top-six-pips-pip-2" cx="0.5" cy="0.3" r="0.085" fill="#000000" /><circle id="app-md-1-top-six-pips-pip-3" cx="0.75" cy="0.3" r="0.085" fill="#000000" /><circle id="app-md-1-top-six-pips-pip-4" cx="0.25" cy="0.7" r="0.085" fill="#000000" /><circle id="app-md-1-top-six-pips-pip-5" cx="0.5" cy="0.7" r="0.085" fill="#000000" /><circle id="app-md-1-top-six-pips-pip-6" cx="0.75" cy="0.7" r="0.085" fill="#000000" /></g><g id="app-md-1-left-five-pips" transform="matrix(376.721 217.5 0 435 142.279 309.5)"><circle id="app-md-1-left-five-pips-pip-1" cx="0.25" cy="0.25" r="0.085" fill="#000000" /><circle id="app-md-1-left-five-pips-pip-2" cx="0.75" cy="0.25" r="0.085" fill="#000000" /><circle id="app-md-1-left-five-pips-pip-3" cx="0.5" cy="0.5" r="0.085" fill="#000000" /><circle id="app-md-1-left-five-pips-pip-4" cx="0.25" cy="0.75" r="0.085" fill="#000000" /><circle id="app-md-1-left-five-pips-pip-5" cx="0.75" cy="0.75" r="0.085" fill="#000000" /></g><g id="app-md-1-right-four-pips" transform="matrix(376.721 -217.5 0 435 519 527)"><circle id="app-md-1-right-four-pips-pip-1" cx="0.25" cy="0.25" r="0.085" fill="#000000" /><circle id="app-md-1-right-four-pips-pip-2" cx="0.75" cy="0.25" r="0.085" fill="#000000" /><circle id="app-md-1-right-four-pips-pip-3" cx="0.25" cy="0.75" r="0.085" fill="#000000" /><circle id="app-md-1-right-four-pips-pip-4" cx="0.75" cy="0.75" r="0.085" fill="#000000" /></g></g>
+</g><defs><clipPath id="app-md-1-rounded-cube-clip" clipPathUnits="userSpaceOnUse"><path d="M496.483 105.000 Q519.000 92.000 541.517 105.000 L873.204 296.500 Q895.721 309.500 895.721 335.500 L895.721 718.500 Q895.721 744.500 873.204 757.500 L541.517 949.000 Q519.000 962.000 496.483 949.000 L164.796 757.500 Q142.279 744.500 142.279 718.500 L142.279 335.500 Q142.279 309.500 164.796 296.500 Z" /></clipPath></defs></svg><text x="244.2400" y="388.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)"> </text><text x="251.0850" y="388.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)">for</text><text x="286.2720" y="388.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)"> </text><text x="293.1170" y="388.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)">the</text><text x="335.2970" y="388.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)"> </text><text x="342.1420" y="388.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)">following</text><text x="463.7980" y="388.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)"> </text><text x="470.6430" y="388.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)">effects:</text></g><g data-md-line="true"><text x="156.5530" y="454.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)">For</text><text x="196.7350" y="454.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)"> </text><text x="203.5800" y="454.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)">each</text><text x="263.6680" y="454.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)"> </text><svg viewBox="0 0 344 344" width="54.0000" height="54.0000" role="img" aria-label="Coffee cup with rising steam on a dark blue die face" overflow="visible" x="270.5130" y="415.1600" preserveAspectRatio="xMidYMid meet" data-md-icon="coffee_die.svg"><defs id="app-md-2-approved-reusable-die-lighting"><linearGradient id="app-md-2-reusable-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28" /><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02" /><stop offset="1" stop-color="#101018" stop-opacity="0.24" /></linearGradient><linearGradient id="app-md-2-reusable-defense-green" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#BAFFD7" /><stop offset="0.35" stop-color="#6AF2A8" /><stop offset="0.72" stop-color="#359963" /><stop offset="1" stop-color="#236D45" /></linearGradient><linearGradient id="app-md-2-reusable-straight-gold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFF0C6" /><stop offset="0.35" stop-color="#FFD27A" /><stop offset="1" stop-color="#97703B" /></linearGradient><filter id="app-md-2-reusable-dice-shared-shadow" x="-0.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="36" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="28" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><g id="app-md-2-approved-reusable-die-surface" filter="url(#app-md-2-reusable-dice-shared-shadow)">
   <title>Coffee die face</title>
   <desc>Hand-drawn vector draft with a solid, color-matched die-face background.</desc>
   <defs>
-    <clipPath id="face-clip">
+    <clipPath id="app-md-2-face-clip">
       <rect x="0" y="0" width="344" height="344" rx="31" />
     </clipPath>
   </defs>
-  <g clip-path="url(#face-clip)">
+  <g clip-path="url(#app-md-2-face-clip)">
     <rect width="344" height="344" fill="#003085" />
 
     <g transform="translate(0 3.7) translate(172 172) scale(0.8322 0.7245) translate(-172 -172)">
@@ -270,28 +311,23 @@
     </g>
     
   </g>
-<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#approved-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></svg></g>
-<text x="327.877" y="447" text-anchor="start" xml:space="preserve" filter="url(#glass-rulesHalo)">Deal </text>
-<g filter="url(#glass-iconHalo)"><svg viewBox="0 0 900 900" x="409.459" y="408.000" width="54.0" height="54.0" preserveAspectRatio="xMidYMid meet" aria-label="normal_damage_4.webp" data-original-x="464.25" data-original-y="687.5" data-original-width="36" data-original-height="36" overflow="visible" data-vector-icon="normal_damage" data-vector-source="Shared/icons/normal_damage.svg" data-original-icon="../../../../Shared/icons/normal_damage_4.webp" stroke="none" fill="#000000" text-anchor="start">
-  <title id="vi8-title">Normal damage burst</title>
-  <desc id="vi8-description">Clean vector redraw with editable text where applicable.</desc>
-  <g id="vi8-scaled-icon" transform="translate(13.5 13.5) scale(0.97)"><polygon id="vi8-outer-outline" points="450.00,13.00 485.09,93.72 535.25,21.40 553.92,107.42 617.23,46.26 618.76,134.27 692.78,86.65 677.11,173.26 759.01,140.99 726.74,222.89 813.35,207.22 765.73,281.24 853.74,282.77 792.58,346.08 878.60,364.75 806.28,414.91 887.00,450.00 806.28,485.09 878.60,535.25 792.58,553.92 853.74,617.23 765.73,618.76 813.35,692.78 726.74,677.11 759.01,759.01 677.11,726.74 692.78,813.35 618.76,765.73 617.23,853.74 553.92,792.58 535.25,878.60 485.09,806.28 450.00,887.00 414.91,806.28 364.75,878.60 346.08,792.58 282.77,853.74 281.24,765.73 207.22,813.35 222.89,726.74 140.99,759.01 173.26,677.11 86.65,692.78 134.27,618.76 46.26,617.23 107.42,553.92 21.40,535.25 93.72,485.09 13.00,450.00 93.72,414.91 21.40,364.75 107.42,346.08 46.26,282.77 134.27,281.24 86.65,207.22 173.26,222.89 140.99,140.99 222.89,173.26 207.22,86.65 281.24,134.27 282.77,46.26 346.08,107.42 364.75,21.40 414.91,93.72" fill="none" stroke="#FFFFFF" stroke-width="19" stroke-linejoin="miter" stroke-miterlimit="10" /><polygon id="vi8-burst" points="450.00,13.00 485.09,93.72 535.25,21.40 553.92,107.42 617.23,46.26 618.76,134.27 692.78,86.65 677.11,173.26 759.01,140.99 726.74,222.89 813.35,207.22 765.73,281.24 853.74,282.77 792.58,346.08 878.60,364.75 806.28,414.91 887.00,450.00 806.28,485.09 878.60,535.25 792.58,553.92 853.74,617.23 765.73,618.76 813.35,692.78 726.74,677.11 759.01,759.01 677.11,726.74 692.78,813.35 618.76,765.73 617.23,853.74 553.92,792.58 535.25,878.60 485.09,806.28 450.00,887.00 414.91,806.28 364.75,878.60 346.08,792.58 282.77,853.74 281.24,765.73 207.22,813.35 222.89,726.74 140.99,759.01 173.26,677.11 86.65,692.78 134.27,618.76 46.26,617.23 107.42,553.92 21.40,535.25 93.72,485.09 13.00,450.00 93.72,414.91 21.40,364.75 107.42,346.08 46.26,282.77 134.27,281.24 86.65,207.22 173.26,222.89 140.99,140.99 222.89,173.26 207.22,86.65 281.24,134.27 282.77,46.26 346.08,107.42 364.75,21.40 414.91,93.72" fill="#030304" stroke="#FFFFFF" stroke-width="9" stroke-linejoin="miter" stroke-miterlimit="10" />
-  <text id="vi8-editable-number" data-editable="number" x="438" y="663" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="561.11" font-weight="700" fill="#FFFFFF" data-vector-import="true">4</text>
-</g></svg></g>
-<text x="463.459" y="447" text-anchor="start" xml:space="preserve" filter="url(#glass-rulesHalo)"> dmg</text>
-<text x="135.459" y="505" text-anchor="start" xml:space="preserve" filter="url(#glass-rulesHalo)">On </text>
-<g filter="url(#glass-iconHalo)"><svg viewBox="0 0 344 344" x="181.359" y="466.000" width="54.0" height="54.0" preserveAspectRatio="xMidYMid meet" aria-label="combadge_die.webp" data-original-x="230.5" data-original-y="731.5" data-original-width="36" data-original-height="36" overflow="visible" data-vector-icon="combadge_die" data-vector-source="Heroes/Janeway/icons/combadge_die.svg" data-original-icon="../../icons/combadge_die.webp" stroke="none" fill="#000000" text-anchor="start">
+<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#app-md-2-reusable-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></g></svg><text x="324.5130" y="454.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)"> </text><text x="331.3580" y="454.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)">Deal</text><text x="389.8920" y="454.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)"> </text><g transform="translate(396.7370 415.1600)" data-md-icon="normal_damage.svg" data-md-value="4"><svg width="54.0" height="54" viewBox="0 0 900 900" role="img" aria-labelledby="app-md-3-title app-md-3-description" preserveAspectRatio="xMidYMid meet">
+  <title id="app-md-3-title">Normal damage burst</title>
+  <desc id="app-md-3-description">Clean vector redraw with editable text where applicable.</desc>
+  <g id="app-md-3-scaled-icon" transform="translate(13.5 13.5) scale(0.97)"><polygon id="app-md-3-outer-outline" points="450.00,13.00 485.09,93.72 535.25,21.40 553.92,107.42 617.23,46.26 618.76,134.27 692.78,86.65 677.11,173.26 759.01,140.99 726.74,222.89 813.35,207.22 765.73,281.24 853.74,282.77 792.58,346.08 878.60,364.75 806.28,414.91 887.00,450.00 806.28,485.09 878.60,535.25 792.58,553.92 853.74,617.23 765.73,618.76 813.35,692.78 726.74,677.11 759.01,759.01 677.11,726.74 692.78,813.35 618.76,765.73 617.23,853.74 553.92,792.58 535.25,878.60 485.09,806.28 450.00,887.00 414.91,806.28 364.75,878.60 346.08,792.58 282.77,853.74 281.24,765.73 207.22,813.35 222.89,726.74 140.99,759.01 173.26,677.11 86.65,692.78 134.27,618.76 46.26,617.23 107.42,553.92 21.40,535.25 93.72,485.09 13.00,450.00 93.72,414.91 21.40,364.75 107.42,346.08 46.26,282.77 134.27,281.24 86.65,207.22 173.26,222.89 140.99,140.99 222.89,173.26 207.22,86.65 281.24,134.27 282.77,46.26 346.08,107.42 364.75,21.40 414.91,93.72" fill="none" stroke="#FFFFFF" stroke-width="19" stroke-linejoin="miter" stroke-miterlimit="10" /><polygon id="app-md-3-burst" points="450.00,13.00 485.09,93.72 535.25,21.40 553.92,107.42 617.23,46.26 618.76,134.27 692.78,86.65 677.11,173.26 759.01,140.99 726.74,222.89 813.35,207.22 765.73,281.24 853.74,282.77 792.58,346.08 878.60,364.75 806.28,414.91 887.00,450.00 806.28,485.09 878.60,535.25 792.58,553.92 853.74,617.23 765.73,618.76 813.35,692.78 726.74,677.11 759.01,759.01 677.11,726.74 692.78,813.35 618.76,765.73 617.23,853.74 553.92,792.58 535.25,878.60 485.09,806.28 450.00,887.00 414.91,806.28 364.75,878.60 346.08,792.58 282.77,853.74 281.24,765.73 207.22,813.35 222.89,726.74 140.99,759.01 173.26,677.11 86.65,692.78 134.27,618.76 46.26,617.23 107.42,553.92 21.40,535.25 93.72,485.09 13.00,450.00 93.72,414.91 21.40,364.75 107.42,346.08 46.26,282.77 134.27,281.24 86.65,207.22 173.26,222.89 140.99,140.99 222.89,173.26 207.22,86.65 281.24,134.27 282.77,46.26 346.08,107.42 364.75,21.40 414.91,93.72" fill="#030304" stroke="#FFFFFF" stroke-width="9" stroke-linejoin="miter" stroke-miterlimit="10" />
+  <text id="app-md-3-editable-number" data-editable="number" x="438" y="663" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="561.11" font-weight="700" fill="#FFFFFF">1</text>
+</g></svg><rect x="15.389999999999999" y="12.15" width="21.6" height="28.62" fill="#030304" /><text x="26.298000000000002" y="28.080000000000002" text-anchor="middle" dominant-baseline="central" font-family="Arial,Helvetica,sans-serif" font-size="31.339" font-weight="700" fill="#FFFFFF">4</text></g><text x="450.7370" y="454.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)"> </text><text x="457.5820" y="454.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)">dmg</text></g><g data-md-line="true"><text x="140.9860" y="520.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)">On</text><text x="179.4660" y="520.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)"> </text><svg viewBox="0 0 344 344" width="54.0000" height="54.0000" role="img" aria-label="Starfleet combadge on a dark blue die face" overflow="visible" x="186.3110" y="481.1600" preserveAspectRatio="xMidYMid meet" data-md-icon="combadge_die.svg"><defs id="app-md-4-approved-reusable-die-lighting"><linearGradient id="app-md-4-reusable-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28" /><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02" /><stop offset="1" stop-color="#101018" stop-opacity="0.24" /></linearGradient><linearGradient id="app-md-4-reusable-defense-green" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#BAFFD7" /><stop offset="0.35" stop-color="#6AF2A8" /><stop offset="0.72" stop-color="#359963" /><stop offset="1" stop-color="#236D45" /></linearGradient><linearGradient id="app-md-4-reusable-straight-gold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFF0C6" /><stop offset="0.35" stop-color="#FFD27A" /><stop offset="1" stop-color="#97703B" /></linearGradient><filter id="app-md-4-reusable-dice-shared-shadow" x="-0.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="36" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="28" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><g id="app-md-4-approved-reusable-die-surface" filter="url(#app-md-4-reusable-dice-shared-shadow)">
   <title>Combadge die face</title>
   <desc>Hand-drawn vector draft with a solid, color-matched die-face background.</desc>
   <defs>
-    <clipPath id="face-clip">
+    <clipPath id="app-md-4-face-clip">
       <rect x="0" y="0" width="344" height="344" rx="31" />
     </clipPath>
-    <clipPath id="clip-gold-bars" clipPathUnits="userSpaceOnUse">
+    <clipPath id="app-md-4-clip-gold-bars" clipPathUnits="userSpaceOnUse">
       <path d="m 232.70572,218.03132 -154.417074,18.3161 c -9.57147,1.026 -18.70758,5.7031 -25.1416,12.8633 -4.36725,4.8604 -7.49726,10.8156 -9.01979,17.1699 l -26.95373,153.101 c -1.66364,5.5463 -0.37652,11.888 3.31541,16.3489 2.65658,3.2098 6.48302,5.4291 10.58808,6.1435 l 115.209424,14.4156 379.61907,0 115.20946,-14.4156 c 4.10506,-0.7144 7.93149,-2.9337 10.58808,-6.1435 3.69193,-4.4609 4.9709,-10.8026 3.30729,-16.3489 l -26.95373,-153.101 c -1.52253,-6.3543 -4.65254,-12.3095 -9.01979,-17.1699 -6.43401,-7.1602 -15.57017,-11.8373 -25.14163,-12.8633 l -154.41704,-18.3161 z m -121.70133,103.1852 450.18321,0 c 9.97628,0 18.00767,8.0314 18.00767,18.0078 0,9.976 -8.03139,18.0074 -18.00767,18.0074 l -450.18321,0 c -9.97629,0 -18.007674,-8.0314 -18.007674,-18.0074 0,-9.9764 8.031384,-18.0078 18.007674,-18.0078 z" transform="translate(81.57205 74.27132) scale(0.26905653)" clip-rule="evenodd" />
     </clipPath>
   </defs>
-  <g clip-path="url(#face-clip)">
+  <g clip-path="url(#app-md-4-face-clip)">
     <rect width="344" height="344" fill="#003085" />
 
     
@@ -303,37 +339,33 @@
     
     <path d="m 344.167,16.45792 -1.76332,2.2591 -5.28185,6.777 c -4.62475,5.9354 -9.27134,11.9422 -13.78969,18.1289 -60.05624,82.2343 -102.17032,176.019 -136.57255,271.4711 -21.14125,58.6585 -39.56559,118.3243 -54.33807,178.9413 -18.48616,75.8562 -31.02496,153.1241 -37.858714,230.8739 l -2.07213,23.5487 16.365654,-17.0562 c 26.31153,-27.4209 53.41902,-54.0526 81.51118,-79.5692 38.25458,-34.747 78.26135,-67.7521 122.66907,-93.5457 16.80533,-9.761 34.18958,-18.448 52.2822,-25.1985 9.76868,-3.6449 19.59976,-6.5972 29.35899,-6.5493 8.85761,0.041 17.76872,2.552 26.2549,6.2486 19.2023,8.3642 35.78258,22.3122 50.89268,37.6069 25.03646,25.3419 46.3629,54.2797 66.95767,83.7542 7.57802,10.8446 14.97272,21.9045 22.42759,32.9992 l 19.78664,29.4645 -4.63993,-35.1851 c -4.00059,-30.3652 -8.78605,-60.6698 -14.83792,-90.7829 -14.91052,-74.1913 -35.93678,-146.933 -58.69363,-218.9371 -14.90615,-47.1641 -30.59186,-94.1421 -48.42241,-140.3671 -24.16355,-62.6435 -52.34649,-124.0437 -87.97131,-181.1679 -5.13815,-8.239 -10.48624,-16.2779 -15.85371,-24.2232 l -6.41134,-9.4912 z" transform="translate(89.19411 74.95297) scale(0.24590164)" fill="#C2CAD2" stroke="none" />
     <path d="m 344.167,16.45792 -1.76332,2.2591 -5.28185,6.777 c -4.62475,5.9354 -9.27134,11.9422 -13.78969,18.1289 -60.05624,82.2343 -102.17032,176.019 -136.57255,271.4711 -21.14125,58.6585 -39.56559,118.3243 -54.33807,178.9413 -18.48616,75.8562 -31.02496,153.1241 -37.858714,230.8739 l -2.07213,23.5487 16.365654,-17.0562 c 26.31153,-27.4209 53.41902,-54.0526 81.51118,-79.5692 38.25458,-34.747 78.26135,-67.7521 122.66907,-93.5457 16.80533,-9.761 34.18958,-18.448 52.2822,-25.1985 9.76868,-3.6449 19.59976,-6.5972 29.35899,-6.5493 8.85761,0.041 17.76872,2.552 26.2549,6.2486 19.2023,8.3642 35.78258,22.3122 50.89268,37.6069 25.03646,25.3419 46.3629,54.2797 66.95767,83.7542 7.57802,10.8446 14.97272,21.9045 22.42759,32.9992 l 19.78664,29.4645 -4.63993,-35.1851 c -4.00059,-30.3652 -8.78605,-60.6698 -14.83792,-90.7829 -14.91052,-74.1913 -35.93678,-146.933 -58.69363,-218.9371 -14.90615,-47.1641 -30.59186,-94.1421 -48.42241,-140.3671 -24.16355,-62.6435 -52.34649,-124.0437 -87.97131,-181.1679 -5.13815,-8.239 -10.48624,-16.2779 -15.85371,-24.2232 l -6.41134,-9.4912 z" transform="translate(89.19411 74.95297) scale(0.24590164)" fill="none" stroke="#55595D" stroke-width="11" stroke-linejoin="round" />
-    <path d="m 344.167,16.45792 -1.76332,2.2591 -5.28185,6.777 c -4.62475,5.9354 -9.27134,11.9422 -13.78969,18.1289 -60.05624,82.2343 -102.17032,176.019 -136.57255,271.4711 -21.14125,58.6585 -39.56559,118.3243 -54.33807,178.9413 -18.48616,75.8562 -31.02496,153.1241 -37.858714,230.8739 l -2.07213,23.5487 16.365654,-17.0562 c 26.31153,-27.4209 53.41902,-54.0526 81.51118,-79.5692 38.25458,-34.747 78.26135,-67.7521 122.66907,-93.5457 16.80533,-9.761 34.18958,-18.448 52.2822,-25.1985 9.76868,-3.6449 19.59976,-6.5972 29.35899,-6.5493 8.85761,0.041 17.76872,2.552 26.2549,6.2486 19.2023,8.3642 35.78258,22.3122 50.89268,37.6069 25.03646,25.3419 46.3629,54.2797 66.95767,83.7542 7.57802,10.8446 14.97272,21.9045 22.42759,32.9992 l 19.78664,29.4645 -4.63993,-35.1851 c -4.00059,-30.3652 -8.78605,-60.6698 -14.83792,-90.7829 -14.91052,-74.1913 -35.93678,-146.933 -58.69363,-218.9371 -14.90615,-47.1641 -30.59186,-94.1421 -48.42241,-140.3671 -24.16355,-62.6435 -52.34649,-124.0437 -87.97131,-181.1679 -5.13815,-8.239 -10.48624,-16.2779 -15.85371,-24.2232 l -6.41134,-9.4912 z" transform="translate(89.19411 74.95297) scale(0.24590164)" fill="none" stroke="#55595D" stroke-width="11" stroke-linejoin="round" clip-path="url(#clip-gold-bars)" />
+    <path d="m 344.167,16.45792 -1.76332,2.2591 -5.28185,6.777 c -4.62475,5.9354 -9.27134,11.9422 -13.78969,18.1289 -60.05624,82.2343 -102.17032,176.019 -136.57255,271.4711 -21.14125,58.6585 -39.56559,118.3243 -54.33807,178.9413 -18.48616,75.8562 -31.02496,153.1241 -37.858714,230.8739 l -2.07213,23.5487 16.365654,-17.0562 c 26.31153,-27.4209 53.41902,-54.0526 81.51118,-79.5692 38.25458,-34.747 78.26135,-67.7521 122.66907,-93.5457 16.80533,-9.761 34.18958,-18.448 52.2822,-25.1985 9.76868,-3.6449 19.59976,-6.5972 29.35899,-6.5493 8.85761,0.041 17.76872,2.552 26.2549,6.2486 19.2023,8.3642 35.78258,22.3122 50.89268,37.6069 25.03646,25.3419 46.3629,54.2797 66.95767,83.7542 7.57802,10.8446 14.97272,21.9045 22.42759,32.9992 l 19.78664,29.4645 -4.63993,-35.1851 c -4.00059,-30.3652 -8.78605,-60.6698 -14.83792,-90.7829 -14.91052,-74.1913 -35.93678,-146.933 -58.69363,-218.9371 -14.90615,-47.1641 -30.59186,-94.1421 -48.42241,-140.3671 -24.16355,-62.6435 -52.34649,-124.0437 -87.97131,-181.1679 -5.13815,-8.239 -10.48624,-16.2779 -15.85371,-24.2232 l -6.41134,-9.4912 z" transform="translate(89.19411 74.95297) scale(0.24590164)" fill="none" stroke="#55595D" stroke-width="11" stroke-linejoin="round" clip-path="url(#app-md-4-clip-gold-bars)" />
     
     
   </g>
-<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#approved-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></svg></g>
-<text x="242.484" y="505" text-anchor="start" xml:space="preserve" filter="url(#glass-rulesHalo)">Gain 2 </text>
-<g filter="url(#glass-iconHalo)"><svg viewBox="-5 -5 354 354" x="350.066" y="466.000" width="54.0" height="54.0" preserveAspectRatio="xMidYMid meet" aria-label="command_codes_token.webp" data-original-x="399.5" data-original-y="731.5" data-original-width="36" data-original-height="36" overflow="visible" data-vector-icon="command_codes" data-vector-source="Heroes/Janeway/icons/command_codes.svg" data-original-icon="../../icons/command_codes_token.webp" stroke="none" fill="#000000" text-anchor="start">
+<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#app-md-4-reusable-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></g></svg><text x="240.3110" y="520.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)"> </text><text x="247.1560" y="520.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)">Gain</text><text x="307.4290" y="520.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)"> </text><text x="314.2740" y="520.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)">2</text><text x="331.6640" y="520.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)"> </text><svg viewBox="-5 -5 354 354" width="54.0000" height="54.0000" role="img" aria-label="Command codes token" x="338.5090" y="481.1600" preserveAspectRatio="xMidYMid meet" data-md-icon="command_codes.svg">
   <title>Command codes token</title>
   <desc>Flat vector pi glyph in gold.</desc>
   <defs>
-    <clipPath id="vi10-face-clip">
+    <clipPath id="app-md-5-face-clip">
       <circle cx="172" cy="172" r="172" />
     </clipPath>
   </defs>
-  <g clip-path="url(#vi10-face-clip)">
+  <g clip-path="url(#app-md-5-face-clip)">
     <rect width="344" height="344" fill="#2F2C59" />
 
     <g transform="scale(0.5733333333333333)" stroke-linecap="round" stroke-linejoin="round"><path d="M119 260 C127 222 148 187 181 166 C198 154 219 150 239 150 L490 150 L478 207 L397 207 L376 375 C378 394 395 416 410 416 C427 416 451 404 467 364 L476 369 C466 411 441 442 409 457 C380 470 351 461 335 440 C320 421 316 398 319 369 L352 207 L273 207 L232 379 C223 423 205 451 177 457 C154 462 137 452 138 431 C139 412 151 394 168 375 C199 338 217 282 228 207 C183 207 151 224 134 263 Z" fill="#FAC447" stroke="#000000" stroke-width="3.6627905" stroke-linejoin="round" /></g><circle cx="172" cy="172" r="165.7" fill="none" stroke="#FFFFFF" stroke-width="12.6" />
   </g>
 <circle cx="172" cy="172" r="174.1" fill="none" stroke="#FFFFFF" stroke-width="4.2" />
-</svg></g>
-<text x="404.066" y="505" text-anchor="start" xml:space="preserve" filter="url(#glass-rulesHalo)"> and 1 </text>
-<g filter="url(#glass-iconHalo)"><svg viewBox="-5 -5 354 354" x="492.666" y="466.000" width="54.0" height="54.0" preserveAspectRatio="xMidYMid meet" aria-label="coffee_token.webp" data-original-x="525.5" data-original-y="731.5" data-original-width="36" data-original-height="36" overflow="visible" data-vector-icon="coffee_token" data-vector-source="Heroes/Janeway/icons/coffee_token.svg" data-original-icon="../../icons/coffee_token.webp" stroke="none" fill="#000000" text-anchor="start">
+</svg><text x="392.5090" y="520.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)"> </text><text x="399.3540" y="520.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)">and</text><text x="448.9340" y="520.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)"> </text><text x="455.7790" y="520.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)">1</text><text x="473.1690" y="520.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)"> </text><svg viewBox="-5 -5 354 354" width="54.0000" height="54.0000" role="img" aria-label="Coffee cup with rising steam on a dark blue circular token" x="480.0140" y="481.1600" preserveAspectRatio="xMidYMid meet" data-md-icon="coffee_token.svg">
   <title>Coffee token</title>
   <desc>Vector coffee cup and steam on a full-bleed dark blue circular background.</desc>
   <defs>
-    <clipPath id="vi11-face-clip">
+    <clipPath id="app-md-6-face-clip">
       <circle cx="172" cy="172" r="172" />
     </clipPath>
   </defs>
-  <g clip-path="url(#vi11-face-clip)">
+  <g clip-path="url(#app-md-6-face-clip)">
     <rect width="344" height="344" fill="#4A3528" />
 
     <g transform="translate(0 3.7) translate(172 172) scale(0.9986 0.8694) translate(-172 -172)">
@@ -370,12 +402,10 @@
     <circle cx="172" cy="172" r="165.7" fill="none" stroke="#FFFFFF" stroke-width="12.6" />
   </g>
 <circle cx="172" cy="172" r="174.1" fill="none" stroke="#FFFFFF" stroke-width="4.2" />
-</svg></g>
-<text x="215.909" y="563" text-anchor="start" xml:space="preserve" filter="url(#glass-rulesHalo)">On </text>
-<g filter="url(#glass-iconHalo)"><svg viewBox="0 0 344 344" x="261.809" y="524.000" width="54.0" height="54.0" preserveAspectRatio="xMidYMid meet" aria-label="earth_die.webp" data-original-x="307.25" data-original-y="775.5" data-original-width="36" data-original-height="36" overflow="visible" data-vector-icon="earth_die" data-vector-source="Heroes/Janeway/icons/earth_die.svg" data-original-icon="../../icons/earth_die.webp" stroke="none" fill="#000000" text-anchor="start">
+</svg></g><g data-md-line="true"><text x="224.5189" y="586.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)">On</text><text x="262.9989" y="586.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)"> </text><svg viewBox="0 0 344 344" width="54.0000" height="54.0000" role="img" aria-label="Earth die face showing a centered world map" overflow="visible" x="269.8439" y="547.1600" preserveAspectRatio="xMidYMid meet" data-md-icon="earth_die.svg"><defs id="app-md-7-approved-reusable-die-lighting"><linearGradient id="app-md-7-reusable-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28" /><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02" /><stop offset="1" stop-color="#101018" stop-opacity="0.24" /></linearGradient><linearGradient id="app-md-7-reusable-defense-green" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#BAFFD7" /><stop offset="0.35" stop-color="#6AF2A8" /><stop offset="0.72" stop-color="#359963" /><stop offset="1" stop-color="#236D45" /></linearGradient><linearGradient id="app-md-7-reusable-straight-gold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFF0C6" /><stop offset="0.35" stop-color="#FFD27A" /><stop offset="1" stop-color="#97703B" /></linearGradient><filter id="app-md-7-reusable-dice-shared-shadow" x="-0.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="36" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="28" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><g id="app-md-7-approved-reusable-die-surface" filter="url(#app-md-7-reusable-dice-shared-shadow)">
   <title>Earth die face</title>
-  <defs><clipPath id="die-clip"><rect width="344" height="344" rx="31" x="0" y="0" /></clipPath></defs>
-  <g clip-path="url(#die-clip)">
+  <defs><clipPath id="app-md-7-die-clip"><rect width="344" height="344" rx="31" x="0" y="0" /></clipPath></defs>
+  <g clip-path="url(#app-md-7-die-clip)">
     <rect width="344" height="344" fill="#003085" />
     <g transform="translate(78.1875 78.1875) scale(3.86)" fill="#F3EBD8">
       <polygon points="35.432,10.815 35.479,11.176 34.938,11.288 34.866,12.057 35.514,12.057 36.376,11.974 36.821,11.445     36.348,11.261 36.089,10.963 35.7,10.333 35.514,9.442 34.783,9.591 34.578,9.905 34.578,10.259 34.93,10.5   " />
@@ -387,30 +417,26 @@
     </g>
     
   </g>
-<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#approved-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></svg></g>
-<text x="322.934" y="563" text-anchor="start" xml:space="preserve" filter="url(#glass-rulesHalo)">Draw </text>
-<g filter="url(#glass-iconHalo)"><svg viewBox="0 0 714 824" x="412.216" y="524.000" width="54.0" height="54.0" preserveAspectRatio="xMidYMid meet" aria-label="carddraw_1.webp" data-original-x="448.75" data-original-y="775.5" data-original-width="36" data-original-height="36" overflow="visible" data-vector-icon="carddraw" data-vector-source="Shared/icons/carddraw.svg" data-original-icon="../../../../Shared/icons/carddraw_1.webp" stroke="none" fill="#000000" text-anchor="start">
-  <title id="vi13-title">Card draw icon</title>
-  <desc id="vi13-description">Two overlapping rounded playing cards, drawn with editable vector shapes. The front card contains an editable number.</desc>
+<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#app-md-7-reusable-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></g></svg><text x="323.8439" y="586.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)"> </text><text x="330.6889" y="586.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)">Draw</text><text x="396.8449" y="586.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)"> </text><svg width="46.7913" height="54.0000" viewBox="0 0 714 824" role="img" aria-labelledby="app-md-8-title app-md-8-description" x="403.6899" y="547.1600" preserveAspectRatio="xMidYMid meet" data-md-icon="carddraw.svg" data-md-value="1">
+  <title id="app-md-8-title">Card draw icon</title>
+  <desc id="app-md-8-description">Two overlapping rounded playing cards, drawn with editable vector shapes. The front card contains an editable number.</desc>
 
   
-  <g id="vi13-back-card">
-    <rect id="vi13-back-card-outline" x="140" y="75" width="554" height="720" rx="86" fill="#000000" />
-    <rect id="vi13-back-card-face" x="175" y="105" width="484" height="660" rx="55" fill="#FFFFFF" />
+  <g id="app-md-8-back-card">
+    <rect id="app-md-8-back-card-outline" x="140" y="75" width="554" height="720" rx="86" fill="#000000" />
+    <rect id="app-md-8-back-card-face" x="175" y="105" width="484" height="660" rx="55" fill="#FFFFFF" />
   </g>
 
   
-  <g id="vi13-front-card">
-    <rect id="vi13-front-card-outline" x="0" y="0" width="550" height="720" rx="86" fill="#000000" />
-    <rect id="vi13-front-card-face" x="30" y="30" width="490" height="660" rx="55" fill="#FFFFFF" />
-    <text id="vi13-editable-number" data-editable="number" x="263" y="490" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="358.33" font-weight="700" fill="#000000" data-vector-import="true">1</text>
+  <g id="app-md-8-front-card">
+    <rect id="app-md-8-front-card-outline" x="0" y="0" width="550" height="720" rx="86" fill="#000000" />
+    <rect id="app-md-8-front-card-face" x="30" y="30" width="490" height="660" rx="55" fill="#FFFFFF" />
+    <text id="app-md-8-editable-number" data-editable="number" x="263" y="490" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="358.33" font-weight="700" fill="#000000">1</text>
   </g>
-</svg></g>
-<text x="172.259" y="622" text-anchor="start" xml:space="preserve" filter="url(#glass-rulesHalo)">On </text>
-<g filter="url(#glass-iconHalo)"><svg viewBox="0 0 344 344" x="218.159" y="583.000" width="54.0" height="54.0" preserveAspectRatio="xMidYMid meet" aria-label="earth_die.webp" data-original-x="180.75" data-original-y="819.5" data-original-width="36" data-original-height="36" overflow="visible" data-vector-icon="earth_die" data-vector-source="Heroes/Janeway/icons/earth_die.svg" data-original-icon="../../icons/earth_die.webp" stroke="none" fill="#000000" text-anchor="start">
+</svg></g><g data-md-line="true"><text x="177.7355" y="652.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)">On</text><text x="216.2155" y="652.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)"> </text><svg viewBox="0 0 344 344" width="54.0000" height="54.0000" role="img" aria-label="Earth die face showing a centered world map" overflow="visible" x="223.0605" y="613.1600" preserveAspectRatio="xMidYMid meet" data-md-icon="earth_die.svg"><defs id="app-md-9-approved-reusable-die-lighting"><linearGradient id="app-md-9-reusable-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28" /><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02" /><stop offset="1" stop-color="#101018" stop-opacity="0.24" /></linearGradient><linearGradient id="app-md-9-reusable-defense-green" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#BAFFD7" /><stop offset="0.35" stop-color="#6AF2A8" /><stop offset="0.72" stop-color="#359963" /><stop offset="1" stop-color="#236D45" /></linearGradient><linearGradient id="app-md-9-reusable-straight-gold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFF0C6" /><stop offset="0.35" stop-color="#FFD27A" /><stop offset="1" stop-color="#97703B" /></linearGradient><filter id="app-md-9-reusable-dice-shared-shadow" x="-0.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="36" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="28" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><g id="app-md-9-approved-reusable-die-surface" filter="url(#app-md-9-reusable-dice-shared-shadow)">
   <title>Earth die face</title>
-  <defs><clipPath id="die-clip"><rect width="344" height="344" rx="31" x="0" y="0" /></clipPath></defs>
-  <g clip-path="url(#die-clip)">
+  <defs><clipPath id="app-md-9-die-clip"><rect width="344" height="344" rx="31" x="0" y="0" /></clipPath></defs>
+  <g clip-path="url(#app-md-9-die-clip)">
     <rect width="344" height="344" fill="#003085" />
     <g transform="translate(78.1875 78.1875) scale(3.86)" fill="#F3EBD8">
       <polygon points="35.432,10.815 35.479,11.176 34.938,11.288 34.866,12.057 35.514,12.057 36.376,11.974 36.821,11.445     36.348,11.261 36.089,10.963 35.7,10.333 35.514,9.442 34.783,9.591 34.578,9.905 34.578,10.259 34.93,10.5   " />
@@ -422,10 +448,10 @@
     </g>
     
   </g>
-<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#approved-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></svg><svg viewBox="0 0 344 344" x="272.159" y="583.000" width="54.0" height="54.0" preserveAspectRatio="xMidYMid meet" aria-label="earth_die.webp" data-original-x="220.75" data-original-y="819.5" data-original-width="36" data-original-height="36" overflow="visible" data-vector-icon="earth_die" data-vector-source="Heroes/Janeway/icons/earth_die.svg" data-original-icon="../../icons/earth_die.webp" stroke="none" fill="#000000" text-anchor="start">
+<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#app-md-9-reusable-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></g></svg><svg viewBox="0 0 344 344" width="54.0000" height="54.0000" role="img" aria-label="Earth die face showing a centered world map" overflow="visible" x="277.0605" y="613.1600" preserveAspectRatio="xMidYMid meet" data-md-icon="earth_die.svg"><defs id="app-md-10-approved-reusable-die-lighting"><linearGradient id="app-md-10-reusable-die-sheen" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28" /><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.02" /><stop offset="1" stop-color="#101018" stop-opacity="0.24" /></linearGradient><linearGradient id="app-md-10-reusable-defense-green" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#BAFFD7" /><stop offset="0.35" stop-color="#6AF2A8" /><stop offset="0.72" stop-color="#359963" /><stop offset="1" stop-color="#236D45" /></linearGradient><linearGradient id="app-md-10-reusable-straight-gold" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0" stop-color="#FFF0C6" /><stop offset="0.35" stop-color="#FFD27A" /><stop offset="1" stop-color="#97703B" /></linearGradient><filter id="app-md-10-reusable-dice-shared-shadow" x="-0.5" y="-1" width="2" height="3" color-interpolation-filters="sRGB"><feMorphology in="SourceAlpha" operator="dilate" radius="36" result="expanded" /><feGaussianBlur in="expanded" stdDeviation="28" result="soft" /><feFlood flood-color="#000000" flood-opacity="0.8" result="black" /><feComposite in="black" in2="soft" operator="in" result="halo" /><feMerge><feMergeNode in="halo" /><feMergeNode in="SourceGraphic" /></feMerge></filter></defs><g id="app-md-10-approved-reusable-die-surface" filter="url(#app-md-10-reusable-dice-shared-shadow)">
   <title>Earth die face</title>
-  <defs><clipPath id="die-clip"><rect width="344" height="344" rx="31" x="0" y="0" /></clipPath></defs>
-  <g clip-path="url(#die-clip)">
+  <defs><clipPath id="app-md-10-die-clip"><rect width="344" height="344" rx="31" x="0" y="0" /></clipPath></defs>
+  <g clip-path="url(#app-md-10-die-clip)">
     <rect width="344" height="344" fill="#003085" />
     <g transform="translate(78.1875 78.1875) scale(3.86)" fill="#F3EBD8">
       <polygon points="35.432,10.815 35.479,11.176 34.938,11.288 34.866,12.057 35.514,12.057 36.376,11.974 36.821,11.445     36.348,11.261 36.089,10.963 35.7,10.333 35.514,9.442 34.783,9.591 34.578,9.905 34.578,10.259 34.93,10.5   " />
@@ -437,11 +463,7 @@
     </g>
     
   </g>
-<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#approved-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></svg></g>
-<text x="333.284" y="622" text-anchor="start" xml:space="preserve" filter="url(#glass-rulesHalo)">Begin a new</text>
-<text x="139.853" y="680" text-anchor="start" xml:space="preserve" filter="url(#glass-rulesHalo)"><tspan fill="#EB943A">Offensive Roll Phase</tspan> targeting</text>
-<text x="209.650" y="739" text-anchor="start" xml:space="preserve" filter="url(#glass-rulesHalo)">the same opponent</text>
-</g><g id="instant-action-cp-tag" aria-label="Editable Main Phase Action CP tag" transform="translate(0 169)">
+<rect x="4" y="4" width="336" height="336" rx="27" fill="url(#app-md-10-reusable-die-sheen)" stroke="#000000" stroke-width="8" pointer-events="none" /></g></svg><text x="331.0605" y="652.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)"> </text><text x="337.9055" y="652.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)">Begin</text><text x="414.3105" y="652.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)"> </text><text x="421.1555" y="652.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)">a</text><text x="436.1035" y="652.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)"> </text><text x="442.9485" y="652.0000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)">new</text></g><g data-md-line="true"><text x="143.2685" y="706.2000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#EB943A" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)">Offensive</text><text x="264.7395" y="706.2000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)"> </text><text x="271.5845" y="706.2000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#EB943A" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)">Roll</text><text x="321.5345" y="706.2000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)"> </text><text x="328.3795" y="706.2000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#EB943A" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)">Phase</text><text x="405.8575" y="706.2000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)"> </text><text x="412.7025" y="706.2000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)">targeting</text></g><g data-md-line="true"><text x="211.4225" y="755.6000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)">the</text><text x="253.6025" y="755.6000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)"> </text><text x="260.4475" y="755.6000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)">same</text><text x="330.0075" y="755.6000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)"> </text><text x="336.8525" y="755.6000" font-family="Avenir Next Condensed, sans-serif" font-size="37" font-weight="400" font-style="normal" fill="#F7F7F7" xml:space="preserve" data-md-text="true" filter="url(#glass-rulesHalo)">opponent</text></g></g><g id="instant-action-cp-tag" aria-label="Editable Main Phase Action CP tag" transform="translate(0 169)">
     <defs>
       <linearGradient id="cp-badge-fill" x1="0" y1="0" x2="0" y2="1">
         <stop offset="0" stop-color="#FFFFFF" />

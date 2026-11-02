@@ -18,8 +18,8 @@
 ## SVG rendering
 
 - Before creating or editing any SVG asset, check `Shared/` for an applicable style guide, including `Shared/style_guides/`. If a guide exists, read it and adhere to it when creating or editing that asset.
-- When an SVG contains editable text, use Google Chrome to render it, including SVG-to-PNG and SVG-to-PDF exports, so installed fonts render consistently with the browser.
-- For Chrome rendering, reuse a dedicated rendering script at a stable path and invoke it with a consistent command prefix so saved “Always approve” permissions can apply. Run file creation, edits, and other preparation separately from the rendering command; do not bundle them into changing shell scripts or heredocs with the Chrome launch. When approval is required, request a reusable permission scoped to the rendering command and reuse it for future renders.
+- When an SVG contains editable text, render it in Google Chrome through Puppeteer, including SVG-to-PNG and SVG-to-PDF exports, so installed fonts render consistently with Chrome. Do not substitute another renderer for editable-text SVGs. If Puppeteer or Chrome is unavailable, report the rendering blocker and pause before exporting or approving the render.
+- For Puppeteer-based Chrome rendering, reuse a dedicated rendering script at a stable path and invoke it with a consistent command prefix so saved “Always approve” permissions can apply. Run file creation, edits, and other preparation separately from the rendering command; do not bundle them into changing shell scripts or heredocs with the Chrome launch. When approval is required, request a reusable permission scoped to the rendering command and reuse it for future renders.
 - When an SVG contains no editable text, use whichever renderer is most effective for accurate output; Chrome is not required.
 
 ## SVG artwork references

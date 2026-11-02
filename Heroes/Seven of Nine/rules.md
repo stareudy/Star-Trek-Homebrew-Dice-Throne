@@ -8,47 +8,47 @@ The board template uses white Gardablack titles and centered Avenir Next Condens
 ## HERO BOARD
 
 ### Offensive Ability 1
-**Name:** TBD  
+**Name:** Nanoprobe Injection  
 **Dice requirement:** TBD  
 **Rules:** TBD  
 
 ### Offensive Ability 2
-**Name:** TBD  
+**Name:** Distinctiveness  
 **Dice requirement:** TBD  
 **Rules:** TBD  
 
 ### Offensive Ability 3
-**Name:** TBD  
+**Name:** Regeneration Cycle  
 **Dice requirement:** TBD  
 **Rules:** TBD  
 
 ### Offensive Ability 4
-**Name:** TBD  
+**Name:** Order to Chaos  
 **Dice requirement:** TBD  
 **Rules:** TBD  
 
 ### Offensive Ability 5
-**Name:** TBD  
+**Name:** Individuality  
 **Dice requirement:** TBD  
 **Rules:** TBD  
 
 ### Offensive Ability 6
-**Name:** TBD  
+**Name:** Collective Will  
 **Dice requirement:** TBD  
 **Rules:** TBD  
 
 ### Offensive Ability 7
-**Name:** TBD  
+**Name:** Borg Precision  
 **Dice requirement:** TBD  
 **Rules:** TBD  
 
 ### Defensive Ability
-**Name:** TBD  
+**Name:** Adaptation  
 **Dice requirement:** TBD  
 **Rules:** TBD  
 
 ### Ultimate Ability
-**Name:** TBD  
+**Name:** You Must Comply  
 **Dice requirement:** TBD  
 **Rules:** TBD  
 
@@ -208,7 +208,7 @@ These concepts have not been assigned to ability or card slots.
   "schema_version": 1,
   "status": "placeholders",
   "source": "rules.md",
-  "content_sha256": "c7e780f40be71954dead9f58336530964a454c9f75601ed630ceb3e75dd32e94",
+  "content_sha256": "2176534465ca792704a6e4cf41300e0d2ba4435f85cfe181608a8aae1bfe5867",
   "counting": {
     "scope": "explicit gameplay icon references in rendered rules blocks",
     "excludes": [

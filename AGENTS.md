@@ -38,6 +38,8 @@
 - Do not place a comma immediately after a die-face/dice icon or group in gameplay rules. When editing `rules.md`, remove such commas while preserving other punctuation (including commas after status-token icons), wording, and icon order, then refresh the current inventory metadata. Check all affected rule blocks, including inline die results and grouped dice.
 - No rendered line on any asset may begin with a dash. Do not include leading dash list markers in `rules.md` rules blocks or render them from any rules source. All conversion scripts must discard leading list-marker dashes before line layout, including after explicit line breaks, while preserving internal hyphens, rules wording, and line spacing. Treat these leading list markers as formatting, not rules punctuation.
 - The playtest app stores separate asset versions under `playtest-app/public/assets/`. Rules updates must cover the corresponding primary and playtest app SVGs for the active hero. Preserve each version's artwork, linked resources, and app-specific presentation.
+- Whenever the user approves new artwork or a new version of existing artwork, create or update its corresponding WebP in `playtest-app/public/assets/` from the approved artwork. Verify the saved WebP and its playtest asset references.
+- Whenever a new hero or a new hero asset is added, update the playtest app to include the new content.
 - Raster source artwork and existing exports may still be used where applicable; SVGs are the editable source of truth for asset presentation, while `rules.md` remains the source of truth for rules.
 
 ## Heroes and task scope

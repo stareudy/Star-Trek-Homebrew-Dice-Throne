@@ -1,14 +1,16 @@
 import './style.css';
-const HEROES=['Janeway','Tuvok','Seven of Nine'];
+const HEROES=['Janeway','Tuvok','Seven of Nine','The Doctor'];
 const heroCards={
 Janeway:['captains_prerogative','command_training','counterpoint','determination','fire_phasers_ii','fire_phasers_iii','reprimanded','resolve','set_to_kill','shields_up_ii','shields_up_iii','shore_leave_ii','tactical_exercises_ii','theres_coffee_in_that_nebula'],
 Tuvok:['calculated_opening','kal_toh','kolinahr_discipline','kolinar_ii','my_mind_to_your_mind','my_thoughts_to_your_thoughts','nerve_pinch_ii','nerve_pinch_iii','return_fire_ii','return_fire_iii','security_protocols','tactical_precision_ii','tactical_recalibration','vulcan_composure'],
-'Seven of Nine':[]};
+'Seven of Nine':[],'The Doctor':[]};
 const shared=['better_d','buh_bye','double_up','get_that_outta_here','getting_paid','helping_hand','not_this_time','one_more_time','samesies','six-it','so_wild','tip_it','transference','triple_up','try_try_again','twice_as_wild','vegas_baby','what_status_effects'];
-const upgrades={Janeway:{fire_phasers_ii:'Fire Phasers',fire_phasers_iii:'Fire Phasers',shields_up_ii:'Shields Up',shields_up_iii:'Shields Up',shore_leave_ii:'Shore Leave',tactical_exercises_ii:'Tactical Exercises'},Tuvok:{kolinar_ii:'Kolinar',nerve_pinch_ii:'Nerve Pinch',nerve_pinch_iii:'Nerve Pinch',return_fire_ii:'Return Fire',return_fire_iii:'Return Fire',tactical_precision_ii:'Tactical Precision'},'Seven of Nine':{}};
-const tokens={Janeway:{Coffee:0,'Command Codes':0,Reprimand:0},Tuvok:{Logic:0,'Mind Meld':0,Targeted:0,Protect:0},'Seven of Nine':{}};
+const upgrades={Janeway:{fire_phasers_ii:'Fire Phasers',fire_phasers_iii:'Fire Phasers',shields_up_ii:'Shields Up',shields_up_iii:'Shields Up',shore_leave_ii:'Shore Leave',tactical_exercises_ii:'Tactical Exercises'},Tuvok:{kolinar_ii:'Kolinar',nerve_pinch_ii:'Nerve Pinch',nerve_pinch_iii:'Nerve Pinch',return_fire_ii:'Return Fire',return_fire_iii:'Return Fire',tactical_precision_ii:'Tactical Precision'},'Seven of Nine':{},'The Doctor':{}};
+const tokens={Janeway:{Coffee:0,'Command Codes':0,Reprimand:0},Tuvok:{Logic:0,'Mind Meld':0,Targeted:0,Protect:0},'Seven of Nine':{},'The Doctor':{}};
 const root=import.meta.env.BASE_URL+'assets/';
-const boardSlots={Janeway:['fire-phasers','shore-leave','tactical-exercises','command-protocol','do-it','red-alert','get-off-my-ship','shields-up','punch-your-way-through'],Tuvok:['nerve-pinch','meditate','kolinar','combat-drill','measured-response','tactical-precision','final-calculation','return-fire','logical-outcome'],'Seven of Nine':['ability-1','ability-2','ability-3','ability-4','ability-5','ability-6','ability-7','defense','ultimate']};
+const heroFolders={'The Doctor':'EMH'};
+const heroFolder=hero=>heroFolders[hero]||hero;
+const boardSlots={Janeway:['fire-phasers','shore-leave','tactical-exercises','command-protocol','do-it','red-alert','get-off-my-ship','shields-up','punch-your-way-through'],Tuvok:['nerve-pinch','meditate','kolinar','combat-drill','measured-response','tactical-precision','final-calculation','return-fire','logical-outcome'],'Seven of Nine':['ability-1','ability-2','ability-3','ability-4','ability-5','ability-6','ability-7','defense','ultimate'],'The Doctor':['ability-1','ability-2','ability-3','ability-4','ability-5','ability-6','ability-7','defense','ultimate']};
 let assetInstance=0;
 function scopeSvgDefinitions(svg){
  const prefix='asset-'+(++assetInstance)+'-';
@@ -32,8 +34,8 @@ async function inlineSvg(url,container,modify){try{const response=await fetch(ur
  });
 });scopeSvgDefinitions(svg);svg.removeAttribute('width');svg.removeAttribute('height');container.replaceChildren(document.importNode(svg,true));await document.fonts.ready;if(modify)modify(container.firstChild)}catch(err){container.textContent='Unable to load art: '+err.message;console.error(err)}}const $=s=>document.querySelector(s);
 function title(s){return s.replaceAll('_',' ').replace(/\b\w/g,c=>c.toUpperCase())}
-function img(card){return root+(card.hero==='Shared'?'Shared':'Heroes/'+card.hero)+'/cards/'+card.id+'.svg'}
-function face(hero,n){return root+'Heroes/'+hero+'/icons/die_'+n+'.svg'}
+function img(card){return root+(card.hero==='Shared'?'Shared':'Heroes/'+heroFolder(card.hero))+'/cards/'+card.id+'.svg'}
+function face(hero,n){return root+'Heroes/'+heroFolder(hero)+'/icons/die_'+n+'.svg'}
 function shuffle(a){a=[...a];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
 function newGame(hero){return {hero,dice:[1,2,3,4,5].map(()=>({value:1,locked:false})),deck:shuffle([...shared.map(id=>({id,hero:'Shared'})),...heroCards[hero].map(id=>({id,hero}))]),hand:[],discard:[],upgrades:{},health:50,cp:2,tokens:{...tokens[hero]},peek:0,view:'board'}}
 let state;try{state=JSON.parse(localStorage.getItem('voyager-playtest-v1'))}catch{}if(!state||!HEROES.includes(state.hero))state=newGame('Janeway');
@@ -42,7 +44,7 @@ function action(fn){fn();save();render()}
 function button(label,fn,cls=''){const b=document.createElement('button');b.textContent=label;b.className=cls;b.onclick=fn;return b}
 function el(tag,cls,text){const x=document.createElement(tag);if(cls)x.className=cls;if(text!==undefined)x.textContent=text;return x}
 function cardNode(c){const x=el('div','card');const pic=el('div','svg-art');x.append(pic);inlineSvg(img(c),pic);x.append(el('small','',title(c.id)));return x}
-function render(){const app=$('#app');app.replaceChildren();const header=el('header');header.append(el('h1','','Voyager Dice Throne'));const sel=el('select');for(const h of HEROES){const o=el('option','',h);o.value=h;sel.append(o)}sel.value=state.hero;sel.onchange=()=>{if(confirm('Start a new '+sel.value+' session?'))action(()=>state=newGame(sel.value));else sel.value=state.hero};header.append(sel);if(state.hero!=='Seven of Nine')header.append(button('View Leaflet',showLeaflet,'primary'));header.append(button('Inspect deck',()=>renderInspection()),button('Reset session',()=>{if(confirm('Reset all progress for '+state.hero+'?'))action(()=>state=newGame(state.hero))}));app.append(header);
+function render(){const app=$('#app');app.replaceChildren();const header=el('header');header.append(el('h1','','Voyager Dice Throne'));const sel=el('select');for(const h of HEROES){const o=el('option','',h);o.value=h;sel.append(o)}sel.value=state.hero;sel.onchange=()=>{if(confirm('Start a new '+sel.value+' session?'))action(()=>state=newGame(sel.value));else sel.value=state.hero};header.append(sel);if(!['Seven of Nine','The Doctor'].includes(state.hero))header.append(button('View Leaflet',showLeaflet,'primary'));header.append(button('Inspect deck',()=>renderInspection()),button('Reset session',()=>{if(confirm('Reset all progress for '+state.hero+'?'))action(()=>state=newGame(state.hero))}));app.append(header);
 const main=el('main','play-layout');app.append(main);for(const [name,draw] of [['resources-pane',renderResources],['dice-pane',renderDice],['board-pane',renderBoard],['cards-pane',renderCards]]){const pane=el('section','play-pane '+name);main.append(pane);draw(pane)}
 }
 function showLeaflet(){
@@ -54,7 +56,7 @@ function showLeaflet(){
  const close=button('Close ×',finish,'detail-close');
  const picture=el('div','leaflet-svg');
  panel.append(close,picture);overlay.append(panel);
- inlineSvg(root+'Heroes/'+state.hero+'/leaflet.svg',picture);
+ inlineSvg(root+'Heroes/'+heroFolder(state.hero)+'/leaflet.svg',picture);
  overlay.onclick=e=>{if(e.target===overlay)finish()};
  const onKeyDown=e=>{if(e.key==='Escape')finish()};
  document.addEventListener('keydown',onKeyDown);document.body.append(overlay);close.focus();
@@ -62,7 +64,7 @@ function showLeaflet(){
 function renderInspection(){const app=$('#app');app.replaceChildren();const header=el('header','inspection-header');header.append(el('h1','','Deck inspection — '+state.hero),button('Back to play',render,'primary'));app.append(header);const ids=heroCards[state.hero];app.append(el('p','hint',ids.length?`Hero-specific card reference only (${ids.length} cards). Shared standard cards are excluded. Inspection does not change the game. Tap a card to enlarge it.`:'No hero-specific cards have been added yet. Shared standard cards are excluded.'));const grid=el('div','inspection-grid');const all=ids.map(id=>({id,hero:state.hero}));all.forEach(card=>{const tile=button('',()=>showCardDetail(card),'inspection-tile');tile.append(cardNode(card));grid.append(tile)});app.append(grid)}
 function showCardDetail(card){const overlay=el('div','card-overlay');overlay.setAttribute('role','dialog');overlay.setAttribute('aria-modal','true');overlay.setAttribute('aria-label',title(card.id));const panel=el('div','card-detail');panel.append(button('Close ×',()=>overlay.remove(),'detail-close'));const pic=el('div','detail-svg');inlineSvg(img(card),pic);panel.append(pic,el('h3','',title(card.id)));overlay.append(panel);overlay.onclick=e=>{if(e.target===overlay)overlay.remove()};document.body.append(overlay)}
 function renderDice(main){main.append(el('h2','','Dice tray'));const tray=el('div','dice-tray');state.dice.forEach((d,i)=>{const item=el('div','die '+(d.locked?'locked':''));const pic=el('div','die-face');inlineSvg(face(state.hero,d.value),pic);pic.onclick=()=>{const n=prompt('Set die '+(i+1)+' to a number (1–6)',d.value);if(n!==null&&Number.isInteger(+n)&&+n>=1&&+n<=6)action(()=>state.dice[i].value=+n)};item.append(pic,el('span','',String(d.value)),button(d.locked?'Unlock':'Keep',()=>action(()=>state.dice[i].locked=!d.locked)));tray.append(item)});main.append(tray);const controls=el('div','controls');controls.append(button('Roll unlocked dice',()=>action(()=>state.dice.forEach(d=>{if(!d.locked)d.value=1+Math.floor(Math.random()*6)}))),button('Unlock all',()=>action(()=>state.dice.forEach(d=>d.locked=false))));main.append(controls,el('p','hint','Tap any die face to set its number manually. The corresponding hero-specific icon changes with it.'))}
-function renderResources(main){const area=el('section','resources');for(const [label,key] of [['Health','health'],['Combat points','cp']]){const item=el('div','resource');item.append(el('h3','',label));const art=el('div','dial-art');inlineSvg(root+'Heroes/'+state.hero+'/'+(key==='health'?'health_dial.svg':'cp_dial.svg'),art);const number=el('span','dial-value',String(state[key]));item.append(art);item.append(number);const controls=el('div','controls dial-controls');controls.append(button('−',()=>action(()=>state[key]=Math.max(0,state[key]-1))),button('+',()=>action(()=>state[key]++)));item.append(controls);area.append(item)}main.append(area)}
+function renderResources(main){const area=el('section','resources');for(const [label,key] of [['Health','health'],['Combat points','cp']]){const item=el('div','resource');item.append(el('h3','',label));const art=el('div','dial-art');inlineSvg(root+'Heroes/'+heroFolder(state.hero)+'/'+(key==='health'?'health_dial.svg':'cp_dial.svg'),art);const number=el('span','dial-value',String(state[key]));item.append(art);item.append(number);const controls=el('div','controls dial-controls');controls.append(button('−',()=>action(()=>state[key]=Math.max(0,state[key]-1))),button('+',()=>action(()=>state[key]++)));item.append(controls);area.append(item)}main.append(area)}
 function showAbilityZoom(svg,id){
  const original=svg.querySelector('#panel-'+id);if(!original)return;
  const b=original.getBBox(),m=svg.getCTM().inverse().multiply(original.getCTM());
@@ -80,7 +82,7 @@ function showAbilityZoom(svg,id){
 function renderBoard(main){
  main.append(el('h2','',state.hero+' ability panels'));
  const board=el('div','compact-board');main.append(board);
- inlineSvg(root+'Heroes/'+state.hero+'/hero_board.svg',board,svg=>{
+ inlineSvg(root+'Heroes/'+heroFolder(state.hero)+'/hero_board.svg',board,svg=>{
   svg.querySelector('#layer-background')?.remove();
   svg.querySelector('#layer-janeway-name, #layer-tuvok-name')?.remove();
   const panels=boardSlots[state.hero].map(id=>svg.querySelector('#panel-'+id)).filter(Boolean);

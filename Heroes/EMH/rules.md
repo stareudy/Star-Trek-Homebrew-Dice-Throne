@@ -1,13 +1,50 @@
 # EMH — Rules
 
+## Hero Board
+
+### Photonic Blast
+
 Rules text has not been written yet.
+
+### Aria
+
+Rules text has not been written yet.
+
+### Dermal Regeneration
+
+Rules text has not been written yet.
+
+### Neuralytic Pathogen
+
+Rules text has not been written yet.
+
+### Photonic Cannon (Large Straight)
+
+Rules text has not been written yet.
+
+### Decompile (Small Straight)
+
+Rules text has not been written yet.
+
+### Triage (Defense)
+
+Rules text has not been written yet.
+
+### Photons Be Free (Mini-Ultimate)
+
+Rules text has not been written yet.
+
+### Emergency Command Hologram (Ultimate)
+
+Rules text has not been written yet.
+
 
 <!-- stdt-icon-inventory:v1
 {
   "schema_version": 1,
   "status": "awaiting_rules",
   "source": "rules.md",
-  "content_sha256": "b41f1b87e2117e251664153980a64ed971b01ef79542d1f6e41bc74c162f027b",
+  "content_sha256": "67f9eb49d35e383651c289b28ed6acc2c6e3463fc50acd08be8259c274d8c010",
   "counting": {
     "scope": "explicit gameplay icon references in rendered rules blocks",
     "excludes": [

@@ -8,9 +8,10 @@
 @font-face{font-family:"Avenir Next Condensed";src:url("../../Shared/fonts/AvenirNextCondensed/AvenirNextCondensed-BoldItalic.otf") format("opentype");font-weight:700;font-style:italic;font-display:block;}
 </style>
   <title>cp dial front</title>
-  <desc>Approved dial with embedded full-resolution illustration, vector icon and contour, and transparent openings.</desc>
+  <desc>Approved dial with embedded full-resolution illustration, vector icon and contour, and transparent openings. Fastener apertures are true circles registered to the 2026-11-03 official 600 dpi scan; scan shadows are excluded.</desc>
   <defs>
-    <clipPath id="front-clip"><path d="M 197,5.49 A 249,249 0 1 0 296,4.48 L 299,35 C 301,52 299,71 296,83 C 290,106 274,119 247,119 C 220,119 205,105 200,85 C 196,69 196,52 195,37 C 193,25 194,13 197,5.49 Z" clip-rule="evenodd"/></clipPath>
+    <clipPath id="fastener-cutouts"><path d="M 0,0 H 498 V 498 H 0 Z M 227.5438,246.7614 a 22.5045,22.5045 0 1 0 45.0090,0 a 22.5045,22.5045 0 1 0 -45.0090,0 Z" clip-rule="evenodd"/></clipPath>
+    <clipPath id="front-clip"><path d="M 197,5.49 A 249,249 0 1 0 296,4.48 L 299,35 C 301,52 299,71 296,83 C 290,106 274,119 247,119 C 220,119 205,105 200,85 C 196,69 196,52 195,37 C 193,25 194,13 197,5.49 Z M 227.5438,246.7614 a 22.5045,22.5045 0 1 0 45.0090,0 a 22.5045,22.5045 0 1 0 -45.0090,0 Z" clip-rule="evenodd"/></clipPath>
     <filter id="icon-aura" x="-65%" y="-65%" width="230%" height="230%" color-interpolation-filters="sRGB">
       <feMorphology in="SourceAlpha" operator="dilate" radius="4.37" result="expanded-silhouette"/>
       <feGaussianBlur in="expanded-silhouette" stdDeviation="6.55" result="soft-silhouette"/>
@@ -20,7 +21,7 @@
     </filter>
   </defs>
   <g id="background" inkscape:groupmode="layer" inkscape:label="Blank background">
-    <path id="front-shape" d="M 197,5.49 A 249,249 0 1 0 296,4.48 L 299,35 C 301,52 299,71 296,83 C 290,106 274,119 247,119 C 220,119 205,105 200,85 C 196,69 196,52 195,37 C 193,25 194,13 197,5.49 Z" fill="#bcbcbc" fill-rule="evenodd"/>
+    <path id="front-shape" d="M 197,5.49 A 249,249 0 1 0 296,4.48 L 299,35 C 301,52 299,71 296,83 C 290,106 274,119 247,119 C 220,119 205,105 200,85 C 196,69 196,52 195,37 C 193,25 194,13 197,5.49 Z M 227.5438,246.7614 a 22.5045,22.5045 0 1 0 45.0090,0 a 22.5045,22.5045 0 1 0 -45.0090,0 Z" fill="#bcbcbc" fill-rule="evenodd"/>
   </g>
   <g id="artwork" inkscape:groupmode="layer" inkscape:label="Add artwork here" clip-path="url(#front-clip)"/>
   <g id="approved-art" clip-path="url(#front-clip)"><image href="art/cp_dial.webp" width="498" height="498" preserveAspectRatio="xMidYMid slice"/></g><g id="labels" inkscape:groupmode="layer" inkscape:label="Editable labels" clip-path="url(#front-clip)" font-family="Avenir Next Condensed, Arial Narrow, sans-serif" font-weight="800" fill="#ffffff" stroke="#222222" stroke-width="1.4" paint-order="stroke fill" stroke-linejoin="round">
@@ -28,7 +29,7 @@
   <text xmlns="http://www.w3.org/2000/svg" id="dial-cp-editable-cp-label" data-editable="label" x="350" y="536.75" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="280" font-weight="700" fill="#B5E0E6">CP</text>
 </g></g>
   </g>
-  <g id="cut-lines" inkscape:groupmode="layer" inkscape:label="Cut contours" fill="none" stroke="#000000" stroke-width="1.2" stroke-linejoin="round">
-    <path id="cut-contour" d="M 197,5.49 A 249,249 0 1 0 296,4.48 L 299,35 C 301,52 299,71 296,83 C 290,106 274,119 247,119 C 220,119 205,105 200,85 C 196,69 196,52 195,37 C 193,25 194,13 197,5.49 Z"/>
+  <g clip-path="url(#fastener-cutouts)" id="cut-lines" inkscape:groupmode="layer" inkscape:label="Cut contours" fill="none" stroke="#000000" stroke-width="1.2" stroke-linejoin="round">
+    <path id="cut-contour" d="M 197,5.49 A 249,249 0 1 0 296,4.48 L 299,35 C 301,52 299,71 296,83 C 290,106 274,119 247,119 C 220,119 205,105 200,85 C 196,69 196,52 195,37 C 193,25 194,13 197,5.49 Z M 227.5438,246.7614 a 22.5045,22.5045 0 1 0 45.0090,0 a 22.5045,22.5045 0 1 0 -45.0090,0 Z"/>
   </g>
 </svg>

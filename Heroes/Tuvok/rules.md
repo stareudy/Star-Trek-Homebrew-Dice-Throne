@@ -31,7 +31,7 @@ Rules wording and values are retained from [rules.txt](rules.txt). Presentation 
 
 This file uses Markdown headings with HTML rule blocks for alignment, spacing, colors, and inline icons. Use a Markdown viewer that supports inline HTML and CSS. Viewers that sanitize styles, including GitHub, may simplify the appearance. Existing SVGs remain the reference for exact artwork, print dimensions, and layout.
 
-The rule blocks use Avenir Next Condensed for rules and Gardablack for headings, scaled for screen reading. Observed SVG line breaks are followed where the wording matches; text absent from the SVG retains its source paragraph. Blue (`#336A9C`) and orange (`#EB943A`) text follow the observed SVG emphasis, including partial phase-name coloring. Icons link to the existing originals. Numbered icons keep their value editable in HTML.
+The rule blocks use Avenir Next Condensed for rules and Gardablack for headings, scaled for screen reading. Observed SVG line breaks are followed where the wording matches; text absent from the SVG retains its source paragraph. Blue (`#0099F6`) and orange (`#F2C300`) text follow the observed SVG emphasis, including partial phase-name coloring. Icons link to the existing originals. Numbered icons keep their value editable in HTML.
 
 ## LEAFLET
 
@@ -44,9 +44,9 @@ SVG reference: [leaflet.svg](leaflet.svg)
 <div class="rule-title">MIND MELD</div>
 <div data-source-line="metadata" style="font-size:.95em;font-weight:700;color:#F4F6F9;margin-bottom:.7em;">Unique Status Effect | Stack limit: 1</div>
 <div style="height:.55em;"></div>
-<div class="rule-line" data-source-line="rules" style="margin:.35em 0;">Spend this token during your <span style="color:#336A9C">Main</span> Phase or<br />an opponent&#x27;s <span style="color:#EB943A">Offensive</span> <span style="color:#EB943A">Roll</span> Phase.</div>
-<div class="rule-line" data-source-line="rules" style="margin:.35em 0;">During your <span style="color:#336A9C">Main</span> Phase: choose an opponent.<br />They must reveal their hand to you.</div>
-<div class="rule-line" data-source-line="rules" style="margin:.35em 0;">During an opponent&#x27;s <span style="color:#EB943A">Offensive</span> <span style="color:#EB943A">Roll</span> Phase: spend this<br />before their first reroll. You can control their first<br />reroll attempt or force them to skip it.</div>
+<div class="rule-line" data-source-line="rules" style="margin:.35em 0;">Spend this token during your <span style="color:#0099F6">Main</span> Phase or<br />an opponent&#x27;s <span style="color:#F2C300">Offensive</span> <span style="color:#F2C300">Roll</span> Phase.</div>
+<div class="rule-line" data-source-line="rules" style="margin:.35em 0;">During your <span style="color:#0099F6">Main</span> Phase: choose an opponent.<br />They must reveal their hand to you.</div>
+<div class="rule-line" data-source-line="rules" style="margin:.35em 0;">During an opponent&#x27;s <span style="color:#F2C300">Offensive</span> <span style="color:#F2C300">Roll</span> Phase: spend this<br />before their first reroll. You can control their first<br />reroll attempt or force them to skip it.</div>
 <div class="rule-line" data-source-line="rules" style="margin:.35em 0;font-style:italic;font-size:.88em;"><span style="font-style:italic">(</span><span style="font-style:italic">This</span> <span style="font-style:italic">token</span> <span style="font-style:italic">may</span> <span style="font-style:italic">not</span> <span style="font-style:italic">be</span> <span style="font-style:italic">removed</span> <span style="font-style:italic">or</span> <span style="font-style:italic">transferred</span> <span style="font-style:italic">by</span> <span style="font-style:italic">any</span> <span style="font-style:italic">means</span><span style="font-style:italic">.</span><span style="font-style:italic">)</span></div>
 </div>
 
@@ -221,8 +221,8 @@ SVG reference: [cards/tactical_recalibration.svg](cards/tactical_recalibration.s
 <!-- SVG presentation: center-aligned rules; Avenir Next Condensed Regular; observed local text size 37.5 SVG units (before group transforms). HTML uses a readable 20px scale. -->
 <div class="rule" data-rule="TACTICAL RECALIBRATION" style="text-align:center;">
 <div class="rule-title">TACTICAL RECALIBRATION</div>
-<div data-source-line="metadata" style="font-size:.95em;font-weight:700;color:#EB943A;margin-bottom:.7em;">Cost: <span class="icon" data-icon="cp.svg" data-value="1" style="width:1.312em;height:1.400em;"><img src="../../Shared/icons/cp.svg" alt="cp 1" width="28" height="28" /></span> | Roll Phase Action</div>
-<div class="rule-line" data-source-line="rules" style="margin:.35em 0;">During your <span style="color:#EB943A">Offensive</span> <span style="color:#EB943A">Roll</span> <span style="color:#EB943A">Phase</span>,<br />after a roll attempt, reroll one die.</div>
+<div data-source-line="metadata" style="font-size:.95em;font-weight:700;color:#F2C300;margin-bottom:.7em;">Cost: <span class="icon" data-icon="cp.svg" data-value="1" style="width:1.312em;height:1.400em;"><img src="../../Shared/icons/cp.svg" alt="cp 1" width="28" height="28" /></span> | Roll Phase Action</div>
+<div class="rule-line" data-source-line="rules" style="margin:.35em 0;">During your <span style="color:#F2C300">Offensive</span> <span style="color:#F2C300">Roll</span> <span style="color:#F2C300">Phase</span>,<br />after a roll attempt, reroll one die.</div>
 </div>
 
 ### VULCAN COMPOSURE
@@ -232,8 +232,8 @@ SVG reference: [cards/vulcan_composure.svg](cards/vulcan_composure.svg)
 <!-- SVG presentation: center-aligned rules; Avenir Next Condensed Regular; observed local text size 37.5 SVG units (before group transforms). HTML uses a readable 20px scale. -->
 <div class="rule" data-rule="VULCAN COMPOSURE" style="text-align:center;">
 <div class="rule-title">VULCAN COMPOSURE</div>
-<div data-source-line="metadata" style="font-size:.95em;font-weight:700;color:#EB943A;margin-bottom:.7em;">Cost: <span class="icon numbered cp" data-icon="cp.svg" data-value="2" style="width:1.312em;height:1.400em;"><img src="../../Shared/icons/cp.svg" alt="cp 2" width="28" height="28" /><b aria-hidden="true">2</b></span> | Roll Phase Action</div>
-<div class="rule-line" data-source-line="rules" style="margin:.35em 0;">During your <span style="color:#EB943A">Defensive</span> <span style="color:#EB943A">Roll</span> <span style="color:#EB943A">Phase</span>,<br />prevent <span class="icon numbered damage_prevention" data-icon="damage_prevention.svg" data-value="2" style="width:1.282em;height:1.400em;"><img src="../../Shared/icons/damage_prevention.svg" alt="damage prevention 2" width="28" height="28" /><b aria-hidden="true">2</b></span>.</div>
+<div data-source-line="metadata" style="font-size:.95em;font-weight:700;color:#F2C300;margin-bottom:.7em;">Cost: <span class="icon numbered cp" data-icon="cp.svg" data-value="2" style="width:1.312em;height:1.400em;"><img src="../../Shared/icons/cp.svg" alt="cp 2" width="28" height="28" /><b aria-hidden="true">2</b></span> | Roll Phase Action</div>
+<div class="rule-line" data-source-line="rules" style="margin:.35em 0;">During your <span style="color:#F2C300">Defensive</span> <span style="color:#F2C300">Roll</span> <span style="color:#F2C300">Phase</span>,<br />prevent <span class="icon numbered damage_prevention" data-icon="damage_prevention.svg" data-value="2" style="width:1.282em;height:1.400em;"><img src="../../Shared/icons/damage_prevention.svg" alt="damage prevention 2" width="28" height="28" /><b aria-hidden="true">2</b></span>.</div>
 </div>
 
 ### CALCULATED OPENING
@@ -243,8 +243,8 @@ SVG reference: [cards/calculated_opening.svg](cards/calculated_opening.svg)
 <!-- SVG presentation: center-aligned rules; Avenir Next Condensed Regular; observed local text size 37.5 SVG units (before group transforms). HTML uses a readable 20px scale. -->
 <div class="rule" data-rule="CALCULATED OPENING" style="text-align:center;">
 <div class="rule-title">CALCULATED OPENING</div>
-<div data-source-line="metadata" style="font-size:.95em;font-weight:700;color:#EB943A;margin-bottom:.7em;">Cost: <span class="icon numbered cp" data-icon="cp.svg" data-value="2" style="width:1.312em;height:1.400em;"><img src="../../Shared/icons/cp.svg" alt="cp 2" width="28" height="28" /><b aria-hidden="true">2</b></span> | Roll Phase Action</div>
-<div class="rule-line" data-source-line="rules" style="margin:.35em 0;">During your <span style="color:#EB943A">Offensive</span> <span style="color:#EB943A">Roll</span> <span style="color:#EB943A">Phase</span>,<br />gain <span class="icon" data-icon="logic.svg" style="width:1.400em;height:1.400em;"><img src="icons/logic.svg" alt="logic" width="28" height="28" /></span>.</div>
+<div data-source-line="metadata" style="font-size:.95em;font-weight:700;color:#F2C300;margin-bottom:.7em;">Cost: <span class="icon numbered cp" data-icon="cp.svg" data-value="2" style="width:1.312em;height:1.400em;"><img src="../../Shared/icons/cp.svg" alt="cp 2" width="28" height="28" /><b aria-hidden="true">2</b></span> | Roll Phase Action</div>
+<div class="rule-line" data-source-line="rules" style="margin:.35em 0;">During your <span style="color:#F2C300">Offensive</span> <span style="color:#F2C300">Roll</span> <span style="color:#F2C300">Phase</span>,<br />gain <span class="icon" data-icon="logic.svg" style="width:1.400em;height:1.400em;"><img src="icons/logic.svg" alt="logic" width="28" height="28" /></span>.</div>
 </div>
 
 ### KAL-TOH
@@ -254,7 +254,7 @@ SVG reference: [cards/kal_toh.svg](cards/kal_toh.svg)
 <!-- SVG presentation: center-aligned rules; Avenir Next Condensed Regular; observed local text size 37.5 SVG units (before group transforms). HTML uses a readable 20px scale. -->
 <div class="rule" data-rule="KAL-TOH" style="text-align:center;">
 <div class="rule-title">KAL-TOH</div>
-<div data-source-line="metadata" style="font-size:.95em;font-weight:700;color:#336A9C;margin-bottom:.7em;">Cost: <span class="icon numbered cp" data-icon="cp.svg" data-value="2" style="width:1.312em;height:1.400em;"><img src="../../Shared/icons/cp.svg" alt="cp 2" width="28" height="28" /><b aria-hidden="true">2</b></span> | Main Phase Action</div>
+<div data-source-line="metadata" style="font-size:.95em;font-weight:700;color:#0099F6;margin-bottom:.7em;">Cost: <span class="icon numbered cp" data-icon="cp.svg" data-value="2" style="width:1.312em;height:1.400em;"><img src="../../Shared/icons/cp.svg" alt="cp 2" width="28" height="28" /><b aria-hidden="true">2</b></span> | Main Phase Action</div>
 <div class="rule-line" data-source-line="rules" style="margin:.35em 0;">Look at the top 3 cards of your deck.<br />Put one on the bottom of your deck<br />and return the others to the top<br />in any order.</div>
 </div>
 
@@ -265,7 +265,7 @@ SVG reference: [cards/security_protocols.svg](cards/security_protocols.svg)
 <!-- SVG presentation: center-aligned rules; Avenir Next Condensed Regular; observed local text size 37.5 SVG units (before group transforms). HTML uses a readable 20px scale. -->
 <div class="rule" data-rule="SECURITY PROTOCOLS" style="text-align:center;">
 <div class="rule-title">SECURITY PROTOCOLS</div>
-<div data-source-line="metadata" style="font-size:.95em;font-weight:700;color:#336A9C;margin-bottom:.7em;">Cost: <span class="icon numbered cp" data-icon="cp.svg" data-value="2" style="width:1.312em;height:1.400em;"><img src="../../Shared/icons/cp.svg" alt="cp 2" width="28" height="28" /><b aria-hidden="true">2</b></span> | Main Phase Action</div>
+<div data-source-line="metadata" style="font-size:.95em;font-weight:700;color:#0099F6;margin-bottom:.7em;">Cost: <span class="icon numbered cp" data-icon="cp.svg" data-value="2" style="width:1.312em;height:1.400em;"><img src="../../Shared/icons/cp.svg" alt="cp 2" width="28" height="28" /><b aria-hidden="true">2</b></span> | Main Phase Action</div>
 <div class="rule-line" data-source-line="rules" style="margin:.35em 0;">Gain <span class="icon" data-icon="protect.svg" style="width:1.400em;height:1.400em;"><img src="icons/protect.svg" alt="protect" width="28" height="28" /></span>, or give <span class="icon" data-icon="protect.svg" style="width:1.400em;height:1.400em;"><img src="icons/protect.svg" alt="protect" width="28" height="28" /></span> to a teammate.</div>
 </div>
 
@@ -276,7 +276,7 @@ SVG reference: [cards/kolinahr_discipline.svg](cards/kolinahr_discipline.svg)
 <!-- SVG presentation: center-aligned rules; Avenir Next Condensed Regular; observed local text size 37.5 SVG units (before group transforms). HTML uses a readable 20px scale. -->
 <div class="rule" data-rule="KOLINAHR DISCIPLINE" style="text-align:center;">
 <div class="rule-title">KOLINAHR DISCIPLINE</div>
-<div data-source-line="metadata" style="font-size:.95em;font-weight:700;color:#336A9C;margin-bottom:.7em;">Cost: <span class="icon numbered cp" data-icon="cp.svg" data-value="2" style="width:1.312em;height:1.400em;"><img src="../../Shared/icons/cp.svg" alt="cp 2" width="28" height="28" /><b aria-hidden="true">2</b></span> | Main Phase Action</div>
+<div data-source-line="metadata" style="font-size:.95em;font-weight:700;color:#0099F6;margin-bottom:.7em;">Cost: <span class="icon numbered cp" data-icon="cp.svg" data-value="2" style="width:1.312em;height:1.400em;"><img src="../../Shared/icons/cp.svg" alt="cp 2" width="28" height="28" /><b aria-hidden="true">2</b></span> | Main Phase Action</div>
 <div class="rule-line" data-source-line="rules" style="margin:.35em 0;">Gain 2 <span class="icon" data-icon="logic.svg" style="width:1.400em;height:1.400em;"><img src="icons/logic.svg" alt="logic" width="28" height="28" /></span>.</div>
 </div>
 

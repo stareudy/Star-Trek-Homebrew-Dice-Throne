@@ -42,6 +42,16 @@ Text and icons in these black rules panels do not need shadows, including shared
 - Roll Phase Action, Main Phase Action, and Instant Action cards must each use a CP tag matching their timing class.
 - All versions of Upgrade Cards, including Two Panel Upgrade Cards, must use a **blue Main Phase Action CP tag**.
 
+## Starfleet division colors for non-upgrade cards
+
+Use the Starfleet division palette on all Standard Cards, Hero Action Cards, and action-card templates:
+
+- Main Phase Action: blue `#0099F6`.
+- Roll Phase Action: gold `#F2C300`.
+- Instant Action: red `#DF0000`.
+
+Match the card frame and CP star to the corresponding division color. Preserve the approved frame bevel and CP tag shading; recolor the CP tag gradients to the selected division hue while retaining their highlights and shadows. Apply the same palette to primary and playtest app card SVGs. This section does not apply to Upgrade Cards, whose colors remain matched to the corresponding level-one ability.
+
 ## Upgrade card colors
 
 All Upgrade Cards, including Two Panel Upgrade Cards, must have their borders and title headers color matched to the corresponding level-one ability on the hero board.

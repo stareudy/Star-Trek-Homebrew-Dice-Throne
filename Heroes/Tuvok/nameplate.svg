@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="1.09in" height="5.3in" viewBox="0 0 327 1590" version="1.1">
+  <defs>
+    <clipPath id="nameplate-rounded-corners">
+      <rect x="0" y="0" width="327" height="1590" rx="28" />
+    </clipPath>
+    <clipPath id="tuvok-banner-shape" clipPathUnits="userSpaceOnUse">
+      <path d="M 0,1311.071683 L 327,1239.924139 L 327,1590 L 0,1590 Z" />
+    </clipPath>
+  </defs>
+  <g id="nameplate-artwork" clip-path="url(#nameplate-rounded-corners)">
+    <g id="left-side-board-background" inkscape:groupmode="layer" inkscape:label="Background">
+      <image href="art/archive/tuvok_board_background_empty.png" xlink:href="art/archive/tuvok_board_background_empty.png" x="-1144" y="0" width="2597" height="1590" preserveAspectRatio="none" />
+    </g>
+    <g id="tuvok-portrait" inkscape:groupmode="layer" inkscape:label="Portrait">
+      <image href="art/tuvok_board_portrait.png" xlink:href="art/tuvok_board_portrait.png" x="-477" y="47.5" width="1153.5" height="1347.5" preserveAspectRatio="none" />
+    </g>
+    <g id="tuvok-name-banner" inkscape:groupmode="layer" inkscape:label="Purple banner">
+      <g clip-path="url(#tuvok-banner-shape)">
+        <svg x="0" y="1239.924139" width="327" height="350.075861" viewBox="1600 0 1325 2720" preserveAspectRatio="none" overflow="hidden">
+          <image href="art/kolinar_dome_background.png" xlink:href="art/kolinar_dome_background.png" x="0" y="0" width="2925" height="2720" preserveAspectRatio="none" />
+        </svg>
+      </g>
+    </g>
+    <g id="tuvok-name" inkscape:groupmode="layer" inkscape:label="Name">
+      <image href="art/name.png" xlink:href="art/name.png" x="2.25" y="1343.29186" width="323.5" height="135.91628" preserveAspectRatio="xMidYMid meet" transform="rotate(-12.4 164 1411.25)" />
+    </g>
+  </g>
+</svg>

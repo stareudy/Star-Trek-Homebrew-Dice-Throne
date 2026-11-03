@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="1.09in" height="5.3in" viewBox="0 0 327 1590" version="1.1">
+  <defs>
+    <clipPath id="nameplate-rounded-corners">
+      <rect x="0" y="0" width="327" height="1590" rx="28" />
+    </clipPath>
+    <clipPath id="janeway-banner-shape" clipPathUnits="userSpaceOnUse">
+      <path d="M 0,1311.071683 L 327,1239.924139 L 327,1590 L 0,1590 Z" />
+    </clipPath>
+  </defs>
+  <g id="nameplate-artwork" clip-path="url(#nameplate-rounded-corners)">
+    <g id="left-side-board-background" inkscape:groupmode="layer" inkscape:label="Background">
+      <image href="art/Voyager bridge.PNG" xlink:href="art/Voyager bridge.PNG" x="-1124" y="0" width="2565" height="1590" preserveAspectRatio="none" />
+    </g>
+    <g id="janeway-portrait" inkscape:groupmode="layer" inkscape:label="Portrait">
+      <image href="art/new_janeway_portrait.png" xlink:href="art/new_janeway_portrait.png" x="-368.75" y="38.3" width="1054" height="1638" preserveAspectRatio="none" />
+    </g>
+    <g id="janeway-name-banner" inkscape:groupmode="layer" inkscape:label="Blue banner">
+      <g clip-path="url(#janeway-banner-shape)">
+        <image href="art/nameplate_banner.png" xlink:href="art/nameplate_banner.png" x="0" y="1239.924139" width="327" height="350.075861" preserveAspectRatio="xMidYMid slice" />
+      </g>
+    </g>
+    <g id="janeway-name" inkscape:groupmode="layer" inkscape:label="Name" transform="rotate(-12.4 164 1411.25)">
+      <svg id="kathryn-name-line" x="57.98" y="1313.2900" width="212.04" height="121.6" viewBox="62 49 558 320" overflow="hidden">
+        <image href="art/name.png" xlink:href="art/name.png" width="1280" height="396" />
+      </svg>
+      <svg id="janeway-name-line" x="48.48" y="1389.8900" width="231.04" height="128.06" viewBox="620 29 608 337" overflow="hidden">
+        <image href="art/name.png" xlink:href="art/name.png" width="1280" height="396" />
+      </svg>
+    </g>
+  </g>
+</svg>

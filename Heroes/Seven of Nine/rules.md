@@ -1,6 +1,6 @@
 # SEVEN OF NINE
 
-Converted from [rules.txt](rules.txt), retaining every TBD field and all brainstorming notes. The freshly rendered [hero_board.svg](hero_board.svg) is an unfinished visual template with generic titles and largely empty rules panels; it does not establish finished formatting for the placeholder rules. No corresponding card or leaflet SVGs exist for these entries.
+This rules.md file is the authoritative rules source, retaining every TBD field and all brainstorming notes. The freshly rendered [hero_board.svg](hero_board.svg) is an unfinished visual template with generic titles and largely empty rules panels; it does not establish finished formatting for the placeholder rules. No corresponding card or leaflet SVGs exist for these entries.
 
 The board template uses white Gardablack titles and centered Avenir Next Condensed rules with inline die and damage icons. Those presentation choices are documented here without assigning its sample requirements or text to unfinished rules.
 
@@ -208,7 +208,7 @@ These concepts have not been assigned to ability or card slots.
   "schema_version": 1,
   "status": "placeholders",
   "source": "rules.md",
-  "content_sha256": "2176534465ca792704a6e4cf41300e0d2ba4435f85cfe181608a8aae1bfe5867",
+  "content_sha256": "925eff2dce780070d780b2c625572c906eac4e536a3de3a4a17c32be53425bd6",
   "counting": {
     "scope": "explicit gameplay icon references in rendered rules blocks",
     "excludes": [

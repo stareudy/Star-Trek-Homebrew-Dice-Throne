@@ -48,8 +48,8 @@
 - Do not write to or delete `Shared/` or any of its subfolders or files unless the user explicitly says to do so.
 - `Heroes/` contains separate subfolders for multiple Dice Throne heroes.
 - Unless the user says otherwise, each task concerns only one hero. The user will identify the hero at the start of each chat; treat that hero's folder as the active scope.
-- When considering a hero's abilities, tokens, or cards, treat that hero's `rules.txt` as the primary and definitive source of information.
-- Edit a hero's `rules.txt` only when the user directly orders that edit. Otherwise, the user will edit the file manually.
+- When considering a hero's abilities, tokens, or cards, treat that hero's `rules.md` as the primary and definitive source of information.
+- Edit a hero's `rules.md` only when the user directly orders that edit. Otherwise, the user will edit the file manually.
 - It is okay to read files in another hero's folder when the user asks. Otherwise, ignore other heroes' folders: do not inspect or change them as part of the task.
 - `Heroes/Future Heroes/` is exempt from the file organization and naming conventions in this document.
 
@@ -62,7 +62,7 @@
 
 Use `Heroes/Janeway/` as the reference layout for hero folders, except for `Heroes/Future Heroes/`:
 
-- The hero folder root holds the hero's primary/final deliverables, including editable SVGs, `rules.txt`, `rules.md` with icon-inventory metadata, and `todo.md` when present.
+- The hero folder root holds the hero's primary/final deliverables, including editable SVGs, `rules.md` with icon-inventory metadata, and `todo.md` when present.
 - `art/` holds source art/canvas files for the assets. Use the matching asset name as the filename stem. For example, `cards_page_1.png` through `cards_page_N.png`, `hero_board.png`, and `leaflet.png`. Do not keep PDF copies of PNG assets in this folder.
 - Rules text and icons live in the primary SVG files, not in separate overlay files. Any legacy `overlays/` files are not part of the current update workflow; do not alter or delete them unless explicitly requested.
 - `icons/` holds individual reusable icon and token image files, using descriptive filenames that identify their content (for example, `coffee_die.png` or `combadge_token.png`).
@@ -92,12 +92,12 @@ Use `Heroes/Janeway/` as the reference layout for hero folders, except for `Hero
 
 ## Card types and rules coverage
 
-- **Standard Cards** are the following shared cards: Transference!, What Status Effects?, Vegas Baby!, Get That Outta Here!, Twice as Wild!, Try, Try Again!, So Wild!, Samesies!, Triple Up!, Double Up!, Buh, Bye!, Tip It!, One More Time!, Helping Hand, Better D!, Six-It!, Getting Paid!, and Not This Time!. Their rules are the same across Dice Throne decks. Treat them as correct: do not revise their rules or edit their assets. Do not include Standard Cards in `rules.txt` at all: neither their rules text nor their CP costs need to be listed there.
-- **Upgrade Cards** are cards whose title matches a hero-board ability name followed by the suffix `II` or `III` (for example, `Fire Phasers II`). Each upgrades a power on the hero board and has a full panel for its rules text. Put the upgrade rules without the CP cost in the SVG's full panel. In `rules.txt`, include the upgrade rules together with the CP cost.
+- **Standard Cards** are the following shared cards: Transference!, What Status Effects?, Vegas Baby!, Get That Outta Here!, Twice as Wild!, Try, Try Again!, So Wild!, Samesies!, Triple Up!, Double Up!, Buh, Bye!, Tip It!, One More Time!, Helping Hand, Better D!, Six-It!, Getting Paid!, and Not This Time!. Their rules are the same across Dice Throne decks. Treat them as correct: do not revise their rules or edit their assets. Do not include Standard Cards in `rules.md` at all: neither their rules text nor their CP costs need to be listed there.
+- **Upgrade Cards** are cards whose title matches a hero-board ability name followed by the suffix `II` or `III` (for example, `Fire Phasers II`). Each upgrades a power on the hero board and has a full panel for its rules text. Put the upgrade rules without the CP cost in the SVG's full panel. In `rules.md`, include the upgrade rules together with the CP cost.
 - **Promo Cards** are a single hero-specific card per hero. They are always blue Main Phase Actions with a 0 CP cost. Their rules instruct the player to roll 1 die: the die-face icon corresponding to a six grants a substantial hero-specific benefit, usually status tokens or another effect tied to that hero; any other result draws 1 card. Use the same layout as other Main Phase Action cards, with a yellow pill labeled **PROMO CARD** at the bottom. Use the roll-die, hero's six-face, relevant status-token, and draw-1-card icons in their rules. Keep the CP cost outside the rules box on the CP tag.
-- **Hero Action Cards** are any cards that are neither Standard Cards, Upgrade Cards, nor Promo Cards. These are unique to the active hero. Put their rules text without the CP cost in the SVG's rules box. In `rules.txt`, include their rules together with the CP cost. Their card layout has original artwork in the top half and a rules text box in the bottom half.
-- Hero Action Cards, Promo Cards, and Upgrade Cards have CP costs recorded in `rules.txt`; Standard Cards are excluded from `rules.txt`, including their costs. In both primary and playtest app Hero Action, Promo, and Upgrade Card SVGs, CP costs are hard-coded in an area outside the rules box or panel and require case-by-case attention to change. If a recorded CP cost differs from either asset version, report the mismatch to the user and wait for their correction instructions. Do not change either cost unless directed. The new-card process below uses `rules.md` as its authoritative rules and CP-cost source.
-- `rules.txt` does not include the die breakdown area at the bottom right of the leaflet. That breakdown is hard-coded into the leaflet SVG and must remain unchanged unless the user specifically requests a change.
+- **Hero Action Cards** are any cards that are neither Standard Cards, Upgrade Cards, nor Promo Cards. These are unique to the active hero. Put their rules text without the CP cost in the SVG's rules box. In `rules.md`, include their rules together with the CP cost. Their card layout has original artwork in the top half and a rules text box in the bottom half.
+- Hero Action Cards, Promo Cards, and Upgrade Cards have CP costs recorded in `rules.md`; Standard Cards are excluded from `rules.md`, including their costs. In both primary and playtest app Hero Action, Promo, and Upgrade Card SVGs, CP costs are hard-coded in an area outside the rules box or panel and require case-by-case attention to change. If a recorded CP cost differs from either asset version, report the mismatch to the user and wait for their correction instructions. Do not change either cost unless directed. The new-card process below uses `rules.md` as its authoritative rules and CP-cost source.
+- `rules.md` does not include the die breakdown area at the bottom right of the leaflet. That breakdown is hard-coded into the leaflet SVG and must remain unchanged unless the user specifically requests a change.
 - For the Janeway leaflet and future updates to it, set rules text inside the black token-panel rules boxes in Avenir Next Condensed at 11 pt at the 1350 × 2550 SVG working scale. Keep the rules text left-aligned and wrap it within equal 26 px margins from the left and right interior edges of each black rules box. Preserve the black header text, including panel titles and status/stack-limit lines, in its original font and size; apply Avenir Next Condensed only to the lighter rules text.
 - For leaflet token-panel headers, render the token name in Helvetica Compressed Regular at 64 px. Render the status type and stack-limit line in Avenir Next Condensed Demi Bold at 38 px. Use black text at the 1350 × 2550 SVG working scale and follow Janeway's existing header alignment, relative placement, and spacing. Align the status type and stack-limit text to a shared baseline.
 
@@ -109,7 +109,7 @@ Use `Heroes/Janeway/` as the reference layout for hero folders, except for `Hero
 
 ## Creating a new card SVG
 
-Follow this five-step process for the intended hero. Read `Shared/style_guides/cards.md` first and follow the existing linked-artwork, naming, and temporary-file requirements. For this new-card process, use `rules.md` as the authoritative rules and CP-cost source, superseding the general `rules.txt` guidance elsewhere in this file. The final card belongs in `Heroes/<hero>/cards/`; keep working drafts outside the project. This process uses manual Chrome review as described below instead of the automatic rendering and preview-verification requirements elsewhere in this file.
+Follow this five-step process for the intended hero. Read `Shared/style_guides/cards.md` first and follow the existing linked-artwork, naming, and temporary-file requirements. For this new-card process, use `rules.md` as the authoritative rules and CP-cost source. The final card belongs in `Heroes/<hero>/cards/`; keep working drafts outside the project. This process uses manual Chrome review as described below instead of the automatic rendering and preview-verification requirements elsewhere in this file.
 
 1. **Identify the card type.** Determine whether the new card is an Action Card, Promo Card, or Upgrade Card. For an Action Card, identify its timing type: Main Phase Action, Roll Phase Action, or Instant Action. A Promo Card always uses Main Phase Action timing and costs 0 CP.
 2. **Create the card from the appropriate source.**
@@ -129,14 +129,14 @@ Setting a new card's CP tag in step 5 is part of creating that card; the existin
 
 ## Previewing rules text
 
-- When the user asks to **preview rules**, use `rules.txt` to create a temporary page showing how the rules text and icons will render. The preview is for proofreading the output before SVG asset updates.
+- When the user asks to **preview rules**, use `rules.md` to create a temporary page showing how the rules text and icons will render. The preview is for proofreading the output before SVG asset updates.
 - The temporary page does not need to place the rules into the actual rules boxes or panels on the assets. Focus on accurately rendering the text and icons; do not treat this request as authorization to update primary or playtest app assets.
 - Save the temporary preview in a Codex-provided writable workspace outside this project. Keep the preview temporary unless the user asks otherwise.
-- When previewing or updating rules, reproduce the wording and punctuation in `rules.txt` exactly. Preserve numerals as numerals; do not spell them out. Carry forward every punctuation mark.
+- When previewing or updating rules, reproduce the wording and punctuation in `rules.md` exactly. Preserve numerals as numerals; do not spell them out. Carry forward every punctuation mark.
 
 ## Updating assets from rules text
 
-- When the user asks to update an asset from `rules.txt`, first compare both the current primary SVG and the corresponding saved playtest app SVG with `rules.txt`. This first step is read-only: report what matches and what needs updating in each version, including any differences between the two versions. Get the user's approval to proceed before preparing any changes.
+- When the user asks to update an asset from `rules.md`, first compare both the current primary SVG and the corresponding saved playtest app SVG with `rules.md`. This first step is read-only: report what matches and what needs updating in each version, including any differences between the two versions. Get the user's approval to proceed before preparing any changes.
 - Identify the exact primary and playtest app asset paths for the active hero. The app assets live under `playtest-app/public/assets/`, normally mirroring the hero's project-relative paths. Inspect and freshly render the actual saved SVGs directly from disk, plus any existing primary PDF that will be updated. Do not rely on earlier previews, thumbnails, or cached renders. Verify disputed text in the actual saved SVG before reporting a mismatch. If a corresponding app asset is missing or its mapping is unclear, report that and ask for direction before creating or substituting an asset.
 - After approval to proceed, back up every existing file this process may change, including both versions' SVGs and any affected PDF or app export. Keep these working backups in a Codex-provided writable workspace outside this project until the entire process receives final approval.
 - Prepare revised primary and playtest app SVGs only as temporary files in a Codex-provided writable workspace outside this project. Edit the rules directly in each SVG, preserving each version's formatting, spacing, alignment, artwork, and resource references. Do not modify saved project or app assets during preparation. Keep the app assets self-contained; do not replace them wholesale with primary SVGs or introduce dependencies outside the app. Make corresponding rules changes in both versions without overwriting unrelated differences.
@@ -157,16 +157,16 @@ Setting a new card's CP tag in step 5 is part of creating that card; the existin
 - After that approval, replace only the affected primary and playtest app SVGs with their approved revisions, and replace any affected primary PDF with its approved full-asset preview PDF. Update existing app exports only when required by the app's asset workflow and included in the approved scope. Check alignment and resource references after replacement.
 - Reopen and freshly render the saved primary SVGs, any replaced primary PDF, and the saved playtest app assets. Verify the app loads its updated assets correctly. Show the saved results from both versions for one final approval so the user can confirm the replacements worked correctly.
 - Only after the user approves both saved versions at this final check may you delete the backups and temporary files created for this update from the external Codex workspace. Preserve unrelated or pre-existing files there. If the user rejects any preview, keep all backups and temporary files, pause at that stage, and wait for instructions to revise the preview or restore the backup. Do not continue to the next stage or clean up those files until directed.
-- If a CP cost differs between `rules.txt` and either asset version, report the mismatch and wait for the user's correction instructions; do not change any cost on your own.
-- Do not edit the large status-token emblems on the leaflet as part of a `rules.txt` or asset update. They are separate design elements and should remain as they are unless the user explicitly directs a change to them.
+- If a CP cost differs between `rules.md` and either asset version, report the mismatch and wait for the user's correction instructions; do not change any cost on your own.
+- Do not edit the large status-token emblems on the leaflet as part of a `rules.md` or asset update. They are separate design elements and should remain as they are unless the user explicitly directs a change to them.
 
 - For matched passive and basic damage layouts, honor `data-passive-layout="title_rules_v1"` and `data-basic-layout="touching_deal_v1"` in `rules.md`. Use the shared `matched_ability_layouts` metrics and the helpers in `scripts/passive_layout.py` and `scripts/basic_power_layout.py`. Passive rules start 79 effective SVG units below the title baseline; marked basic damage rows leave 16.667 effective units between the last die border and Deal, with no colon. Apply the same profile across board and upgrades, compensate for transforms once, preserve activation geometry/vertical anchors and subsequent line spacing, and verify numerically. These explicit profiles supersede mismatched original anchors for authorized corrections and first-time generation.
 
 ### Comparison checklist
 
-- Compare each affected rules line with `rules.txt`, preserving the exact wording, capitalization, numerals, punctuation, and icon order.
+- Compare each affected rules line with `rules.md`, preserving the exact wording, capitalization, numerals, punctuation, and icon order.
 - Compare the updated text with the original asset's styling and placement. Check boldness, font size, line breaks, alignment, spacing, and drop shadows, matching shadows already used in the corresponding SVG or on white text.
-- Confirm the requested changes are present in both the primary and playtest app assets, both match `rules.txt`, and unrelated text and artwork remain unchanged. Verify saved SVGs and exports with fresh renders, and confirm the playtest app resolves its asset references.
+- Confirm the requested changes are present in both the primary and playtest app assets, both match `rules.md`, and unrelated text and artwork remain unchanged. Verify saved SVGs and exports with fresh renders, and confirm the playtest app resolves its asset references.
 
 ## Hero-root filenames
 
@@ -177,6 +177,6 @@ Follow the established Janeway naming pattern for final assets. Use descriptive 
 - `hero_board.pdf`
 - `leaflet.pdf`
 - `nameplate.pdf`
-- `rules.txt`
+- `rules.md`
 
 Do not add a hero-name prefix to files already contained in that hero's folder. Preserve extensions and page-number suffixes, and keep each file in the subfolder matching its purpose.

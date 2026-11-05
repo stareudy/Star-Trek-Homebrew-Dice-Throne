@@ -27,7 +27,7 @@
 .healing b { left:48.6%; top:51%; font-size:.879em; }
 </style>
 
-Rules wording and values are retained from [rules.txt](rules.txt). Presentation was checked against fresh Chrome renders of the linked primary SVGs. SVG differences are noted separately; they do not change the rules below.
+This rules.md file is the authoritative source for rules wording and values. Presentation was checked against fresh Chrome renders of the linked primary SVGs. SVG differences are noted separately; they do not change the rules below.
 
 This file uses Markdown headings with HTML rule blocks for alignment, spacing, colors, and inline icons. Use a Markdown viewer that supports inline HTML and CSS. Viewers that sanitize styles, including GitHub, may simplify the appearance. Existing SVGs remain the reference for exact artwork, print dimensions, and layout.
 
@@ -398,7 +398,7 @@ SVG reference: [cards/shields_up_iii.svg](cards/shields_up_iii.svg)
   "schema_version": 1,
   "status": "current",
   "source": "rules.md",
-  "content_sha256": "bd99ddad90260669e4c006f416b33cbd42aa396fca1d183bbf686a3e642d9448",
+  "content_sha256": "bb62d9da2483c8851e60ad0eb022afcad58a698ae05fdc0ed8735e6f79273e8f",
   "counting": {
     "scope": "explicit gameplay icon references in rendered rules blocks",
     "excludes": [

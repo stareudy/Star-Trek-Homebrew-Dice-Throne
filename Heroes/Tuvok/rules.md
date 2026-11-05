@@ -27,7 +27,7 @@
 .healing b { left:48.6%; top:51%; font-size:.879em; }
 </style>
 
-Rules wording and values are retained from [rules.txt](rules.txt). Presentation was checked against fresh Chrome renders of the linked primary SVGs. SVG differences are noted separately; they do not change the rules below.
+This rules.md file is the authoritative source for rules wording and values. Presentation was checked against fresh Chrome renders of the linked primary SVGs. SVG differences are noted separately; they do not change the rules below.
 
 This file uses Markdown headings with HTML rule blocks for alignment, spacing, colors, and inline icons. Use a Markdown viewer that supports inline HTML and CSS. Viewers that sanitize styles, including GitHub, may simplify the appearance. Existing SVGs remain the reference for exact artwork, print dimensions, and layout.
 
@@ -158,7 +158,7 @@ SVG reference: [hero_board.svg](hero_board.svg)
 
 SVG reference: [hero_board.svg](hero_board.svg)
 
-> **SVG difference:** rules.txt specifies 8 initial damage; the saved SVG shows 6. This document retains 8.
+> **SVG difference:** rules.md specifies 8 initial damage; the saved SVG shows 6. This document retains 8.
 
 <!-- SVG presentation: center-aligned rules; Avenir Next Condensed Regular; observed local text size 41.625 SVG units (before group transforms). HTML uses a readable 20px scale. -->
 <div class="rule" data-rule="FINAL CALCULATION" style="text-align:center;">
@@ -185,7 +185,7 @@ SVG reference: [hero_board.svg](hero_board.svg)
 
 SVG reference: [hero_board.svg](hero_board.svg)
 
-> **SVG difference:** The saved SVG includes an additional Salute result dealing 2 damage back and uses “back” after the Phaser damage. Those additions are absent from rules.txt and have not been added here.
+> **SVG difference:** The saved SVG includes an additional Salute result dealing 2 damage back and uses “back” after the Phaser damage. Those additions are absent from rules.md and have not been added here.
 
 <!-- SVG presentation: center-aligned rules; Avenir Next Condensed Regular; observed local text size 41.625 SVG units (before group transforms). HTML uses a readable 20px scale. -->
 <div class="rule" data-rule="RETURN FIRE" style="text-align:center;">
@@ -200,7 +200,7 @@ SVG reference: [hero_board.svg](hero_board.svg)
 
 SVG reference: [hero_board.svg](hero_board.svg)
 
-> **SVG difference:** rules.txt grants 4 Logic; the saved SVG shows 2. This document retains 4. The original SVG’s standard Ultimate restriction note is displayed separately as an asset note; it is not added to gameplay rules.
+> **SVG difference:** rules.md grants 4 Logic; the saved SVG shows 2. This document retains 4. The original SVG’s standard Ultimate restriction note is displayed separately as an asset note; it is not added to gameplay rules.
 
 <!-- Ultimate presentation: left-aligned, single-line effects at 49.95 effective SVG units; left-aligned disclaimer at 30.375 effective SVG units. Preserve source transforms and disclaimer breaks; do not apply regular-panel defaults. -->
 <div class="rule ultimate-rule" data-rule="LOGICAL OUTCOME (ULTIMATE)" style="text-align:left;" data-layout="ultimate" data-source-effective-rules-size="49.950002" data-source-effective-disclaimer-size="30.375">
@@ -373,7 +373,7 @@ SVG reference: [cards/tactical_precision_ii.svg](cards/tactical_precision_ii.svg
 
 SVG reference: [cards/return_fire_ii.svg](cards/return_fire_ii.svg)
 
-> **SVG difference:** rules.txt specifies Roll 4 and 1 damage per Phaser; the saved SVG shows Roll 3 and 2 damage per Phaser, plus an additional Salute result dealing 2 damage back. This document retains the rules.txt values and effects.
+> **SVG difference:** rules.md specifies Roll 4 and 1 damage per Phaser; the saved SVG shows Roll 3 and 2 damage per Phaser, plus an additional Salute result dealing 2 damage back. This document retains the rules.md values and effects.
 
 <!-- SVG presentation: center-aligned rules; Avenir Next Condensed Regular; observed local text size 37.5 SVG units (before group transforms). HTML uses a readable 20px scale. -->
 <div class="rule" data-rule="RETURN FIRE II" style="text-align:center;">
@@ -388,7 +388,7 @@ SVG reference: [cards/return_fire_ii.svg](cards/return_fire_ii.svg)
 
 SVG reference: [cards/return_fire_iii.svg](cards/return_fire_iii.svg)
 
-> **SVG difference:** rules.txt specifies Roll 5 and 1 damage per Phaser; the saved SVG shows Roll 4 and 2 damage per Phaser, plus an additional Salute result dealing 2 damage back. This document retains the rules.txt values and effects.
+> **SVG difference:** rules.md specifies Roll 5 and 1 damage per Phaser; the saved SVG shows Roll 4 and 2 damage per Phaser, plus an additional Salute result dealing 2 damage back. This document retains the rules.md values and effects.
 
 <!-- SVG presentation: center-aligned rules; Avenir Next Condensed Regular; observed local text size 37.5 SVG units (before group transforms). HTML uses a readable 20px scale. -->
 <div class="rule" data-rule="RETURN FIRE III" style="text-align:center;">
@@ -404,7 +404,7 @@ SVG reference: [cards/return_fire_iii.svg](cards/return_fire_iii.svg)
   "schema_version": 1,
   "status": "current",
   "source": "rules.md",
-  "content_sha256": "bbdc109dca3b57f93901bbef5479b766bf43e63c1f7eec8bc6584bf700e6530d",
+  "content_sha256": "a5dc1d29ddb41e498861879eb0674d0d3c4893828493fe5c8e913829f9ec72b9",
   "counting": {
     "scope": "explicit gameplay icon references in rendered rules blocks",
     "excludes": [

@@ -202,6 +202,17 @@ SVG reference: [hero_board.svg](hero_board.svg)
 
 The first 18 cards in Janeway's deck are standard Dice Throne cards and are omitted here. The cards below are Janeway-specific.
 
+### COURSE FOR HOME
+
+SVG reference: [cards/course_for_home.svg](cards/course_for_home.svg)
+
+<!-- Promo Card: Main Phase Action, 0 CP. New card uses manual Chrome review. -->
+<div class="rule" data-rule="COURSE FOR HOME" data-card-type="promo" style="text-align:center;">
+<div class="rule-title">COURSE FOR HOME</div>
+<div data-source-line="metadata" style="font-size:.95em;font-weight:700;color:#0099F6;margin-bottom:.7em;">Cost: <span class="icon numbered cp" data-icon="cp.svg" data-value="0" style="width:1.312em;height:1.400em;"><img src="../../Shared/icons/cp.svg" alt="cp 0" width="28" height="28" /><b aria-hidden="true">0</b></span> | Main Phase Action | Promo Card</div>
+<div class="rule-line" data-source-line="rules" style="margin:.35em 0;">Roll 1 <span class="icon" data-icon="roll_die.svg" style="width:1.400em;height:1.400em;"><img src="../../Shared/icons/roll_die.svg" alt="roll die" width="28" height="28" /></span>:<br />On <span class="icon" data-icon="earth_die.svg" style="width:1.400em;height:1.400em;"><img src="icons/earth_die.svg" alt="earth die" width="28" height="28" /></span> gain 5 <span class="icon" data-icon="coffee_token.svg" data-value="5" style="width:1.400em;height:1.400em;"><img src="icons/coffee_token.svg" alt="coffee token" width="28" height="28" /></span>, 5 <span class="icon" data-icon="command_codes.svg" data-value="5" style="width:1.400em;height:1.400em;"><img src="icons/command_codes.svg" alt="command codes" width="28" height="28" /></span>,<br />and inflict 2 <span class="icon" data-icon="reprimand.svg" data-value="2" style="width:1.400em;height:1.400em;"><img src="icons/reprimand.svg" alt="reprimand" width="28" height="28" /></span><br />(Can be two different players<br />or the same player twice)<br />On any other result, draw <span class="icon" data-icon="carddraw.svg" data-value="1" style="width:1.400em;height:1.400em;"><img src="../../Shared/icons/carddraw.svg" alt="draw 1 card" width="28" height="28" /></span>.</div>
+</div>
+
 ### DETERMINATION
 
 SVG reference: [cards/determination.svg](cards/determination.svg)
@@ -387,7 +398,7 @@ SVG reference: [cards/shields_up_iii.svg](cards/shields_up_iii.svg)
   "schema_version": 1,
   "status": "current",
   "source": "rules.md",
-  "content_sha256": "c597d9d63addb19772d798416d34a6be9e1dfe01f3861d3994bd68d706802d10",
+  "content_sha256": "bd99ddad90260669e4c006f416b33cbd42aa396fca1d183bbf686a3e642d9448",
   "counting": {
     "scope": "explicit gameplay icon references in rendered rules blocks",
     "excludes": [
@@ -411,11 +422,11 @@ SVG reference: [cards/shields_up_iii.svg](cards/shields_up_iii.svg)
       "references": 91
     },
     "cards": {
-      "entries": 14,
-      "references": 96
+      "entries": 15,
+      "references": 102
     }
   },
-  "total_rules_references": 191,
+  "total_rules_references": 197,
   "entries": [
     {
       "section": "leaflet",
@@ -850,6 +861,49 @@ SVG reference: [cards/shields_up_iii.svg](cards/shields_up_iii.svg)
           "file": "undefendable_damage.svg",
           "path": "../../Shared/icons/undefendable_damage.svg",
           "number": 12,
+          "references": 1
+        }
+      ]
+    },
+    {
+      "section": "cards",
+      "name": "COURSE FOR HOME",
+      "status": "written",
+      "icons": [
+        {
+          "file": "carddraw.svg",
+          "path": "../../Shared/icons/carddraw.svg",
+          "number": 1,
+          "references": 1
+        },
+        {
+          "file": "coffee_token.svg",
+          "path": "icons/coffee_token.svg",
+          "number": 5,
+          "references": 1
+        },
+        {
+          "file": "command_codes.svg",
+          "path": "icons/command_codes.svg",
+          "number": 5,
+          "references": 1
+        },
+        {
+          "file": "earth_die.svg",
+          "path": "icons/earth_die.svg",
+          "number": null,
+          "references": 1
+        },
+        {
+          "file": "reprimand.svg",
+          "path": "icons/reprimand.svg",
+          "number": 2,
+          "references": 1
+        },
+        {
+          "file": "roll_die.svg",
+          "path": "../../Shared/icons/roll_die.svg",
+          "number": null,
           "references": 1
         }
       ]
@@ -1311,6 +1365,12 @@ SVG reference: [cards/shields_up_iii.svg](cards/shields_up_iii.svg)
       },
       {
         "section": "cards",
+        "entry": "COURSE FOR HOME",
+        "number": 1,
+        "references": 1
+      },
+      {
+        "section": "cards",
         "entry": "SHORE LEAVE II",
         "number": 1,
         "references": 1
@@ -1425,6 +1485,12 @@ SVG reference: [cards/shields_up_iii.svg](cards/shields_up_iii.svg)
         "section": "hero_board",
         "entry": "PUNCH YOUR WAY THROUGH (ULTIMATE)",
         "number": null,
+        "references": 1
+      },
+      {
+        "section": "cards",
+        "entry": "COURSE FOR HOME",
+        "number": 5,
         "references": 1
       },
       {
@@ -1555,6 +1621,12 @@ SVG reference: [cards/shields_up_iii.svg](cards/shields_up_iii.svg)
         "section": "hero_board",
         "entry": "PUNCH YOUR WAY THROUGH (ULTIMATE)",
         "number": null,
+        "references": 1
+      },
+      {
+        "section": "cards",
+        "entry": "COURSE FOR HOME",
+        "number": 5,
         "references": 1
       },
       {
@@ -1724,6 +1796,12 @@ SVG reference: [cards/shields_up_iii.svg](cards/shields_up_iii.svg)
         "entry": "PUNCH YOUR WAY THROUGH (ULTIMATE)",
         "number": null,
         "references": 5
+      },
+      {
+        "section": "cards",
+        "entry": "COURSE FOR HOME",
+        "number": null,
+        "references": 1
       },
       {
         "section": "cards",
@@ -1921,6 +1999,12 @@ SVG reference: [cards/shields_up_iii.svg](cards/shields_up_iii.svg)
       },
       {
         "section": "cards",
+        "entry": "COURSE FOR HOME",
+        "number": 2,
+        "references": 1
+      },
+      {
+        "section": "cards",
         "entry": "REPRIMANDED",
         "number": null,
         "references": 1
@@ -1966,6 +2050,12 @@ SVG reference: [cards/shields_up_iii.svg](cards/shields_up_iii.svg)
       {
         "section": "hero_board",
         "entry": "SHIELDS UP",
+        "number": null,
+        "references": 1
+      },
+      {
+        "section": "cards",
+        "entry": "COURSE FOR HOME",
         "number": null,
         "references": 1
       },

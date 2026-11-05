@@ -214,6 +214,17 @@ SVG reference: [hero_board.svg](hero_board.svg)
 
 The first 18 cards in Tuvok's deck are standard Dice Throne cards and are omitted here. The cards below are Tuvok-specific.
 
+### INFINITE DIVERSITY
+
+SVG reference: [cards/infinite_diversity.svg](cards/infinite_diversity.svg)
+
+<!-- Promo Card: Main Phase Action, 0 CP. New-card rules supplied directly by the user; rules.md is authoritative for this card. -->
+<div class="rule" data-rule="INFINITE DIVERSITY" data-card-type="promo" style="text-align:center;">
+<div class="rule-title">INFINITE DIVERSITY</div>
+<div data-source-line="metadata" style="font-size:.95em;font-weight:700;color:#0099F6;margin-bottom:.7em;">Cost: <span class="icon numbered cp" data-icon="cp.svg" data-value="0" style="width:1.312em;height:1.400em;"><img src="../../Shared/icons/cp.svg" alt="cp 0" width="28" height="28" /><b aria-hidden="true">0</b></span> | Main Phase Action | Promo Card</div>
+<div class="rule-line" data-source-line="rules" style="margin:.35em 0;">Roll 1 <span class="icon" data-icon="roll_die.svg" style="width:1.400em;height:1.400em;"><img src="../../Shared/icons/roll_die.svg" alt="roll die" width="28" height="28" /></span>:<br />On <span class="icon" data-icon="idic_die.svg" style="width:1.400em;height:1.400em;"><img src="icons/idic_die.svg" alt="IDIC die" width="28" height="28" /></span> gain 1 <span class="icon" data-icon="mind_meld.svg" data-value="1" style="width:1.400em;height:1.400em;"><img src="icons/mind_meld.svg" alt="mind meld" width="28" height="28" /></span> and 5 <span class="icon" data-icon="logic.svg" data-value="5" style="width:1.400em;height:1.400em;"><img src="icons/logic.svg" alt="logic" width="28" height="28" /></span><br />On any other result draw <span class="icon" data-icon="carddraw.svg" data-value="1" style="width:1.400em;height:1.400em;"><img src="../../Shared/icons/carddraw.svg" alt="draw 1 card" width="28" height="28" /></span>.</div>
+</div>
+
 ### TACTICAL RECALIBRATION
 
 SVG reference: [cards/tactical_recalibration.svg](cards/tactical_recalibration.svg)
@@ -393,7 +404,7 @@ SVG reference: [cards/return_fire_iii.svg](cards/return_fire_iii.svg)
   "schema_version": 1,
   "status": "current",
   "source": "rules.md",
-  "content_sha256": "54fb57b2f144af44ee2f2f7052da08012b4c67fea49f8cbac6dd550c743c98d3",
+  "content_sha256": "bbdc109dca3b57f93901bbef5479b766bf43e63c1f7eec8bc6584bf700e6530d",
   "counting": {
     "scope": "explicit gameplay icon references in rendered rules blocks",
     "excludes": [
@@ -417,11 +428,11 @@ SVG reference: [cards/return_fire_iii.svg](cards/return_fire_iii.svg)
       "references": 73
     },
     "cards": {
-      "entries": 14,
-      "references": 66
+      "entries": 15,
+      "references": 71
     }
   },
-  "total_rules_references": 145,
+  "total_rules_references": 150,
   "entries": [
     {
       "section": "leaflet",
@@ -819,6 +830,43 @@ SVG reference: [cards/return_fire_iii.svg](cards/return_fire_iii.svg)
     },
     {
       "section": "cards",
+      "name": "INFINITE DIVERSITY",
+      "status": "written",
+      "icons": [
+        {
+          "file": "carddraw.svg",
+          "path": "../../Shared/icons/carddraw.svg",
+          "number": 1,
+          "references": 1
+        },
+        {
+          "file": "idic_die.svg",
+          "path": "icons/idic_die.svg",
+          "number": null,
+          "references": 1
+        },
+        {
+          "file": "logic.svg",
+          "path": "icons/logic.svg",
+          "number": 5,
+          "references": 1
+        },
+        {
+          "file": "mind_meld.svg",
+          "path": "icons/mind_meld.svg",
+          "number": 1,
+          "references": 1
+        },
+        {
+          "file": "roll_die.svg",
+          "path": "../../Shared/icons/roll_die.svg",
+          "number": null,
+          "references": 1
+        }
+      ]
+    },
+    {
+      "section": "cards",
       "name": "TACTICAL RECALIBRATION",
       "status": "written",
       "icons": []
@@ -1112,6 +1160,12 @@ SVG reference: [cards/return_fire_iii.svg](cards/return_fire_iii.svg)
         "entry": "LOGIC",
         "number": 1,
         "references": 1
+      },
+      {
+        "section": "cards",
+        "entry": "INFINITE DIVERSITY",
+        "number": 1,
+        "references": 1
       }
     ],
     "cp.svg": [
@@ -1174,6 +1228,12 @@ SVG reference: [cards/return_fire_iii.svg](cards/return_fire_iii.svg)
         "entry": "LOGICAL OUTCOME (ULTIMATE)",
         "number": null,
         "references": 5
+      },
+      {
+        "section": "cards",
+        "entry": "INFINITE DIVERSITY",
+        "number": null,
+        "references": 1
       },
       {
         "section": "cards",
@@ -1247,6 +1307,12 @@ SVG reference: [cards/return_fire_iii.svg](cards/return_fire_iii.svg)
       },
       {
         "section": "cards",
+        "entry": "INFINITE DIVERSITY",
+        "number": 5,
+        "references": 1
+      },
+      {
+        "section": "cards",
         "entry": "CALCULATED OPENING",
         "number": null,
         "references": 1
@@ -1275,6 +1341,12 @@ SVG reference: [cards/return_fire_iii.svg](cards/return_fire_iii.svg)
         "section": "hero_board",
         "entry": "LOGICAL OUTCOME (ULTIMATE)",
         "number": null,
+        "references": 1
+      },
+      {
+        "section": "cards",
+        "entry": "INFINITE DIVERSITY",
+        "number": 1,
         "references": 1
       },
       {
@@ -1545,6 +1617,12 @@ SVG reference: [cards/return_fire_iii.svg](cards/return_fire_iii.svg)
       },
       {
         "section": "cards",
+        "entry": "INFINITE DIVERSITY",
+        "number": null,
+        "references": 1
+      },
+      {
+        "section": "cards",
         "entry": "KOLINAR II",
         "number": null,
         "references": 1
@@ -1642,7 +1720,7 @@ SVG reference: [cards/return_fire_iii.svg](cards/return_fire_iii.svg)
       "file": "leaflet.svg",
       "status": "observed",
       "scope": "die_reference_legend",
-      "sha256": "edc2b1b4662268c98693919ca013944dfbdd46fe8826c011ae89c5be3b656b83",
+      "sha256": "e279fa4061d6d1671f256bb9630ae84671828b040566b76bf8550168244263b7",
       "icons": [
         {
           "path": "icons/die_1.svg",

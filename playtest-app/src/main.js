@@ -1,8 +1,8 @@
 import './style.css';
 const HEROES=['Janeway','Tuvok','Seven of Nine','The Doctor'];
 const heroCards={
-Janeway:['captains_prerogative','command_training','counterpoint','determination','fire_phasers_ii','fire_phasers_iii','reprimanded','resolve','set_to_kill','shields_up_ii','shields_up_iii','shore_leave_ii','tactical_exercises_ii','theres_coffee_in_that_nebula'],
-Tuvok:['calculated_opening','kal_toh','kolinahr_discipline','kolinar_ii','my_mind_to_your_mind','my_thoughts_to_your_thoughts','nerve_pinch_ii','nerve_pinch_iii','return_fire_ii','return_fire_iii','security_protocols','tactical_precision_ii','tactical_recalibration','vulcan_composure'],
+Janeway:['captains_prerogative','command_training','counterpoint','course_for_home','determination','fire_phasers_ii','fire_phasers_iii','reprimanded','resolve','set_to_kill','shields_up_ii','shields_up_iii','shore_leave_ii','tactical_exercises_ii','theres_coffee_in_that_nebula'],
+Tuvok:['infinite_diversity','calculated_opening','kal_toh','kolinahr_discipline','kolinar_ii','my_mind_to_your_mind','my_thoughts_to_your_thoughts','nerve_pinch_ii','nerve_pinch_iii','return_fire_ii','return_fire_iii','security_protocols','tactical_precision_ii','tactical_recalibration','vulcan_composure'],
 'Seven of Nine':[],'The Doctor':[]};
 const shared=['better_d','buh_bye','double_up','get_that_outta_here','getting_paid','helping_hand','not_this_time','one_more_time','samesies','six-it','so_wild','tip_it','transference','triple_up','try_try_again','twice_as_wild','vegas_baby','what_status_effects'];
 const upgrades={Janeway:{fire_phasers_ii:'Fire Phasers',fire_phasers_iii:'Fire Phasers',shields_up_ii:'Shields Up',shields_up_iii:'Shields Up',shore_leave_ii:'Shore Leave',tactical_exercises_ii:'Tactical Exercises'},Tuvok:{kolinar_ii:'Kolinar',nerve_pinch_ii:'Nerve Pinch',nerve_pinch_iii:'Nerve Pinch',return_fire_ii:'Return Fire',return_fire_iii:'Return Fire',tactical_precision_ii:'Tactical Precision'},'Seven of Nine':{},'The Doctor':{}};

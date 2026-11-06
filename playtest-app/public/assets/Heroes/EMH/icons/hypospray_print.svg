@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1.146666667in" height="1.146666667in" viewBox="0 0 344 344" role="img" aria-labelledby="title desc">
+<title id="title">Hypospray print token</title>
+<desc id="desc">Voyager-style hypospray in flat outlined vector artwork, rotated 45 degrees with injector head upper right and medication ampule lower left. Borderless print version.</desc>
+<circle id="token-background" cx="172" cy="172" r="172" fill="#153C48"/>
+<g id="hypospray" transform="rotate(-45 172 172)" stroke="#000000" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round">
+  <!-- Removable medication ampule, base at left. -->
+  <path d="M32 151 Q24 172 32 193 L70 193 L70 151 Z" fill="#C8DDD5"/>
+  <path d="M34 158 Q29 172 34 186 L66 186 L66 158 Z" fill="#467F50"/>
+  <path d="M36 160 L36 181" fill="none" stroke="#E4EEE7" stroke-width="3"/>
+  <path d="M31 151 Q24 172 31 193 L36 193 Q30 172 36 151 Z" fill="#A5A8AD"/>
+  <path d="M63 146 L85 146 L85 198 L63 198 Z" fill="#2C698E"/>
+  <!-- Squared silver cladding and exposed blue core. -->
+  <path d="M83 140 L212 140 L219 148 L219 196 L210 204 L83 204 L77 197 L77 148 Z" fill="#A5A8AD"/>
+  <path d="M83 140 L212 140 L219 148 L84 148 L77 154 L77 148 Z" fill="#D0D2D5"/>
+  <path d="M77 190 L84 197 L219 190 L219 196 L210 204 L83 204 L77 197 Z" fill="#666A70"/>
+  <path d="M84 162 L212 162 L212 180 L84 180 Z" fill="#2C698E"/>
+  <path d="M91 164 L203 164" fill="none" stroke="#5790AF" stroke-width="1.5"/>
+  <path d="M219 149 L260 149 L260 195 L219 195 Z" fill="#2C698E"/>
+  <path d="M237 149 L242 149 L242 195 L237 195 Z" fill="#24272B" stroke-width="1.2"/>
+  <!-- Angled injector head and short brass contact nozzle. -->
+  <path d="M278 180 L298 180 L298 199 Q289 210 279 199 L275 189 Z" fill="#B68D42"/>
+  <path d="M275 178 L301 178 L301 185 L275 185 Z" fill="#D2AE62"/>
+  <path d="M260 141 L303 155 L309 164 L260 194 Z" fill="#A5A8AD"/>
+  <path d="M260 141 L303 155 L309 164 L260 151 Z" fill="#D0D2D5"/>
+  <path d="M260 151 L309 164 L260 194 Z" fill="#8B8E93"/>
+  <path d="M267 154 L278 157 L278 166 L267 170 Z" fill="#EFEDE3" stroke-width="1.2"/>
+  <path d="M283 159 L296 163 L296 170 L283 178 Z" fill="#41454A" stroke-width="1.2"/>
+</g>
+
+</svg>

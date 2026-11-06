@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1.146666667in" height="1.146666667in" viewBox="0 0 344 344" role="img" aria-labelledby="title desc">
+<title id="title">Poison borderless print token</title>
+<desc id="desc">Hand-drawn vector recreation of the original Dice Throne Poison token emblem. Reference: https://dice-throne.fandom.com/wiki/Poison. No circle border.</desc>
+<circle id="token-background" cx="172" cy="172" r="172" fill="#59AF39"/>
+<g id="poison-emblem" fill="#FAF8EB" transform="translate(172 172) scale(0.9) translate(-172 -172) translate(0 0) scale(2.3561643836)">
+<!-- Three floating bubbles. -->
+<circle cx="74" cy="20" r="6.1"/>
+<circle cx="87" cy="24" r="4.1"/>
+<circle cx="77" cy="31" r="3.7"/>
+<!-- Flask rim, narrow neck, and round body. -->
+<path d="M61 38 L82 38 Q85 38 85 41 Q85 44 81 44 L81 61 Q81 64 86 66 C101 71 111 85 111 102 C111 123 94 140 73 140 C52 140 35 123 35 102 C35 85 46 71 60 66 Q64 64 64 61 L64 44 Q59 44 59 41 Q59 38 61 38 Z"/>
+<!-- Solid green skull with angular cheekbones and separated square teeth. -->
+<path id="poison-skull" d="M 72.92 73 C 62.8 72.15 55.44 73.85 50.84 79.8 C 45.32 85.75 45.32 93.4 49 102.75 L 49.92 104.45 L 45.32 107.85 L 50.84 113.8 L 55.44 111.25 Q 60.04 112.95 60.96 116.35 L 60.96 132 L 65.1 133 L 65.1 115.5 L 66.48 115.5 L 66.48 134 L 70.62 134.5 L 70.62 115.925 L 72 115.925 L 72 134.5 L 76.14 134 L 76.14 115.5 L 77.52 115.5 L 77.52 133 L 81.66 132 L 81.66 116.35 Q 83.04 112.95 87.64 111.25 L 93.16 114.65 L 98.68 108.7 L 95 104.45 C 98.68 95.1 98.68 87.45 93.16 80.65 C 88.56 74.7 82.12 73 72.92 73 Z" fill="#59AF39"/>
+<!-- White eye sockets and triangular nose cutouts. -->
+<path d="M 53.6 96.8 C 53.6 91.7 58.2 88.3 62.8 89.15 C 68.32 90 69.24 95.95 66.48 100.2 C 63.72 105.3 56.36 104.45 54.52 101.05 Q 53.6 99.35 53.6 96.8 Z M 78.44 95.1 C 78.44 90.85 82.12 88.3 86.72 89.15 C 92.24 90 94.08 95.1 91.32 100.2 C 89.48 104.45 82.12 104.45 79.36 101.05 Q 77.52 98.5 78.44 95.1 Z M 71.08 106.15 L 68.32 111.25 L 75.68 111.25 L 72.92 106.15 Q 72 104.45 71.08 106.15 Z" fill="#FAF8EB"/>
+</g>
+
+</svg>

@@ -30,7 +30,7 @@
 
 <div data-rule="Dermal Regeneration">
   <div data-source-line="rules" data-ability-role="activation"><span class="dice-group" style="display:inline-flex;gap:0;margin:0"><span data-icon="caduceus_die.svg"><img src="icons/caduceus_die.svg" alt="Caduceus"/></span><span data-icon="caduceus_die.svg"><img src="icons/caduceus_die.svg" alt="Caduceus"/></span><span data-icon="caduceus_die.svg"><img src="icons/caduceus_die.svg" alt="Caduceus"/></span><span data-icon="photon_die.svg"><img src="icons/photon_die.svg" alt="Photon"/></span><span data-icon="photon_die.svg"><img src="icons/photon_die.svg" alt="Photon"/></span></span></div>
-  <div data-source-line="rules">A chosen player will draw <span data-icon="carddraw.svg" data-value="1"><img src="../../Shared/icons/carddraw.svg" alt="card"/><b>1</b></span>, heal <span data-icon="healing.svg" data-value="4"><img src="../../Shared/icons/healing.svg" alt="Healing"/><b>4</b></span>, and gain <span data-icon="hypospray.svg" data-value="1"><b>1</b> <img src="icons/hypospray.svg" alt="hypospray"/></span> or <span data-icon="cleanse.svg" data-value="1"><b>1</b> <img src="icons/cleanse.svg" alt="cleanse"/></span></div>
+  <div data-source-line="rules">A chosen player will draw <span data-icon="carddraw.svg" data-value="1"><img src="../../Shared/icons/carddraw.svg" alt="card"/><b>1</b></span>, heal <span data-icon="healing.svg" data-value="2"><img src="../../Shared/icons/healing.svg" alt="Healing"/><b>2</b></span>, and gain <span data-icon="hypospray.svg" data-value="1"><b>1</b> <img src="icons/hypospray.svg" alt="hypospray"/></span> or <span data-icon="cleanse.svg" data-value="1"><b>1</b> <img src="icons/cleanse.svg" alt="cleanse"/></span></div>
 </div>
 
 ### Neuralytic Pathogen
@@ -41,21 +41,28 @@
   <div data-source-line="rules">Inflict <span data-icon="poison.svg"><img src="icons/poison.svg" alt="poison"/></span>.</div>
 </div>
 
-### Photonic Cannon (Large Straight)
+### Photonic Cannon
 
 <div data-rule="Photonic Cannon">
+  <div data-source-line="rules" data-ability-role="activation">Small Straight</div>
+  <div data-source-line="rules">Deal <span data-icon="normal_damage.svg" data-value="7"><img src="../../Shared/icons/normal_damage.svg" alt="Normal damage 7"/><b>7</b></span></div>
+  <div data-source-line="rules" data-ability-role="activation">Large Straight</div>
   <div data-source-line="rules">Deal <span data-icon="normal_damage.svg" data-value="9"><img src="../../Shared/icons/normal_damage.svg" alt="Normal damage 9"/><b>9</b></span> then roll <span data-icon="roll_die.svg" data-value="1"><b>1</b> <img src="../../Shared/icons/roll_die.svg" alt="die"/></span>. On a <span data-icon="photon_die.svg"><img src="icons/photon_die.svg" alt="photon"/></span> make the attack undefendable</div>
 </div>
 
-### Decompile (Small Straight)
+### Healer (PASSIVE)
 
-<div data-rule="Decompile">
-  <div data-source-line="rules">Deal <span data-icon="normal_damage.svg" data-value="7"><img src="../../Shared/icons/normal_damage.svg" alt="Normal damage 7"/><b>7</b></span></div>
+<div class="rule" data-rule="Healer (PASSIVE)" data-passive-layout="title_rules_v1" style="text-align:center;">
+  <div class="rule-title">Healer (PASSIVE)</div>
+  <div class="rule-line" data-source-line="rules" style="margin:.35em 0;">During your upkeep phase,<br />gain <span data-icon="hypospray.svg"><img src="icons/hypospray.svg" alt="hypospray"/></span> or <span data-icon="cleanse.svg"><img src="icons/cleanse.svg" alt="cleanse"/></span></div>
 </div>
 
 ### Triage (Defense)
 
-Rules text has not been written yet.
+<div data-rule="Triage">
+  <div data-source-line="rules">Roll <span data-icon="roll_die.svg" data-value="3"><b>3</b> <img src="../../Shared/icons/roll_die.svg" alt="dice"/></span>:</div>
+  <div data-source-line="rules">For each <span data-icon="caduceus_die.svg"><img src="icons/caduceus_die.svg" alt="caduceus"/></span> a chosen player heals <span data-icon="healing.svg" data-value="2"><img src="../../Shared/icons/healing.svg" alt="Healing 2"/><b>2</b></span></div>
+</div>
 
 ### Photons Be Free (Mini-Ultimate)
 
@@ -97,7 +104,7 @@ Source for Poison: [Dice Throne Wiki](https://dice-throne.fandom.com/wiki/Poison
   "schema_version": 1,
   "status": "current",
   "source": "rules.md",
-  "content_sha256": "aefe79f3dc06cfcafe402854ad768b884d26fbdaa1ac59a3810976ccb024a832",
+  "content_sha256": "8c984c8ed01fe5ee06bf1b4d50b75fdfcdf01b4c00ec0b52a2e4ea4e5d8395c4",
   "counting": {
     "scope": "explicit gameplay icon references in rendered rules blocks",
     "excludes": [
@@ -117,15 +124,15 @@ Source for Poison: [Dice Throne Wiki](https://dice-throne.fandom.com/wiki/Poison
       "references": 1
     },
     "hero_board": {
-      "entries": 7,
-      "references": 45
+      "entries": 8,
+      "references": 50
     },
     "cards": {
       "entries": 0,
       "references": 0
     }
   },
-  "total_rules_references": 46,
+  "total_rules_references": 51,
   "entries": [
     {
       "section": "hero_board",
@@ -215,7 +222,7 @@ Source for Poison: [Dice Throne Wiki](https://dice-throne.fandom.com/wiki/Poison
         {
           "file": "healing.svg",
           "path": "../../Shared/icons/healing.svg",
-          "number": 4,
+          "number": 2,
           "references": 1
         },
         {
@@ -277,6 +284,12 @@ Source for Poison: [Dice Throne Wiki](https://dice-throne.fandom.com/wiki/Poison
         {
           "file": "normal_damage.svg",
           "path": "../../Shared/icons/normal_damage.svg",
+          "number": 7,
+          "references": 1
+        },
+        {
+          "file": "normal_damage.svg",
+          "path": "../../Shared/icons/normal_damage.svg",
           "number": 9,
           "references": 1
         },
@@ -296,13 +309,44 @@ Source for Poison: [Dice Throne Wiki](https://dice-throne.fandom.com/wiki/Poison
     },
     {
       "section": "hero_board",
-      "name": "Decompile",
+      "name": "Healer (PASSIVE)",
       "status": "written",
       "icons": [
         {
-          "file": "normal_damage.svg",
-          "path": "../../Shared/icons/normal_damage.svg",
-          "number": 7,
+          "file": "cleanse.svg",
+          "path": "icons/cleanse.svg",
+          "number": null,
+          "references": 1
+        },
+        {
+          "file": "hypospray.svg",
+          "path": "icons/hypospray.svg",
+          "number": null,
+          "references": 1
+        }
+      ]
+    },
+    {
+      "section": "hero_board",
+      "name": "Triage",
+      "status": "written",
+      "icons": [
+        {
+          "file": "caduceus_die.svg",
+          "path": "icons/caduceus_die.svg",
+          "number": null,
+          "references": 1
+        },
+        {
+          "file": "healing.svg",
+          "path": "../../Shared/icons/healing.svg",
+          "number": 2,
+          "references": 1
+        },
+        {
+          "file": "roll_die.svg",
+          "path": "../../Shared/icons/roll_die.svg",
+          "number": 3,
           "references": 1
         }
       ]
@@ -383,6 +427,12 @@ Source for Poison: [Dice Throne Wiki](https://dice-throne.fandom.com/wiki/Poison
         "entry": "Neuralytic Pathogen",
         "number": null,
         "references": 2
+      },
+      {
+        "section": "hero_board",
+        "entry": "Triage",
+        "number": null,
+        "references": 1
       }
     ],
     "carddraw.svg": [
@@ -414,6 +464,12 @@ Source for Poison: [Dice Throne Wiki](https://dice-throne.fandom.com/wiki/Poison
       },
       {
         "section": "hero_board",
+        "entry": "Healer (PASSIVE)",
+        "number": null,
+        "references": 1
+      },
+      {
+        "section": "hero_board",
         "entry": "Photons Be Free",
         "number": null,
         "references": 1
@@ -423,7 +479,13 @@ Source for Poison: [Dice Throne Wiki](https://dice-throne.fandom.com/wiki/Poison
       {
         "section": "hero_board",
         "entry": "Dermal Regeneration",
-        "number": 4,
+        "number": 2,
+        "references": 1
+      },
+      {
+        "section": "hero_board",
+        "entry": "Triage",
+        "number": 2,
         "references": 1
       },
       {
@@ -444,6 +506,12 @@ Source for Poison: [Dice Throne Wiki](https://dice-throne.fandom.com/wiki/Poison
         "section": "hero_board",
         "entry": "Dermal Regeneration",
         "number": 1,
+        "references": 1
+      },
+      {
+        "section": "hero_board",
+        "entry": "Healer (PASSIVE)",
+        "number": null,
         "references": 1
       },
       {
@@ -495,13 +563,13 @@ Source for Poison: [Dice Throne Wiki](https://dice-throne.fandom.com/wiki/Poison
       {
         "section": "hero_board",
         "entry": "Photonic Cannon",
-        "number": 9,
+        "number": 7,
         "references": 1
       },
       {
         "section": "hero_board",
-        "entry": "Decompile",
-        "number": 7,
+        "entry": "Photonic Cannon",
+        "number": 9,
         "references": 1
       }
     ],
@@ -544,6 +612,12 @@ Source for Poison: [Dice Throne Wiki](https://dice-throne.fandom.com/wiki/Poison
         "section": "hero_board",
         "entry": "Photonic Cannon",
         "number": 1,
+        "references": 1
+      },
+      {
+        "section": "hero_board",
+        "entry": "Triage",
+        "number": 3,
         "references": 1
       }
     ],

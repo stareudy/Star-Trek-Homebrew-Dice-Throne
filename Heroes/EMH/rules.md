@@ -37,17 +37,21 @@
 
 <div data-rule="Neuralytic Pathogen">
   <div data-source-line="rules" data-ability-role="activation"><span class="dice-group" style="display:inline-flex;gap:0;margin:0"><span data-icon="caduceus_die.svg"><img src="icons/caduceus_die.svg" alt="Caduceus"/></span><span data-icon="caduceus_die.svg"><img src="icons/caduceus_die.svg" alt="Caduceus"/></span><span data-icon="music_note_die.svg"><img src="icons/music_note_die.svg" alt="Music Note"/></span><span data-icon="music_note_die.svg"><img src="icons/music_note_die.svg" alt="Music Note"/></span><span data-icon="photon_die.svg"><img src="icons/photon_die.svg" alt="Photon"/></span></span></div>
-  <div data-source-line="rules">Deal <span data-icon="normal_damage.svg" data-value="7"><img src="../../Shared/icons/normal_damage.svg" alt="Normal damage 7"/><b>7</b></span></div>
+  <div data-source-line="rules">Deal <span data-icon="normal_damage.svg" data-value="5"><img src="../../Shared/icons/normal_damage.svg" alt="Normal damage 5"/><b>5</b></span></div>
   <div data-source-line="rules">Inflict <span data-icon="poison.svg"><img src="icons/poison.svg" alt="poison"/></span>.</div>
 </div>
 
 ### Photonic Cannon (Large Straight)
 
-Rules text has not been written yet.
+<div data-rule="Photonic Cannon">
+  <div data-source-line="rules">Deal <span data-icon="normal_damage.svg" data-value="9"><img src="../../Shared/icons/normal_damage.svg" alt="Normal damage 9"/><b>9</b></span> then roll <span data-icon="roll_die.svg" data-value="1"><b>1</b> <img src="../../Shared/icons/roll_die.svg" alt="die"/></span>. On a <span data-icon="photon_die.svg"><img src="icons/photon_die.svg" alt="photon"/></span> make the attack undefendable</div>
+</div>
 
 ### Decompile (Small Straight)
 
-Rules text has not been written yet.
+<div data-rule="Decompile">
+  <div data-source-line="rules">Deal <span data-icon="normal_damage.svg" data-value="7"><img src="../../Shared/icons/normal_damage.svg" alt="Normal damage 7"/><b>7</b></span></div>
+</div>
 
 ### Triage (Defense)
 
@@ -55,7 +59,9 @@ Rules text has not been written yet.
 
 ### Photons Be Free (Mini-Ultimate)
 
-Rules text has not been written yet.
+<div data-rule="Photons Be Free">
+  <div data-source-line="rules">Deal <span data-icon="undefendable_damage.svg" data-value="8"><img src="../../Shared/icons/undefendable_damage.svg" alt="Undefendable damage 8"/><b>8</b></span>, gain <span data-icon="hypospray.svg"><img src="icons/hypospray.svg" alt="hypospray"/></span>, <span data-icon="cleanse.svg"><img src="icons/cleanse.svg" alt="cleanse"/></span>, and inflict <span data-icon="poison.svg"><img src="icons/poison.svg" alt="poison"/></span>.</div>
+</div>
 
 ### Emergency Command Hologram (Ultimate)
 
@@ -91,7 +97,7 @@ Source for Poison: [Dice Throne Wiki](https://dice-throne.fandom.com/wiki/Poison
   "schema_version": 1,
   "status": "current",
   "source": "rules.md",
-  "content_sha256": "3c07aae098a4e85b4c57e4bea7cb2157c3adafaea4985ab874f17cd82943770a",
+  "content_sha256": "aefe79f3dc06cfcafe402854ad768b884d26fbdaa1ac59a3810976ccb024a832",
   "counting": {
     "scope": "explicit gameplay icon references in rendered rules blocks",
     "excludes": [
@@ -111,15 +117,15 @@ Source for Poison: [Dice Throne Wiki](https://dice-throne.fandom.com/wiki/Poison
       "references": 1
     },
     "hero_board": {
-      "entries": 4,
-      "references": 37
+      "entries": 7,
+      "references": 45
     },
     "cards": {
       "entries": 0,
       "references": 0
     }
   },
-  "total_rules_references": 38,
+  "total_rules_references": 46,
   "entries": [
     {
       "section": "hero_board",
@@ -246,7 +252,7 @@ Source for Poison: [Dice Throne Wiki](https://dice-throne.fandom.com/wiki/Poison
         {
           "file": "normal_damage.svg",
           "path": "../../Shared/icons/normal_damage.svg",
-          "number": 7,
+          "number": 5,
           "references": 1
         },
         {
@@ -259,6 +265,75 @@ Source for Poison: [Dice Throne Wiki](https://dice-throne.fandom.com/wiki/Poison
           "file": "poison.svg",
           "path": "icons/poison.svg",
           "number": null,
+          "references": 1
+        }
+      ]
+    },
+    {
+      "section": "hero_board",
+      "name": "Photonic Cannon",
+      "status": "written",
+      "icons": [
+        {
+          "file": "normal_damage.svg",
+          "path": "../../Shared/icons/normal_damage.svg",
+          "number": 9,
+          "references": 1
+        },
+        {
+          "file": "photon_die.svg",
+          "path": "icons/photon_die.svg",
+          "number": null,
+          "references": 1
+        },
+        {
+          "file": "roll_die.svg",
+          "path": "../../Shared/icons/roll_die.svg",
+          "number": 1,
+          "references": 1
+        }
+      ]
+    },
+    {
+      "section": "hero_board",
+      "name": "Decompile",
+      "status": "written",
+      "icons": [
+        {
+          "file": "normal_damage.svg",
+          "path": "../../Shared/icons/normal_damage.svg",
+          "number": 7,
+          "references": 1
+        }
+      ]
+    },
+    {
+      "section": "hero_board",
+      "name": "Photons Be Free",
+      "status": "written",
+      "icons": [
+        {
+          "file": "cleanse.svg",
+          "path": "icons/cleanse.svg",
+          "number": null,
+          "references": 1
+        },
+        {
+          "file": "hypospray.svg",
+          "path": "icons/hypospray.svg",
+          "number": null,
+          "references": 1
+        },
+        {
+          "file": "poison.svg",
+          "path": "icons/poison.svg",
+          "number": null,
+          "references": 1
+        },
+        {
+          "file": "undefendable_damage.svg",
+          "path": "../../Shared/icons/undefendable_damage.svg",
+          "number": 8,
           "references": 1
         }
       ]
@@ -336,6 +411,12 @@ Source for Poison: [Dice Throne Wiki](https://dice-throne.fandom.com/wiki/Poison
         "entry": "Dermal Regeneration",
         "number": 1,
         "references": 1
+      },
+      {
+        "section": "hero_board",
+        "entry": "Photons Be Free",
+        "number": null,
+        "references": 1
       }
     ],
     "healing.svg": [
@@ -363,6 +444,12 @@ Source for Poison: [Dice Throne Wiki](https://dice-throne.fandom.com/wiki/Poison
         "section": "hero_board",
         "entry": "Dermal Regeneration",
         "number": 1,
+        "references": 1
+      },
+      {
+        "section": "hero_board",
+        "entry": "Photons Be Free",
+        "number": null,
         "references": 1
       }
     ],
@@ -402,6 +489,18 @@ Source for Poison: [Dice Throne Wiki](https://dice-throne.fandom.com/wiki/Poison
       {
         "section": "hero_board",
         "entry": "Neuralytic Pathogen",
+        "number": 5,
+        "references": 1
+      },
+      {
+        "section": "hero_board",
+        "entry": "Photonic Cannon",
+        "number": 9,
+        "references": 1
+      },
+      {
+        "section": "hero_board",
+        "entry": "Decompile",
         "number": 7,
         "references": 1
       }
@@ -418,6 +517,12 @@ Source for Poison: [Dice Throne Wiki](https://dice-throne.fandom.com/wiki/Poison
         "entry": "Neuralytic Pathogen",
         "number": null,
         "references": 1
+      },
+      {
+        "section": "hero_board",
+        "entry": "Photonic Cannon",
+        "number": null,
+        "references": 1
       }
     ],
     "poison.svg": [
@@ -425,6 +530,28 @@ Source for Poison: [Dice Throne Wiki](https://dice-throne.fandom.com/wiki/Poison
         "section": "hero_board",
         "entry": "Neuralytic Pathogen",
         "number": null,
+        "references": 1
+      },
+      {
+        "section": "hero_board",
+        "entry": "Photons Be Free",
+        "number": null,
+        "references": 1
+      }
+    ],
+    "roll_die.svg": [
+      {
+        "section": "hero_board",
+        "entry": "Photonic Cannon",
+        "number": 1,
+        "references": 1
+      }
+    ],
+    "undefendable_damage.svg": [
+      {
+        "section": "hero_board",
+        "entry": "Photons Be Free",
+        "number": 8,
         "references": 1
       }
     ]
